@@ -40,41 +40,37 @@ int main(int argc, const char * argv[]) {
         
 	if(argc == 4){
 		int src, dst, k;
-		if(isdigit(argv[1]) && isdigit(argv[2]) && isdigit(argv[3])){
-			src = atoi(argv[1].c_str());
-			dst = atoi(argv[2].c_str());
-			k = atoi(argv[3].c_str());
-			vector<pair<double, vector<int>>> topKMetaPaths = TopKCalculator::getTopKMetaPath_TFIDF(src, dst, k, DBLP_Graph);
-			if(topKMetaPaths.size() > 0){
-				bool invalid_edge_type_flag = false;
-				cout << "TF-IDF Value" << "\t" << "Meta Path" << endl;
-				for(vector<pair<double, vector<int>>>::iterator: iter = topKMetaPaths.begin(); iter != topKMetaPaths.end(); iter++){
-					cout << iter->first << "\t";
-					vector<int> temp_meta_path = iter->second;
-					for(vector<int>::iterator: iter = temp_meta_path.begin(); iter != temp_meta_path.end(); iter++){
-						if(edge_name.find(*iter) == edge_name.end()){
-							invalid_edge_type_flag = true;
-							break;
-						}
+		src = atoi(argv[1]);
+                dst = atoi(argv[2]);
+                k = atoi(argv[3]); 
+		vector<pair<double, vector<int>>> topKMetaPaths = TopKCalculator::getTopKMetaPath_TFIDF(src, dst, k, DBLP_Graph);
+		if(topKMetaPaths.size() > 0){
+			bool invalid_edge_type_flag = false;
+			cout << "TF-IDF" << "\t\t" << "Meta Path" << endl;
+			for(vector<pair<double, vector<int>>>::iterator iter = topKMetaPaths.begin(); iter != topKMetaPaths.end(); iter++){
+				cout << iter->first << "\t\t";
+				vector<int> temp_meta_path = iter->second;
+				for(vector<int>::iterator iter = temp_meta_path.begin(); iter != temp_meta_path.end(); iter++){
+					if(edge_name.find(*iter) == edge_name.end()){
+						invalid_edge_type_flag = true;
+						break;
 					}
-					if(!invalid_edge_type_flag){
-						for(vector<int>::iterator: iter = temp_meta_path.begin(); iter != temp_meta_path.end() - 1; iter++){
-							int curr_edge_type = *iter;
-							cout << edge_name[*iter] << "->";
-						}
-						cout << edge_name[temp_meta_path.back()] << endl;
-					}else{
-						cout << "Found some Invalid Edge Type" << endl;
-					}
-					
 				}
-			}else{
-				cout << "No Meta Pah Found in the HIN Graph." << endl;
+				if(!invalid_edge_type_flag){
+					for(vector<int>::iterator  iter = temp_meta_path.begin(); iter != temp_meta_path.end() - 1; iter++){
+						int curr_edge_type = *iter;
+						cout << edge_name[*iter] << "->";
+					}
+					cout << edge_name[temp_meta_path.back()] << endl;
+				}else{
+					cout << "Found some Invalid Edge Type" << endl;
+				}
+					
 			}
-			
 		}else{
-			cerr << "Invalid Entity Number" << endl;
+			cout << "No Meta Pah Found in the HIN Graph." << endl;
 		}
+			
 	}
     
 

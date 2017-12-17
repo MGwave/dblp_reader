@@ -24,16 +24,16 @@ class TfIdfNodeCmp
 {
 public:
 	bool operator () (TfIdfNode & node1, TfIdfNode & node2);
-}
+};
 
 class TopKCalculator
 {
 private:
-	static double penalty(int length);
-	static set<int> getSimilarNodes(int eid, HIN_Graph & hin_graph_);
-	static double getRarity(int similarPairsSize, vector<int> & srcSimilarNodes, vector<int> & dstSimilarNodes, vector<int> meta_path, HIN_Graph & hin_graph_);
+	static set<int> getSimilarNodes(int eid, map<int, HIN_Node> & hin_nodes_);
+	static double getRarity(int similarPairsSize, set<int> & srcSimilarNodes, set<int> & dstSimilarNodes, vector<int> meta_path, HIN_Graph & hin_graph_);
 	static void updateTopKMetaPaths(double tfidf, vector<int> meta_path, int k, vector<pair<double, vector<int>>> & topKMetaPath_);
 public:
+	static double penalty(int length);
 	static vector<pair<double, vector<int>>> getTopKMetaPath_TFIDF(int src, int dst, int k, HIN_Graph & hin_graph_);
 };
 
