@@ -7,6 +7,7 @@
 //
 
 #include "HIN_Graph.h"
+#include <algorithm>
 #include <fstream>
 
 using namespace std;
@@ -98,12 +99,20 @@ void HIN_Graph::buildYAGOGraph(map<int, string> node_name, map<int, vector<Edge>
         for(int i = 0; i < node_id_to_type[TheOldID].size(); ++i){
             nodes_[TheOldID].types_id_.push_back(node_id_to_type[TheOldID][i]);
 
-            // to be delete?
-            /*
+            // update dst_ type_id_
+
             for(int j = 0; j < iter2->second.size(); ++j){
-                nodes_[iter2->second[j].dst_].types_id_.push_back(node_id_to_type[iter2->second[j].dst_][0]);
+				int temp_dst_ = iter2->second[j].dst_;
+				for(int i = 0; i < node_id_to_type[temp_dst_].size(); i++){
+					vector<int> dst_types_id_ = nodes_[temp_dst_].types_id_;
+					int curr_type_id = node_id_to_type[i];
+					vector<int>::iterator temp_iter = find(dst_types_id_.begin(), dst_types_id_.end(), curr_type_id);
+					if(temp_iter != dst_types_id_.end()){
+						nodes_[temp_dst_].types_id_.push_back(curr_type_id);
+					}
+				}
             }
-            */
+
             //cout << node_id_to_type[TheOldID][i] << endl;
         }
     }

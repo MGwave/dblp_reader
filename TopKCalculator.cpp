@@ -56,15 +56,23 @@ set<int> TopKCalculator::getSimilarNodes(int eid, map<int, HIN_Node> & hin_nodes
 double TopKCalculator::getRarity(int similarPairsSize, set<int> & srcSimilarNodes, set<int> & dstSimilarNodes, vector<int> meta_path, HIN_Graph & hin_graph_){
 
 	map<int, vector<HIN_Edge> > hin_edges_src_ = hin_graph_.edges_src_;
+	map<int, vector<HIN_Edge> > hin_edges_dst_ = hin_graph_.edges_dst_;
 
 	set<int> currNodes = srcSimilarNodes;
 	set<int> nextNodes;
 	for(vector<int>::iterator iter = meta_path.begin(); iter != meta_path.end(); iter++){
 		int curr_edge_type = *iter;
+		map<int, vector<HIN_Edge> > temp_hin_edges;
+		if(curr_edge_type > 0){
+			temp_hin_edges = hin_edges_src_;
+		}else{
+			temp_hin_edges = hin_edges_dst_;
+			curr_edge_type = -curr_edge_type;
+		}
 		for(set<int>::iterator i = currNodes.begin(); i != currNodes.end(); i++){
 			int currNode = *i;
-			if(hin_edges_src_.find(currNode) != hin_edges_src_.end()){
-				vector<HIN_Edge> tempEdges = hin_edges_src_[currNode];
+			if(hin_edges_src_.find(currNode) != temp_hin_edges.end()){
+				vector<HIN_Edge> tempEdges = temp_hin_edges[currNode];
 				for(vector<HIN_Edge>::iterator j = tempEdges.begin(); j != tempEdges.end(); j++){
 					if(j->edge_type_ == curr_edge_type){
 						nextNodes.insert(j->dst_);
@@ -104,6 +112,7 @@ vector<pair<double, vector<int>>> TopKCalculator::getTopKMetaPath_TFIDF(int src,
 {
 	vector<pair<double, vector<int>>> topKMetaPath_;
 	map<int, vector<HIN_Edge> > hin_edges_src_ = hin_graph_.edges_src_;
+	map<int, vector<HIN_Edge> > hin_edges_dst_ = hin_graph_.edges_dst_;
 	if(hin_edges_src_.find(src) == hin_edges_src_.end())
 	{
 		return topKMetaPath_;
@@ -115,18 +124,31 @@ vector<pair<double, vector<int>>> TopKCalculator::getTopKMetaPath_TFIDF(int src,
 	int similarPairsSize = srcSimilarNodes.size()*dstSimilarNodes.size();
 	double maxRarity = log (similarPairsSize);
 	// cout << maxRarity << endl;
+
 	// queue initialize
 	priority_queue<TfIdfNode, vector<TfIdfNode>, TfIdfNodeCmp> q;
 	vector<HIN_Edge> curr_edges_src_ = hin_edges_src_[src];
-	map<int, set<int>> curr_edges_dsts_; // edge type -> destinations
+	vector<HIN_Edge> curr_edges_dst_ = hin_edges_dst_[src];
+	map<int, set<int>> next_nodes_id_; // edge type -> destinations
+
+	// out-relation:
 	for(vector<HIN_Edge>::iterator iter = curr_edges_src_.begin() ; iter != curr_edges_src_.end(); iter++){
 		int temp_edge_type_ = iter->edge_type_;
-		if(curr_edges_dsts_.find(temp_edge_type_) == curr_edges_dsts_.end()){
-			curr_edges_dsts_[temp_edge_type_] = set<int>();
+		if(next_nodes_id_.find(temp_edge_type_) == next_nodes_id_.end()){
+			next_nodes_id_[temp_edge_type_] = set<int>();
 		}
-		curr_edges_dsts_[temp_edge_type_].insert(iter->dst_);
+		next_nodes_id_[temp_edge_type_].insert(iter->dst_);
 	}
-	for(map<int, set<int>>::iterator iter = curr_edges_dsts_.begin(); iter != curr_edges_dsts_.end(); iter++){
+	// in-relation
+	for(vector<HIN_Edge>::iterator iter = curr_edges_dst_.begin() ; iter != curr_edges_dst_.end(); iter++){
+		int temp_edge_type_ = -(iter->edge_type_);
+		if(next_nodes_id_.find(temp_edge_type_) == next_nodes_id_.end()){
+			next_nodes_id_[temp_edge_type_] = set<int>();
+		}
+		next_nodes_id_[temp_edge_type_].insert(iter->dst_);
+	}
+
+	for(map<int, set<int>>::iterator iter = next_nodes_id_.begin(); iter != next_nodes_id_.end(); iter++){
 		int curr_edge_type = iter->first;
 		set<int> next_nodes = iter->second;
 		vector<int> meta_path (1, curr_edge_type);
@@ -135,7 +157,7 @@ vector<pair<double, vector<int>>> TopKCalculator::getTopKMetaPath_TFIDF(int src,
 			double tfidf = rarity*penalty(meta_path.size());
 			updateTopKMetaPaths(tfidf, meta_path, k, topKMetaPath_);
 		}else{
-			q.push(TfIdfNode(curr_edge_type, next_nodes, next_nodes.size(),meta_path));
+			q.push(TfIdfNode(curr_edge_type, next_nodes, next_nodes.size(), meta_path));
 		}
 	}
 
@@ -155,7 +177,7 @@ vector<pair<double, vector<int>>> TopKCalculator::getTopKMetaPath_TFIDF(int src,
 		}
 
 		//expand
-		curr_edges_dsts_.clear(); // edge type -> destinations 
+		next_nodes_id_.clear(); // edge type -> destinations 
 		for(set<int>::iterator iter = curr_nodes.begin(); iter != curr_nodes.end(); iter++){
 			int temp_node = *iter;
 			if(hin_edges_src_.find(temp_node) == hin_edges_src_.end()){
@@ -164,14 +186,22 @@ vector<pair<double, vector<int>>> TopKCalculator::getTopKMetaPath_TFIDF(int src,
 			vector<HIN_Edge> temp_edges_src_ = hin_edges_src_[temp_node];
 			for(vector<HIN_Edge>::iterator i = temp_edges_src_.begin(); i != temp_edges_src_.end(); i++){
 				int temp_edge_type_ = i->edge_type_;
-				if(curr_edges_dsts_.find(temp_edge_type_) == curr_edges_dsts_.end()){
-					curr_edges_dsts_[temp_edge_type_] = set<int>();
+				if(next_nodes_id_.find(temp_edge_type_) == next_nodes_id_.end()){
+					next_nodes_id_[temp_edge_type_] = set<int>();
 				}
-				curr_edges_dsts_[temp_edge_type_].insert(i->dst_);
+				next_nodes_id_[temp_edge_type_].insert(i->dst_);
+			}
+			vector<HIN_Edge> temp_edges_dst_ = hin_edges_dst_[temp_node];
+			for(vector<HIN_Edge>::iterator i = temp_edges_dst_.begin(); i != temp_edges_dst_.end(); i++){
+				int temp_edge_type_ = -(i->edge_type_);
+				if(next_nodes_id_.find(temp_edge_type_) == next_nodes_id_.end()){
+					next_nodes_id_[temp_edge_type_] = set<int>();
+				}
+				next_nodes_id_[temp_edge_type_].insert(i->dst_);
 			}
 		}
 
-		for(map<int, set<int>>::iterator iter = curr_edges_dsts_.begin(); iter != curr_edges_dsts_.end(); iter++){
+		for(map<int, set<int>>::iterator iter = next_nodes_id_.begin(); iter != next_nodes_id_.end(); iter++){
 			int curr_edge_type = iter->first;
 			vector<int> temp_meta_path = meta_path;
 			temp_meta_path.push_back(curr_edge_type);
