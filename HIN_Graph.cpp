@@ -105,9 +105,9 @@ void HIN_Graph::buildYAGOGraph(map<int, string> node_name, map<int, vector<Edge>
 				int temp_dst_ = iter2->second[j].dst_;
 				for(int i = 0; i < node_id_to_type[temp_dst_].size(); i++){
 					vector<int> dst_types_id_ = nodes_[temp_dst_].types_id_;
-					int curr_type_id = node_id_to_type[i];
+					int curr_type_id = node_id_to_type[temp_dst_][i];
 					vector<int>::iterator temp_iter = find(dst_types_id_.begin(), dst_types_id_.end(), curr_type_id);
-					if(temp_iter != dst_types_id_.end()){
+					if(temp_iter == dst_types_id_.end()){
 						nodes_[temp_dst_].types_id_.push_back(curr_type_id);
 					}
 				}

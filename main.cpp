@@ -51,7 +51,7 @@ int main(int argc, const char * argv[]) {
 				cout << iter->first << "\t\t";
 				vector<int> temp_meta_path = iter->second;
 				for(vector<int>::iterator iter = temp_meta_path.begin(); iter != temp_meta_path.end(); iter++){
-					if(edge_name.find(*iter) == edge_name.end()){
+					if(edge_name.find(*iter) == edge_name.end() && edge_name.find(-(*iter)) == edge_name.end()){
 						invalid_edge_type_flag = true;
 						break;
 					}
@@ -59,9 +59,20 @@ int main(int argc, const char * argv[]) {
 				if(!invalid_edge_type_flag){
 					for(vector<int>::iterator  iter = temp_meta_path.begin(); iter != temp_meta_path.end() - 1; iter++){
 						int curr_edge_type = *iter;
-						cout << edge_name[*iter] << "->";
+						if(curr_edge_type > 0){
+							cout << edge_name[curr_edge_type];
+						}else{
+							cout << "[" << edge_name[-curr_edge_type] << "]^(-1)";
+						}
+						cout << " -> ";
 					}
-					cout << edge_name[temp_meta_path.back()] << endl;
+					int curr_edge_type = temp_meta_path.back();
+					if(curr_edge_type > 0){
+                                               cout << edge_name[curr_edge_type];
+                                        }else{
+                                               cout << "[" << edge_name[-curr_edge_type] << "]^(-1)";
+                                        }
+					cout << endl;
 				}else{
 					cout << "Found some Invalid Edge Type" << endl;
 				}

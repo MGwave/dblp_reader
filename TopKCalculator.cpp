@@ -10,16 +10,18 @@
 
 using namespace std;
 
-TfIdfNode::TfIdfNode(int curr_edge_type, set<int> curr_nodes, int min_instances_num, vector<int> meta_path):curr_edge_type_(curr_edge_type), curr_nodes_(curr_nodes), min_instances_num_(min_instances_num), meta_path_(meta_path){}
+TfIdfNode::TfIdfNode(int curr_edge_type, set<int> curr_nodes, int min_instances_num, vector<int> meta_path, set<int> reached_nodes):curr_edge_type_(curr_edge_type), curr_nodes_(curr_nodes), min_instances_num_(min_instances_num), meta_path_(meta_path), reached_nodes_(reached_nodes){
+	found_ = false;
+}
 
 bool TfIdfNodeCmp::operator () (TfIdfNode & node1, TfIdfNode & node2)
 {
-	return node1.min_instances_num_*(TopKCalculator::penalty(node1.meta_path_.size())) > node2.min_instances_num_*(TopKCalculator::penalty(node2.meta_path_.size()));
+	return node1.min_instances_num_*(TopKCalculator::penalty(node1.meta_path_.size())) <  node2.min_instances_num_*(TopKCalculator::penalty(node2.meta_path_.size()));
 }
 
 double TopKCalculator::penalty(int length)
 {
-	return 1.0/length;
+	return 1.0/(length*length);
 }
 
 set<int> TopKCalculator::getSimilarNodes(int eid, map<int, HIN_Node> & hin_nodes_)
@@ -49,7 +51,7 @@ set<int> TopKCalculator::getSimilarNodes(int eid, map<int, HIN_Node> & hin_nodes
 			}
 		}
 	}
-	// cout << similarNodes.size() << endl;
+	cout << eid << " candidate size: " << similarNodes.size() << endl;
 	return similarNodes;
 }
 
@@ -67,16 +69,22 @@ double TopKCalculator::getRarity(int similarPairsSize, set<int> & srcSimilarNode
 			temp_hin_edges = hin_edges_src_;
 		}else{
 			temp_hin_edges = hin_edges_dst_;
-			curr_edge_type = -curr_edge_type;
 		}
 		for(set<int>::iterator i = currNodes.begin(); i != currNodes.end(); i++){
 			int currNode = *i;
-			if(hin_edges_src_.find(currNode) != temp_hin_edges.end()){
+			if(temp_hin_edges.find(currNode) != temp_hin_edges.end()){
 				vector<HIN_Edge> tempEdges = temp_hin_edges[currNode];
 				for(vector<HIN_Edge>::iterator j = tempEdges.begin(); j != tempEdges.end(); j++){
-					if(j->edge_type_ == curr_edge_type){
-						nextNodes.insert(j->dst_);
-						break;
+					if(curr_edge_type > 0){
+						if(j->edge_type_ == curr_edge_type){
+                                                	nextNodes.insert(j->dst_);
+                                                	break;
+                                        	}
+					}else{
+						if(j->edge_type_ == -curr_edge_type){
+							nextNodes.insert(j->src_);
+							break;
+						}
 					}
 				}
 			}
@@ -89,19 +97,19 @@ double TopKCalculator::getRarity(int similarPairsSize, set<int> & srcSimilarNode
 	set<int> intersect;
 	set_intersection(currNodes.begin(),currNodes.end(),dstSimilarNodes.begin(),dstSimilarNodes.end(), inserter(intersect,intersect.begin()));
 
-	return log (similarPairsSize*1.0/intersect.size());
+	return log (similarPairsSize*1.0/(intersect.size()));
 }
 
 void TopKCalculator:: updateTopKMetaPaths(double tfidf, vector<int> meta_path, int k, vector<pair<double, vector<int>>> & topKMetaPath_){
-	if(topKMetaPath_.size() == 0){
-		topKMetaPath_.push_back(make_pair(tfidf, meta_path));
-	}else{
-		for(vector<pair<double, vector<int>>>::iterator iter = topKMetaPath_.begin(); iter != topKMetaPath_.end() - 1; iter++){
-			if(iter->first < tfidf){
-				topKMetaPath_.insert(iter, make_pair(tfidf, meta_path));
-			}
+	topKMetaPath_.push_back(make_pair(tfidf, meta_path));
+	for(vector<pair<double, vector<int>>>::iterator iter = topKMetaPath_.begin(); iter != topKMetaPath_.end(); iter++){
+		if(iter->first <= tfidf){
+			topKMetaPath_.insert(iter, make_pair(tfidf, meta_path));
+			break;
 		}
+		
 	}
+	topKMetaPath_.erase(topKMetaPath_.end() - 1);
 
 	if(topKMetaPath_.size() > k){
 		topKMetaPath_.erase(topKMetaPath_.end() - 1);
@@ -113,7 +121,7 @@ vector<pair<double, vector<int>>> TopKCalculator::getTopKMetaPath_TFIDF(int src,
 	vector<pair<double, vector<int>>> topKMetaPath_;
 	map<int, vector<HIN_Edge> > hin_edges_src_ = hin_graph_.edges_src_;
 	map<int, vector<HIN_Edge> > hin_edges_dst_ = hin_graph_.edges_dst_;
-	if(hin_edges_src_.find(src) == hin_edges_src_.end())
+	if((hin_edges_src_.find(src) == hin_edges_src_.end() && hin_edges_dst_.find(src) == hin_edges_src_.end()) || (hin_edges_src_.find(dst) == hin_edges_src_.end() && hin_edges_dst_.find(dst) == hin_edges_src_.end()))
 	{
 		return topKMetaPath_;
 	}
@@ -145,32 +153,47 @@ vector<pair<double, vector<int>>> TopKCalculator::getTopKMetaPath_TFIDF(int src,
 		if(next_nodes_id_.find(temp_edge_type_) == next_nodes_id_.end()){
 			next_nodes_id_[temp_edge_type_] = set<int>();
 		}
-		next_nodes_id_[temp_edge_type_].insert(iter->dst_);
+		next_nodes_id_[temp_edge_type_].insert(iter->src_);
 	}
 
 	for(map<int, set<int>>::iterator iter = next_nodes_id_.begin(); iter != next_nodes_id_.end(); iter++){
 		int curr_edge_type = iter->first;
 		set<int> next_nodes = iter->second;
 		vector<int> meta_path (1, curr_edge_type);
+		TfIdfNode temp_tfidf_node = TfIdfNode(curr_edge_type, next_nodes, next_nodes.size(), meta_path, next_nodes);
 		if(next_nodes.find(dst) != next_nodes.end()){
 			double rarity = getRarity(similarPairsSize, srcSimilarNodes, dstSimilarNodes, meta_path, hin_graph_);
 			double tfidf = rarity*penalty(meta_path.size());
 			updateTopKMetaPaths(tfidf, meta_path, k, topKMetaPath_);
-		}else{
-			q.push(TfIdfNode(curr_edge_type, next_nodes, next_nodes.size(), meta_path));
+			//temp_tfidf_node.found_ = true;
+			//temp_tfidf_node.curr_nodes_.erase(dst);
+			//temp_tfidf_node.reached_nodes_.erase(dst);
 		}
+		q.push(temp_tfidf_node);
+		
 	}
-
 	// BFS
 	while(!q.empty()){
 		TfIdfNode curr_tfidf_node = q.top();
 		q.pop();
 
 		vector<int> meta_path = curr_tfidf_node.meta_path_;
+		//cout << meta_path.size() << endl;
+		/*	
+		for(int i = 0; i < meta_path.size() - 1; i++){
+			cout << meta_path[i] << "->";
+		}
+		cout << meta_path.back() << endl;
+		*/
+			
 		int curr_min_instances_num = curr_tfidf_node.min_instances_num_;
+		//cout << curr_min_instances_num << endl;
 		set<int> curr_nodes = curr_tfidf_node.curr_nodes_;
+		bool found = curr_tfidf_node.found_;
+		set<int> reached_nodes = curr_tfidf_node.reached_nodes_;
 
 		if(topKMetaPath_.size() == k){ // stop if maximum tfidf in the queue is less than the minimum one in found meta paths
+			//cout << curr_min_instances_num << " " << meta_path.size() << " " << curr_min_instances_num*penalty(meta_path.size())*maxRarity << " " << topKMetaPath_.back().first << endl;
 			if(curr_min_instances_num*penalty(meta_path.size())*maxRarity <= topKMetaPath_.back().first){
 				break;
 			}	
@@ -180,7 +203,7 @@ vector<pair<double, vector<int>>> TopKCalculator::getTopKMetaPath_TFIDF(int src,
 		next_nodes_id_.clear(); // edge type -> destinations 
 		for(set<int>::iterator iter = curr_nodes.begin(); iter != curr_nodes.end(); iter++){
 			int temp_node = *iter;
-			if(hin_edges_src_.find(temp_node) == hin_edges_src_.end()){
+			if(hin_edges_src_.find(temp_node) == hin_edges_src_.end() && hin_edges_dst_.find(temp_node) == hin_edges_dst_.end()){
 				continue;
 			}
 			vector<HIN_Edge> temp_edges_src_ = hin_edges_src_[temp_node];
@@ -197,7 +220,7 @@ vector<pair<double, vector<int>>> TopKCalculator::getTopKMetaPath_TFIDF(int src,
 				if(next_nodes_id_.find(temp_edge_type_) == next_nodes_id_.end()){
 					next_nodes_id_[temp_edge_type_] = set<int>();
 				}
-				next_nodes_id_[temp_edge_type_].insert(i->dst_);
+				next_nodes_id_[temp_edge_type_].insert(i->src_);
 			}
 		}
 
@@ -207,17 +230,37 @@ vector<pair<double, vector<int>>> TopKCalculator::getTopKMetaPath_TFIDF(int src,
 			temp_meta_path.push_back(curr_edge_type);
 
 			set<int> next_nodes = iter->second;
+		
+			/*	
+			if(includes(reached_nodes.begin(), reached_nodes.end(), next_nodes.begin(), next_nodes.end())){
+				continue;
+			}
+			*/
+
+			int temp_min_instances_num = next_nodes.size();
+                        if(temp_min_instances_num > curr_min_instances_num){ // keep the minimum instance number in the meta path expanding
+                                temp_min_instances_num = curr_min_instances_num;
+                        }			
+			set<int> new_reached_nodes;
+			set_union(reached_nodes.begin(), reached_nodes.end(), next_nodes.begin(), next_nodes.end(), inserter(new_reached_nodes, new_reached_nodes.begin()));
+			
+			TfIdfNode temp_tfidf_node = TfIdfNode(curr_edge_type, next_nodes, temp_min_instances_num, temp_meta_path, new_reached_nodes);
+
 			if(next_nodes.find(dst) != next_nodes.end()){
 				double rarity = getRarity(similarPairsSize, srcSimilarNodes, dstSimilarNodes, temp_meta_path, hin_graph_);
 				double tfidf = curr_min_instances_num*rarity*penalty(meta_path.size());
 				updateTopKMetaPaths(tfidf, temp_meta_path, k, topKMetaPath_);
-			}else{
-				int temp_min_instances_num = next_nodes.size();
-				if(temp_min_instances_num > curr_min_instances_num){ // keep the minimum instance number in the meta path expanding
-					temp_min_instances_num = curr_min_instances_num;
-				}
-				q.push(TfIdfNode(curr_edge_type, next_nodes, temp_min_instances_num, temp_meta_path));
+				//temp_tfidf_node.found_ = true;
+				//temp_tfidf_node.curr_nodes_.erase(dst);
+                        	//temp_tfidf_node.reached_nodes_.erase(dst);
 			}
+			/*
+			for(int i = 0; i < temp_meta_path.size() - 1; i++){
+                        	cout << temp_meta_path[i] << "->";
+                	}
+                	cout << temp_meta_path.back() << endl;		
+			*/
+			q.push(temp_tfidf_node);
 			
 		}
 	}

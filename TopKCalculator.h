@@ -16,7 +16,9 @@ public:
 	set<int> curr_nodes_;
 	int min_instances_num_;
 	vector<int> meta_path_;
-	TfIdfNode(int curr_edge_type, set<int> curr_nodes, int min_instances_num, vector<int> meta_path);
+	set<int> reached_nodes_;
+	bool found_;
+	TfIdfNode(int curr_edge_type, set<int> curr_nodes, int min_instances_num, vector<int> meta_path, set<int> reached_nodes);
 
 };
 
