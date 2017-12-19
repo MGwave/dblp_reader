@@ -91,28 +91,13 @@ void HIN_Graph::buildYAGOGraph(map<int, string> node_name, map<int, vector<Edge>
         key2id_[key] = TheOldID;
     }
     
-    for(map<int, vector<Edge> >::iterator iter2 = adj.begin(); iter2 != adj.end(); ++iter2){
+    for(map<int, vector<int> >::iterator iter2 = node_id_to_type.begin(); iter2 != node_id_to_type.end(); ++iter2){
         
         int TheOldID = iter2->first;
-        string key = node_name[TheOldID];
+	vector<int> curr_types_id_ = iter2->second;
 
-        for(int i = 0; i < node_id_to_type[TheOldID].size(); ++i){
-            nodes_[TheOldID].types_id_.push_back(node_id_to_type[TheOldID][i]);
-
-            // update dst_ type_id_
-
-            for(int j = 0; j < iter2->second.size(); ++j){
-				int temp_dst_ = iter2->second[j].dst_;
-				for(int i = 0; i < node_id_to_type[temp_dst_].size(); i++){
-					vector<int> dst_types_id_ = nodes_[temp_dst_].types_id_;
-					int curr_type_id = node_id_to_type[temp_dst_][i];
-					vector<int>::iterator temp_iter = find(dst_types_id_.begin(), dst_types_id_.end(), curr_type_id);
-					if(temp_iter == dst_types_id_.end()){
-						nodes_[temp_dst_].types_id_.push_back(curr_type_id);
-					}
-				}
-            }
-
+        for(int i = 0; i < curr_types_id_.size(); ++i){
+            nodes_[TheOldID].types_id_.push_back(curr_types_id_[i]);
             //cout << node_id_to_type[TheOldID][i] << endl;
         }
     }

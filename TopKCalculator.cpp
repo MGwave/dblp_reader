@@ -10,6 +10,8 @@
 
 using namespace std;
 
+int TopKCalculator::penalty_type_ = 2;
+
 TfIdfNode::TfIdfNode(int curr_edge_type, set<int> curr_nodes, int min_instances_num, vector<int> meta_path, set<int> reached_nodes):curr_edge_type_(curr_edge_type), curr_nodes_(curr_nodes), min_instances_num_(min_instances_num), meta_path_(meta_path), reached_nodes_(reached_nodes){
 	found_ = false;
 }
@@ -21,7 +23,15 @@ bool TfIdfNodeCmp::operator () (TfIdfNode & node1, TfIdfNode & node2)
 
 double TopKCalculator::penalty(int length)
 {
-	return 1.0/length;
+	if(penalty_type_ == 1){
+		return 1.0/(log (length));
+	}else if(penalty_type_ == 2){
+		return 1.0/length;
+	}else if(penalty_type_ == 3){
+		return 1.0/(length*length);
+	}else{
+		return 1.0/(length*length*length*length);		
+	}
 }
 
 set<int> TopKCalculator::getSimilarNodes(int eid, map<int, HIN_Node> & hin_nodes_)
@@ -29,7 +39,7 @@ set<int> TopKCalculator::getSimilarNodes(int eid, map<int, HIN_Node> & hin_nodes
 	set<int> similarNodes;
 
 	if(hin_nodes_.find(eid) == hin_nodes_.end()){
-		cout << eid << "Not Found" << endl;
+		cout << eid << " Not Found" << endl;
 		return similarNodes;
 	}
 
@@ -97,14 +107,22 @@ double TopKCalculator::getRarity(int similarPairsSize, set<int> & srcSimilarNode
 	set<int> intersect;
 	set_intersection(currNodes.begin(),currNodes.end(),dstSimilarNodes.begin(),dstSimilarNodes.end(), inserter(intersect,intersect.begin()));
 
-	return log (similarPairsSize*1.0/(intersect.size()));
+	return log (similarPairsSize*1.0/(intersect.size() + 1));
 }
 
-void TopKCalculator:: updateTopKMetaPaths(double tfidf, vector<int> meta_path, int k, vector<pair<double, vector<int>>> & topKMetaPath_){
-	topKMetaPath_.push_back(make_pair(tfidf, meta_path));
-	for(vector<pair<double, vector<int>>>::iterator iter = topKMetaPath_.begin(); iter != topKMetaPath_.end(); iter++){
-		if(iter->first <= tfidf){
-			topKMetaPath_.insert(iter, make_pair(tfidf, meta_path));
+void TopKCalculator:: updateTopKMetaPaths(double tfidf, int tf, double rarity, vector<int> meta_path, int k, vector<pair<vector<double>, vector<int>>> & topKMetaPath_){
+	vector<double> tfidf_info = vector<double>();
+        tfidf_info.push_back(tfidf);
+        tfidf_info.push_back(tf*1.0);
+        tfidf_info.push_back(rarity);
+	topKMetaPath_.push_back(make_pair(tfidf_info, meta_path));
+	for(vector<pair<vector<double>, vector<int>>>::iterator iter = topKMetaPath_.begin(); iter != topKMetaPath_.end(); iter++){
+		if(iter->first[0] <= tfidf){
+			vector<double> tfidf_info = vector<double>();
+			tfidf_info.push_back(tfidf);
+			tfidf_info.push_back(tf*1.0);
+			tfidf_info.push_back(rarity);
+			topKMetaPath_.insert(iter, make_pair(tfidf_info, meta_path));
 			break;
 		}
 		
@@ -116,9 +134,9 @@ void TopKCalculator:: updateTopKMetaPaths(double tfidf, vector<int> meta_path, i
 	}
 }
 
-vector<pair<double, vector<int>>> TopKCalculator::getTopKMetaPath_TFIDF(int src, int dst, int k, HIN_Graph & hin_graph_)
+vector<pair<vector<double>, vector<int>>> TopKCalculator::getTopKMetaPath_TFIDF(int src, int dst, int k, HIN_Graph & hin_graph_)
 {
-	vector<pair<double, vector<int>>> topKMetaPath_;
+	vector<pair<vector<double>, vector<int>>> topKMetaPath_;
 	map<int, vector<HIN_Edge> > hin_edges_src_ = hin_graph_.edges_src_;
 	map<int, vector<HIN_Edge> > hin_edges_dst_ = hin_graph_.edges_dst_;
 	if((hin_edges_src_.find(src) == hin_edges_src_.end() && hin_edges_dst_.find(src) == hin_edges_src_.end()) || (hin_edges_src_.find(dst) == hin_edges_src_.end() && hin_edges_dst_.find(dst) == hin_edges_src_.end()))
@@ -164,7 +182,7 @@ vector<pair<double, vector<int>>> TopKCalculator::getTopKMetaPath_TFIDF(int src,
 		if(next_nodes.find(dst) != next_nodes.end()){
 			double rarity = getRarity(similarPairsSize, srcSimilarNodes, dstSimilarNodes, meta_path, hin_graph_);
 			double tfidf = rarity*penalty(meta_path.size());
-			updateTopKMetaPaths(tfidf, meta_path, k, topKMetaPath_);
+			updateTopKMetaPaths(tfidf, 1, rarity, meta_path, k, topKMetaPath_);
 			//temp_tfidf_node.found_ = true;
 			temp_tfidf_node.curr_nodes_.erase(dst);
 			//temp_tfidf_node.reached_nodes_.erase(dst);
@@ -194,7 +212,7 @@ vector<pair<double, vector<int>>> TopKCalculator::getTopKMetaPath_TFIDF(int src,
 
 		if(topKMetaPath_.size() == k){ // stop if maximum tfidf in the queue is less than the minimum one in found meta paths
 			//cout << curr_min_instances_num << " " << meta_path.size() << " " << curr_min_instances_num*penalty(meta_path.size())*maxRarity << " " << topKMetaPath_.back().first << endl;
-			if(curr_min_instances_num*penalty(meta_path.size())*maxRarity <= topKMetaPath_.back().first){
+			if(curr_min_instances_num*penalty(meta_path.size())*maxRarity <= topKMetaPath_.back().first[0]){
 				break;
 			}	
 		}
@@ -249,7 +267,7 @@ vector<pair<double, vector<int>>> TopKCalculator::getTopKMetaPath_TFIDF(int src,
 			if(next_nodes.find(dst) != next_nodes.end()){
 				double rarity = getRarity(similarPairsSize, srcSimilarNodes, dstSimilarNodes, temp_meta_path, hin_graph_);
 				double tfidf = curr_min_instances_num*rarity*penalty(meta_path.size());
-				updateTopKMetaPaths(tfidf, temp_meta_path, k, topKMetaPath_);
+				updateTopKMetaPaths(tfidf, curr_min_instances_num, rarity, temp_meta_path, k, topKMetaPath_);
 				//temp_tfidf_node.found_ = true;
 				temp_tfidf_node.curr_nodes_.erase(dst);
                         	//temp_tfidf_node.reached_nodes_.erase(dst);

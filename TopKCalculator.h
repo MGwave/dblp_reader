@@ -7,6 +7,7 @@
 
 #include "HIN_Graph.h"
 
+
 using namespace std;
 
 class TfIdfNode
@@ -33,10 +34,11 @@ class TopKCalculator
 private:
 	static set<int> getSimilarNodes(int eid, map<int, HIN_Node> & hin_nodes_);
 	static double getRarity(int similarPairsSize, set<int> & srcSimilarNodes, set<int> & dstSimilarNodes, vector<int> meta_path, HIN_Graph & hin_graph_);
-	static void updateTopKMetaPaths(double tfidf, vector<int> meta_path, int k, vector<pair<double, vector<int>>> & topKMetaPath_);
+	static void updateTopKMetaPaths(double tfidf, int tf, double rarity, vector<int> meta_path, int k, vector<pair<vector<double>, vector<int>>> & topKMetaPath_);
 public:
+	static int penalty_type_;
 	static double penalty(int length);
-	static vector<pair<double, vector<int>>> getTopKMetaPath_TFIDF(int src, int dst, int k, HIN_Graph & hin_graph_);
+	static vector<pair<vector<double>, vector<int>>> getTopKMetaPath_TFIDF(int src, int dst, int k, HIN_Graph & hin_graph_);
 };
 
 #endif
