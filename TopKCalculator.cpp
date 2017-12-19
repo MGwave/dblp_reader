@@ -21,7 +21,7 @@ bool TfIdfNodeCmp::operator () (TfIdfNode & node1, TfIdfNode & node2)
 
 double TopKCalculator::penalty(int length)
 {
-	return 1.0/(length*length);
+	return 1.0/length;
 }
 
 set<int> TopKCalculator::getSimilarNodes(int eid, map<int, HIN_Node> & hin_nodes_)
@@ -166,7 +166,7 @@ vector<pair<double, vector<int>>> TopKCalculator::getTopKMetaPath_TFIDF(int src,
 			double tfidf = rarity*penalty(meta_path.size());
 			updateTopKMetaPaths(tfidf, meta_path, k, topKMetaPath_);
 			//temp_tfidf_node.found_ = true;
-			//temp_tfidf_node.curr_nodes_.erase(dst);
+			temp_tfidf_node.curr_nodes_.erase(dst);
 			//temp_tfidf_node.reached_nodes_.erase(dst);
 		}
 		q.push(temp_tfidf_node);
@@ -251,7 +251,7 @@ vector<pair<double, vector<int>>> TopKCalculator::getTopKMetaPath_TFIDF(int src,
 				double tfidf = curr_min_instances_num*rarity*penalty(meta_path.size());
 				updateTopKMetaPaths(tfidf, temp_meta_path, k, topKMetaPath_);
 				//temp_tfidf_node.found_ = true;
-				//temp_tfidf_node.curr_nodes_.erase(dst);
+				temp_tfidf_node.curr_nodes_.erase(dst);
                         	//temp_tfidf_node.reached_nodes_.erase(dst);
 			}
 			/*
