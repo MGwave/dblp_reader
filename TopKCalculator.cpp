@@ -219,12 +219,14 @@ vector<pair<vector<double>, vector<int>>> TopKCalculator::getTopKMetaPath_TFIDF(
 		return topKMetaPath_;
 	}
 	// /*
+	bool inverse = false;
 	int temp_node;
 	int src_edges = hin_edges_src_[src].size() + hin_edges_dst_[src].size();
 	//cout << src_edges << endl;
 	int dst_edges = hin_edges_src_[dst].size() + hin_edges_dst_[dst].size();
 	//cout << dst_edges << endl;
 	if(dst_edges < src_edges){
+		inverse = true;
 		int temp_node = src;
 		src = dst;
 		dst = temp_node;
@@ -401,6 +403,16 @@ vector<pair<vector<double>, vector<int>>> TopKCalculator::getTopKMetaPath_TFIDF(
 			q.push(temp_tfidf_node_p);
 			
 		}
+	}
+
+	if(inverse){
+		for(vector<pair<vector<double>, vector<int>>>::iterator iter = topKMetaPath_.begin(); iter != topKMetaPath_.end(); iter++){
+			int meta_path_size = iter->second.size();
+			for(int i = 0; i < meta_path_size; i++){
+				iter->second[i] = -iter->second[i];
+			}
+
+		}	
 	}
 
 
