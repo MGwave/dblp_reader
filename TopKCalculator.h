@@ -14,19 +14,18 @@ class TfIdfNode
 {
 public:
 	int curr_edge_type_;
-	set<int> curr_nodes_;
-	int min_instances_num_;
+	map<int, set<int>> curr_nodes_with_parents_;// node id -> parent node ids
+	double max_support_;
 	vector<int> meta_path_;
-	set<int> reached_nodes_;
-	bool found_;
-	TfIdfNode(int curr_edge_type, set<int> curr_nodes, int min_instances_num, vector<int> meta_path, set<int> reached_nodes);
+	TfIdfNode* parent_;
+	TfIdfNode(int curr_edge_type, map<int, set<int>> curr_nodes_with_parents, double max_support, vector<int> meta_path, TfIdfNode* parent);
 
 };
 
-class TfIdfNodeCmp
+class TfIdfNodePointerCmp
 {
 public:
-	bool operator () (TfIdfNode & node1, TfIdfNode & node2);
+	bool operator () (TfIdfNode* & node_p1, TfIdfNode* & node_p2);
 };
 
 class TopKCalculator
@@ -34,9 +33,13 @@ class TopKCalculator
 private:
 	static set<int> getSimilarNodes(int eid, map<int, HIN_Node> & hin_nodes_);
 	static double getRarity(int similarPairsSize, set<int> & srcSimilarNodes, set<int> & dstSimilarNodes, vector<int> meta_path, HIN_Graph & hin_graph_);
-	static void updateTopKMetaPaths(double tfidf, int tf, double rarity, vector<int> meta_path, int k, vector<pair<vector<double>, vector<int>>> & topKMetaPath_);
+	static void updateTopKMetaPaths(double tfidf, double tf, double rarity, vector<int> meta_path, int k, vector<pair<vector<double>, vector<int>>> & topKMetaPath_);
+	static double getSupport(int src, int dst, TfIdfNode* curr_tfidf_node, vector<int> meta_path, HIN_Graph & hin_graph_);
+	static double getMaxSupport(double candidateSupport);
 public:
 	static int penalty_type_;
+	static int rarity_type_;// 1 -> true rarity; 0 -> 1(constant)
+	static int support_type_;// 1 -> MNI; 2 -> PCRW; 0 -> 1(constant)
 	static double penalty(int length);
 	static vector<pair<vector<double>, vector<int>>> getTopKMetaPath_TFIDF(int src, int dst, int k, HIN_Graph & hin_graph_);
 };
