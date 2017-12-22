@@ -214,7 +214,7 @@ vector<pair<vector<double>, vector<int>>> TopKCalculator::getTopKMetaPath_TFIDF(
 	vector<pair<vector<double>, vector<int>>> topKMetaPath_;
 	map<int, vector<HIN_Edge> > hin_edges_src_ = hin_graph_.edges_src_;
 	map<int, vector<HIN_Edge> > hin_edges_dst_ = hin_graph_.edges_dst_;
-	if((hin_edges_src_.find(src) == hin_edges_src_.end() && hin_edges_dst_.find(src) == hin_edges_src_.end()) || (hin_edges_src_.find(dst) == hin_edges_src_.end() && hin_edges_dst_.find(dst) == hin_edges_src_.end()))
+	if((hin_edges_src_.find(src) == hin_edges_src_.end() && hin_edges_dst_.find(src) == hin_edges_dst_.end()) || (hin_edges_src_.find(dst) == hin_edges_src_.end() && hin_edges_dst_.find(dst) == hin_edges_dst_.end()))
 	{
 		return topKMetaPath_;
 	}
