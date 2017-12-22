@@ -15,6 +15,8 @@
 #include <map>
 #include <sstream>
 #include <algorithm>
+#include <ctime>
+
 using namespace std;
 
 SCRW_Node::SCRW_Node(const SCRW_Node & n)
