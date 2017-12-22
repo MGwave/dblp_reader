@@ -3,6 +3,7 @@
 #include "Meta-Structure.h"
 
 #include <vector>
+#include<iterator>
 #include <queue>
 #include <map>
 #include <set>
