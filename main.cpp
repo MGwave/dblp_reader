@@ -3,7 +3,7 @@
 #include <cstdlib>
 #include <cstring>
 #include <cctype>
-#include <time.h>
+#include <ctime>
 #include <vector>
 
 #include "HIN_Graph.h"
