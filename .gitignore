@@ -4,3 +4,6 @@
 /topK.vcxproj.filters
 /Debug
 /.vs/topK/v15
+*.o
+topKQuery
+topKQueryTest
