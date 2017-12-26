@@ -186,7 +186,32 @@ void TopKCalculator::getNextEntities(int eid, int edge_type, set<int> & next_ent
 	}
 }
 double TopKCalculator::getPCRW(int src, int dst, vector<int> meta_path, HIN_Graph & hin_graph_){
-	return getPCRWMain(src, dst, set<int>(), set<int>(), meta_path, hin_graph_); 
+	//return getPCRWMain(src, dst, set<int>(), set<int>(), meta_path, hin_graph_); 
+	return getPCRW_DFS(src, dst, meta_path, hin_graph_);
+}
+
+double TopKCalculator::getPCRW_DFS(int src, int dst, vector<int> meta_path, HIN_Graph & hin_graph_){
+	double result = 0.0;
+	set<int> next_entities;
+	getNextEntities(src, meta_path.front(), next_entities, hin_graph_);
+	if(next_entities.size() == 0){
+		return 0.0;
+	}	
+	double multiplier = 1.0/next_entities.size();
+	if(meta_path.size() == 1){
+		if(next_entities.find(dst) != next_entities.end()){
+			return multiplier;
+		}else{
+			return 0.0;
+		}
+	}
+	vector<int> temp_meta_path (meta_path.begin() + 1, meta_path.end());
+	for(set<int>::iterator iter = next_entities.begin(); iter != next_entities.end(); iter++){
+		result += multiplier*getPCRW_DFS(*iter, dst, temp_meta_path, hin_graph_); 
+	}
+
+	return result;
+	
 }
 double TopKCalculator::getPCRWMain(int src, int dst, set<int> src_next_entities, set<int> dst_next_entities, vector<int> meta_path, HIN_Graph & hin_graph_){
 	int meta_path_size = meta_path.size();

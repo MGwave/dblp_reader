@@ -41,6 +41,7 @@ private:
 	static void getNextEntities(int eid, int edge_type, set<int> & next_entities, HIN_Graph & hin_graph_);
 	static double getPCRWMain(int src, int dst, set<int> src_next_entities, set<int> dst_next_entities, vector<int> meta_path, HIN_Graph & hin_graph_);
 	static double getPCRW(int src, int dst, vector<int> meta_path, HIN_Graph & hin_graph_);
+	static double getPCRW_DFS(int src, int dst, vector<int> meta_path, HIN_Graph & hin_graph_);
 public:
 	static int penalty_type_;
 	static int rarity_type_;// 1 -> true rarity; 0 -> 1(constant)
