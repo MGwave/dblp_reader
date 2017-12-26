@@ -4,6 +4,7 @@
 #include <vector>
 #include <map>
 #include <set>
+#include <cstring>
 
 #include "HIN_Graph.h"
 
@@ -36,12 +37,19 @@ private:
 	static void updateTopKMetaPaths(double tfidf, double tf, double rarity, vector<int> meta_path, int k, vector<pair<vector<double>, vector<int>>> & topKMetaPath_);
 	static double getSupport(int src, int dst, TfIdfNode* curr_tfidf_node, vector<int> meta_path, HIN_Graph & hin_graph_);
 	static double getMaxSupport(double candidateSupport);
+	static double getMetaPathScore(int src, int dst, vector<int> meta_path, int score_function, HIN_Graph & hin_graph_);
+	static void getNextEntities(int eid, int edge_type, set<int> & next_entities, HIN_Graph & hin_graph_);
+	static double getPCRWMain(int src, int dst, set<int> src_next_entities, set<int> dst_next_entities, vector<int> meta_path, HIN_Graph & hin_graph_);
+	static double getPCRW(int src, int dst, vector<int> meta_path, HIN_Graph & hin_graph_);
 public:
 	static int penalty_type_;
 	static int rarity_type_;// 1 -> true rarity; 0 -> 1(constant)
 	static int support_type_;// 1 -> MNI; 2 -> PCRW; 0 -> 1(constant)
 	static double penalty(int length);
-	static vector<pair<vector<double>, vector<int>>> getTopKMetaPath_TFIDF(int src, int dst, int k, HIN_Graph & hin_graph_);
+	static vector<pair<vector<double>, vector<int>>> getTopKMetaPath_TFIDF(int src, int dst, int k, HIN_Graph & hin_graph_);	
+	static vector<pair<vector<double>, vector<int>>> getTopKMetaPath_Refiner(int src, int dst, int k, vector<vector<int>> & meta_paths, int score_function, HIN_Graph & hin_graph_);
+	static void saveToFile(vector<vector<int>> topKMetaPaths, string file_name);
+	static vector<vector<int>> loadMetaPaths(string file_name);
 };
 
 #endif

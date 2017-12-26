@@ -1647,6 +1647,7 @@ void SimCalculator::PCRW(int src, int dst, Meta_Paths &m_path, int p_id, map<int
         vector< vector< pair<int, double> > > extendedVector;
         int edgetype = m_path.linkTypes_[p_id][i];
         for(int ii = 0; ii < pathInstances.size(); ++ii){
+
             int now = pathInstances[ii][pathInstances[ii].size() - 1].first;
             double nowP = pathInstances[ii][pathInstances[ii].size() - 1].second;
             if(edgetype > 0){
@@ -1682,7 +1683,7 @@ void SimCalculator::PCRW(int src, int dst, Meta_Paths &m_path, int p_id, map<int
             }
         }
         //cout << i << '\t' << (double)(clock()-tt)/CLOCKS_PER_SEC << endl;
-        pathInstances = extendedVector;
+	pathInstances = extendedVector;
     }
     for(int i = 0; i < pathInstances.size(); ++i){
         int dst_id = pathInstances[i][pathInstances[i].size() - 1].first;

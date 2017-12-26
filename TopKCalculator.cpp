@@ -1,6 +1,7 @@
 #include "TopKCalculator.h"
 #include "SimCalculator.h"
 #include "Meta-Structure.h"
+#include "CommonUtils.h"
 
 #include <vector>
 #include <iterator>
@@ -11,6 +12,7 @@
 #include <cmath>
 #include <cstring>
 #include <iostream>
+#include <fstream>
 
 using namespace std;
 
@@ -25,16 +27,48 @@ bool TfIdfNodePointerCmp::operator () (TfIdfNode* & node_p1, TfIdfNode* & node_p
 	return node_p1->max_support_*(TopKCalculator::penalty(node_p1->meta_path_.size())) <  node_p2->max_support_*(TopKCalculator::penalty(node_p2->meta_path_.size()));
 }
 
+class ScorePairCmp
+{
+public:
+	bool operator () (pair<double, int> & scorePair1, pair<double, int> & scorePair2){
+		if(scorePair1.first == scorePair2.first){
+			return scorePair1.second > scorePair2.second;
+		}else{
+			return scorePair1.first < scorePair2.first;
+		}
+	}
+};
+
+double TopKCalculator::getMetaPathScore(int src, int dst, vector<int> meta_path, int score_function, HIN_Graph & hin_graph_){
+	if(score_function == 1){
+		Meta_Paths tempmetapath(hin_graph_);
+                map<int, double> id_sim;
+
+                tempmetapath.weights_.push_back(1.0);
+                tempmetapath.linkTypes_.push_back(meta_path);
+
+                //double pcrw = SimCalculator::calSim_PCRW(src, dst, tempmetapath, id_sim);
+		double pcrw = getPCRW(src, dst, meta_path, hin_graph_);
+                return pcrw;
+	}
+
+	return 2.0;	
+}
+
 double TopKCalculator::penalty(int length)
 {
-	if(penalty_type_ == 1){
+	if(penalty_type_ == 0){
+		return 1.0;
+	}else if(penalty_type_ == 1){
 		return 1.0/(log (length));
 	}else if(penalty_type_ == 2){
 		return 1.0/length;
 	}else if(penalty_type_ == 3){
 		return 1.0/(length*length);
-	}else{
+	}else if(penalty_type_ == 4){
 		return 1.0/(exp (length));		
+	}else{
+		return 1.0;
 	}
 }
 
@@ -124,6 +158,78 @@ double TopKCalculator::getRarity(int similarPairsSize, set<int> & srcSimilarNode
 	return log10 (similarPairsSize*1.0/(intersect.size() + 1));
 }
 
+void TopKCalculator::getNextEntities(int eid, int edge_type, set<int> & next_entities, HIN_Graph & hin_graph_){
+	next_entities.clear();
+	bool src_flag = true;
+	map<int, vector<HIN_Edge> > temp_hin_edges;
+	if(edge_type > 0){
+		temp_hin_edges = hin_graph_.edges_src_;
+	}else if(edge_type < 0){
+		src_flag = false;
+		edge_type = -edge_type;
+		temp_hin_edges = hin_graph_.edges_dst_;
+	}
+
+	if(temp_hin_edges.size() != 0){
+		if(temp_hin_edges.find(eid) != temp_hin_edges.end()){
+			vector<HIN_Edge> candidate_edges = temp_hin_edges[eid];
+			for(int i = 0; i < candidate_edges.size(); i++){
+				if(candidate_edges[i].edge_type_ == edge_type){
+					if(src_flag){
+						next_entities.insert(candidate_edges[i].dst_);	
+					}else{
+						next_entities.insert(candidate_edges[i].src_);
+					}
+				}
+			}
+		}	
+	}
+}
+double TopKCalculator::getPCRW(int src, int dst, vector<int> meta_path, HIN_Graph & hin_graph_){
+	return getPCRWMain(src, dst, set<int>(), set<int>(), meta_path, hin_graph_); 
+}
+double TopKCalculator::getPCRWMain(int src, int dst, set<int> src_next_entities, set<int> dst_next_entities, vector<int> meta_path, HIN_Graph & hin_graph_){
+	int meta_path_size = meta_path.size();
+	if(meta_path_size == 0){
+		return 0.0;	
+	}else if(meta_path_size == 1){
+		if(src_next_entities.size() == 0){
+			getNextEntities(src, meta_path.front(), src_next_entities, hin_graph_);
+		}
+		if(src_next_entities.find(dst) != src_next_entities.end()){
+			return 1.0/src_next_entities.size();
+		}else{
+			return 0.0;
+		}
+	}else{
+		if(src_next_entities.size() == 0){
+			getNextEntities(src, meta_path.front(), src_next_entities, hin_graph_);
+		}
+	
+		if(dst_next_entities.size() == 0){
+			getNextEntities(dst, -meta_path.back(), dst_next_entities, hin_graph_);
+		}
+		
+		double result = 0;
+		if(src_next_entities.size() > dst_next_entities.size()){
+			vector<int> left_meta_path (meta_path.begin(), meta_path.end() - 1);
+			vector<int> right_meta_path (1, meta_path.back());
+			for(set<int>:: iterator iter = dst_next_entities.begin(); iter != dst_next_entities.end(); iter++){
+				double tmp_result1 = getPCRWMain(src, *iter, src_next_entities, set<int> (), left_meta_path, hin_graph_);
+				double tmp_result2 = getPCRWMain(*iter, dst, set<int> (), dst_next_entities, right_meta_path, hin_graph_);
+				result += tmp_result1*tmp_result2;
+			}	
+		}else{
+			double multiplier = 1.0/src_next_entities.size();
+			for(set<int>::iterator iter = src_next_entities.begin(); iter != src_next_entities.end(); iter++){
+				result += multiplier*getPCRWMain(*iter, dst, set<int> (), dst_next_entities, vector<int> (meta_path.begin() + 1, meta_path.end()), hin_graph_);
+			}
+		}
+		return result;
+		
+	}
+}
+
 double TopKCalculator::getMaxSupport(double candidateSupport){
 	if(support_type_ == 1){
 		return candidateSupport;
@@ -181,7 +287,8 @@ double TopKCalculator::getSupport(int src, int dst, TfIdfNode* curr_tfidf_node_p
 		tempmetapath.weights_.push_back(1.0);
 		tempmetapath.linkTypes_.push_back(meta_path);
 
-		double pcrw = SimCalculator::calSim_PCRW(src, dst, tempmetapath, id_sim);
+		//double pcrw = SimCalculator::calSim_PCRW(src, dst, tempmetapath, id_sim);
+		double pcrw = getPCRW(src, dst, meta_path, hin_graph_);
 		return pcrw;
 	}
 }
@@ -226,7 +333,7 @@ vector<pair<vector<double>, vector<int>>> TopKCalculator::getTopKMetaPath_TFIDF(
 	//cout << src_edges << endl;
 	int dst_edges = hin_edges_src_[dst].size() + hin_edges_dst_[dst].size();
 	//cout << dst_edges << endl;
-	if(dst_edges < src_edges){
+	if(dst_edges < src_edges && support_type_ != 2){
 		inverse = true;
 		int temp_node = src;
 		src = dst;
@@ -408,14 +515,71 @@ vector<pair<vector<double>, vector<int>>> TopKCalculator::getTopKMetaPath_TFIDF(
 
 	if(inverse){
 		for(vector<pair<vector<double>, vector<int>>>::iterator iter = topKMetaPath_.begin(); iter != topKMetaPath_.end(); iter++){
+			vector<int> temp_meta_path;
 			int meta_path_size = iter->second.size();
-			for(int i = 0; i < meta_path_size; i++){
-				iter->second[i] = -iter->second[i];
+			for(int i = iter->second.size() - 1; i >= 0; i--){
+				temp_meta_path.push_back(-iter->second[i]);
 			}
+			iter->second.clear();
+			iter->second = temp_meta_path;
 
 		}	
 	}
 
 
 	return topKMetaPath_;
+}
+
+vector<pair<vector<double>, vector<int>>> TopKCalculator::getTopKMetaPath_Refiner(int src, int dst, int k, vector<vector<int>> & meta_paths, int score_function, HIN_Graph & hin_graph_){
+
+	vector<pair<vector<double>, vector<int>>> topKMetaPath_;	
+	priority_queue<pair<double, int>, vector<pair<double, int>>, ScorePairCmp> q;	
+
+	for(int i = 0; i < meta_paths.size(); i++){
+		double score = getMetaPathScore(src, dst, meta_paths[i], score_function, hin_graph_);
+		cout << score << endl;
+		q.push(make_pair(score, i));
+	}
+
+	for(int j = 0; j < k; j++){
+		pair<double, int> currScorePair = q.top();
+		topKMetaPath_.push_back(make_pair(vector<double> (1, currScorePair.first), meta_paths[currScorePair.second]));
+		q.pop();
+	}	
+	
+	return topKMetaPath_;
+
+}
+
+void TopKCalculator::saveToFile(vector<vector<int>> topKMetaPaths, string file_name){
+	cerr << "start saving the top k meta-paths to " << file_name << "..." << endl;	
+	ofstream topKMetaPathsOut(file_name, ios::out);
+	for(int i = 0; i < topKMetaPaths.size(); i++){
+		vector<int> currMetaPath = topKMetaPaths[i];
+		for(int j = 0; j < currMetaPath.size() - 1; j++){
+			topKMetaPathsOut << currMetaPath[j] << "\t";
+		}
+		topKMetaPathsOut << currMetaPath.back() << endl;
+
+	} 
+	topKMetaPathsOut.close();
+	cerr << "finished saving meta-paths" << endl;
+
+}
+
+vector<vector<int>> TopKCalculator::loadMetaPaths(string file_name){
+	cerr << "start loading the meta-paths..." << endl;
+	ifstream topKMetaPathsIn(file_name.c_str(), ios::in);
+	string line;
+	vector<vector<int>> meta_paths;
+	while(getline(topKMetaPathsIn, line)){
+		vector<string> strs = split(line, "\t");
+		meta_paths.push_back(vector<int>());
+		for(int i = 0; i < strs.size(); i++){
+			meta_paths.back().push_back(atoi(strs[i].c_str()));
+		}
+
+	}
+	topKMetaPathsIn.close();
+	return meta_paths;
 }
