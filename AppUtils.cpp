@@ -1,5 +1,6 @@
 #include "HIN_Graph.h"
 #include "AppUtils.h"
+#include "TopKCalculator.h"
 
 #include <cstring>
 #include <vector>
@@ -57,4 +58,27 @@ HIN_Graph loadHinGraph(const char* dataset, map<int,string> & node_name, map<int
 		cerr << "Unsupported dataset" << endl;
 		return HIN_Graph ();
 	}
+}
+
+string getFileName(int src, int dst, string dataset){
+        return string(DEFAULT_OUTPUT_DIR) + "/" + dataset + "_" + to_string(src) + "_" + to_string(dst) + ".txt";
+}
+
+void tfidfSetup(const char* tfidf_type, int penalty_type){
+
+        TopKCalculator::penalty_type_ = penalty_type;
+
+        if(strcmp(tfidf_type, "M-S") == 0){
+                TopKCalculator::support_type_ = 1;
+                TopKCalculator::rarity_type_ = 1;
+        }else if(strcmp(tfidf_type, "B-S") == 0){
+                TopKCalculator::support_type_ = 0;
+                TopKCalculator::rarity_type_ = 1;
+        }else if(strcmp(tfidf_type, "P-S") == 0){
+                TopKCalculator::support_type_ = 2;
+                TopKCalculator::rarity_type_ = 1;
+        }else if(strcmp(tfidf_type, "SP") == 0){
+                TopKCalculator::support_type_ = 0;
+                TopKCalculator::rarity_type_ = 0;
+        }
 }

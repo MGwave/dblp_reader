@@ -1,11 +1,3 @@
-#include <iostream>
-#include <sstream>
-#include <cstdlib>
-#include <cstring>
-#include <cctype>
-#include <ctime>
-#include <vector>
-
 #include "HIN_Graph.h"
 #include "DBLP_Reader.h"
 #include "Article.h"
@@ -15,35 +7,16 @@
 #include "TopKCalculator.h"
 #include "AppUtils.h"
 
-#define DEFAULT_PENALTY_TYPE 2
-#define DEFAULT_TFIDF_TYPE "M-S"
-#define DEFAULT_REFINE_FLAG false
-#define DEFAULT_OUTPUT_TYPE 1
-#define DEFAULT_SCORE_FUNCTION 1
-#define DEFAULT_OUTPUT_DIR "topKResult"
+#include <iostream>
+#include <sstream>
+#include <cstdlib>
+#include <cstring>
+#include <cctype>
+#include <ctime>
+#include <vector>
 
-string getFileName(int src, int dst, string dataset){
-	return string(DEFAULT_OUTPUT_DIR) + "/" + dataset + "_" + to_string(src) + "_" + to_string(dst) + ".txt";
-}
+using namespace std;
 
-void tfidfSetup(const char* tfidf_type, int penalty_type){
-
-	TopKCalculator::penalty_type_ = penalty_type;	
-
-	if(strcmp(tfidf_type, "M-S") == 0){
-		TopKCalculator::support_type_ = 1;
-		TopKCalculator::rarity_type_ = 1;
-	}else if(strcmp(tfidf_type, "B-S") == 0){
-		TopKCalculator::support_type_ = 0;
-                TopKCalculator::rarity_type_ = 1;
-	}else if(strcmp(tfidf_type, "P-S") == 0){
-		TopKCalculator::support_type_ = 2;
-		TopKCalculator::rarity_type_ = 1;
-	}else if(strcmp(tfidf_type, "SP") == 0){
-		TopKCalculator::support_type_ = 0;
-		TopKCalculator::rarity_type_ = 0;
-	}
-}
 
 void output(vector<pair<vector<double>, vector<int>>> topKMetaPaths, map<int,string> & edge_name, string output_file_name, bool refine_flag, int output_type){
 	if(topKMetaPaths.size() > 0){
@@ -139,8 +112,8 @@ void printUsage(const char* argv[]){
 	cout << "\t\t SP -> Shortest Path" << endl;
 
 	cout << "\t output-type:" << endl;
-	cout << "\t\t 1 -> saving to a file" << endl;
-	cout << "\t\t 2 -> typing ranking details in std::cout" << endl;
+	cout << "\t\t 1 -> typing ranking details in std::cout" << endl;
+	cout << "\t\t 2 -> saving to a file" << endl;
 	cout << "\t\t 3 -> both 1 and 2" << endl;
 	cout << endl;
 
@@ -161,17 +134,7 @@ void printUsage(const char* argv[]){
 }
 
 int main(int argc, const char * argv[]) {
-	clock_t t1, t2;
-        
-	HIN_Graph hin_graph_;
-
-	map<int, vector<Edge>> adj;
-        map<int,string> node_name;
-        map<int,string> node_type_name;
-        map<int,int> node_type_num;
-        map<int,vector<int>> node_id_to_type;
-	map<int,string> edge_name;
-	
+        	
 	if(argc > 5){
 
 		int penalty_type = DEFAULT_PENALTY_TYPE;
@@ -201,15 +164,28 @@ int main(int argc, const char * argv[]) {
                         return -1;
 		}
 
-		
-		hin_graph_ = loadHinGraph(argv[2], node_name, adj, node_type_name, node_type_num, node_id_to_type, edge_name);
-
+		string dataset;	
 		int src, dst, k;
-		src = atoi(argv[3]);
+		dataset = argv[2];
+                src = atoi(argv[3]);
                 dst = atoi(argv[4]);
-                k = atoi(argv[5]); 
+                k = atoi(argv[5]);
+			
+		clock_t t1, t2;
 
-		string file_name = getFileName(src, dst, argv[2]);		
+        	HIN_Graph hin_graph_;
+
+        	map<int, vector<Edge>> adj;
+        	map<int,string> node_name;
+        	map<int,string> node_type_name;
+        	map<int,int> node_type_num;
+        	map<int,vector<int>> node_id_to_type;
+        	map<int,string> edge_name;
+		
+		hin_graph_ = loadHinGraph(dataset.c_str(), node_name, adj, node_type_name, node_type_num, node_id_to_type, edge_name);
+
+
+		string file_name = getFileName(src, dst, dataset);		
 
 		vector<pair<vector<double>, vector<int>>> topKMetaPaths;	
 

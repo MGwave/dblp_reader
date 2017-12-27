@@ -186,8 +186,8 @@ void TopKCalculator::getNextEntities(int eid, int edge_type, set<int> & next_ent
 	}
 }
 double TopKCalculator::getPCRW(int src, int dst, vector<int> meta_path, HIN_Graph & hin_graph_){
-	//return getPCRWMain(src, dst, set<int>(), set<int>(), meta_path, hin_graph_); 
-	return getPCRW_DFS(src, dst, meta_path, hin_graph_);
+	return getPCRWMain(src, dst, set<int>(), set<int>(), meta_path, hin_graph_); 
+	//return getPCRW_DFS(src, dst, meta_path, hin_graph_);
 }
 
 double TopKCalculator::getPCRW_DFS(int src, int dst, vector<int> meta_path, HIN_Graph & hin_graph_){
@@ -213,6 +213,59 @@ double TopKCalculator::getPCRW_DFS(int src, int dst, vector<int> meta_path, HIN_
 	return result;
 	
 }
+bool TopKCalculator::isConnected(int src, int dst, vector<int> meta_path, HIN_Graph & hin_graph_){
+	return isConnectedMain(src, dst, set<int>(), set<int>(), meta_path, hin_graph_);
+}
+bool TopKCalculator::isConnectedMain(int src, int dst, set<int> src_next_entities, set<int> dst_next_entities, vector<int> meta_path, HIN_Graph & hin_graph_){
+	int meta_path_size = meta_path.size();
+        if(meta_path_size == 0){
+                return false;
+        }else if(meta_path_size == 1){
+		if(src_next_entities.size() == 0){
+                        getNextEntities(src, meta_path.front(), src_next_entities, hin_graph_);
+                }
+
+		if(src_next_entities.size() != 0 && src_next_entities.find(dst) != src_next_entities.end()){
+			return true;
+		}
+
+		return false;
+	}else{
+		if(src_next_entities.size() == 0){
+                        getNextEntities(src, meta_path.front(), src_next_entities, hin_graph_);
+                }
+		if(src_next_entities.size() == 0){
+			return false;
+		}
+		
+		if(dst_next_entities.size() == 0){
+                        getNextEntities(dst, -meta_path.back(), dst_next_entities, hin_graph_);
+                }
+                if(dst_next_entities.size() == 0){
+                        return false;
+                }
+
+		if(src_next_entities.size() > dst_next_entities.size()){
+			vector<int> left_meta_path (meta_path.begin(), meta_path.end() - 1);
+                        for(set<int>:: iterator iter = dst_next_entities.begin(); iter != dst_next_entities.end(); iter++){	
+				if(isConnectedMain(src, *iter, src_next_entities, set<int> (), left_meta_path, hin_graph_)){
+					return true;
+				}
+                        }
+		}else{
+                        for(set<int>::iterator iter = src_next_entities.begin(); iter != src_next_entities.end(); iter++){
+                                if(isConnectedMain(*iter, dst, set<int> (), dst_next_entities, vector<int> (meta_path.begin() + 1, meta_path.end()), hin_graph_)){
+					return true;
+				}
+                        }
+
+		}
+
+		return false;	
+					
+	}
+
+}
 double TopKCalculator::getPCRWMain(int src, int dst, set<int> src_next_entities, set<int> dst_next_entities, vector<int> meta_path, HIN_Graph & hin_graph_){
 	int meta_path_size = meta_path.size();
 	if(meta_path_size == 0){
@@ -221,21 +274,28 @@ double TopKCalculator::getPCRWMain(int src, int dst, set<int> src_next_entities,
 		if(src_next_entities.size() == 0){
 			getNextEntities(src, meta_path.front(), src_next_entities, hin_graph_);
 		}
-		if(src_next_entities.find(dst) != src_next_entities.end()){
+
+		if(src_next_entities.size() != 0 && src_next_entities.find(dst) != src_next_entities.end()){
 			return 1.0/src_next_entities.size();
-		}else{
-			return 0.0;
 		}
+
+		return 0.0;
 	}else{
 		if(src_next_entities.size() == 0){
 			getNextEntities(src, meta_path.front(), src_next_entities, hin_graph_);
+		}
+		if(src_next_entities.size() == 0){
+			return 0.0;
 		}
 	
 		if(dst_next_entities.size() == 0){
 			getNextEntities(dst, -meta_path.back(), dst_next_entities, hin_graph_);
 		}
+		if(dst_next_entities.size() == 0){
+			return 0.0;
+		}
 		
-		double result = 0;
+		double result = 0.0;
 		if(src_next_entities.size() > dst_next_entities.size()){
 			vector<int> left_meta_path (meta_path.begin(), meta_path.end() - 1);
 			vector<int> right_meta_path (1, meta_path.back());
