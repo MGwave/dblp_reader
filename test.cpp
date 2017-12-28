@@ -13,7 +13,7 @@
 
 using namespace std;
 
-void output(vector<vector<double>> resolution_result, map<int,string> & edge_name){
+void output(vector<vector<double>> resolution_result){
 	if(resolution_result.size() > 0){
 		cout << "Metrics" << "\t" << "Precision" << "\t" << "Recall" << "\t" << "F1-measre" << endl;
 		cout.precision(4);
@@ -57,7 +57,6 @@ void printUsage(const char* argv[]){
         cout << "--default mode:" << endl;
         cout << "\t length-penalty -> 2" << endl;
         cout << "\t TF-IDF-type -> M-S" << endl;
-        cout << "\t output-type -> 1" << endl;
         cout << endl;
 
 
@@ -65,7 +64,6 @@ void printUsage(const char* argv[]){
         cout << "\t refine k meta-paths from previous generated meta-paths" << endl;
         cout << "\t default meta-paths file name: dataset_entityId1_entityId2.txt" << endl;
         cout << "\t score-function: 1 -> PCRW" << endl;
-        cout << "\t output-type -> 1" << endl;
         cout << endl;
 }
 
@@ -112,7 +110,6 @@ int main(int argc, const char * argv[]) {
 		int penalty_type = DEFAULT_PENALTY_TYPE;
                 string tfidf_type = DEFAULT_TFIDF_TYPE;
                 bool refine_flag = DEFAULT_REFINE_FLAG;
-                int output_type = DEFAULT_OUTPUT_TYPE;
                 int score_function = DEFAULT_SCORE_FUNCTION;
 
                 if(strcmp(argv[1], "--default") == 0 || strcmp(argv[1], "-d") == 0){
@@ -121,7 +118,6 @@ int main(int argc, const char * argv[]) {
                         if(argc > 8){
                                 penalty_type = atoi(argv[6]);
                                 tfidf_type = argv[7];
-                                output_type = atoi(argv[8]);
                         }
                         tfidfSetup(tfidf_type.c_str(), penalty_type);
                 }else if(strcmp(argv[1], "--refine") == 0 || strcmp(argv[1], "-r") == 0){
@@ -221,6 +217,8 @@ int main(int argc, const char * argv[]) {
 				resolution_result[i][m] /= pos_pairs_size;
 			}
 		}
+
+		output(resolution_result);
 
 		
 	}else{
