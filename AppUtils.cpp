@@ -28,6 +28,25 @@ HIN_Graph loadDBLPGraph(map<int,string> & node_name, map<int, vector<Edge>> & ad
         return DBLP_Graph;
 }
 
+HIN_Graph loadACMGraph(map<int,string> & node_name, map<int, vector<Edge>> & adj, map<int,string> & node_type_name, map<int,int> & node_type_num, map<int,vector<int>> & node_id_to_type, map<int,string> & edge_name) {
+        clock_t t1, t2, t3;
+
+        t1 = clock();
+        YagoReader::readADJ("ACM/ACMAdj.txt", adj);
+        YagoReader::readNodeIdToType("ACM/ACMEntityType.txt", node_id_to_type);
+        YagoReader::readEdgeName("ACM/ACMEdgeType.txt",edge_name);
+        t2 = clock();
+
+        cerr << "Take " << (0.0 + t2 - t1)/CLOCKS_PER_SEC << "s to read dblp_four_area" << endl;
+
+        HIN_Graph DBLP_Graph;
+        DBLP_Graph.buildYAGOGraph(node_name, adj, node_type_name, node_type_num, node_id_to_type, edge_name);
+        t3 = clock();
+        cerr << "Take " << (0.0 + t3 - t2)/CLOCKS_PER_SEC << "s to change dblp_four_area" << endl;
+
+        return DBLP_Graph;
+}
+
 HIN_Graph loadYagoGraph(map<int,string> & node_name, map<int, vector<Edge>> & adj, map<int,string> & node_type_name, map<int,int> & node_type_num, map<int,vector<int>> & node_id_to_type, map<int,string> & edge_name) {
         clock_t t1, t2, t3;
 
@@ -54,6 +73,8 @@ HIN_Graph loadHinGraph(const char* dataset, map<int,string> & node_name, map<int
 		return loadYagoGraph(node_name, adj, node_type_name, node_type_num, node_id_to_type, edge_name);
 	}else if(strcmp(dataset, "DBLP") == 0){
 		return loadDBLPGraph(node_name, adj, node_type_name, node_type_num, node_id_to_type, edge_name);
+	}else if(strcmp(dataset, "ACM") == 0){
+		return loadACMGraph(node_name, adj, node_type_name, node_type_num, node_id_to_type, edge_name);
 	}else{
 		cerr << "Unsupported dataset" << endl;
 		return HIN_Graph ();
