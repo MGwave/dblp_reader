@@ -1,0 +1,136 @@
+1867	NA	candidate size: 5914
+3804	NA	candidate size: 5914
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 1.0000	recall: 0.5000	f1_measure: 0.6667
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.5000	recall: 1.0000	f1_measure: 0.6667
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.5000	recall: 1.0000	f1_measure: 0.6667
+[<PA>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.7143	recall: 0.5000	f1_measure: 0.5882
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.8000	recall: 0.8000	f1_measure: 0.8000
+
+6395	NA	candidate size: 5914
+6720	NA	candidate size: 5914
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.8000	recall: 0.4000	f1_measure: 0.5333
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.5000	recall: 1.0000	f1_measure: 0.6667
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.5000	recall: 1.0000	f1_measure: 0.6667
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
+precision: 0.8333	recall: 0.5000	f1_measure: 0.6250
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 0.7778	recall: 0.7000	f1_measure: 0.7368
+
+4361	NA	candidate size: 5914
+7317	NA	candidate size: 5914
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.5000	recall: 1.0000	f1_measure: 0.6667
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.5000	recall: 1.0000	f1_measure: 0.6667
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 0.7778	recall: 0.7000	f1_measure: 0.7368
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.5000	recall: 1.0000	f1_measure: 0.6667
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 0.7778	recall: 0.7000	f1_measure: 0.7368
+
+3683	NA	candidate size: 5914
+2474	NA	candidate size: 5914
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 1.0000	recall: 0.5000	f1_measure: 0.6667
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.6250	recall: 0.5000	f1_measure: 0.5556
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.6667	recall: 0.2000	f1_measure: 0.3077
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.5000	recall: 1.0000	f1_measure: 0.6667
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PA>]	
+precision: 1.0000	recall: 0.4000	f1_measure: 0.5714
+
+6174	NA	candidate size: 5914
+4243	NA	candidate size: 5914
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.6250	recall: 0.5000	f1_measure: 0.5556
+[<PA>]^(-1)	[<PP>]	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 1.0000	recall: 0.2000	f1_measure: 0.3333
+[<PA>]^(-1)	[<PP>]	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.5714	recall: 0.4000	f1_measure: 0.4706
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.5000	recall: 1.0000	f1_measure: 0.6667
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.5000	recall: 1.0000	f1_measure: 0.6667
+
+3812	NA	candidate size: 5914
+3791	NA	candidate size: 5914
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 1.0000	recall: 0.5000	f1_measure: 0.6667
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.6250	recall: 0.5000	f1_measure: 0.5556
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PA>]	
+precision: 1.0000	recall: 0.4000	f1_measure: 0.5714
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PA>]	
+precision: 1.0000	recall: 0.5000	f1_measure: 0.6667
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.5000	recall: 1.0000	f1_measure: 0.6667
+
+960	NA	candidate size: 5914
+3788	NA	candidate size: 5914
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PA>]	
+precision: 1.0000	recall: 0.5000	f1_measure: 0.6667
+[<PA>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.7143	recall: 0.5000	f1_measure: 0.5882
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.5000	recall: 1.0000	f1_measure: 0.6667
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.5000	recall: 1.0000	f1_measure: 0.6667
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.8000	recall: 0.8000	f1_measure: 0.8000
+
+4118	NA	candidate size: 5914
+79	NA	candidate size: 5914
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 1.0000	recall: 0.5000	f1_measure: 0.6667
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PA>]	
+precision: 1.0000	recall: 0.4000	f1_measure: 0.5714
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.5000	recall: 1.0000	f1_measure: 0.6667
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.5000	recall: 1.0000	f1_measure: 0.6667
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.5000	recall: 1.0000	f1_measure: 0.6667
+
+3857	NA	candidate size: 5914
+79	NA	candidate size: 5914
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.6250	recall: 0.5000	f1_measure: 0.5556
+[<PA>]^(-1)	[<PP>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.6000	recall: 0.3000	f1_measure: 0.4000
+[<PA>]^(-1)	[<PP>]	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.5714	recall: 0.4000	f1_measure: 0.4706
+[<PA>]^(-1)	[<PP>]	[<PP>]	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.5000	recall: 0.2000	f1_measure: 0.2857
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.5000	recall: 1.0000	f1_measure: 0.6667
+
+1817	NA	candidate size: 5914
+6011	NA	candidate size: 5914
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.6250	recall: 0.5000	f1_measure: 0.5556
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 1.0000	recall: 0.5000	f1_measure: 0.6667
+[<PA>]^(-1)	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 1.0000	recall: 0.1000	f1_measure: 0.1818
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 1.0000	recall: 0.1000	f1_measure: 0.1818
+[<PA>]^(-1)	[<PP>]	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.5714	recall: 0.4000	f1_measure: 0.4706
+
+Metrics	Precision	Recall	F1-measre
+1	0.8175	0.5400	0.6200
+2	0.7064	0.5900	0.5671
+3	0.6587	0.6200	0.5406
+4	0.6548	0.6800	0.5681
+5	0.6727	0.7800	0.6782
