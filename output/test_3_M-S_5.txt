@@ -1,0 +1,136 @@
+1867	NA	candidate size: 5914
+3804	NA	candidate size: 5914
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 1.0000	recall: 0.5000	f1_measure: 0.6667
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.5000	recall: 1.0000	f1_measure: 0.6667
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.5000	recall: 1.0000	f1_measure: 0.6667
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.8000	recall: 0.8000	f1_measure: 0.8000
+[<PA>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.4615	recall: 0.6000	f1_measure: 0.5217
+
+6395	NA	candidate size: 5914
+6720	NA	candidate size: 5914
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.8000	recall: 0.4000	f1_measure: 0.5333
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.5000	recall: 1.0000	f1_measure: 0.6667
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.5000	recall: 1.0000	f1_measure: 0.6667
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
+precision: 0.8333	recall: 0.5000	f1_measure: 0.6250
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 0.7778	recall: 0.7000	f1_measure: 0.7368
+
+4361	NA	candidate size: 5914
+7317	NA	candidate size: 5914
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.5000	recall: 1.0000	f1_measure: 0.6667
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.5000	recall: 1.0000	f1_measure: 0.6667
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 0.7778	recall: 0.7000	f1_measure: 0.7368
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.5000	recall: 1.0000	f1_measure: 0.6667
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 0.7778	recall: 0.7000	f1_measure: 0.7368
+
+3683	NA	candidate size: 5914
+2474	NA	candidate size: 5914
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 1.0000	recall: 0.5000	f1_measure: 0.6667
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.5000	recall: 1.0000	f1_measure: 0.6667
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.5385	recall: 0.7000	f1_measure: 0.6087
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 0.5714	recall: 0.8000	f1_measure: 0.6667
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.5000	recall: 1.0000	f1_measure: 0.6667
+
+6174	NA	candidate size: 5914
+4243	NA	candidate size: 5914
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.5000	recall: 1.0000	f1_measure: 0.6667
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.6250	recall: 0.5000	f1_measure: 0.5556
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.5000	recall: 1.0000	f1_measure: 0.6667
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.5385	recall: 0.7000	f1_measure: 0.6087
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.5000	recall: 1.0000	f1_measure: 0.6667
+
+3812	NA	candidate size: 5914
+3791	NA	candidate size: 5914
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 1.0000	recall: 0.5000	f1_measure: 0.6667
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.6250	recall: 0.5000	f1_measure: 0.5556
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PA>]	
+precision: 1.0000	recall: 0.4000	f1_measure: 0.5714
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PA>]	
+precision: 1.0000	recall: 0.5000	f1_measure: 0.6667
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.5000	recall: 1.0000	f1_measure: 0.6667
+
+960	NA	candidate size: 5914
+3788	NA	candidate size: 5914
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PA>]	
+precision: 1.0000	recall: 0.5000	f1_measure: 0.6667
+[<PA>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.7143	recall: 0.5000	f1_measure: 0.5882
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.5000	recall: 1.0000	f1_measure: 0.6667
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.5000	recall: 1.0000	f1_measure: 0.6667
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.8000	recall: 0.8000	f1_measure: 0.8000
+
+4118	NA	candidate size: 5914
+79	NA	candidate size: 5914
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.5000	recall: 1.0000	f1_measure: 0.6667
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PA>]	
+precision: 1.0000	recall: 0.4000	f1_measure: 0.5714
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.5000	recall: 1.0000	f1_measure: 0.6667
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.5263	recall: 1.0000	f1_measure: 0.6897
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PP>]	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.5000	recall: 1.0000	f1_measure: 0.6667
+
+3857	NA	candidate size: 5914
+79	NA	candidate size: 5914
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.6250	recall: 0.5000	f1_measure: 0.5556
+[<PA>]^(-1)	[<PP>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.6000	recall: 0.3000	f1_measure: 0.4000
+[<PA>]^(-1)	[<PP>]	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.5714	recall: 0.4000	f1_measure: 0.4706
+[<PA>]^(-1)	[<PP>]	[<PP>]	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.5000	recall: 0.2000	f1_measure: 0.2857
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.5000	recall: 1.0000	f1_measure: 0.6667
+
+1817	NA	candidate size: 5914
+6011	NA	candidate size: 5914
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.6250	recall: 0.5000	f1_measure: 0.5556
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.5000	recall: 1.0000	f1_measure: 0.6667
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.5385	recall: 0.7000	f1_measure: 0.6087
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 0.5714	recall: 0.8000	f1_measure: 0.6667
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.5000	recall: 1.0000	f1_measure: 0.6667
+
+Metrics	Precision	Recall	F1-measre
+1	0.7550	0.6400	0.6311
+2	0.6064	0.7200	0.6004
+3	0.5926	0.7900	0.6330
+4	0.6341	0.7300	0.6342
+5	0.5817	0.8800	0.6795

@@ -24,7 +24,11 @@ TfIdfNode::TfIdfNode(int curr_edge_type, map<int, set<int>> curr_nodes_with_pare
 
 bool TfIdfNodePointerCmp::operator () (TfIdfNode* & node_p1, TfIdfNode* & node_p2)
 {
-	return node_p1->max_support_*(TopKCalculator::penalty(node_p1->meta_path_.size())) <  node_p2->max_support_*(TopKCalculator::penalty(node_p2->meta_path_.size()));
+	if(node_p1->max_support_ == 0 && node_p2->max_support_ == 0){
+		return node_p1->meta_path_.size() > node_p2->meta_path_.size();
+	}else{
+		return node_p1->max_support_*(TopKCalculator::penalty(node_p1->meta_path_.size())) <  node_p2->max_support_*(TopKCalculator::penalty(node_p2->meta_path_.size()));
+	}
 }
 
 class ScorePairCmp

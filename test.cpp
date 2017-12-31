@@ -115,7 +115,7 @@ int main(int argc, const char * argv[]) {
                 if(strcmp(argv[1], "--default") == 0 || strcmp(argv[1], "-d") == 0){
                         tfidfSetup(tfidf_type.c_str(), penalty_type);
                 }else if(strcmp(argv[1], "--advance") == 0 || strcmp(argv[1], "-a") == 0){
-                        if(argc > 8){
+                        if(argc > 7){
                                 penalty_type = atoi(argv[6]);
                                 tfidf_type = argv[7];
                         }
@@ -182,9 +182,10 @@ int main(int argc, const char * argv[]) {
 			for(vector<pair<vector<double>, vector<int>>>::iterator iter_path = topKMetaPaths.begin(); iter_path != topKMetaPaths.end(); iter_path++){
 				
 				vector<double> tmp_result;
+				vector<int> curr_meta_path = iter_path->second;
 
-				int true_positive = getHitCount(iter_path->second, pos_pairs, hin_graph_);
-				int false_positive = getHitCount(iter_path->second, neg_pairs, hin_graph_); 
+				int true_positive = getHitCount(curr_meta_path, pos_pairs, hin_graph_);
+				int false_positive = getHitCount(curr_meta_path, neg_pairs, hin_graph_); 
 			
 				double precision = true_positive*1.0/(true_positive + false_positive);
 				double recall = true_positive*1.0/pos_pairs_size;
@@ -193,13 +194,31 @@ int main(int argc, const char * argv[]) {
 				tmp_result.push_back(precision);
 				tmp_result.push_back(recall);
 				tmp_result.push_back(f1_measure);
-			
-				/*	
+				
+				tmp_resolution_result.push_back(tmp_result);	
+
+				for(int i = 0; i < curr_meta_path.size(); i++){
+					int curr_edge_type = curr_meta_path[i];
+					if(curr_edge_type < 0){
+						curr_edge_type = -curr_edge_type;
+						if(edge_name.find(curr_edge_type) != edge_name.end()){
+							cout << "[" << edge_name[curr_edge_type] << "]^(-1)" << "\t";
+						}else{
+							cout << "NA" << "\t";
+						}
+					}else{
+						if(edge_name.find(curr_edge_type) != edge_name.end()){
+							cout << "[" << edge_name[curr_edge_type] << "]" << "\t";	
+						}else{
+							cout << "NA" << "\t";
+						}
+					}
+				}	
+				cout << endl;	
 				cout.precision(4);
                 		cout << fixed;
-				cout << precision << "\t" << recall << "\t" << f1_measure << endl;
-				*/	
-				tmp_resolution_result.push_back(tmp_result);	
+				cout << "precision: " << precision << "\t" << "recall: " << recall << "\t" << "f1_measure: " << f1_measure << endl;
+				
 				
 			}			
 			cout << endl;
