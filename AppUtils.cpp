@@ -18,14 +18,33 @@ HIN_Graph loadDBLPGraph(map<int,string> & node_name, map<int, vector<Edge>> & ad
         YagoReader::readEdgeName("../DBLP/dblpType.txt",edge_name);
         t2 = clock();
 
-        cerr << "Take " << (0.0 + t2 - t1)/CLOCKS_PER_SEC << "s to read dblp_four_area" << endl;
+        cerr << "Take " << (0.0 + t2 - t1)/CLOCKS_PER_SEC << "s to read DBLP dataset" << endl;
 
         HIN_Graph DBLP_Graph;
         DBLP_Graph.buildYAGOGraph(node_name, adj, node_type_name, node_type_num, node_id_to_type, edge_name);
         t3 = clock();
-        cerr << "Take " << (0.0 + t3 - t2)/CLOCKS_PER_SEC << "s to change dblp_four_area" << endl;
+        cerr << "Take " << (0.0 + t3 - t2)/CLOCKS_PER_SEC << "s to construct DBLP graph" << endl;
 
         return DBLP_Graph;
+}
+
+HIN_Graph loadIMDBGraph(map<int,string> & node_name, map<int, vector<Edge>> & adj, map<int,string> & node_type_name, map<int,int> & node_type_num, map<int,vector<int>> & node_id_to_type, map<int,string> & edge_name) {
+        clock_t t1, t2, t3;
+
+        t1 = clock();
+        YagoReader::readADJ("IMDB/IMDBAdj.txt", adj);
+        YagoReader::readNodeIdToType("IMDB/IMDBEntityType.txt", node_id_to_type);
+        YagoReader::readEdgeName("IMDB/IMDBEdgeType.txt",edge_name);
+        t2 = clock();
+
+        cerr << "Take " << (0.0 + t2 - t1)/CLOCKS_PER_SEC << "s to read IMDB dataset" << endl;
+
+        HIN_Graph IMDB_Graph;
+        IMDB_Graph.buildYAGOGraph(node_name, adj, node_type_name, node_type_num, node_id_to_type, edge_name);
+        t3 = clock();
+        cerr << "Take " << (0.0 + t3 - t2)/CLOCKS_PER_SEC << "s to construct IMDB graph" << endl;
+
+        return IMDB_Graph;
 }
 
 HIN_Graph loadACMGraph(map<int,string> & node_name, map<int, vector<Edge>> & adj, map<int,string> & node_type_name, map<int,int> & node_type_num, map<int,vector<int>> & node_id_to_type, map<int,string> & edge_name) {
@@ -38,14 +57,14 @@ HIN_Graph loadACMGraph(map<int,string> & node_name, map<int, vector<Edge>> & adj
         YagoReader::readEdgeName("../ACM/ACMEdgeType.txt",edge_name);
         t2 = clock();
 
-        cerr << "Take " << (0.0 + t2 - t1)/CLOCKS_PER_SEC << "s to read ACM data set" << endl;
+        cerr << "Take " << (0.0 + t2 - t1)/CLOCKS_PER_SEC << "s to read ACM dataset" << endl;
 
-        HIN_Graph DBLP_Graph;
-        DBLP_Graph.buildYAGOGraph(node_name, adj, node_type_name, node_type_num, node_id_to_type, edge_name);
+        HIN_Graph ACM_Graph;
+        ACM_Graph.buildYAGOGraph(node_name, adj, node_type_name, node_type_num, node_id_to_type, edge_name);
         t3 = clock();
-        cerr << "Take " << (0.0 + t3 - t2)/CLOCKS_PER_SEC << "s to change ACM data set" << endl;
+        cerr << "Take " << (0.0 + t3 - t2)/CLOCKS_PER_SEC << "s to construct ACM graph" << endl;
 
-        return DBLP_Graph;
+        return ACM_Graph;
 }
 
 HIN_Graph loadYagoGraph(map<int,string> & node_name, map<int, vector<Edge>> & adj, map<int,string> & node_type_name, map<int,int> & node_type_num, map<int,vector<int>> & node_id_to_type, map<int,string> & edge_name) {
@@ -59,12 +78,12 @@ HIN_Graph loadYagoGraph(map<int,string> & node_name, map<int, vector<Edge>> & ad
         YagoReader::readEdgeName("Yago/yagoType.txt",edge_name);
         t2 = clock();
 
-        cerr << "Take " << (0.0 + t2 - t1)/CLOCKS_PER_SEC << "s to read Yago" << endl;
+        cerr << "Take " << (0.0 + t2 - t1)/CLOCKS_PER_SEC << "s to read Yago dataset" << endl;
 
         HIN_Graph Yago_Graph;
         Yago_Graph.buildYAGOGraph(node_name, adj, node_type_name, node_type_num, node_id_to_type, edge_name);
         t3 = clock();
-        cerr << "Take " << (0.0 + t3 - t2)/CLOCKS_PER_SEC << "s to change Yago" << endl;
+        cerr << "Take " << (0.0 + t3 - t2)/CLOCKS_PER_SEC << "s to build Yago graph" << endl;
 
         return Yago_Graph;
 }
@@ -76,6 +95,8 @@ HIN_Graph loadHinGraph(const char* dataset, map<int,string> & node_name, map<int
 		return loadDBLPGraph(node_name, adj, node_type_name, node_type_num, node_id_to_type, edge_name);
 	}else if(strcmp(dataset, "ACM") == 0){
 		return loadACMGraph(node_name, adj, node_type_name, node_type_num, node_id_to_type, edge_name);
+	}else if(strcmp(dataset, "IMDB") == 0){
+		return loadIMDBGraph(node_name, adj, node_type_name, node_type_num, node_id_to_type, edge_name); 
 	}else{
 		cerr << "Unsupported dataset" << endl;
 		return HIN_Graph ();
