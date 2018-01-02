@@ -51,9 +51,10 @@ HIN_Graph loadACMGraph(map<int,string> & node_name, map<int, vector<Edge>> & adj
         clock_t t1, t2, t3;
 
         t1 = clock();
-        YagoReader::readADJ("ACM/ACMAdj.txt", adj);
-        YagoReader::readNodeIdToType("ACM/ACMEntityType.txt", node_id_to_type);
-        YagoReader::readEdgeName("ACM/ACMEdgeType.txt",edge_name);
+        YagoReader::readADJ("../ACM/ACMAdj.txt", adj);
+		YagoReader::readNodeName("../ACM/ACMEntityName.txt", node_name, node_type_name);
+        YagoReader::readNodeIdToType("../ACM/ACMEntityType.txt", node_id_to_type);
+        YagoReader::readEdgeName("../ACM/ACMEdgeType.txt",edge_name);
         t2 = clock();
 
         cerr << "Take " << (0.0 + t2 - t1)/CLOCKS_PER_SEC << "s to read ACM dataset" << endl;
