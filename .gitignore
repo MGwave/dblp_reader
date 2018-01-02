@@ -7,3 +7,8 @@
 *.o
 topKQuery
 topKQueryTest
+/.vs/ProjectSettings.json
+/.vs/VSWorkspaceState.json
+/.vs/dblp_reader/v15/ipch/AutoPCH
+/.vs/dblp_reader/v15/.suo
+/.vs/dblp_reader/v15/Browse.VC.db
