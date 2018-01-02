@@ -1,4 +1,4 @@
-#Top K Meta Paths Discovery
+# Top K Meta Paths Discovery
 
 ## Dataset Statistics
 
