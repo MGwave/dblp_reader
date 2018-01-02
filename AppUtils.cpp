@@ -37,12 +37,12 @@ HIN_Graph loadACMGraph(map<int,string> & node_name, map<int, vector<Edge>> & adj
         YagoReader::readEdgeName("ACM/ACMEdgeType.txt",edge_name);
         t2 = clock();
 
-        cerr << "Take " << (0.0 + t2 - t1)/CLOCKS_PER_SEC << "s to read dblp_four_area" << endl;
+        cerr << "Take " << (0.0 + t2 - t1)/CLOCKS_PER_SEC << "s to read ACM data set" << endl;
 
         HIN_Graph DBLP_Graph;
         DBLP_Graph.buildYAGOGraph(node_name, adj, node_type_name, node_type_num, node_id_to_type, edge_name);
         t3 = clock();
-        cerr << "Take " << (0.0 + t3 - t2)/CLOCKS_PER_SEC << "s to change dblp_four_area" << endl;
+        cerr << "Take " << (0.0 + t3 - t2)/CLOCKS_PER_SEC << "s to change ACM data set" << endl;
 
         return DBLP_Graph;
 }
