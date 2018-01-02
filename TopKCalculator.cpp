@@ -440,7 +440,7 @@ vector<pair<vector<double>, vector<int>>> TopKCalculator::getTopKMetaPath_TFIDF(
 		maxSupport = ???;	
 	}
 	*/
-
+	
 	// cout << maxRarity << endl; 
 	// queue initialize
 	priority_queue<TfIdfNode*, vector<TfIdfNode*>, TfIdfNodePointerCmp> q;
@@ -448,7 +448,7 @@ vector<pair<vector<double>, vector<int>>> TopKCalculator::getTopKMetaPath_TFIDF(
 	vector<HIN_Edge> curr_edges_dst_ = hin_edges_dst_[src];
 	map<int, map<int, set<int>>> next_nodes_id_; // edge type -> (destination id -> parent node ids)
 	
-
+	
 	// out-relation:
 	for(vector<HIN_Edge>::iterator iter = curr_edges_src_.begin() ; iter != curr_edges_src_.end(); iter++){
 		int temp_edge_type_ = iter->edge_type_;
@@ -487,6 +487,7 @@ vector<pair<vector<double>, vector<int>>> TopKCalculator::getTopKMetaPath_TFIDF(
 		
 	}
 
+	
 	// BFS
 	while(!q.empty()){
 		TfIdfNode* curr_tfidf_node_p = q.top();
@@ -602,6 +603,7 @@ vector<pair<vector<double>, vector<int>>> TopKCalculator::getTopKMetaPath_TFIDF(
 		}
 	}
 
+	
 	if(inverse){
 		for(vector<pair<vector<double>, vector<int>>>::iterator iter = topKMetaPath_.begin(); iter != topKMetaPath_.end(); iter++){
 			vector<int> temp_meta_path;
@@ -615,7 +617,7 @@ vector<pair<vector<double>, vector<int>>> TopKCalculator::getTopKMetaPath_TFIDF(
 		}	
 	}
 
-
+	
 	return topKMetaPath_;
 }
 
