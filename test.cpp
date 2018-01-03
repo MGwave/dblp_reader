@@ -13,17 +13,19 @@
 
 using namespace std;
 
-void output(vector<vector<double>> resolution_result){
-	if(resolution_result.size() > 0){
-		cout << "Metrics" << "\t" << "Precision" << "\t" << "Recall" << "\t" << "F1-measre" << endl;
-		cout.precision(4);
+void output(vector<double> precision_result){
+	cout << endl;
+	if(precision_result.size() > 0){
+		cout << "Metrics" << "\t" << "Precision" << "\t" << "Precision@k" << endl;
+		cout.precision(6);
 		cout << fixed;
-		for(int i = 0; i < resolution_result.size(); i++){
-			cout << i+1;
-			for(int m = 0; m < resolution_result[i].size(); m++){
-				cout << "\t" << resolution_result[i][m]; 
+		for(int i = 0; i < precision_result.size(); i++){
+			cout << i+1 << "\t" << precision_result[i] << "\t";
+			double sum = 0.0;
+			for(int j = 0; j <= i; j++){
+				sum += precision_result[j]; 
 			}
-			cout << endl;	
+			cout << sum/(i + 1) << endl;	
 		}
 
 	}else{
@@ -67,25 +69,37 @@ void printUsage(const char* argv[]){
         cout << endl;
 }
 
-bool readSampleFile(string file_name, vector<pair<int, int> > & sample_pairs){
-	ifstream samplesIn(file_name.c_str(), ios::in);
-	if(!samplesIn.good()){
-		cerr << "Error when reading " << file_name << endl;
+bool readSampleFile(string pos_file, string neg_file, vector<pair<int, pair<int, vector<int>>>> & sample_pairs){
+	ifstream posSamplesIn(pos_file.c_str(), ios::in);
+	ifstream negSamplesIn(neg_file.c_str(), ios::in);
+	if(!posSamplesIn.good() || !negSamplesIn.good()){
+		cerr << "Error when reading sample files" << endl;
 		return false;
 	}
 
 	sample_pairs.clear();	
-	string line;
-	while(getline(samplesIn, line)){
-		vector<string> strs = split(line, "\t");
-		if(strs.size() != 2){
-			cerr << "Unsupported format for the pair: " << line << endl;
+	string pos_line, neg_line;
+	while(getline(posSamplesIn, pos_line) && getline(negSamplesIn, neg_line)){
+		vector<string> pos_strs = split(pos_line, "\t");
+		vector<string> neg_strs = split(neg_line, "\t");	
+		if(pos_strs.size() != 2){
+			cerr << "Unsupported format for the pair: " << pos_line << endl;
+		}else if(strcmp(pos_strs[0].c_str(), neg_strs[0].c_str()) != 0){
+			cerr << "Unmatched pairs: " << pos_strs[0] << " and " << neg_strs[0] << endl;
 		}else{
-			sample_pairs.push_back(make_pair(atoi(strs[0].c_str()), atoi(strs[1].c_str())));
+			int src = atoi(pos_strs[0].c_str());
+			vector<int> neg_dsts;
+			vector<string> neg_dst_strs = split(neg_strs[1], ",");	
+			for(int i = 0; i < neg_dst_strs.size(); i++){
+				neg_dsts.push_back(atoi(neg_dst_strs[i].c_str()));
+			}	
+			int pos_dst = atoi(pos_strs[1].c_str());
+			sample_pairs.push_back(make_pair(src, make_pair(pos_dst, neg_dsts)));
 		}
 
 	}
-	samplesIn.close();
+	posSamplesIn.close();
+	negSamplesIn.close();
 	return true;
 		
 }
@@ -148,29 +162,30 @@ int main(int argc, const char * argv[]) {
 
         	hin_graph_ = loadHinGraph(dataset.c_str(), node_name, adj, node_type_name, node_type_num, node_id_to_type, edge_name);
 
-		vector<pair<int, int> > pos_pairs, neg_pairs;
-        	if(!readSampleFile(pos_pairs_file_name, pos_pairs) || !readSampleFile(neg_pairs_file_name, neg_pairs)){
+		vector<pair<int, pair<int, vector<int>>>> sample_pairs;
+        	if(!readSampleFile(pos_pairs_file_name, neg_pairs_file_name, sample_pairs)){
                 	return -1;
         	}
+		
+		int sample_size = sample_pairs.size();
+		vector<double> precision_result (k, 0.0);
 
-		int pos_pairs_size = pos_pairs.size();
-		int neg_pairs_size = neg_pairs.size();
-        	if(pos_pairs_size != neg_pairs_size){
-                	cerr << "Unmatched size between positive pairs and negative pairs" << endl;
-                	return -1;
-        	}
+		double time_cost = 0.0;
+		vector<pair<int, int>> neg_pairs; 
 
-		vector<vector<double>> resolution_result;
-		int metrics_size = 3;
-		for(int i = 0; i < k; i++){
-			resolution_result.push_back(vector<double> (metrics_size, 0.0));
-		}
-
-		for(vector<pair<int, int>>::iterator iter = pos_pairs.begin(); iter != pos_pairs.end(); iter++){
-			vector<vector<double>> tmp_resolution_result;
+		for(vector<pair<int, pair<int, vector<int>>>>::iterator iter = sample_pairs.begin(); iter != sample_pairs.end(); iter++){
                 	int src = iter->first;
-                	int dst = iter->second;
+                	int dst = iter->second.first;
+			vector<int> neg_dsts = iter->second.second;
+			neg_pairs.clear();
+			for(int i = 0; i < neg_dsts.size();i++){
+				neg_pairs.push_back(make_pair(src, neg_dsts[i]));	
+			}
+
+
                 	vector<pair<vector<double>, vector<int>>> topKMetaPaths;
+			clock_t t2, t1;
+			t1 = clock();
                 	if(!refine_flag){
                         	topKMetaPaths = TopKCalculator::getTopKMetaPath_TFIDF(src, dst, k, hin_graph_);
                 	}else{
@@ -178,24 +193,18 @@ int main(int argc, const char * argv[]) {
                         	vector<vector<int>> meta_paths = TopKCalculator::loadMetaPaths(file_name);
                         	topKMetaPaths = TopKCalculator::getTopKMetaPath_Refiner(src, dst, k, meta_paths, score_function, hin_graph_);
                 	}
-				
+			t2 = clock();
+			time_cost += (double) ((0.0 + t2 - t1)/CLOCKS_PER_SEC);
+		
+			vector<double> tmp_precision_result;	
 			for(vector<pair<vector<double>, vector<int>>>::iterator iter_path = topKMetaPaths.begin(); iter_path != topKMetaPaths.end(); iter_path++){
 				
-				vector<double> tmp_result;
 				vector<int> curr_meta_path = iter_path->second;
 
-				int true_positive = getHitCount(curr_meta_path, pos_pairs, hin_graph_);
-				int false_positive = getHitCount(curr_meta_path, neg_pairs, hin_graph_); 
-			
-				double precision = true_positive*1.0/(true_positive + false_positive);
-				double recall = true_positive*1.0/pos_pairs_size;
-				double f1_measure = (1.0 + F1_BETA*F1_BETA*1.0)*precision*recall/(F1_BETA*F1_BETA*precision + recall);
-
-				tmp_result.push_back(precision);
-				tmp_result.push_back(recall);
-				tmp_result.push_back(f1_measure);
-				
-				tmp_resolution_result.push_back(tmp_result);	
+				int false_positive = getHitCount(curr_meta_path, neg_pairs, hin_graph_); 	
+				double precision = 1.0/(1.0 + false_positive);
+	
+				tmp_precision_result.push_back(precision);	
 
 				for(int i = 0; i < curr_meta_path.size(); i++){
 					int curr_edge_type = curr_meta_path[i];
@@ -217,27 +226,26 @@ int main(int argc, const char * argv[]) {
 				cout << endl;	
 				cout.precision(4);
                 		cout << fixed;
-				cout << "precision: " << precision << "\t" << "recall: " << recall << "\t" << "f1_measure: " << f1_measure << endl;
+				cout << "precision: " << precision << endl;
 				
 				
 			}			
 			cout << endl;
-
-			for(int j = 0; j < tmp_resolution_result.size(); j++){
-				for(int m = 0; m < metrics_size; m++){
-					resolution_result[j][m] += tmp_resolution_result[j][m];
-				} 
+			for(int i = 0; i < k; i++){
+				precision_result[i] += tmp_precision_result[i];
 			}
         	}
 
+                        
+			
+		cout << "Average time cost is " << time_cost/sample_size << " seconds" << endl;
+
 		// calculate the average value
 		for(int i = 0; i < k; i++){
-			for(int m = 0; m < metrics_size; m++){
-				resolution_result[i][m] /= pos_pairs_size;
-			}
+			precision_result[i] /= sample_size;
 		}
 
-		output(resolution_result);
+		output(precision_result);
 
 		
 	}else{

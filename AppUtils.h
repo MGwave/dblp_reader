@@ -14,6 +14,7 @@
 #define DEFAULT_OUTPUT_TYPE 1
 #define DEFAULT_SCORE_FUNCTION 1
 #define DEFAULT_OUTPUT_DIR "topKResult"
+#define DEFAULT_SAMPLE_SIZE 100
 
 using namespace std;
 
@@ -21,6 +22,6 @@ HIN_Graph loadHinGraph(const char* dataset, map<int,string> & node_name, map<int
 
 string getFileName(int src, int dst, string dataset);
 
-void tfidfSetup(const char* tfidf_type, int penalty_type);
+void tfidfSetup(const char* tfidf_type, int penalty_type, int sample_size=DEFAULT_SAMPLE_SIZE);
 
 #endif
