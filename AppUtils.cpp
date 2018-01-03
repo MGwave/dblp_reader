@@ -13,9 +13,9 @@ HIN_Graph loadDBLPGraph(map<int,string> & node_name, map<int, vector<Edge>> & ad
         clock_t t1, t2, t3;
 
         t1 = clock();
-        YagoReader::readADJ("../DBLP/dblpAdj.txt", adj);
-        YagoReader::readNodeIdToType("../DBLP/dblpTotalType.txt", node_id_to_type);
-        YagoReader::readEdgeName("../DBLP/dblpType.txt",edge_name);
+        YagoReader::readADJ("DBLP/dblpAdj.txt", adj);
+        YagoReader::readNodeIdToType("DBLP/dblpTotalType.txt", node_id_to_type);
+        YagoReader::readEdgeName("DBLP/dblpType.txt",edge_name);
         t2 = clock();
 
         cerr << "Take " << (0.0 + t2 - t1)/CLOCKS_PER_SEC << "s to read DBLP dataset" << endl;
