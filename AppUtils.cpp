@@ -13,9 +13,9 @@ HIN_Graph loadDBLPGraph(map<int,string> & node_name, map<int, vector<Edge>> & ad
         clock_t t1, t2, t3;
 
         t1 = clock();
-        YagoReader::readADJ("~/DBLP/dblpAdj.txt", adj);
-        YagoReader::readNodeIdToType("~/DBLP/dblpTotalType.txt", node_id_to_type);
-        YagoReader::readEdgeName("~/DBLP/dblpType.txt",edge_name);
+        YagoReader::readADJ("DBLP/dblpAdj.txt", adj);
+        YagoReader::readNodeIdToType("DBLP/dblpTotalType.txt", node_id_to_type);
+        YagoReader::readEdgeName("DBLP/dblpType.txt",edge_name);
         t2 = clock();
 
         cerr << "Take " << (0.0 + t2 - t1)/CLOCKS_PER_SEC << "s to read DBLP dataset" << endl;
@@ -107,9 +107,10 @@ string getFileName(int src, int dst, string dataset){
         return string(DEFAULT_OUTPUT_DIR) + "/" + dataset + "_" + to_string(src) + "_" + to_string(dst) + ".txt";
 }
 
-void tfidfSetup(const char* tfidf_type, int penalty_type){
+void tfidfSetup(const char* tfidf_type, int penalty_type, int sample_size){
 
         TopKCalculator::penalty_type_ = penalty_type;
+	TopKCalculator::sample_size_ = sample_size;
 
         if(strcmp(tfidf_type, "M-S") == 0){
                 TopKCalculator::support_type_ = 1;

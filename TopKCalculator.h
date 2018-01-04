@@ -32,7 +32,7 @@ public:
 class TopKCalculator
 {
 private:
-	static set<int> getSimilarNodes(int eid, map<int, HIN_Node> & hin_nodes_);
+	static set<int> getSimilarNodes(int eid, map<int, HIN_Node> & hin_nodes_, bool sample_flag=false);
 	static double getRarity(int similarPairsSize, set<int> & srcSimilarNodes, set<int> & dstSimilarNodes, vector<int> meta_path, HIN_Graph & hin_graph_);
 	static void updateTopKMetaPaths(double tfidf, double tf, double rarity, vector<int> meta_path, int k, vector<pair<vector<double>, vector<int>>> & topKMetaPath_);
 	static double getSupport(int src, int dst, TfIdfNode* curr_tfidf_node, vector<int> meta_path, HIN_Graph & hin_graph_);
@@ -46,6 +46,7 @@ public:
 	static int penalty_type_;
 	static int rarity_type_;// 1 -> true rarity; 0 -> 1(constant)
 	static int support_type_;// 1 -> MNI; 2 -> PCRW; 0 -> 1(constant)
+	static int sample_size_;
 	static double penalty(int length);
 	static bool isConnected(int src, int dst, vector<int> meta_path, HIN_Graph & hin_graph_);
 	static double getPCRW(int src, int dst, vector<int> meta_path, HIN_Graph & hin_graph_);

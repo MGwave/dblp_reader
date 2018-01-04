@@ -19,6 +19,7 @@ using namespace std;
 int TopKCalculator::penalty_type_ = 2;
 int TopKCalculator::rarity_type_ = 1; // 1 -> true rarity; 0 -> 1(constant)
 int TopKCalculator::support_type_ = 1; // 1 -> MNI; 2 -> PCRW; 0 -> 1(constant)
+int TopKCalculator::sample_size_ = 100;
 
 TfIdfNode::TfIdfNode(int curr_edge_type, map<int, set<int>> curr_nodes_with_parents, double max_support, vector<int> meta_path, TfIdfNode* parent):curr_edge_type_(curr_edge_type), curr_nodes_with_parents_(curr_nodes_with_parents), max_support_(max_support), meta_path_(meta_path), parent_(parent){}
 
@@ -76,7 +77,7 @@ double TopKCalculator::penalty(int length)
 	}
 }
 
-set<int> TopKCalculator::getSimilarNodes(int eid, map<int, HIN_Node> & hin_nodes_)
+set<int> TopKCalculator::getSimilarNodes(int eid, map<int, HIN_Node> & hin_nodes_, bool sample_flag)
 {
 	set<int> similarNodes;
 
@@ -109,6 +110,18 @@ set<int> TopKCalculator::getSimilarNodes(int eid, map<int, HIN_Node> & hin_nodes
 	}else{
 		cout << hin_nodes_[eid].key_ << "\t";
 	} 
+
+	if(sample_flag){
+		set<int> samples;
+		for(int i = 0; i < sample_size_; i++){
+			int offset = (int) (rand() % similarNodes.size());
+			set<int>::iterator iter(similarNodes.begin());
+			advance(iter, offset);
+			samples.insert(*iter);
+			similarNodes.erase(*iter);	
+		}
+		similarNodes = samples;	
+	}
 	cout << "candidate size: " << similarNodes.size() << endl;
 	return similarNodes;
 }
