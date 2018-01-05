@@ -4,62 +4,62 @@
 precision: 1.0000
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PA>]	
 precision: 1.0000
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PP>]	[<PA>]	
+precision: 1.0000
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 1.0000
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
-precision: 1.0000
-[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PP>]	[<PA>]	
 precision: 1.0000
 
 2816	NA	candidate size: 5914
 2612	NA	candidate size: 5914
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 1.0000
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.2500
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 1.0000
 [<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 1.0000
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 0.2500
-[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
-precision: 0.2500
 
 17	NA	candidate size: 5914
 1417	NA	candidate size: 5914
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
-precision: 1.0000
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 0.3333
-[<PA>]^(-1)	[<PP>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
-precision: 0.5000
 [<PA>]^(-1)	[<PP>]^(-1)	[<PP>]^(-1)	[<PA>]	
 precision: 1.0000
 [<PA>]^(-1)	[<PP>]^(-1)	[<PP>]	[<PA>]	
 precision: 1.0000
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 1.0000
+[<PA>]^(-1)	[<PP>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.5000
 
 1399	NA	candidate size: 5914
 2934	NA	candidate size: 5914
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
-precision: 0.2500
-[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
-precision: 0.2500
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 0.5000
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PA>]	
 precision: 1.0000
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PP>]	[<PA>]	
 precision: 1.0000
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2500
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.2500
 
 1054	NA	candidate size: 5914
 9824	NA	candidate size: 5914
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
-precision: 0.3333
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
 precision: 0.5000
-[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PP>]	[<PP>]^(-1)	[<PA>]	
-precision: 0.5000
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3333
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 0.2500
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PP>]	[<PP>]^(-1)	[<PA>]	
+precision: 0.5000
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 0.2500
 
@@ -67,40 +67,40 @@ precision: 0.2500
 1417	NA	candidate size: 5914
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 1.0000
-[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PA>]	
-precision: 0.5000
-[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PP>]	[<PA>]	
-precision: 1.0000
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PA>]	
-precision: 1.0000
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 1.0000
-
-9050	NA	candidate size: 5914
-8764	NA	candidate size: 5914
-[<PA>]^(-1)	[<PP>]	[<PV>]	[<PV>]^(-1)	[<PA>]	
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PA>]	
 precision: 0.5000
-[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
-precision: 0.3333
-[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PA>]	
+precision: 1.0000
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PP>]	[<PA>]	
+precision: 1.0000
+
+8764	NA	candidate size: 5914
+9050	NA	candidate size: 5914
+[<PA>]^(-1)	[<PP>]	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 0.5000
 [<PA>]^(-1)	[<PP>]	[<PP>]	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 0.5000
-[<PA>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
-precision: 0.3333
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2500
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.5000
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 0.5000
 
-1524	NA	candidate size: 5914
 3179	NA	candidate size: 5914
+1524	NA	candidate size: 5914
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 0.3333
-[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PA>]	
-precision: 1.0000
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 0.5000
+[<PA>]^(-1)	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3333
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PA>]	
 precision: 1.0000
-[<PA>]^(-1)	[<PP>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
-precision: 0.5000
+[<PA>]^(-1)	[<PP>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
+precision: 1.0000
 
 9165	NA	candidate size: 5914
 2578	NA	candidate size: 5914
@@ -123,75 +123,75 @@ precision: 0.5000
 precision: 0.3333
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PA>]	
 precision: 0.5000
-[<PA>]^(-1)	[<PP>]	[<PT>]	[<PT>]^(-1)	[<PA>]	
-precision: 1.0000
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PA>]	
 precision: 0.3333
+[<PA>]^(-1)	[<PP>]	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 1.0000
 
-890	NA	candidate size: 5914
 9106	NA	candidate size: 5914
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
-precision: 0.2500
-[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
-precision: 0.3333
+890	NA	candidate size: 5914
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 0.3333
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 0.2500
-[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
-precision: 0.5000
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2500
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.2500
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.3333
 
 8654	NA	candidate size: 5914
 2718	NA	candidate size: 5914
-[<PA>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
-precision: 1.0000
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 1.0000
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 0.3333
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PA>]	
+[<PA>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
 precision: 1.0000
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PA>]	
+precision: 1.0000
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PA>]	
 precision: 1.0000
 
 9410	NA	candidate size: 5914
 8675	NA	candidate size: 5914
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 1.0000
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 1.0000
+[<PA>]^(-1)	[<PP>]	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 1.0000
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PA>]	
 precision: 1.0000
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PA>]	
 precision: 1.0000
-[<PA>]^(-1)	[<PP>]	[<PV>]	[<PV>]^(-1)	[<PA>]	
-precision: 1.0000
-[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
-precision: 1.0000
 
-1307	NA	candidate size: 5914
 9758	NA	candidate size: 5914
-[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+1307	NA	candidate size: 5914
+[<PA>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 1.0000
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 0.2500
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
 precision: 0.3333
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
-precision: 0.2500
-[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
-precision: 0.3333
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.2500
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
 precision: 0.2500
 
 6347	NA	candidate size: 5914
 9301	NA	candidate size: 5914
 [<PA>]^(-1)	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 1.0000
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2500
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
 precision: 1.0000
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 0.2500
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
 precision: 0.3333
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
-precision: 0.2500
 
 6807	NA	candidate size: 5914
 5808	NA	candidate size: 5914
@@ -201,127 +201,127 @@ precision: 1.0000
 precision: 0.3333
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 0.2500
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
-precision: 0.2500
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 1.0000
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.2500
 
 3986	NA	candidate size: 5914
 6304	NA	candidate size: 5914
-[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PP>]	[<PA>]	
-precision: 0.5000
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PP>]^(-1)	[<PA>]	
 precision: 0.5000
-[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
-precision: 0.2500
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.5000
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2500
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 0.2500
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 0.2500
 
-3744	NA	candidate size: 5914
 6449	NA	candidate size: 5914
-[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
-precision: 0.2500
+3744	NA	candidate size: 5914
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 1.0000
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.2500
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 0.2500
-[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
 precision: 0.3333
 [<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 0.2500
 
-1636	NA	candidate size: 5914
 5993	NA	candidate size: 5914
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
-precision: 0.2500
+1636	NA	candidate size: 5914
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 0.5000
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.2500
 [<PA>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
 precision: 1.0000
-[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PA>]	
+[<PA>]^(-1)	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 0.5000
-[<PA>]^(-1)	[<PP>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PA>]	
 precision: 0.5000
 
-3798	NA	candidate size: 5914
 8441	NA	candidate size: 5914
+3798	NA	candidate size: 5914
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PA>]	
-precision: 1.0000
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
 precision: 1.0000
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PA>]	
 precision: 1.0000
-[<PA>]^(-1)	[<PP>]	[<PA>]	[<PA>]^(-1)	[<PP>]^(-1)	[<PA>]	
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
 precision: 1.0000
-[<PA>]^(-1)	[<PP>]	[<PP>]	[<PV>]	[<PV>]^(-1)	[<PA>]	
+[<PA>]^(-1)	[<PP>]^(-1)	[<PP>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
+precision: 1.0000
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
 precision: 1.0000
 
-4327	NA	candidate size: 5914
 3994	NA	candidate size: 5914
+4327	NA	candidate size: 5914
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 1.0000
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 0.5000
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
-precision: 0.2500
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 0.3333
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 1.0000
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 0.2500
 
 3767	NA	candidate size: 5914
 2356	NA	candidate size: 5914
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.5000
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PA>]	
 precision: 1.0000
-[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
-precision: 0.5000
-[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
-precision: 0.5000
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
-precision: 0.2500
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PA>]	
 precision: 0.5000
-
-4324	NA	candidate size: 5914
-6894	NA	candidate size: 5914
-[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 0.2500
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.5000
+
+6894	NA	candidate size: 5914
+4324	NA	candidate size: 5914
 [<PA>]^(-1)	[<PP>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 0.3333
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.2500
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 0.2500
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 0.2500
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+[<PA>]^(-1)	[<PP>]^(-1)	[<PP>]^(-1)	[<PP>]	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 0.2500
 
-4084	NA	candidate size: 5914
 6323	NA	candidate size: 5914
+4084	NA	candidate size: 5914
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 0.5000
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.2500
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 0.3333
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 0.5000
-[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
-precision: 0.3333
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 0.2500
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
-precision: 0.3333
 
 7061	NA	candidate size: 5914
 3990	NA	candidate size: 5914
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PA>]	
-precision: 0.5000
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 0.3333
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PA>]	
+precision: 0.5000
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
-precision: 0.2500
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 0.2500
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
 precision: 0.3333
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.2500
 
 6449	NA	candidate size: 5914
 6417	NA	candidate size: 5914
@@ -329,31 +329,31 @@ precision: 0.3333
 precision: 1.0000
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 0.2500
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
 precision: 0.5000
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 0.2500
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
 precision: 0.5000
 
 6880	NA	candidate size: 5914
 734	NA	candidate size: 5914
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 1.0000
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 0.2500
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.2500
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 1.0000
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
 precision: 0.3333
-[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
-precision: 1.0000
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
-precision: 0.2500
 
 1028	NA	candidate size: 5914
 4206	NA	candidate size: 5914
-[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
-precision: 0.2500
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2500
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 0.2500
 [<PA>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 0.2500
@@ -366,129 +366,129 @@ precision: 0.2500
 3535	NA	candidate size: 5914
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 1.0000
-[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
-precision: 1.0000
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 0.2500
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 1.0000
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 0.2500
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
 precision: 0.3333
 
-755	NA	candidate size: 5914
 1988	NA	candidate size: 5914
+755	NA	candidate size: 5914
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PA>]	
+precision: 0.5000
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
+precision: 0.5000
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PP>]^(-1)	[<PA>]	
+precision: 0.5000
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
+precision: 0.3333
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.2500
+
+2293	NA	candidate size: 5914
+148	NA	candidate size: 5914
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 0.2500
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 0.2500
-[<PA>]^(-1)	[<PP>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PA>]	
-precision: 0.5000
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PA>]	
-precision: 0.5000
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PP>]^(-1)	[<PA>]	
-precision: 0.5000
-
-148	NA	candidate size: 5914
-2293	NA	candidate size: 5914
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
 precision: 0.3333
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.2500
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.2500
+
+5341	NA	candidate size: 5914
+5102	NA	candidate size: 5914
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 1.0000
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.2500
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 0.5000
+[<PA>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 1.0000
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.2500
+
+4760	NA	candidate size: 5914
+544	NA	candidate size: 5914
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 0.2500
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 0.2500
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 0.2500
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PT>]	[<PT>]^(-1)	[<PA>]	
+[<PA>]^(-1)	[<PP>]	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.2500
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 0.2500
 
-5102	NA	candidate size: 5914
-5341	NA	candidate size: 5914
+303	NA	candidate size: 5914
+545	NA	candidate size: 5914
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 1.0000
-[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+[<PA>]^(-1)	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 1.0000
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2500
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 1.0000
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
 precision: 0.5000
-[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
-precision: 0.2500
-
-544	NA	candidate size: 5914
-4760	NA	candidate size: 5914
-[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
-precision: 0.2500
-[<PA>]^(-1)	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
-precision: 0.2500
-[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PV>]	[<PV>]^(-1)	[<PA>]	
-precision: 0.2500
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
-precision: 0.2500
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
-precision: 0.2500
-
-545	NA	candidate size: 5914
-303	NA	candidate size: 5914
-[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
-precision: 1.0000
-[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
-precision: 1.0000
-[<PA>]^(-1)	[<PP>]^(-1)	[<PP>]	[<PV>]	[<PV>]^(-1)	[<PA>]	
-precision: 1.0000
-[<PA>]^(-1)	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
-precision: 1.0000
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
-precision: 0.5000
 
 97	NA	candidate size: 5914
 4414	NA	candidate size: 5914
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
-precision: 0.2500
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 1.0000
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PA>]	
 precision: 1.0000
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PP>]	[<PA>]	
 precision: 1.0000
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2500
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
 precision: 0.3333
 
-834	NA	candidate size: 5914
 458	NA	candidate size: 5914
+834	NA	candidate size: 5914
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 0.5000
 [<PA>]^(-1)	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 1.0000
-[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
-precision: 0.5000
-[<PA>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
-precision: 0.3333
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 0.2500
-
-91	NA	candidate size: 5914
-6084	NA	candidate size: 5914
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
-precision: 0.3333
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
-precision: 0.3333
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 0.5000
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 0.2500
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
-precision: 0.5000
+
+6084	NA	candidate size: 5914
+91	NA	candidate size: 5914
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.3333
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.2500
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2500
 [<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 0.2500
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 0.3333
 
 5283	NA	candidate size: 5914
 5443	NA	candidate size: 5914
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 1.0000
-[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
-precision: 1.0000
-[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
-precision: 1.0000
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 0.2500
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 1.0000
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 1.0000
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 0.2500
 
@@ -500,59 +500,59 @@ precision: 0.5000
 precision: 0.5000
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PA>]	
 precision: 1.0000
-[<PA>]^(-1)	[<PP>]	[<PT>]	[<PT>]^(-1)	[<PA>]	
-precision: 0.5000
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PA>]	
 precision: 1.0000
+[<PA>]^(-1)	[<PP>]	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.5000
 
 4489	NA	candidate size: 5914
 5443	NA	candidate size: 5914
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 0.2500
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
-precision: 0.2500
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 0.2500
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PT>]	[<PT>]^(-1)	[<PA>]	
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 0.2500
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 0.2500
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.2500
 
-2255	NA	candidate size: 5914
 4981	NA	candidate size: 5914
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
-precision: 0.2500
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
-precision: 0.2500
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
-precision: 0.2500
-[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PP>]	[<PA>]	
-precision: 0.5000
+2255	NA	candidate size: 5914
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PA>]	
 precision: 0.3333
-
-2302	NA	candidate size: 5914
-4431	NA	candidate size: 5914
-[<PA>]^(-1)	[<PP>]	[<PV>]	[<PV>]^(-1)	[<PA>]	
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PP>]^(-1)	[<PA>]	
 precision: 1.0000
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2500
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PP>]^(-1)	[<PA>]	
+precision: 0.2500
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.3333
+
+4431	NA	candidate size: 5914
+2302	NA	candidate size: 5914
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 1.0000
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 1.0000
-[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
-precision: 0.2500
+[<PA>]^(-1)	[<PP>]	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 1.0000
 [<PA>]^(-1)	[<PP>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 1.0000
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 0.3333
 
 5283	NA	candidate size: 5914
 2168	NA	candidate size: 5914
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
 precision: 1.0000
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2500
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 0.2500
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
-precision: 0.2500
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 0.2500
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 0.2500
@@ -561,77 +561,77 @@ precision: 0.2500
 5226	NA	candidate size: 5914
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 1.0000
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.2500
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 1.0000
 [<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 0.3333
-[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
-precision: 0.2500
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 0.2500
 
-545	NA	candidate size: 5914
 572	NA	candidate size: 5914
+545	NA	candidate size: 5914
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 1.0000
-[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+[<PA>]^(-1)	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 1.0000
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PA>]	
 precision: 1.0000
 [<PA>]^(-1)	[<PP>]^(-1)	[<PP>]	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 1.0000
-[<PA>]^(-1)	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
-precision: 1.0000
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2500
 
 8258	NA	candidate size: 5914
 7966	NA	candidate size: 5914
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 1.0000
-[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PA>]	
-precision: 1.0000
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 1.0000
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PA>]	
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PA>]	
 precision: 1.0000
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PA>]	
+precision: 1.0000
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PA>]	
 precision: 1.0000
 
 7539	NA	candidate size: 5914
 1882	NA	candidate size: 5914
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 0.2500
-[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
-precision: 1.0000
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
-precision: 0.2500
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
-precision: 0.5000
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PP>]	[<PA>]	
 precision: 0.5000
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 1.0000
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
+precision: 0.5000
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.2500
 
-5425	NA	candidate size: 5914
 7529	NA	candidate size: 5914
+5425	NA	candidate size: 5914
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 0.3333
 [<PA>]^(-1)	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 0.5000
 [<PA>]^(-1)	[<PP>]	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 0.5000
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PA>]	
-precision: 0.5000
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PA>]	
 precision: 1.0000
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.5000
 
-363	NA	candidate size: 5914
 2008	NA	candidate size: 5914
+363	NA	candidate size: 5914
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 0.3333
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.5000
 [<PA>]^(-1)	[<PP>]	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 1.0000
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PA>]	
 precision: 1.0000
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
-precision: 0.5000
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PA>]	
 precision: 0.5000
 
@@ -641,90 +641,90 @@ precision: 0.5000
 precision: 1.0000
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 1.0000
-[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PP>]^(-1)	[<PA>]	
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PA>]	
 precision: 1.0000
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PA>]	
 precision: 0.5000
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PA>]	
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PP>]^(-1)	[<PA>]	
 precision: 1.0000
 
-2508	NA	candidate size: 5914
 2049	NA	candidate size: 5914
+2508	NA	candidate size: 5914
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 0.5000
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
-precision: 0.2500
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
-precision: 0.2500
-[<PA>]^(-1)	[<PP>]	[<PT>]	[<PT>]^(-1)	[<PA>]	
-precision: 0.2500
 [<PA>]^(-1)	[<PP>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 0.5000
+[<PA>]^(-1)	[<PP>]	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.2500
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.2500
+[<PA>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.2500
 
 1438	NA	candidate size: 5914
 7598	NA	candidate size: 5914
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 1.0000
-[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PA>]	
-precision: 1.0000
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 0.2500
-[<PA>]^(-1)	[<PP>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
-precision: 0.2500
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PA>]	
+precision: 1.0000
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PA>]	
 precision: 1.0000
+[<PA>]^(-1)	[<PP>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.2500
 
 1582	NA	candidate size: 5914
 7944	NA	candidate size: 5914
-[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
-precision: 0.5000
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
-precision: 0.2500
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PA>]	
 precision: 1.0000
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 0.2500
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.5000
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
 precision: 0.5000
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.2500
 
 1612	NA	candidate size: 5914
 7564	NA	candidate size: 5914
-[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PA>]	
-precision: 0.5000
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 0.2500
-[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PP>]	[<PA>]	
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PA>]	
 precision: 0.5000
 [<PA>]^(-1)	[<PP>]	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.5000
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PP>]	[<PA>]	
 precision: 0.5000
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 0.2500
 
-2008	NA	candidate size: 5914
 1247	NA	candidate size: 5914
-[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PA>]	
-precision: 1.0000
+2008	NA	candidate size: 5914
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PA>]	
 precision: 1.0000
-[<PA>]^(-1)	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PA>]	
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PA>]	
 precision: 1.0000
 [<PA>]^(-1)	[<PP>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 0.5000
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
-precision: 0.2500
+[<PA>]^(-1)	[<PP>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.5000
+[<PA>]^(-1)	[<PP>]^(-1)	[<PP>]	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.5000
 
 7621	NA	candidate size: 5914
 7778	NA	candidate size: 5914
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 1.0000
-[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
-precision: 1.0000
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.2500
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 1.0000
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 1.0000
 [<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 1.0000
-[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
-precision: 0.2500
 
 5585	NA	candidate size: 5914
 3763	NA	candidate size: 5914
@@ -732,10 +732,10 @@ precision: 0.2500
 precision: 1.0000
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 0.2500
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
-precision: 0.2500
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
 precision: 0.5000
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.2500
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
 precision: 0.3333
 
@@ -743,46 +743,46 @@ precision: 0.3333
 1469	NA	candidate size: 5914
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 1.0000
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
-precision: 0.2500
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
-precision: 0.5000
-[<PA>]^(-1)	[<PP>]	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 0.5000
 [<PA>]^(-1)	[<PP>]	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 1.0000
+[<PA>]^(-1)	[<PP>]	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.5000
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.2500
 
 7780	NA	candidate size: 5914
 1687	NA	candidate size: 5914
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 1.0000
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PA>]	
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 1.0000
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PA>]	
 precision: 1.0000
-[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PA>]	
 precision: 1.0000
 [<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PA>]	
 precision: 1.0000
 
-1897	NA	candidate size: 5914
 2021	NA	candidate size: 5914
+1897	NA	candidate size: 5914
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 0.5000
 [<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PA>]	
 precision: 1.0000
-[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
-precision: 0.3333
 [<PA>]^(-1)	[<PP>]	[<PT>]	[<PT>]^(-1)	[<PA>]	
 precision: 0.3333
-[<PA>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
 precision: 0.2500
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3333
 
-Average time cost is 11.4827 seconds
+Average time cost is 0.9977 seconds
 
 Metrics	Precision	Precision@k
-1	0.666667	0.666667
-2	0.650000	0.658333
-3	0.566667	0.627778
-4	0.533333	0.604167
-5	0.523611	0.588056
+1	0.716667	0.716667
+2	0.547222	0.631944
+3	0.608333	0.624074
+4	0.602778	0.618750
+5	0.447222	0.584444

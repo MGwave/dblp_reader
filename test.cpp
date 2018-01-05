@@ -326,10 +326,11 @@ int main(int argc, const char * argv[]) {
 				cout.precision(4);
                 		cout << fixed;
 				cout << "precision: " << precision << endl;
-				
+								
 				
 			}			
 			cout << endl;
+			topKMetaPaths.clear();
 			for(int j = 0; j < k; j++){
 				precision_result[j] += tmp_precision_result[j];
 			}

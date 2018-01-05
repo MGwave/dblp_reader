@@ -20,7 +20,7 @@ public:
 	vector<int> meta_path_;
 	TfIdfNode* parent_;
 	TfIdfNode(int curr_edge_type, map<int, set<int>> curr_nodes_with_parents, double max_support, vector<int> meta_path, TfIdfNode* parent);
-
+	~TfIdfNode();
 };
 
 class TfIdfNodePointerCmp
