@@ -35,7 +35,7 @@ sample_pairs_add(){
 pos_file="DBLP_pos_pairs.txt"
 neg_file="DBLP_neg_pairs.txt"
 m=1
-M=50
+M=15
 
 area_list=`awk -F'\t' '{print $2}' "author_label_new.txt" | sort | uniq`
 

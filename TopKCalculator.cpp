@@ -357,7 +357,7 @@ double TopKCalculator::getSupport(int src, int dst, TfIdfNode* curr_tfidf_node_p
 		set<int> curr_nodes;
 		set<int> next_nodes;
 		curr_nodes.insert(dst);
-		int min_instances_num = temp_tfidf_node_p->curr_nodes_with_parents_.size();
+		int min_instances_num = temp_tfidf_node_p->parent_->curr_nodes_with_parents_.size();
 
 
 		while(temp_tfidf_node_p->parent_ != NULL){
@@ -584,12 +584,10 @@ vector<pair<vector<double>, vector<int>>> TopKCalculator::getTopKMetaPath_TFIDF(
 			temp_meta_path.push_back(curr_edge_type);
 			map<int, set<int>> next_nodes_with_parents = iter->second;
 			
-			int temp_max_support = 1;
+			int temp_max_support = 0;
 			map<int, int> nodes_next_instances_num = edge_max_instances_num[curr_edge_type];
 			for(map<int, int>::iterator i = nodes_next_instances_num.begin(); i != nodes_next_instances_num.end(); i++){
-				if(i->second > temp_max_support){
-					temp_max_support = i->second;
-				}
+				temp_max_support += i->second;
 			}
 
                         if(temp_max_support > curr_max_support){ // keep the minimum instance number in the meta path expanding
@@ -614,6 +612,7 @@ vector<pair<vector<double>, vector<int>>> TopKCalculator::getTopKMetaPath_TFIDF(
 			q.push(temp_tfidf_node_p);
 			
 		}
+		delete curr_tfidf_node_p; 
 	}
 
 	
@@ -653,6 +652,28 @@ vector<pair<vector<double>, vector<int>>> TopKCalculator::getTopKMetaPath_Refine
 	
 	return topKMetaPath_;
 
+}
+
+void TopKCalculator::getDstEntities(int src, vector<int> meta_path, set<int> & dst_entities, HIN_Graph & hin_graph_){
+
+	dst_entities.clear();
+	set<int> curr_entities;
+	set<int> next_entities;
+
+	curr_entities.insert(src);
+	for(int i = 0; i < meta_path.size(); i++){
+		for(set<int>::iterator iter = curr_entities.begin(); iter != curr_entities.end(); iter++){
+			set<int> tmp_next_entities;
+			getNextEntities(*iter, meta_path[i], tmp_next_entities, hin_graph_);
+			for(set<int>::iterator iter_n = tmp_next_entities.begin(); iter_n != tmp_next_entities.end(); iter_n++){
+				next_entities.insert(*iter_n);
+			}
+		}	
+		curr_entities = next_entities;
+		next_entities.clear();
+	}
+
+	dst_entities = curr_entities;
 }
 
 void TopKCalculator::saveToFile(vector<vector<int>> topKMetaPaths, string file_name){

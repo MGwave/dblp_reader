@@ -48,6 +48,7 @@ public:
 	static int support_type_;// 1 -> MNI; 2 -> PCRW; 0 -> 1(constant)
 	static int sample_size_;
 	static double penalty(int length);
+	static void getDstEntities(int src, vector<int> meta_path, set<int> & dst_entities, HIN_Graph & hin_graph_);
 	static bool isConnected(int src, int dst, vector<int> meta_path, HIN_Graph & hin_graph_);
 	static double getPCRW(int src, int dst, vector<int> meta_path, HIN_Graph & hin_graph_);
 	static vector<pair<vector<double>, vector<int>>> getTopKMetaPath_TFIDF(int src, int dst, int k, HIN_Graph & hin_graph_);	
