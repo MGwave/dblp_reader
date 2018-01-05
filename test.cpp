@@ -8,6 +8,7 @@
 #include <cstring>
 #include <vector>
 #include <fstream>
+#include <ctime>
 
 #define F1_BETA 1
 
