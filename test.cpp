@@ -37,33 +37,33 @@ void output(vector<double> precision_result){
 
 void printUsage(const char* argv[]){
 	cout << "Usage: " << endl;
-        cout << argv[0] << " --recommend dataset (positive pairs file name) (entity label file name) k length-penalty TF-IDF-type" << endl;
-        cout << argv[0] << " --classifier dataset (positive pairs file name) (negative pairs file name) k length-penalty TF-IDF-type" << endl;
-        cout << argv[0] << " --refine_recommend dataset (positive pairs file name) (entity label file name) k score-function" << endl;
-        cout << argv[0] << " --refine_classifier dataset (positive pairs file name) (negative pairs file name) k score-function" << endl;
-        cout << endl;
+		cout << argv[0] << " --recommend dataset (positive pairs file name) (entity label file name) k length-penalty TF-IDF-type" << endl;
+		cout << argv[0] << " --classifier dataset (positive pairs file name) (negative pairs file name) k length-penalty TF-IDF-type" << endl;
+		cout << argv[0] << " --refine_recommend dataset (positive pairs file name) (entity label file name) k score-function" << endl;
+		cout << argv[0] << " --refine_classifier dataset (positive pairs file name) (negative pairs file name) k score-function" << endl;
+		cout << endl;
 
-        cout << "recommend && classifier mode:" << endl;
-        cout << "\t length-penalty(l is the meta-path's length): " << endl;
-        cout << "\t\t 0 -> 1" << endl;
-        cout << "\t\t 1 -> 1/log(l)" << endl;
-        cout << "\t\t 2 -> 1/l" << endl;
-        cout << "\t\t 3 -> 1/(l^2)" << endl;
-        cout << "\t\t 4 -> 1/(e^l)" << endl;
+		cout << "recommend && classifier mode:" << endl;
+		cout << "\t length-penalty(l is the meta-path's length): " << endl;
+		cout << "\t\t 0 -> 1" << endl;
+		cout << "\t\t 1 -> 1/log(l)" << endl;
+		cout << "\t\t 2 -> 1/l" << endl;
+		cout << "\t\t 3 -> 1/(l^2)" << endl;
+		cout << "\t\t 4 -> 1/(e^l)" << endl;
 
-        cout << "\t TF-IDF-type:" << endl;
-        cout << "\t\t M-S -> MNI-based Support" << endl;
-        cout << "\t\t B-S -> Binary-based Support" << endl;
-        cout << "\t\t P-S -> PCRW-based Support" << endl;
-        cout << "\t\t SP -> Shortest Path" << endl;
+		cout << "\t TF-IDF-type:" << endl;
+		cout << "\t\t M-S -> MNI-based Support" << endl;
+		cout << "\t\t B-S -> Binary-based Support" << endl;
+		cout << "\t\t P-S -> PCRW-based Support" << endl;
+		cout << "\t\t SP -> Shortest Path" << endl;
 	cout << endl;
 
 
-        cout << "refine_classifier && refine_recommend mode:" << endl;
-        cout << "\t refine k meta-paths from previous generated meta-paths" << endl;
-        cout << "\t default meta-paths file name: dataset_entityId1_entityId2.txt" << endl;
-        cout << "\t score-function: 1 -> PCRW" << endl;
-        cout << endl;
+		cout << "refine_classifier && refine_recommend mode:" << endl;
+		cout << "\t refine k meta-paths from previous generated meta-paths" << endl;
+		cout << "\t default meta-paths file name: dataset_entityId1_entityId2.txt" << endl;
+		cout << "\t score-function: 1 -> PCRW" << endl;
+		cout << endl;
 }
 
 bool readClassifierSampleFile(string pos_file, string neg_file, vector<pair<int, int>> & pos_pairs, vector<pair<int, vector<int>>> & neg_pairs){
@@ -112,7 +112,7 @@ bool readRecommendSampleFile(string pos_file, string labels_file, vector<pair<in
 	ifstream posSamplesIn(pos_file.c_str(), ios::in);
 	if(!posSamplesIn.good()){
 		cerr << "Error when reading positive pairs files" << endl;
-                return false;
+				return false;
 	}
 	while(getline(posSamplesIn, line)){
 		vector<string> strs = split(line, "\t");	
@@ -135,7 +135,7 @@ bool readRecommendSampleFile(string pos_file, string labels_file, vector<pair<in
 	while(getline(labelsEntitiesIn, line)){
 		vector<string> strs = split(line, "\t");
 		if(strs.size() != 2){
-                        cerr << "Unsupported format for the labeled entity: " << line << endl;
+						cerr << "Unsupported format for the labeled entity: " << line << endl;
 		}else{
 			int eid = atoi(strs[0].c_str());
 			int label = atoi(strs[1].c_str());
@@ -182,66 +182,66 @@ int main(int argc, const char * argv[]) {
 	if(argc > 5){
 		
 		int penalty_type = DEFAULT_PENALTY_TYPE;
-                string tfidf_type = DEFAULT_TFIDF_TYPE;
-                bool refine_flag = DEFAULT_REFINE_FLAG;
-                int score_function = DEFAULT_SCORE_FUNCTION;
+				string tfidf_type = DEFAULT_TFIDF_TYPE;
+				bool refine_flag = DEFAULT_REFINE_FLAG;
+				int score_function = DEFAULT_SCORE_FUNCTION;
 		string test_type;
 
-                if(strcmp(argv[1], "--classifier") == 0 || strcmp(argv[1], "-c") == 0){
+				if(strcmp(argv[1], "--classifier") == 0 || strcmp(argv[1], "-c") == 0){
 			if(argc > 7){
-                                penalty_type = atoi(argv[6]);
-                                tfidf_type = argv[7];
-                        }
-                        tfidfSetup(tfidf_type.c_str(), penalty_type);
+								penalty_type = atoi(argv[6]);
+								tfidf_type = argv[7];
+						}
+						tfidfSetup(tfidf_type.c_str(), penalty_type);
 			test_type = "classifier"; 
 			
-                }else if(strcmp(argv[1], "--recommend") == 0 || strcmp(argv[1], "-r") == 0){
-                        if(argc > 7){
-                                penalty_type = atoi(argv[6]);
-                                tfidf_type = argv[7];
-                        }
-                        tfidfSetup(tfidf_type.c_str(), penalty_type);
+				}else if(strcmp(argv[1], "--recommend") == 0 || strcmp(argv[1], "-r") == 0){
+						if(argc > 7){
+								penalty_type = atoi(argv[6]);
+								tfidf_type = argv[7];
+						}
+						tfidfSetup(tfidf_type.c_str(), penalty_type);
 			test_type = "recommend";
-                }else if(strcmp(argv[1], "--refine_classifier") == 0 || strcmp(argv[1], "-rc") == 0){
-                        if(argc > 6){
-                                score_function = atoi(argv[6]);
-                        }
-                        refine_flag = true;
+				}else if(strcmp(argv[1], "--refine_classifier") == 0 || strcmp(argv[1], "-rc") == 0){
+						if(argc > 6){
+								score_function = atoi(argv[6]);
+						}
+						refine_flag = true;
 			test_type = "classifier";
 		}else if(strcmp(argv[1], "--refine_recommend") == 0 || strcmp(argv[1], "-rr") == 0){
 			if(argc > 6){
-                                score_function = atoi(argv[6]);
-                        }
-                        refine_flag = true;
+								score_function = atoi(argv[6]);
+						}
+						refine_flag = true;
 			test_type = "recommend";
-                }else{
-                        printUsage(argv);
-                        return -1;
-                }
+				}else{
+						printUsage(argv);
+						return -1;
+				}
 		
 		string dataset, pos_pairs_file_name;
-        	int k;
-        	dataset = argv[2];
-        	pos_pairs_file_name = argv[3];
-        	k = atoi(argv[5]);
+			int k;
+			dataset = argv[2];
+			pos_pairs_file_name = argv[3];
+			k = atoi(argv[5]);
 
 		HIN_Graph hin_graph_;
 
-        	map<int, vector<Edge>> adj;
-        	map<int,string> node_name;
-        	map<int,string> node_type_name;
-        	map<int,int> node_type_num;
-        	map<int,vector<int>> node_id_to_type;
-        	map<int,string> edge_name;
+			map<int, vector<Edge>> adj;
+			map<int,string> node_name;
+			map<int,string> node_type_name;
+			map<int,int> node_type_num;
+			map<int,vector<int>> node_id_to_type;
+			map<int,string> edge_name;
 
-        	hin_graph_ = loadHinGraph(dataset.c_str(), node_name, adj, node_type_name, node_type_num, node_id_to_type, edge_name);
+			hin_graph_ = loadHinGraph(dataset.c_str(), node_name, adj, node_type_name, node_type_num, node_id_to_type, edge_name);
 
 		vector<pair<int, int>> pos_pairs;
 
 		vector<pair<int, vector<int>>> neg_entities;
-        	if(strcmp(test_type.c_str(), "classifier") == 0 && !readClassifierSampleFile(pos_pairs_file_name, argv[4], pos_pairs, neg_entities)){
-                	return -1;
-        	}
+			if(strcmp(test_type.c_str(), "classifier") == 0 && !readClassifierSampleFile(pos_pairs_file_name, argv[4], pos_pairs, neg_entities)){
+					return -1;
+			}
 
 		map<int, set<int>> labeled_entities;
 		if(strcmp(test_type.c_str(), "recommend") == 0 && !readRecommendSampleFile(pos_pairs_file_name, argv[4], pos_pairs, labeled_entities)){
@@ -258,15 +258,15 @@ int main(int argc, const char * argv[]) {
 		set<int> candidate_entities;
 
 		for(int i = 0; i < pos_pairs.size(); i++){
-                	int src = pos_pairs[i].first;
-                	int dst = pos_pairs[i].second;
+					int src = pos_pairs[i].first;
+					int dst = pos_pairs[i].second;
 
 			if(strcmp(test_type.c_str(), "classifier") == 0){
 				vector<int> neg_dsts = neg_entities[i].second;
 				neg_pairs.clear();
-                        	for(int i = 0; i < neg_dsts.size();i++){
-                                	neg_pairs.push_back(make_pair(src, neg_dsts[i]));
-                        	}
+							for(int i = 0; i < neg_dsts.size();i++){
+									neg_pairs.push_back(make_pair(src, neg_dsts[i]));
+							}
 			}else if(strcmp(test_type.c_str(), "recommend") == 0){
 				for(map<int, set<int>>::iterator iter = labeled_entities.begin(); iter != labeled_entities.end(); iter++){
 					if(iter->second.find(src) != iter->second.end()){
@@ -278,16 +278,16 @@ int main(int argc, const char * argv[]) {
 			}
 
 
-                	vector<pair<vector<double>, vector<int>>> topKMetaPaths;
+					vector<pair<vector<double>, vector<int>>> topKMetaPaths;
 			clock_t t2, t1;
 			t1 = clock();
-                	if(!refine_flag){
-                        	topKMetaPaths = TopKCalculator::getTopKMetaPath_TFIDF(src, dst, k, hin_graph_);
-                	}else{
-                        	string file_name = getFileName(src, dst, dataset);
-                        	vector<vector<int>> meta_paths = TopKCalculator::loadMetaPaths(file_name);
-                        	topKMetaPaths = TopKCalculator::getTopKMetaPath_Refiner(src, dst, k, meta_paths, score_function, hin_graph_);
-                	}
+					if(!refine_flag){
+							topKMetaPaths = TopKCalculator::getTopKMetaPath_TFIDF(src, dst, k, hin_graph_);
+					}else{
+							string file_name = getFileName(src, dst, dataset);
+							vector<vector<int>> meta_paths = TopKCalculator::loadMetaPaths(file_name);
+							topKMetaPaths = TopKCalculator::getTopKMetaPath_Refiner(src, dst, k, meta_paths, score_function, hin_graph_);
+					}
 			t2 = clock();
 			time_cost += (double) ((0.0 + t2 - t1)/CLOCKS_PER_SEC);
 		
@@ -324,7 +324,7 @@ int main(int argc, const char * argv[]) {
 				}	
 				cout << endl;	
 				cout.precision(4);
-                		cout << fixed;
+						cout << fixed;
 				cout << "precision: " << precision << endl;
 								
 				
@@ -334,9 +334,9 @@ int main(int argc, const char * argv[]) {
 			for(int j = 0; j < k; j++){
 				precision_result[j] += tmp_precision_result[j];
 			}
-        	}
+			}
 
-                        
+						
 			
 		cout << "Average time cost is " << time_cost/sample_size << " seconds" << endl;
 
