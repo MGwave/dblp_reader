@@ -1,0 +1,27 @@
+Usage: 
+./topKQueryTest --default dataset (positive pairs file name) (negative pairs file name) k
+./topKQueryTest --advance dataset (positive pairs file name) (negative pairs file name) k length-penalty TF-IDF-type
+./topKQueryTest --refine dataset (positive pairs file name) (negative pairs file name) k score-function
+
+--advance mode:
+	 length-penalty(l is the meta-path's length): 
+		 0 -> 1
+		 1 -> 1/log(l)
+		 2 -> 1/l
+		 3 -> 1/(l^2)
+		 4 -> 1/(e^l)
+	 TF-IDF-type:
+		 M-S -> MNI-based Support
+		 B-S -> Binary-based Support
+		 P-S -> PCRW-based Support
+		 SP -> Shortest Path
+
+--default mode:
+	 length-penalty -> 2
+	 TF-IDF-type -> M-S
+
+--refine mode:
+	 refine k meta-paths from previous generated meta-paths
+	 default meta-paths file name: dataset_entityId1_entityId2.txt
+	 score-function: 1 -> PCRW
+
