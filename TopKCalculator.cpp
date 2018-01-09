@@ -203,7 +203,7 @@ double TopKCalculator::getRarity(int src, int dst, set<int> & srcSimilarNodes, s
 		return 1.0;
 	}
 
-	cout << "Running with a light weight version of getRarity" << endl;
+	//cout << "Running with a light weight version of getRarity" << endl;
 
 	// (src, dst) are counted twice, hence we have to substract 1
 	int similarPairsSize = srcSimilarNodes.size() + dstSimilarNodes.size() - 1;
