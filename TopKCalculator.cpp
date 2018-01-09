@@ -146,7 +146,57 @@ double TopKCalculator::getRarity(int similarPairsSize, set<int> & srcSimilarNode
 
 	set<int> currNodes = srcSimilarNodes;
 	set<int> nextNodes;
-	for(vector<int>::iterator iter = meta_path.begin(); iter != meta_path.end(); iter++){
+	int hit = 0;
+
+	for (set<int>::iterator i = srcSimilarNodes.begin(); i != srcSimilarNodes.end(); i++) {
+		currNodes.clear();
+		nextNodes.clear();
+		
+		currNodes.insert(*i);
+
+		for (vector<int>::iterator iter = meta_path.begin(); 
+									iter != meta_path.end() && currNodes.size()>0; iter++) {
+			int curr_edge_type = *iter;
+			map<int, vector<HIN_Edge> > temp_hin_edges;
+			if (curr_edge_type > 0) {
+				temp_hin_edges = hin_edges_src_;
+			}
+			else {
+				temp_hin_edges = hin_edges_dst_;
+			}
+
+			for (set<int>::iterator j = currNodes.begin(); j != currNodes.end(); j++) {
+				int currNode = *j;
+				if (temp_hin_edges.find(currNode) != temp_hin_edges.end()) {
+					vector<HIN_Edge> tempEdges = temp_hin_edges[currNode];
+					for (vector<HIN_Edge>::iterator e = tempEdges.begin(); e != tempEdges.end(); e++) {
+						if (curr_edge_type > 0) {
+							if (e->edge_type_ == curr_edge_type) {
+								nextNodes.insert(e->dst_);
+								//break;
+							}
+						}
+						else {
+							if (e->edge_type_ == -curr_edge_type) {
+								nextNodes.insert(e->src_);
+								//break;
+							}
+						}
+					}
+				}
+			}
+			currNodes = nextNodes;
+			nextNodes.clear();
+		}
+
+		set<int> intersect;
+		set_intersection(currNodes.begin(), currNodes.end(), dstSimilarNodes.begin(), dstSimilarNodes.end(), inserter(intersect, intersect.begin()));
+
+		hit += intersect.size();
+	}
+
+	// To Zichen: Delete the commented code below if the above is correct
+	/*for(vector<int>::iterator iter = meta_path.begin(); iter != meta_path.end(); iter++){
 		int curr_edge_type = *iter;
 		map<int, vector<HIN_Edge> > temp_hin_edges;
 		if(curr_edge_type > 0){
@@ -181,8 +231,13 @@ double TopKCalculator::getRarity(int similarPairsSize, set<int> & srcSimilarNode
 	set<int> intersect;
 	set_intersection(currNodes.begin(),currNodes.end(),dstSimilarNodes.begin(),dstSimilarNodes.end(), inserter(intersect,intersect.begin()));
 
-	return log (similarPairsSize*1.0/(intersect.size() + 1));
+	return log (similarPairsSize*1.0/(intersect.size() + 1));*/
+
+	// Since src is in srcSimilarNodes and dst is in dstSimilarNodes,
+	// hence we already count (src, dst) in hit	
+	return log (similarPairsSize*1.0/hit);
 }
+
 
 void TopKCalculator::getNextEntities(int eid, int edge_type, set<int> & next_entities, HIN_Graph & hin_graph_){
 	next_entities.clear();
