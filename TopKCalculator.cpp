@@ -144,8 +144,7 @@ double TopKCalculator::getHit(set<int> & srcSimilarNodes, set<int> & dstSimilarN
 	map<int, vector<HIN_Edge> > hin_edges_dst_ = hin_graph_.edges_dst_;
 
 	set<int> currNodes = srcSimilarNodes;
-	set<int> nextNodes;
-	int hit = 0;
+	set<int> nextNodes;	
 
 	for (set<int>::iterator i = srcSimilarNodes.begin(); i != srcSimilarNodes.end(); i++) {
 		currNodes.clear();
