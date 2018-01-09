@@ -137,11 +137,8 @@ set<int> TopKCalculator::getSimilarNodes(int eid, map<int, HIN_Node> & hin_nodes
 	return similarNodes;
 }
 
-double TopKCalculator::getRarity(int similarPairsSize, set<int> & srcSimilarNodes, set<int> & dstSimilarNodes, vector<int> meta_path, HIN_Graph & hin_graph_){
-	
-	if(rarity_type_ != 1){
-		return 1.0;
-	}
+double TopKCalculator::getHit(set<int> & srcSimilarNodes, set<int> & dstSimilarNodes, vector<int> meta_path, HIN_Graph & hin_graph_) {
+	int hit = 0;
 
 	map<int, vector<HIN_Edge> > hin_edges_src_ = hin_graph_.edges_src_;
 	map<int, vector<HIN_Edge> > hin_edges_dst_ = hin_graph_.edges_dst_;
@@ -153,11 +150,11 @@ double TopKCalculator::getRarity(int similarPairsSize, set<int> & srcSimilarNode
 	for (set<int>::iterator i = srcSimilarNodes.begin(); i != srcSimilarNodes.end(); i++) {
 		currNodes.clear();
 		nextNodes.clear();
-		
+
 		currNodes.insert(*i);
 
-		for (vector<int>::iterator iter = meta_path.begin(); 
-									iter != meta_path.end() && currNodes.size()>0; iter++) {
+		for (vector<int>::iterator iter = meta_path.begin();
+			iter != meta_path.end() && currNodes.size()>0; iter++) {
 			int curr_edge_type = *iter;
 			map<int, vector<HIN_Edge> > temp_hin_edges;
 			if (curr_edge_type > 0) {
@@ -196,6 +193,17 @@ double TopKCalculator::getRarity(int similarPairsSize, set<int> & srcSimilarNode
 
 		hit += intersect.size();
 	}
+
+	return hit;
+}
+
+double TopKCalculator::getRarity(int similarPairsSize, set<int> & srcSimilarNodes, set<int> & dstSimilarNodes, vector<int> meta_path, HIN_Graph & hin_graph_){
+	
+	if(rarity_type_ != 1){
+		return 1.0;
+	}
+
+	int hit = getHit(srcSimilarNodes, dstSimilarNodes, meta_path, hin_graph_);
 
 	// To Zichen: Delete the commented code below if the above is correct
 	/*for(vector<int>::iterator iter = meta_path.begin(); iter != meta_path.end(); iter++){
