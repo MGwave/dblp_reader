@@ -592,7 +592,8 @@ vector<pair<vector<double>, vector<int>>> TopKCalculator::getTopKMetaPath_TFIDF(
 		TfIdfNode* temp_tfidf_node_p = new TfIdfNode(curr_edge_type, next_nodes_with_parents, getMaxSupport(next_nodes_with_parents.size()), meta_path, NULL);
 		if(next_nodes_with_parents.find(dst) != next_nodes_with_parents.end()){
 			double support = getSupport(src, dst, temp_tfidf_node_p, meta_path, hin_graph_);
-			double rarity = getRarity(similarPairsSize, srcSimilarNodes, dstSimilarNodes, meta_path, hin_graph_);
+			//double rarity = getRarity(similarPairsSize, srcSimilarNodes, dstSimilarNodes, meta_path, hin_graph_); // original version
+			double rarity = getRarity(src, dst, srcSimilarNodes, dstSimilarNodes, meta_path, hin_graph_); // light weight
 					double tfidf = support*rarity*penalty(meta_path.size());
 					updateTopKMetaPaths(tfidf, support, rarity, meta_path, k, topKMetaPath_);
 					temp_tfidf_node_p->curr_nodes_with_parents_.erase(dst);
@@ -702,7 +703,8 @@ vector<pair<vector<double>, vector<int>>> TopKCalculator::getTopKMetaPath_TFIDF(
 
 			if(next_nodes_with_parents.find(dst) != next_nodes_with_parents.end()){
 				double support = getSupport(src, dst, temp_tfidf_node_p, temp_meta_path, hin_graph_);
-				double rarity = getRarity(similarPairsSize, srcSimilarNodes, dstSimilarNodes, temp_meta_path, hin_graph_);
+				//double rarity = getRarity(similarPairsSize, srcSimilarNodes, dstSimilarNodes, temp_meta_path, hin_graph_); // original
+				double rarity = getRarity(src, dst, srcSimilarNodes, dstSimilarNodes, meta_path, hin_graph_); // light weight
 							double tfidf = support*rarity*penalty(temp_meta_path.size());
 							updateTopKMetaPaths(tfidf, support, rarity, temp_meta_path, k, topKMetaPath_);
 							temp_tfidf_node_p->curr_nodes_with_parents_.erase(dst);
