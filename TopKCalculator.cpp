@@ -119,6 +119,8 @@ set<int> TopKCalculator::getSimilarNodes(int eid, map<int, HIN_Node> & hin_nodes
 	}else{
 		cout << hin_nodes_[eid].key_ << "\t";
 	} 
+	
+	similarNodes.insert(eid);
 
 	if(sample_flag){
 		set<int> samples;
