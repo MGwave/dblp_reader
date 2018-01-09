@@ -137,7 +137,7 @@ set<int> TopKCalculator::getSimilarNodes(int eid, map<int, HIN_Node> & hin_nodes
 	return similarNodes;
 }
 
-double TopKCalculator::getHit(set<int> & srcSimilarNodes, set<int> & dstSimilarNodes, vector<int> meta_path, HIN_Graph & hin_graph_) {
+double TopKCalculator::getHit(set<int> & srcSimilarNodes, set<int> & dstSimilarNodes, vector<int> & meta_path, HIN_Graph & hin_graph_) {
 	int hit = 0;
 
 	map<int, vector<HIN_Edge> > hin_edges_src_ = hin_graph_.edges_src_;
@@ -197,7 +197,33 @@ double TopKCalculator::getHit(set<int> & srcSimilarNodes, set<int> & dstSimilarN
 	return hit;
 }
 
-double TopKCalculator::getRarity(int similarPairsSize, set<int> & srcSimilarNodes, set<int> & dstSimilarNodes, vector<int> meta_path, HIN_Graph & hin_graph_){
+// This is a light weight version of getRarity where we consider a smaller set of D
+// D' = {(src, v)|v \in dstSimilarNodes} \cup {(u, dst)|u \in srcSimilarNodes}
+double TopKCalculator::getRarity(int src, int dst, set<int> & srcSimilarNodes, set<int> & dstSimilarNodes, vector<int> & meta_path, HIN_Graph & hin_graph_) {
+	if (rarity_type_ != 1) {
+		return 1.0;
+	}
+
+	// Both src and dst are counted twice, hence we have to substract 1
+	int similarPairsSize = srcSimilarNodes.size() + dstSimilarNodes.size() - 1;
+
+	set<int> tempNode;
+	int hit = 0;
+
+	tempNode.clear();tempNode.insert(src);dstSimilarNodes.erase(dst);
+	hit += getHit(tempNode, dstSimilarNodes, meta_path, hin_graph_);
+	dstSimilarNodes.insert(dst);
+
+	tempNode.clear();tempNode.insert(dst);srcSimilarNodes.erase(src);
+	hit += getHit(srcSimilarNodes, tempNode, meta_path, hin_graph_);
+	srcSimilarNodes.insert(src);
+
+	hit += 1;
+
+	return log(similarPairsSize*1.0 / hit);
+}
+
+double TopKCalculator::getRarity(int similarPairsSize, set<int> & srcSimilarNodes, set<int> & dstSimilarNodes, vector<int> & meta_path, HIN_Graph & hin_graph_){
 	
 	if(rarity_type_ != 1){
 		return 1.0;

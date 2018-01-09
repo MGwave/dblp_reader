@@ -33,8 +33,9 @@ class TopKCalculator
 {
 private:
 	static set<int> getSimilarNodes(int eid, map<int, HIN_Node> & hin_nodes_, bool sample_flag=false);
-	static double getRarity(int similarPairsSize, set<int> & srcSimilarNodes, set<int> & dstSimilarNodes, vector<int> meta_path, HIN_Graph & hin_graph_);
-	static double getHit(set<int> & srcSimilarNodes, set<int> & dstSimilarNodes, vector<int> meta_path, HIN_Graph & hin_graph_);
+	static double getRarity(int similarPairsSize, set<int> & srcSimilarNodes, set<int> & dstSimilarNodes, vector<int> & meta_path, HIN_Graph & hin_graph_);
+	static double getRarity(int src, int dst, set<int> & srcSimilarNodes, set<int> & dstSimilarNodes, vector<int> & meta_path, HIN_Graph & hin_graph_);
+	static double getHit(set<int> & srcSimilarNodes, set<int> & dstSimilarNodes, vector<int> & meta_path, HIN_Graph & hin_graph_);
 	static void updateTopKMetaPaths(double tfidf, double tf, double rarity, vector<int> meta_path, int k, vector<pair<vector<double>, vector<int>>> & topKMetaPath_);
 	static double getSupport(int src, int dst, TfIdfNode* curr_tfidf_node, vector<int> meta_path, HIN_Graph & hin_graph_);
 	static double getMaxSupport(double candidateSupport);
