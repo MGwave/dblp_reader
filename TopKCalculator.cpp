@@ -546,7 +546,8 @@ vector<pair<vector<double>, vector<int>>> TopKCalculator::getTopKMetaPath_TFIDF(
 	// similar pairs information
 	set<int> srcSimilarNodes = getSimilarNodes(src, hin_graph_.nodes_);
 	set<int> dstSimilarNodes = getSimilarNodes(dst, hin_graph_.nodes_);
-	int similarPairsSize = srcSimilarNodes.size()*dstSimilarNodes.size();
+	//int similarPairsSize = srcSimilarNodes.size()*dstSimilarNodes.size(); // orignal 
+	int similarPairsSize = srcSimilarNodes.size() + dstSimilarNodes.size() - 1; // light version
 	double maxRarity = log (similarPairsSize);
 	double maxSupport = 1.0;
 	/*
