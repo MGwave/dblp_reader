@@ -722,9 +722,9 @@ vector<pair<vector<double>, vector<int>>> TopKCalculator::getTopKMetaPath_TFIDF(
 			}
 			next_nodes_with_parents.clear();
 			for(map<int, set<int>>::iterator it = iter->second.begin(); it != iter->second.end(); it++){
-								it->second.clear();
-						}
-						iter->second.clear();
+				it->second.clear();
+			}
+			iter->second.clear();
 			/*			
 			for(int i = 0; i < temp_meta_path.size() - 1; i++){
 							cout << temp_meta_path[i] << "->";
@@ -735,6 +735,8 @@ vector<pair<vector<double>, vector<int>>> TopKCalculator::getTopKMetaPath_TFIDF(
 				
 		}
 		next_nodes_id_.clear();
+		edge_max_instances_num.clear();
+
 	}
 
 	// delete TfIdfNodes
