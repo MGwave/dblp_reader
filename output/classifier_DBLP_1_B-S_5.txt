@@ -1,0 +1,41 @@
+8566	NA	candidate size: 5915
+3279	NA	candidate size: 5915
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.2500
+[<PA>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
+precision: 1.0000
+[<PA>]^(-1)	[<PP>]	[<PP>]	[<PA>]	
+precision: 1.0000
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 1.0000
+[<PA>]^(-1)	[<PP>]^(-1)	[<PP>]	[<PA>]	
+precision: 1.0000
+
+8344	NA	candidate size: 5915
+8799	NA	candidate size: 5915
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.5000
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.2500
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.5000
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.5000
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.2500
+
+8373	NA	candidate size: 5915
+7184	NA	candidate size: 5915
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 1.0000
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.3333
+[<PA>]^(-1)	[<PP>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.3333
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PA>]	
+precision: 1.0000
+[<PA>]^(-1)	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 1.0000
+
+7301	NA	candidate size: 5915
+3015	NA	candidate size: 5915
