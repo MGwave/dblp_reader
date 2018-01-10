@@ -437,7 +437,7 @@ double TopKCalculator::getMaxSupport(double candidateSupport){
 	if(support_type_ == 1){
 		return candidateSupport;
 	}else if(support_type_ == 0 || support_type_ == 2){
-		return 0;
+		return 1.0;
 	}
 
 	return 0;
