@@ -391,3 +391,16 @@ precision: 0.0870
 
 2293	NA	candidate size: 5915
 148	NA	candidate size: 5915
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0744
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.0740
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0732
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 0.1913
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0734
+
+5341	NA	candidate size: 5915
+5102	NA	candidate size: 5915
