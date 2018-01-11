@@ -549,6 +549,9 @@ vector<pair<vector<double>, vector<int>>> TopKCalculator::getTopKMetaPath_TFIDF(
 	//int similarPairsSize = srcSimilarNodes.size()*dstSimilarNodes.size(); // orignal 
 	int similarPairsSize = srcSimilarNodes.size() + dstSimilarNodes.size() - 1; // light version
 	double maxRarity = log (similarPairsSize);
+	if(rarity_type_ == 0){
+		maxRarity = 1.0;
+	}	
 	double maxSupport = 1.0;
 	/*
 	if(support_type_ == 1){
