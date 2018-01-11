@@ -3,7 +3,7 @@
 experiment_type="classifier"
 datasets=( "DBLP" )
 penalty_types=( 1 2 3 4 )
-tfidf_types=( "B-S" )
+tfidf_types=( "B-S" "P-S" "M-S" )
 target_file="labels.txt"
 for dataset in "${datasets[@]}"
 do
