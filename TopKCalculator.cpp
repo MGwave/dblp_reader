@@ -710,7 +710,7 @@ vector<pair<vector<double>, vector<int>>> TopKCalculator::getTopKMetaPath_TFIDF(
 						
 			if (next_nodes_with_parents.find(dst) != next_nodes_with_parents.end()) {
 				//double rarity = getRarity(similarPairsSize, srcSimilarNodes, dstSimilarNodes, temp_meta_path, hin_graph_); // original
-				double rarity = getRarity(src, dst, srcSimilarNodes, dstSimilarNodes, meta_path, hin_graph_); // light weight
+				double rarity = getRarity(src, dst, srcSimilarNodes, dstSimilarNodes, temp_meta_path, hin_graph_); // light weight
 
 				double support = getSupport(src, dst, temp_tfidf_node_p, temp_meta_path, hin_graph_);
 
