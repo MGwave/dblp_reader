@@ -290,7 +290,8 @@ int main(int argc, const char * argv[]) {
 					}
 			t2 = clock();
 			time_cost += (double) ((0.0 + t2 - t1)/CLOCKS_PER_SEC);
-		
+			cout << "Time cost for this pair is " << time_cost << " seconds" << endl;
+	
 			vector<double> tmp_precision_result;	
 			for(vector<pair<vector<double>, vector<int>>>::iterator iter_path = topKMetaPaths.begin(); iter_path != topKMetaPaths.end(); iter_path++){
 				
