@@ -137,16 +137,28 @@ set<int> TopKCalculator::getSimilarNodes(int eid, map<int, HIN_Node> & hin_nodes
 	return similarNodes;
 }
 
-double TopKCalculator::getHit(set<int> & srcSimilarNodes, set<int> & dstSimilarNodes, vector<int> & meta_path, HIN_Graph & hin_graph_) {
+double TopKCalculator::getHit(set<int> & srcSimilarNodes, set<int> & dstSimilarNodes, vector<int> meta_path, HIN_Graph & hin_graph_) {
 	int hit = 0;
 
 	map<int, vector<HIN_Edge> > hin_edges_src_ = hin_graph_.edges_src_;
 	map<int, vector<HIN_Edge> > hin_edges_dst_ = hin_graph_.edges_dst_;
 
-	set<int> currNodes = srcSimilarNodes;
+	set<int> tmpSrcSimilarNodes;
+	set<int> tmpDstSimilarNodes;
+	if(srcSimilarNodes.size() < dstSimilarNodes.size()){
+		tmpSrcSimilarNodes = srcSimilarNodes;
+		tmpDstSimilarNodes = dstSimilarNodes;
+	}else{
+		tmpSrcSimilarNodes = dstSimilarNodes;
+		tmpDstSimilarNodes = srcSimilarNodes;
+		for(int m = 0; m < meta_path.size(); m++){
+			meta_path[m] = -meta_path[m];
+		}	
+	}
+	set<int> currNodes;
 	set<int> nextNodes;	
 
-	for (set<int>::iterator i = srcSimilarNodes.begin(); i != srcSimilarNodes.end(); i++) {
+	for (set<int>::iterator i = tmpSrcSimilarNodes.begin(); i != tmpSrcSimilarNodes.end(); i++) {
 		currNodes.clear();
 		nextNodes.clear();
 
@@ -188,7 +200,7 @@ double TopKCalculator::getHit(set<int> & srcSimilarNodes, set<int> & dstSimilarN
 		}
 
 		set<int> intersect;
-		set_intersection(currNodes.begin(), currNodes.end(), dstSimilarNodes.begin(), dstSimilarNodes.end(), inserter(intersect, intersect.begin()));
+		set_intersection(currNodes.begin(), currNodes.end(), tmpDstSimilarNodes.begin(), tmpDstSimilarNodes.end(), inserter(intersect, intersect.begin()));
 
 		hit += intersect.size();
 	}
