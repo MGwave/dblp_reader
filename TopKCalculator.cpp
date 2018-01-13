@@ -233,7 +233,7 @@ double TopKCalculator::getRarity(int src, int dst, set<int> & srcSimilarNodes, s
 
 	hit += 1;
 
-	return log10(similarPairsSize*1.0 / hit);
+	return log(similarPairsSize*1.0 / hit);
 }
 
 double TopKCalculator::getRarity(int similarPairsSize, set<int> & srcSimilarNodes, set<int> & dstSimilarNodes, vector<int> & meta_path, HIN_Graph & hin_graph_){
@@ -280,7 +280,7 @@ double TopKCalculator::getRarity(int similarPairsSize, set<int> & srcSimilarNode
 	set<int> intersect;
 	set_intersection(currNodes.begin(),currNodes.end(),dstSimilarNodes.begin(),dstSimilarNodes.end(), inserter(intersect,intersect.begin()));
 
-	return log10 (similarPairsSize*1.0/(intersect.size() + 1));*/
+	return log (similarPairsSize*1.0/(intersect.size() + 1));*/
 
 	// Since src is in srcSimilarNodes and dst is in dstSimilarNodes,
 	// hence we already count (src, dst) in hit	
@@ -560,7 +560,7 @@ vector<pair<vector<double>, vector<int>>> TopKCalculator::getTopKMetaPath_TFIDF(
 	set<int> dstSimilarNodes = getSimilarNodes(dst, hin_graph_.nodes_);
 	//int similarPairsSize = srcSimilarNodes.size()*dstSimilarNodes.size(); // orignal 
 	int similarPairsSize = srcSimilarNodes.size() + dstSimilarNodes.size() - 1; // light version
-	double maxRarity = log10 (similarPairsSize);
+	double maxRarity = log (similarPairsSize);
 	if(rarity_type_ == 0){
 		maxRarity = 1.0;
 	}	
