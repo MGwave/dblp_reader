@@ -37,33 +37,31 @@ void output(vector<double> precision_result){
 
 void printUsage(const char* argv[]){
 	cout << "Usage: " << endl;
-		cout << argv[0] << " --recommend dataset (positive pairs file name) (entity label file name) k length-penalty TF-IDF-type" << endl;
-		cout << argv[0] << " --classifier dataset (positive pairs file name) (negative pairs file name) k length-penalty TF-IDF-type" << endl;
-		cout << argv[0] << " --refine_recommend dataset (positive pairs file name) (entity label file name) k score-function" << endl;
-		cout << argv[0] << " --refine_classifier dataset (positive pairs file name) (negative pairs file name) k score-function" << endl;
-		cout << endl;
+	cout << argv[0] << " --recommend dataset (positive pairs file name) (entity label file name) k TF-IDF-type length-penalty (beta)" << endl;
+	cout << argv[0] << " --classifier dataset (positive pairs file name) (negative pairs file name) k TF-IDF-type length-penalty (beta)" << endl;
+	cout << argv[0] << " --refine_recommend dataset (positive pairs file name) (entity label file name) k score-function" << endl;
+	cout << argv[0] << " --refine_classifier dataset (positive pairs file name) (negative pairs file name) k score-function" << endl;
+	cout << endl;
 
-		cout << "recommend && classifier mode:" << endl;
-		cout << "\t length-penalty(l is the meta-path's length): " << endl;
-		cout << "\t\t 0 -> 1" << endl;
-		cout << "\t\t 1 -> 1/log(l)" << endl;
-		cout << "\t\t 2 -> 1/l" << endl;
-		cout << "\t\t 3 -> 1/(l^2)" << endl;
-		cout << "\t\t 4 -> 1/(e^l)" << endl;
+	cout << "\t TF-IDF-type:" << endl;
+	cout << "\t\t M-S -> MNI-based Support" << endl;
+	cout << "\t\t B-S -> Binary-based Support" << endl;
+	cout << "\t\t P-S -> PCRW-based Support" << endl;
+	cout << "\t\t SP -> Shortest Path" << endl;
+	
+	cout << "recommend && classifier mode:" << endl;
+	cout << "\t length-penalty(l is the meta-path's length): " << endl;
+	cout << "\t\t 1 -> 1/beta^l" << endl;
+	cout << "\t\t 2 -> 1/factorial(l)" << endl;
 
-		cout << "\t TF-IDF-type:" << endl;
-		cout << "\t\t M-S -> MNI-based Support" << endl;
-		cout << "\t\t B-S -> Binary-based Support" << endl;
-		cout << "\t\t P-S -> PCRW-based Support" << endl;
-		cout << "\t\t SP -> Shortest Path" << endl;
 	cout << endl;
 
 
-		cout << "refine_classifier && refine_recommend mode:" << endl;
-		cout << "\t refine k meta-paths from previous generated meta-paths" << endl;
-		cout << "\t default meta-paths file name: dataset_entityId1_entityId2.txt" << endl;
-		cout << "\t score-function: 1 -> PCRW" << endl;
-		cout << endl;
+	cout << "refine_classifier && refine_recommend mode:" << endl;
+	cout << "\t refine k meta-paths from previous generated meta-paths" << endl;
+	cout << "\t default meta-paths file name: dataset_entityId1_entityId2.txt" << endl;
+	cout << "\t score-function: 1 -> PCRW" << endl;
+	cout << endl;
 }
 
 bool readClassifierSampleFile(string pos_file, string neg_file, vector<pair<int, int>> & pos_pairs, vector<pair<int, vector<int>>> & neg_pairs){
@@ -182,26 +180,36 @@ int main(int argc, const char * argv[]) {
 	if(argc > 5){
 		
 		int penalty_type = DEFAULT_PENALTY_TYPE;
-				string tfidf_type = DEFAULT_TFIDF_TYPE;
-				bool refine_flag = DEFAULT_REFINE_FLAG;
-				int score_function = DEFAULT_SCORE_FUNCTION;
+		double beta = DEFAULT_BETA;
+		string tfidf_type = DEFAULT_TFIDF_TYPE;
+		bool refine_flag = DEFAULT_REFINE_FLAG;
+		int score_function = DEFAULT_SCORE_FUNCTION;
 		string test_type;
 
-				if(strcmp(argv[1], "--classifier") == 0 || strcmp(argv[1], "-c") == 0){
-			if(argc > 7){
-								penalty_type = atoi(argv[6]);
-								tfidf_type = argv[7];
-						}
-						tfidfSetup(tfidf_type.c_str(), penalty_type);
-			test_type = "classifier"; 
+				if(strcmp(argv[1], "--classifier") == 0 || strcmp(argv[1], "-c") == 0 || strcmp(argv[1], "--recommend") == 0 || strcmp(argv[1], "-r") == 0){
+					if(strcmp(argv[1], "--classifier") == 0 || strcmp(argv[1], "-c") == 0){
+						test_type = "classifier";
+					}else{
+						test_type = "recommend";
+					}
+					if(argc > 7){
+						tfidf_type = argv[6];
+						penalty_type = atoi(argv[7]);
+						if(penalty_type != 1 && penalty_type != 2){
+							cerr << "The penalty_type parameter must be 1 or 2" << endl;
+							return -1;
+                                		}
+					}
+						
+					if(argc > 8 && penalty_type == 1){
+						beta = atof(argv[8]);
+						if(beta <= 0 || beta >= 1){ 
+							cerr << "The beta parameter must be greater than 0 and less than 1" << endl; 
+							return -1;
+						}							
+					}
+					tfidfSetup(tfidf_type.c_str(), penalty_type, beta);
 			
-				}else if(strcmp(argv[1], "--recommend") == 0 || strcmp(argv[1], "-r") == 0){
-						if(argc > 7){
-								penalty_type = atoi(argv[6]);
-								tfidf_type = argv[7];
-						}
-						tfidfSetup(tfidf_type.c_str(), penalty_type);
-			test_type = "recommend";
 				}else if(strcmp(argv[1], "--refine_classifier") == 0 || strcmp(argv[1], "-rc") == 0){
 						if(argc > 6){
 								score_function = atoi(argv[6]);
@@ -289,8 +297,9 @@ int main(int argc, const char * argv[]) {
 							topKMetaPaths = TopKCalculator::getTopKMetaPath_Refiner(src, dst, k, meta_paths, score_function, hin_graph_);
 					}
 			t2 = clock();
-			time_cost += (double) ((0.0 + t2 - t1)/CLOCKS_PER_SEC);
-			cout << "Time cost for this pair is " << time_cost << " seconds" << endl;
+			double curr_time_cost = (double) ((0.0 + t2 - t1)/CLOCKS_PER_SEC);
+			cout << "Time cost for this pair is " << curr_time_cost << " seconds" << endl;
+			time_cost += curr_time_cost;
 	
 			vector<double> tmp_precision_result;	
 			for(vector<pair<vector<double>, vector<int>>>::iterator iter_path = topKMetaPaths.begin(); iter_path != topKMetaPaths.end(); iter_path++){

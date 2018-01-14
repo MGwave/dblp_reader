@@ -98,17 +98,16 @@ void output(vector<pair<vector<double>, vector<int>>> topKMetaPaths, map<int, st
 void printUsage(const char* argv[]) {
 	cout << "Usage: " << endl;
 	cout << argv[0] << " --default dataset entityId1 entityId2 k" << endl;
-	cout << argv[0] << " --advance dataset entityId1 entityId2 k length-penalty TF-IDF-type output-type" << endl;
+	cout << argv[0] << " --advance dataset entityId1 entityId2 k output-type TF-IDF-type length-penalty (beta)" << endl;
 	cout << argv[0] << " --refine dataset entityId1 entityId2 k score-function" << endl;
 	cout << endl;
 
 	cout << "--advance mode:" << endl;
-	cout << "\t length-penalty(l is the meta-path's length): " << endl;
-	cout << "\t\t 0 -> 1" << endl;
-	cout << "\t\t 1 -> 1/log(l)" << endl;
-	cout << "\t\t 2 -> 1/l" << endl;
-	cout << "\t\t 3 -> 1/(l^2)" << endl;
-	cout << "\t\t 4 -> 1/(e^l)" << endl;
+	
+	cout << "\t output-type:" << endl;
+	cout << "\t\t 1 -> typing ranking details in std::cout" << endl;
+	cout << "\t\t 2 -> saving to a file" << endl;
+	cout << "\t\t 3 -> both 1 and 2" << endl;	
 
 	cout << "\t TF-IDF-type:" << endl;
 	cout << "\t\t M-S -> MNI-based Support" << endl;
@@ -116,17 +115,17 @@ void printUsage(const char* argv[]) {
 	cout << "\t\t P-S -> PCRW-based Support" << endl;
 	cout << "\t\t SP -> Shortest Path" << endl;
 
-	cout << "\t output-type:" << endl;
-	cout << "\t\t 1 -> typing ranking details in std::cout" << endl;
-	cout << "\t\t 2 -> saving to a file" << endl;
-	cout << "\t\t 3 -> both 1 and 2" << endl;
+	cout << "\t length-penalty(l is the meta-path's length): " << endl;
+	cout << "\t\t 1 -> beta^l (beta < 1)" << endl;
+	cout << "\t\t 2 -> 1/factorial(l)" << endl;	
 	cout << endl;
 
 
 	cout << "--default mode:" << endl;
-	cout << "\t length-penalty -> 2" << endl;
-	cout << "\t TF-IDF-type -> M-S" << endl;
 	cout << "\t output-type -> 1" << endl;
+	cout << "\t TF-IDF-type -> M-S" << endl;
+	cout << "\t length-penalty -> 1" << endl;
+	cout << "\t beta -> 0.3" << endl;
 	cout << endl;
 
 
@@ -143,23 +142,35 @@ int main(int argc, const char * argv[]) {
 	if (argc > 5) {
 
 		int penalty_type = DEFAULT_PENALTY_TYPE;
+		double beta = DEFAULT_BETA;
 		string tfidf_type = DEFAULT_TFIDF_TYPE;
 		bool refine_flag = DEFAULT_REFINE_FLAG;
 		int output_type = DEFAULT_OUTPUT_TYPE;
 		int score_function = DEFAULT_SCORE_FUNCTION;
 
 		if (strcmp(argv[1], "--default") == 0 || strcmp(argv[1], "-d") == 0) {
-			tfidfSetup(tfidf_type.c_str(), penalty_type);
-			cout << argv[1] << " " << argc << " " << penalty_type << " " << tfidf_type << endl;
+			tfidfSetup(tfidf_type.c_str(), penalty_type, beta);
+			//cout << argv[1] << " " << argc << " " << penalty_type << " " << tfidf_type << endl;
 		}
 		else if (strcmp(argv[1], "--advance") == 0 || strcmp(argv[1], "-a") == 0) {
 			if (argc > 8) {
-				penalty_type = atoi(argv[6]);
+				output_type = atoi(argv[6]);
 				tfidf_type = argv[7];
-				output_type = atoi(argv[8]);
+				penalty_type = atoi(argv[8]);
+				if(penalty_type != 1 && penalty_type != 2){
+					cerr << "The penalty_type parameter must be 1 or 2" << endl;
+					return -1;
+				}
 			}
-			tfidfSetup(tfidf_type.c_str(), penalty_type);
-			cout << argv[1] << " " << argc << " " << penalty_type << " " << tfidf_type << endl;
+			if(penalty_type == 1 && argc > 9){
+				beta = atof(argv[9]);
+				if(beta <= 0 || beta >= 1){
+					cerr << "The beta parameter must be greater than 0 and less than 1" << endl;
+					return -1;
+				}
+			}
+			tfidfSetup(tfidf_type.c_str(), penalty_type, beta);
+			//cout << argv[1] << " " << argc << " " << penalty_type << " " << tfidf_type << endl;
 		}
 		else if (strcmp(argv[1], "--refine") == 0 || strcmp(argv[1], "-r") == 0) {
 			if (argc > 6) {

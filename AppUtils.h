@@ -9,6 +9,7 @@
 #include <map>
 
 #define DEFAULT_PENALTY_TYPE 2
+#define DEFAULT_BETA 0.3
 #define DEFAULT_TFIDF_TYPE "M-S"
 #define DEFAULT_REFINE_FLAG false
 #define DEFAULT_OUTPUT_TYPE 1
@@ -22,6 +23,6 @@ HIN_Graph loadHinGraph(const char* dataset, map<int,string> & node_name, map<int
 
 string getFileName(int src, int dst, string dataset);
 
-void tfidfSetup(const char* tfidf_type, int penalty_type, int sample_size=DEFAULT_SAMPLE_SIZE);
+void tfidfSetup(const char* tfidf_type, int penalty_type, double beta, int sample_size=DEFAULT_SAMPLE_SIZE);
 
 #endif

@@ -1,9 +1,10 @@
 #!/bin/bash
-k=5
+k=3
 experiment_type="classifier"
 datasets=( "DBLP" )
-penalty_types=( 1 2 3 4 )
-tfidf_types=( "B-S" "P-S" "M-S" )
+#betas=( "0.1" "0.2" "0.3" "0.4" )
+betas=( )
+tfidf_types=( "P-S" )
 target_file="labels.txt"
 for dataset in "${datasets[@]}"
 do
@@ -14,12 +15,15 @@ do
 	fi
 	for tfidf_type in "${tfidf_types[@]}"
 	do
-		for penalty_type in "${penalty_types[@]}"
+		for beta in "${betas[@]}"
 		do
-			output_file="output/"$experiment_type"_"$dataset"_"$penalty_type"_"$tfidf_type"_"$k".txt"
-		 	./topKQueryTest --"$experiment_type" "$dataset" "$dataset"_pos_pairs.txt $target_file $k $penalty_type $tfidf_type > $output_file
+			output_file="output/"$experiment_type"_"$dataset"_1_"$tfidf_type"_"$beta"_"$k".txt"
+		 	./topKQueryTest --"$experiment_type" "$dataset" "$dataset"_pos_pairs.txt $target_file $k $tfidf_type 1 $beta > $output_file
 		done
+
+		output_file="output/"$experiment_type"_"$dataset"_2_"$tfidf_type"_"$k".txt"
+		./topKQueryTest --"$experiment_type" "$dataset" "$dataset"_pos_pairs.txt $target_file $k $tfidf_type 2 > $output_file
 	done
-	./topKQueryTest --"$experiment_type" "$dataset" "$dataset"_pos_pairs.txt $target_file $k 1 SP > "output/"$experiment_type"_"$dataset"_SP_"$k".txt"
+	./topKQueryTest --"$experiment_type" "$dataset" "$dataset"_pos_pairs.txt $target_file $k SP 1 > "output/"$experiment_type"_"$dataset"_SP_"$k".txt"
 done
 

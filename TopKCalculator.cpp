@@ -16,7 +16,8 @@
 
 using namespace std;
 
-int TopKCalculator::penalty_type_ = 2;
+int TopKCalculator::penalty_type_ = 1;
+double TopKCalculator::beta_ = 0.3;
 int TopKCalculator::rarity_type_ = 1; // 1 -> true rarity; 0 -> 1(constant)
 int TopKCalculator::support_type_ = 1; // 1 -> MNI; 2 -> PCRW; 0 -> 1(constant)
 int TopKCalculator::sample_size_ = 100;
@@ -53,6 +54,10 @@ public:
 	}
 };
 
+int TopKCalculator::factorial(int n){
+	return (n == 1 || n == 0) ? 1 : factorial(n - 1) * n;
+}
+
 double TopKCalculator::getMetaPathScore(int src, int dst, vector<int> meta_path, int score_function, HIN_Graph & hin_graph_){
 	if(score_function == 1){
 		Meta_Paths tempmetapath(hin_graph_);
@@ -74,13 +79,9 @@ double TopKCalculator::penalty(int length)
 	if(penalty_type_ == 0){
 		return 1.0;
 	}else if(penalty_type_ == 1){
-		return 1.0/(log (length));
+		return pow(beta_, length);
 	}else if(penalty_type_ == 2){
-		return 1.0/length;
-	}else if(penalty_type_ == 3){
-		return 1.0/(length*length);
-	}else if(penalty_type_ == 4){
-		return 1.0/(exp (length));		
+		return 1.0/factorial(length);
 	}else{
 		return 1.0;
 	}

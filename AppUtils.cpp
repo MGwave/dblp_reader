@@ -107,10 +107,11 @@ string getFileName(int src, int dst, string dataset){
 		return string(DEFAULT_OUTPUT_DIR) + "/" + dataset + "_" + to_string(src) + "_" + to_string(dst) + ".txt";
 }
 
-void tfidfSetup(const char* tfidf_type, int penalty_type, int sample_size){
+void tfidfSetup(const char* tfidf_type, int penalty_type, double beta, int sample_size){
 
 		TopKCalculator::penalty_type_ = penalty_type;
-	TopKCalculator::sample_size_ = sample_size;
+		TopKCalculator::beta_ = beta;
+		TopKCalculator::sample_size_ = sample_size;
 
 		if(strcmp(tfidf_type, "M-S") == 0){
 				TopKCalculator::support_type_ = 1;
