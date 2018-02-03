@@ -87,7 +87,7 @@ double TopKCalculator::penalty(int length)
 	}
 }
 
-set<int> TopKCalculator::getSimilarNodes(int eid, map<int, HIN_Node> & hin_nodes_, bool sample_flag)
+set<int> TopKCalculator::getSimilarNodes(int eid, map<int, HIN_Node> & hin_nodes_, bool sample_flag, bool output_flag)
 {
 	set<int> similarNodes;
 
@@ -114,12 +114,15 @@ set<int> TopKCalculator::getSimilarNodes(int eid, map<int, HIN_Node> & hin_nodes
 			}
 		}
 	}
-	cout << eid << "\t";
-	if(strcmp(hin_nodes_[eid].key_.c_str(), "") == 0){
-		cout << "NA" << "\t";
-	}else{
-		cout << hin_nodes_[eid].key_ << "\t";
-	} 
+	if(output_flag){
+		cout << eid << "\t";
+		if(strcmp(hin_nodes_[eid].key_.c_str(), "") == 0){
+			cout << "NA" << "\t";
+		}else{
+			cout << hin_nodes_[eid].key_ << "\t";
+		} 
+
+	}	
 	
 	similarNodes.insert(eid);
 
@@ -134,7 +137,8 @@ set<int> TopKCalculator::getSimilarNodes(int eid, map<int, HIN_Node> & hin_nodes
 		}
 		similarNodes = samples;	
 	}
-	cout << "candidate size: " << similarNodes.size() << endl;
+	if(output_flag)
+		cout << "candidate size: " << similarNodes.size() << endl;
 	return similarNodes;
 }
 
@@ -449,7 +453,9 @@ double TopKCalculator::getPCRWMain(int src, int dst, set<int> src_next_entities,
 double TopKCalculator::getMaxSupport(double candidateSupport){
 	if(support_type_ == 1){
 		return candidateSupport;
-	}else if(support_type_ == 0 || support_type_ == 2){
+	}else if(support_type_ == 0){
+		return 1.0;
+	}else if(support_type_ == 2){
 		return 1.0;
 	}
 
@@ -505,7 +511,7 @@ double TopKCalculator::getSupport(int src, int dst, TfIdfNode* curr_tfidf_node_p
 
 		//double pcrw = SimCalculator::calSim_PCRW(src, dst, tempmetapath, id_sim);
 		double pcrw = getPCRW(src, dst, meta_path, hin_graph_);
-		return pcrw;
+		return pow(pcrw, 0.01);
 	}
 }
 
@@ -799,7 +805,7 @@ vector<pair<vector<double>, vector<int>>> TopKCalculator::getTopKMetaPath_Refine
 }
 
 void TopKCalculator::getDstEntities(int src, vector<int> meta_path, set<int> & dst_entities, HIN_Graph & hin_graph_){
-
+	bool full_flag = false;
 	dst_entities.clear();
 	set<int> curr_entities;
 	set<int> next_entities;
@@ -811,13 +817,31 @@ void TopKCalculator::getDstEntities(int src, vector<int> meta_path, set<int> & d
 			getNextEntities(*iter, meta_path[i], tmp_next_entities, hin_graph_);
 			for(set<int>::iterator iter_n = tmp_next_entities.begin(); iter_n != tmp_next_entities.end(); iter_n++){
 				next_entities.insert(*iter_n);
+				if(full_flag){
+					break;
+				}
 			}
-		}	
+			if(full_flag){
+				break;
+			}
+		}
+
+		if(!full_flag){
+
+			int eid = *(next_entities.begin());	
+			set<int> candidates = getSimilarNodes(eid, hin_graph_.nodes_, false, false);
+			if(next_entities.size() >= candidates.size()){
+				full_flag = true;	
+			}
+		}
 		curr_entities = next_entities;
 		next_entities.clear();
 	}
-
-	dst_entities = curr_entities;
+	if(!full_flag){
+		dst_entities = curr_entities;
+	}else{
+		dst_entities = getSimilarNodes(*(curr_entities.begin()), hin_graph_.nodes_, false, false);
+	}
 }
 
 void TopKCalculator::saveToFile(vector<vector<int>> topKMetaPaths, string file_name){

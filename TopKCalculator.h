@@ -33,7 +33,6 @@ class TopKCalculator
 {
 private:
 	static int factorial(int n);
-	static set<int> getSimilarNodes(int eid, map<int, HIN_Node> & hin_nodes_, bool sample_flag=false);
 	static double getRarity(int similarPairsSize, set<int> & srcSimilarNodes, set<int> & dstSimilarNodes, vector<int> & meta_path, HIN_Graph & hin_graph_);
 	static double getRarity(int src, int dst, set<int> & srcSimilarNodes, set<int> & dstSimilarNodes, vector<int> & meta_path, HIN_Graph & hin_graph_);
 	static double getHit(set<int> & srcSimilarNodes, set<int> & dstSimilarNodes, vector<int> meta_path, HIN_Graph & hin_graph_);
@@ -52,6 +51,7 @@ public:
 	static int support_type_;// 1 -> MNI; 2 -> PCRW; 0 -> 1(constant)
 	static int sample_size_;
 	static double penalty(int length);
+	static set<int> getSimilarNodes(int eid, map<int, HIN_Node> & hin_nodes_, bool sample_flag=false, bool output_flag=true);
 	static void getDstEntities(int src, vector<int> meta_path, set<int> & dst_entities, HIN_Graph & hin_graph_);
 	static bool isConnected(int src, int dst, vector<int> meta_path, HIN_Graph & hin_graph_);
 	static double getPCRW(int src, int dst, vector<int> meta_path, HIN_Graph & hin_graph_);

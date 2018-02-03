@@ -344,7 +344,7 @@ int main(int argc, const char * argv[]) {
 			for(int j = 0; j < k; j++){
 				precision_result[j] += tmp_precision_result[j];
 			}
-			}
+		}
 
 						
 			

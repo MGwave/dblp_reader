@@ -3,5 +3,4 @@ movie_country	2
 movie_director	3
 movie_genre	4
 movie_location	5
-movie_tag	6
 user_movie	7
