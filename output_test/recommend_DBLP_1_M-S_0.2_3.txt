@@ -1,0 +1,2617 @@
+DBLP_labels.txt
+8839	NA	candidate size: 5915
+3496	NA	candidate size: 5915
+Time cost for this pair is 8.55 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.2487
+recall: 0.2803
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PP>]	[<PA>]	
+precision: 0.1796
+recall: 0.1153
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PP>]	[<PA>]	
+precision: 0.2513
+recall: 0.1988
+
+1054	NA	candidate size: 5915
+3133	NA	candidate size: 5915
+Time cost for this pair is 23.4500 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.0969
+recall: 0.9901
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0874
+recall: 0.9622
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0856
+recall: 0.9920
+
+7225	NA	candidate size: 5915
+4106	NA	candidate size: 5915
+Time cost for this pair is 51.2700 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1249
+recall: 0.4712
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.1445
+recall: 0.2783
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.0561
+recall: 0.2724
+
+2425	NA	candidate size: 5915
+2899	NA	candidate size: 5915
+Time cost for this pair is 5.0900 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1178
+recall: 0.6044
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.1504
+recall: 0.3181
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PA>]	
+precision: 0.1411
+recall: 0.4254
+
+8397	NA	candidate size: 5915
+9290	NA	candidate size: 5915
+Time cost for this pair is 29.8300 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
+precision: 0.1660
+recall: 0.6541
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
+precision: 0.1289
+recall: 0.6123
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0858
+recall: 0.9940
+
+8419	NA	candidate size: 5915
+6504	NA	candidate size: 5915
+Time cost for this pair is 3.4000 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1502
+recall: 0.5507
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PA>]	
+precision: 0.2581
+recall: 0.4592
+[<PA>]^(-1)	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2899
+recall: 0.5964
+
+9203	NA	candidate size: 5915
+8572	NA	candidate size: 5915
+Time cost for this pair is 2.6000 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1136
+recall: 0.1690
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2899
+recall: 0.5964
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PA>]	
+precision: 0.2657
+recall: 0.2783
+
+8825	NA	candidate size: 5915
+1297	NA	candidate size: 5915
+Time cost for this pair is 8.3800 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.1745
+recall: 0.9304
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.1745
+recall: 0.9304
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 0.1283
+recall: 0.9642
+
+2881	NA	candidate size: 5915
+3404	NA	candidate size: 5915
+Time cost for this pair is 7.2100 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2743
+recall: 0.4433
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.2221
+recall: 0.3042
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.2150
+recall: 0.3141
+
+8839	NA	candidate size: 5915
+1962	NA	candidate size: 5915
+Time cost for this pair is 28.5100 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
+precision: 0.1248
+recall: 0.4672
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 0.1875
+recall: 0.7276
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
+precision: 0.1660
+recall: 0.6541
+
+2860	NA	candidate size: 5915
+1043	NA	candidate size: 5915
+Time cost for this pair is 9.5400 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.1916
+recall: 0.9344
+[<PA>]^(-1)	[<PP>]	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.1942
+recall: 0.9503
+[<PA>]^(-1)	[<PP>]	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1373
+recall: 0.7058
+
+3476	NA	candidate size: 5915
+2691	NA	candidate size: 5915
+Time cost for this pair is 13.0700 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2584
+recall: 0.7634
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.2067
+recall: 0.2565
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PA>]	
+precision: 0.2476
+recall: 0.3618
+
+7150	NA	candidate size: 5915
+8716	NA	candidate size: 5915
+Time cost for this pair is 6.3800 seconds
+[<PA>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.2857
+recall: 0.0080
+[<PA>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
+precision: 0.2966
+recall: 0.0696
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2835
+recall: 0.6262
+
+3296	NA	candidate size: 5915
+3179	NA	candidate size: 5915
+Time cost for this pair is 2.5600 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2436
+recall: 0.8767
+[<PA>]^(-1)	[<PP>]	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2436
+recall: 0.8767
+[<PA>]^(-1)	[<PP>]	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1254
+recall: 0.7555
+
+1290	NA	candidate size: 5915
+3129	NA	candidate size: 5915
+Time cost for this pair is 9.0100 seconds
+[<PA>]^(-1)	[<PP>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1386
+recall: 0.8032
+[<PA>]^(-1)	[<PP>]^(-1)	[<PP>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1649
+recall: 0.3419
+[<PA>]^(-1)	[<PP>]^(-1)	[<PP>]	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0962
+recall: 0.8648
+
+8624	NA	candidate size: 5915
+1956	NA	candidate size: 5915
+Time cost for this pair is 24.1000 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PA>]	
+precision: 0.2581
+recall: 0.4592
+[<PA>]^(-1)	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.1934
+recall: 0.9225
+[<PA>]^(-1)	[<PP>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1162
+recall: 0.8370
+
+9615	NA	candidate size: 5915
+8788	NA	candidate size: 5915
+Time cost for this pair is 44.9700 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 0.1772
+recall: 0.7932
+[<PA>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.1616
+recall: 0.8569
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 0.1212
+recall: 0.6541
+
+3476	NA	candidate size: 5915
+1524	NA	candidate size: 5915
+Time cost for this pair is 4.1000 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.1916
+recall: 0.9344
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1063
+recall: 0.8131
+[<PA>]^(-1)	[<PP>]	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2146
+recall: 0.9264
+
+2552	NA	candidate size: 5915
+1307	NA	candidate size: 5915
+Time cost for this pair is 21.9800 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1383
+recall: 0.6183
+[<PA>]^(-1)	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.1544
+recall: 0.9384
+[<PA>]^(-1)	[<PP>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1099
+recall: 0.7276
+
+3133	NA	candidate size: 5915
+9600	NA	candidate size: 5915
+Time cost for this pair is 25.9900 seconds
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2584
+recall: 0.7634
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0855
+recall: 0.9940
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0852
+recall: 0.9980
+
+8764	NA	candidate size: 5915
+8089	NA	candidate size: 5915
+Time cost for this pair is 27.5100 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0874
+recall: 0.9602
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.0867
+recall: 0.9980
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0858
+recall: 0.9940
+
+2490	NA	candidate size: 5915
+3141	NA	candidate size: 5915
+Time cost for this pair is 25.0100 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PP>]^(-1)	[<PA>]	
+precision: 0.1942
+recall: 0.3459
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 0.1851
+recall: 0.3817
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
+precision: 0.1429
+recall: 0.6600
+
+2490	NA	candidate size: 5915
+2361	NA	candidate size: 5915
+Time cost for this pair is 2.2100 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3586
+recall: 0.1412
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1375
+recall: 0.4612
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PA>]	
+precision: 0.3214
+recall: 0.0716
+
+4098	NA	candidate size: 5915
+2727	NA	candidate size: 5915
+Time cost for this pair is 20.3200 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.0855
+recall: 0.8708
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0866
+recall: 0.9483
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0858
+recall: 0.9881
+
+9448	NA	candidate size: 5915
+6742	NA	candidate size: 5915
+Time cost for this pair is 10.3100 seconds
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
+precision: 0.2472
+recall: 0.3936
+[<PA>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2671
+recall: 0.7614
+[<PA>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1522
+recall: 0.4851
+
+2379	NA	candidate size: 5915
+2860	NA	candidate size: 5915
+Time cost for this pair is 19.9400 seconds
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2585
+recall: 0.8032
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 0.1515
+recall: 0.5249
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1140
+recall: 0.6899
+
+1668	NA	candidate size: 5915
+8431	NA	candidate size: 5915
+Time cost for this pair is 16.5500 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PA>]	
+precision: 0.1677
+recall: 0.2187
+[<PA>]^(-1)	[<PP>]	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3034
+recall: 0.4632
+[<PA>]^(-1)	[<PP>]	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1088
+recall: 0.5626
+
+9702	NA	candidate size: 5915
+2849	NA	candidate size: 5915
+Time cost for this pair is 15.0600 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2899
+recall: 0.5964
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PA>]	
+precision: 0.2657
+recall: 0.2783
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.2493
+recall: 0.3638
+
+2536	NA	candidate size: 5915
+2707	NA	candidate size: 5915
+Time cost for this pair is 27.2800 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1315
+recall: 0.5547
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 0.0992
+recall: 0.8231
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0998
+recall: 0.7614
+
+9464	NA	candidate size: 5915
+7213	NA	candidate size: 5915
+Time cost for this pair is 80.4700 seconds
+[<PA>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
+precision: 0.2639
+recall: 0.3877
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
+precision: 0.1413
+recall: 0.3062
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
+precision: 0.1692
+recall: 0.7018
+
+2479	NA	candidate size: 5915
+8496	NA	candidate size: 5915
+Time cost for this pair is 28.6400 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2904
+recall: 0.6640
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2904
+recall: 0.6640
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2904
+recall: 0.6640
+
+1745	NA	candidate size: 5915
+2856	NA	candidate size: 5915
+Time cost for this pair is 34.9900 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.1842
+recall: 0.5348
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1199
+recall: 0.5487
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
+precision: 0.1272
+recall: 0.6581
+
+9487	NA	candidate size: 5915
+2995	NA	candidate size: 5915
+Time cost for this pair is 54.2900 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2899
+recall: 0.5964
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PA>]	
+precision: 0.2657
+recall: 0.2783
+[<PA>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.1999
+recall: 0.8489
+
+9711	NA	candidate size: 5915
+8566	NA	candidate size: 5915
+Time cost for this pair is 2.5100 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2899
+recall: 0.5964
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.2332
+recall: 0.1173
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PA>]	
+precision: 0.2657
+recall: 0.2783
+
+9033	NA	candidate size: 5915
+1429	NA	candidate size: 5915
+Time cost for this pair is 16.4400 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.2070
+recall: 0.3042
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2899
+recall: 0.5964
+[<PA>]^(-1)	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2899
+recall: 0.5964
+
+1375	NA	candidate size: 5915
+963	NA	candidate size: 5915
+Time cost for this pair is 28.3000 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1193
+recall: 0.7197
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.1934
+recall: 0.9225
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PA>]	
+precision: 0.1685
+recall: 0.4831
+
+8483	NA	candidate size: 5915
+9141	NA	candidate size: 5915
+Time cost for this pair is 28.6500 seconds
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1122
+recall: 0.8926
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2436
+recall: 0.8767
+[<PA>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.1999
+recall: 0.8489
+
+9976	NA	candidate size: 5915
+1913	NA	candidate size: 5915
+Time cost for this pair is 13.0900 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1036
+recall: 0.7256
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.1383
+recall: 0.3857
+[<PA>]^(-1)	[<PP>]	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.1474
+recall: 0.4016
+
+8851	NA	candidate size: 5915
+1562	NA	candidate size: 5915
+Time cost for this pair is 88.9500 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PA>]	
+precision: 0.1511
+recall: 0.4533
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.1467
+recall: 0.3559
+[<PA>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
+precision: 0.2101
+recall: 0.4970
+
+1776	NA	candidate size: 5915
+2749	NA	candidate size: 5915
+Time cost for this pair is 47.6900 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1088
+recall: 0.5089
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1088
+recall: 0.5089
+[<PA>]^(-1)	[<PP>]^(-1)	[<PP>]	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1030
+recall: 0.6978
+
+8505	NA	candidate size: 5915
+9471	NA	candidate size: 5915
+Time cost for this pair is 58.9300 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2671
+recall: 0.7614
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0858
+recall: 0.9940
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1179
+recall: 0.5567
+
+890	NA	candidate size: 5915
+1067	NA	candidate size: 5915
+Time cost for this pair is 11.0300 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.1842
+recall: 0.5348
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1527
+recall: 0.5885
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.1477
+recall: 0.2087
+
+3018	NA	candidate size: 5915
+1067	NA	candidate size: 5915
+Time cost for this pair is 3.6700 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2743
+recall: 0.4433
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1441
+recall: 0.5467
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.1755
+recall: 0.3340
+
+9654	NA	candidate size: 5915
+9839	NA	candidate size: 5915
+Time cost for this pair is 8.9200 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2899
+recall: 0.5964
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1451
+recall: 0.5845
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PP>]^(-1)	[<PA>]	
+precision: 0.2514
+recall: 0.3559
+
+9654	NA	candidate size: 5915
+3348	NA	candidate size: 5915
+Time cost for this pair is 2.8900 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2899
+recall: 0.5964
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1451
+recall: 0.5845
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.2493
+recall: 0.3638
+
+9687	NA	candidate size: 5915
+2381	NA	candidate size: 5915
+Time cost for this pair is 11.8400 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2899
+recall: 0.5964
+[<PA>]^(-1)	[<PP>]	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2634
+recall: 0.6740
+[<PA>]^(-1)	[<PP>]	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1091
+recall: 0.5527
+
+2505	NA	candidate size: 5915
+416	NA	candidate size: 5915
+Time cost for this pair is 11.4500 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.1833
+recall: 0.8787
+[<PA>]^(-1)	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2899
+recall: 0.5964
+[<PA>]^(-1)	[<PP>]	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2436
+recall: 0.8767
+
+9290	NA	candidate size: 5915
+8493	NA	candidate size: 5915
+Time cost for this pair is 13.8800 seconds
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
+precision: 0.2197
+recall: 0.4573
+[<PA>]^(-1)	[<PP>]^(-1)	[<PP>]	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.1872
+recall: 0.8867
+[<PA>]^(-1)	[<PP>]	[<PP>]	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.1416
+recall: 0.7793
+
+8941	NA	candidate size: 5915
+9389	NA	candidate size: 5915
+Time cost for this pair is 35.4800 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1574
+recall: 0.5209
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 0.1875
+recall: 0.7276
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.1934
+recall: 0.9225
+
+3185	NA	candidate size: 5915
+1671	NA	candidate size: 5915
+Time cost for this pair is 2.9800 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.1934
+recall: 0.9225
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1212
+recall: 0.7197
+[<PA>]^(-1)	[<PP>]	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2443
+recall: 0.9125
+
+6574	NA	candidate size: 5915
+4006	NA	candidate size: 5915
+Time cost for this pair is 20.1900 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1128
+recall: 0.2320
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1128
+recall: 0.2320
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 0.0957
+recall: 0.5068
+
+3641	NA	candidate size: 5915
+3614	NA	candidate size: 5915
+Time cost for this pair is 2.2100 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3160
+recall: 0.7583
+[<PA>]^(-1)	[<PP>]	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3160
+recall: 0.7583
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.2695
+recall: 0.2632
+
+3634	NA	candidate size: 5915
+4411	NA	candidate size: 5915
+Time cost for this pair is 22.9900 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
+precision: 0.1249
+recall: 0.4327
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1490
+recall: 0.7427
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0886
+recall: 1.0000
+
+6088	NA	candidate size: 5915
+9857	NA	candidate size: 5915
+Time cost for this pair is 32.1200 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1548
+recall: 0.5653
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PA>]	
+precision: 0.2418
+recall: 0.2144
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
+precision: 0.1320
+recall: 0.5029
+
+4425	NA	candidate size: 5915
+3673	NA	candidate size: 5915
+Time cost for this pair is 26.9100 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1268
+recall: 0.7778
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0869
+recall: 1.0000
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0874
+recall: 1.0000
+
+5927	NA	candidate size: 5915
+4102	NA	candidate size: 5915
+Time cost for this pair is 26.7600 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2064
+recall: 0.8674
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1302
+recall: 0.7875
+[<PA>]^(-1)	[<PP>]	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1275
+recall: 0.7895
+
+7264	NA	candidate size: 5915
+6087	NA	candidate size: 5915
+Time cost for this pair is 1.8700 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3846
+recall: 0.1949
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1391
+recall: 0.2749
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PA>]	
+precision: 0.1245
+recall: 0.1150
+
+6146	NA	candidate size: 5915
+1841	NA	candidate size: 5915
+Time cost for this pair is 8.9000 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3357
+recall: 0.5556
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1924
+recall: 0.4133
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.2671
+recall: 0.2671
+
+7371	NA	candidate size: 5915
+3955	NA	candidate size: 5915
+Time cost for this pair is 26.6800 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0921
+recall: 0.9825
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0870
+recall: 1.0000
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.0867
+recall: 1.0000
+
+6118	NA	candidate size: 5915
+3899	NA	candidate size: 5915
+Time cost for this pair is 2.8100 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3160
+recall: 0.7583
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1916
+recall: 0.5263
+[<PA>]^(-1)	[<PP>]	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2077
+recall: 0.8343
+
+6298	NA	candidate size: 5915
+1493	NA	candidate size: 5915
+Time cost for this pair is 3.8700 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.1677
+recall: 0.8051
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1340
+recall: 0.7388
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.1350
+recall: 0.0526
+
+4206	NA	candidate size: 5915
+2844	NA	candidate size: 5915
+Time cost for this pair is 25.3000 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3146
+recall: 0.5341
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1383
+recall: 0.5984
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3146
+recall: 0.5341
+
+5896	NA	candidate size: 5915
+1051	NA	candidate size: 5915
+Time cost for this pair is 39.8100 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1497
+recall: 0.7407
+[<PA>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.1323
+recall: 0.8226
+[<PA>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0985
+recall: 0.9337
+
+6400	NA	candidate size: 5915
+3594	NA	candidate size: 5915
+Time cost for this pair is 29.4300 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1585
+recall: 0.7096
+[<PA>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.0747
+recall: 0.7154
+[<PA>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0956
+recall: 0.9240
+
+6025	NA	candidate size: 5915
+3730	NA	candidate size: 5915
+Time cost for this pair is 11.1800 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3488
+recall: 0.4698
+[<PA>]^(-1)	[<PP>]	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1712
+recall: 0.5400
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3488
+recall: 0.4698
+
+6674	NA	candidate size: 5915
+6953	NA	candidate size: 5915
+Time cost for this pair is 6.1500 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1381
+recall: 0.5439
+[<PA>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.1314
+recall: 0.7797
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2671
+recall: 0.6608
+
+7039	NA	candidate size: 5915
+3574	NA	candidate size: 5915
+Time cost for this pair is 21.0000 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1673
+recall: 0.7076
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 0.1025
+recall: 0.8441
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1546
+recall: 0.7310
+
+7504	NA	candidate size: 5915
+6046	NA	candidate size: 5915
+Time cost for this pair is 16.3100 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PA>]	
+precision: 0.0313
+recall: 0.0312
+[<PA>]^(-1)	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.1417
+recall: 0.4912
+[<PA>]^(-1)	[<PP>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1060
+recall: 0.5341
+
+3744	NA	candidate size: 5915
+2993	NA	candidate size: 5915
+Time cost for this pair is 3.1700 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1074
+recall: 0.7485
+[<PA>]^(-1)	[<PP>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1056
+recall: 0.8655
+[<PA>]^(-1)	[<PP>]	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1000
+recall: 0.8070
+
+79	NA	candidate size: 5915
+3881	NA	candidate size: 5915
+Time cost for this pair is 24.0700 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1126
+recall: 0.8090
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.1647
+recall: 0.9103
+[<PA>]^(-1)	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.1306
+recall: 0.5770
+
+6600	NA	candidate size: 5915
+3574	NA	candidate size: 5915
+Time cost for this pair is 5.8000 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1673
+recall: 0.7076
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.1355
+recall: 0.3509
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 0.1025
+recall: 0.8441
+
+3951	NA	candidate size: 5915
+1476	NA	candidate size: 5915
+Time cost for this pair is 2.1400 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1489
+recall: 0.5517
+[<PA>]^(-1)	[<PP>]	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2816
+recall: 0.7602
+[<PA>]^(-1)	[<PP>]	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1424
+recall: 0.6940
+
+6298	NA	candidate size: 5915
+6383	NA	candidate size: 5915
+Time cost for this pair is 12.9000 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3488
+recall: 0.4698
+[<PA>]^(-1)	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.1401
+recall: 0.5400
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3488
+recall: 0.4698
+
+9244	NA	candidate size: 5915
+6406	NA	candidate size: 5915
+Time cost for this pair is 55.0500 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
+precision: 0.0828
+recall: 0.2749
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
+precision: 0.0877
+recall: 0.3567
+[<PA>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.1151
+recall: 0.5984
+
+7264	NA	candidate size: 5915
+1621	NA	candidate size: 5915
+Time cost for this pair is 2.0800 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3846
+recall: 0.1949
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1391
+recall: 0.2749
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.3590
+recall: 0.0273
+
+3891	NA	candidate size: 5915
+2730	NA	candidate size: 5915
+Time cost for this pair is 43.9200 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0870
+recall: 1.0000
+[<PA>]^(-1)	[<PP>]	[<PP>]	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1085
+recall: 0.8363
+[<PA>]^(-1)	[<PP>]^(-1)	[<PP>]	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0929
+recall: 0.8304
+
+3961	NA	candidate size: 5915
+4265	NA	candidate size: 5915
+Time cost for this pair is 5.7200 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3162
+recall: 0.4444
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3162
+recall: 0.4444
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3160
+recall: 0.7583
+
+3730	NA	candidate size: 5915
+1488	NA	candidate size: 5915
+Time cost for this pair is 18.3500 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2896
+recall: 0.7622
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1463
+recall: 0.4074
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PA>]	
+precision: 0.1669
+recall: 0.2651
+
+2285	NA	candidate size: 5915
+4114	NA	candidate size: 5915
+Time cost for this pair is 18.6900 seconds
+[<PA>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0933
+recall: 0.9532
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.0867
+recall: 1.0000
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0871
+recall: 1.0000
+
+960	NA	candidate size: 5915
+3882	NA	candidate size: 5915
+Time cost for this pair is 45.2200 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 0.0776
+recall: 0.3314
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1182
+recall: 0.7778
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0909
+recall: 0.9591
+
+7317	NA	candidate size: 5915
+4878	NA	candidate size: 5915
+Time cost for this pair is 26.1600 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0876
+recall: 0.9942
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0875
+recall: 1.0000
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 0.1483
+recall: 0.6764
+
+6395	NA	candidate size: 5915
+3645	NA	candidate size: 5915
+Time cost for this pair is 3.2000 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1258
+recall: 0.0799
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3488
+recall: 0.4698
+[<PA>]^(-1)	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3488
+recall: 0.4698
+
+1373	NA	candidate size: 5915
+3860	NA	candidate size: 5915
+Time cost for this pair is 15.7600 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1371
+recall: 0.5731
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.1315
+recall: 0.6433
+[<PA>]^(-1)	[<PP>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
+precision: 0.2626
+recall: 0.1014
+
+6192	NA	candidate size: 5915
+3559	NA	candidate size: 5915
+Time cost for this pair is 2.5700 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1169
+recall: 0.8051
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2904
+recall: 0.5926
+[<PA>]^(-1)	[<PP>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1267
+recall: 0.7934
+
+3216	NA	candidate size: 5915
+3338	NA	candidate size: 5915
+Time cost for this pair is 3.0300 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.1389
+recall: 0.9006
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1149
+recall: 0.8577
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.1343
+recall: 0.3509
+
+1319	NA	candidate size: 5915
+1841	NA	candidate size: 5915
+Time cost for this pair is 2.5100 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.0818
+recall: 0.1267
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1378
+recall: 0.4834
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.0848
+recall: 0.1150
+
+6367	NA	candidate size: 5915
+7317	NA	candidate size: 5915
+Time cost for this pair is 28.2500 seconds
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.1468
+recall: 0.8850
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.0867
+recall: 1.0000
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0871
+recall: 1.0000
+
+755	NA	candidate size: 5915
+1931	NA	candidate size: 5915
+Time cost for this pair is 38.4100 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2166
+recall: 0.7622
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1335
+recall: 0.6901
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 0.1335
+recall: 0.8596
+
+6034	NA	candidate size: 5915
+6536	NA	candidate size: 5915
+Time cost for this pair is 28.5400 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0881
+recall: 1.0000
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0873
+recall: 1.0000
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.0867
+recall: 1.0000
+
+9628	NA	candidate size: 5915
+6600	NA	candidate size: 5915
+Time cost for this pair is 58.3200 seconds
+[<PA>]^(-1)	[<PP>]	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.1665
+recall: 0.2982
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.1228
+recall: 0.9903
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0952
+recall: 0.9318
+
+1476	NA	candidate size: 5915
+76	NA	candidate size: 5915
+Time cost for this pair is 5.9600 seconds
+[<PA>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
+precision: 0.3043
+recall: 0.0409
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1133
+recall: 0.8148
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.1315
+recall: 0.6491
+
+6760	NA	candidate size: 5915
+73	NA	candidate size: 5915
+Time cost for this pair is 39.5900 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PA>]	
+precision: 0.0987
+recall: 0.2710
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.1241
+recall: 0.3509
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
+precision: 0.0988
+recall: 0.4990
+
+6627	NA	candidate size: 5915
+5390	NA	candidate size: 5915
+Time cost for this pair is 5.6000 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2981
+recall: 0.2086
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2981
+recall: 0.2086
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2981
+recall: 0.2086
+
+3986	NA	candidate size: 5915
+6370	NA	candidate size: 5915
+Time cost for this pair is 24.0600 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
+precision: 0.1107
+recall: 0.3821
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 0.1806
+recall: 0.6355
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0878
+recall: 0.9864
+
+4131	NA	candidate size: 5915
+5767	NA	candidate size: 5915
+Time cost for this pair is 6.1100 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PA>]	
+precision: 0.0583
+recall: 0.0234
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.0819
+recall: 0.0663
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.2523
+recall: 0.2144
+
+3548	NA	candidate size: 5915
+5767	NA	candidate size: 5915
+Time cost for this pair is 8.5700 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.0907
+recall: 0.1481
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PA>]	
+precision: 0.1020
+recall: 0.2222
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.2523
+recall: 0.2144
+
+1546	NA	candidate size: 5915
+4255	NA	candidate size: 5915
+Time cost for this pair is 22.2700 seconds
+[<PA>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.0817
+recall: 0.2768
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0869
+recall: 1.0000
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0874
+recall: 1.0000
+
+3098	NA	candidate size: 5915
+1771	NA	candidate size: 5915
+Time cost for this pair is 28.5400 seconds
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.1883
+recall: 0.8246
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
+precision: 0.0891
+recall: 0.4366
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 0.0799
+recall: 0.5867
+
+3555	NA	candidate size: 5915
+3627	NA	candidate size: 5915
+Time cost for this pair is 6.0100 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3146
+recall: 0.5341
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 0.1815
+recall: 0.7057
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3146
+recall: 0.5341
+
+4208	NA	candidate size: 5915
+5984	NA	candidate size: 5915
+Time cost for this pair is 6.7000 seconds
+[<PA>]^(-1)	[<PP>]	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1253
+recall: 0.6394
+[<PA>]^(-1)	[<PP>]	[<PP>]	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2475
+recall: 0.7680
+[<PA>]^(-1)	[<PP>]	[<PP>]	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1124
+recall: 0.8616
+
+4760	NA	candidate size: 5915
+4549	NA	candidate size: 5915
+Time cost for this pair is 2.3800 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2279
+recall: 0.2237
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1250
+recall: 0.4269
+[<PA>]^(-1)	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2279
+recall: 0.2237
+
+660	NA	candidate size: 5915
+838	NA	candidate size: 5915
+Time cost for this pair is 6.3600 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2890
+recall: 0.8037
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
+precision: 0.1188
+recall: 0.3082
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2890
+recall: 0.8037
+
+4747	NA	candidate size: 5915
+4654	NA	candidate size: 5915
+Time cost for this pair is 6.7700 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2279
+recall: 0.2237
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0840
+recall: 0.2466
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2279
+recall: 0.2237
+
+4615	NA	candidate size: 5915
+5010	NA	candidate size: 5915
+Time cost for this pair is 21.5300 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.0871
+recall: 0.9543
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0743
+recall: 0.7854
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0745
+recall: 0.9932
+
+4961	NA	candidate size: 5915
+246	NA	candidate size: 5915
+Time cost for this pair is 5.4800 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3506
+recall: 0.6324
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3506
+recall: 0.6324
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3506
+recall: 0.6324
+
+5285	NA	candidate size: 5915
+5028	NA	candidate size: 5915
+Time cost for this pair is 5.7400 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3506
+recall: 0.6324
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3506
+recall: 0.6324
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3506
+recall: 0.6324
+
+439	NA	candidate size: 5915
+4453	NA	candidate size: 5915
+Time cost for this pair is 26.0000 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1051
+recall: 0.4155
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0949
+recall: 0.6027
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0737
+recall: 0.9909
+
+36	NA	candidate size: 5915
+725	NA	candidate size: 5915
+Time cost for this pair is 6.0600 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2890
+recall: 0.8037
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2890
+recall: 0.8037
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2890
+recall: 0.8037
+
+643	NA	candidate size: 5915
+368	NA	candidate size: 5915
+Time cost for this pair is 4.7200 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3039
+recall: 0.4315
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3039
+recall: 0.4315
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 0.1878
+recall: 0.5502
+
+5703	NA	candidate size: 5915
+176	NA	candidate size: 5915
+Time cost for this pair is 5.4800 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3506
+recall: 0.6324
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1644
+recall: 0.3379
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3506
+recall: 0.6324
+
+5748	NA	candidate size: 5915
+5151	NA	candidate size: 5915
+Time cost for this pair is 5.6400 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3506
+recall: 0.6324
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3506
+recall: 0.6324
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3506
+recall: 0.6324
+
+5671	NA	candidate size: 5915
+431	NA	candidate size: 5915
+Time cost for this pair is 21.8200 seconds
+[<PA>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.1004
+recall: 0.9521
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.1331
+recall: 0.9406
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0737
+recall: 0.9909
+
+111	NA	candidate size: 5915
+5028	NA	candidate size: 5915
+Time cost for this pair is 22.1000 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0626
+recall: 0.1530
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0626
+recall: 0.1530
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
+precision: 0.0353
+recall: 0.1735
+
+5548	NA	candidate size: 5915
+4480	NA	candidate size: 5915
+Time cost for this pair is 4.0800 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3506
+recall: 0.6324
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3506
+recall: 0.6324
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3506
+recall: 0.6324
+
+6750	NA	candidate size: 5915
+5195	NA	candidate size: 5915
+Time cost for this pair is 21.8200 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1001
+recall: 0.4269
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 0.0658
+recall: 0.6027
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1001
+recall: 0.4269
+
+4569	NA	candidate size: 5915
+431	NA	candidate size: 5915
+Time cost for this pair is 7.4800 seconds
+[<PA>]^(-1)	[<PP>]	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2279
+recall: 0.2237
+[<PA>]^(-1)	[<PP>]	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0535
+recall: 0.2192
+[<PA>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.1004
+recall: 0.9521
+
+4841	NA	candidate size: 5915
+576	NA	candidate size: 5915
+Time cost for this pair is 12.6800 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0995
+recall: 0.4132
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.2073
+recall: 0.1164
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.0489
+recall: 0.0913
+
+530	NA	candidate size: 5915
+2168	NA	candidate size: 5915
+Time cost for this pair is 22.5700 seconds
+[<PA>]^(-1)	[<PP>]	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0702
+recall: 0.4772
+[<PA>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.1029
+recall: 0.9384
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.0740
+recall: 1.0000
+
+5226	NA	candidate size: 5915
+4970	NA	candidate size: 5915
+Time cost for this pair is 5.3100 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3506
+recall: 0.6324
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3506
+recall: 0.6324
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 0.2014
+recall: 0.7374
+
+5671	NA	candidate size: 5915
+22	NA	candidate size: 5915
+Time cost for this pair is 19.3900 seconds
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2890
+recall: 0.8037
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0741
+recall: 0.8995
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0752
+recall: 0.9954
+
+5183	NA	candidate size: 5915
+538	NA	candidate size: 5915
+Time cost for this pair is 19.4700 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3506
+recall: 0.6324
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3506
+recall: 0.6324
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2689
+recall: 0.6484
+
+181	NA	candidate size: 5915
+148	NA	candidate size: 5915
+Time cost for this pair is 5.4100 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2890
+recall: 0.8037
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1497
+recall: 0.2922
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2890
+recall: 0.8037
+
+4944	NA	candidate size: 5915
+123	NA	candidate size: 5915
+Time cost for this pair is 4.8900 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2421
+recall: 0.8174
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2421
+recall: 0.8174
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 0.1440
+recall: 0.8767
+
+146	NA	candidate size: 5915
+6411	NA	candidate size: 5915
+Time cost for this pair is 23.7400 seconds
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1095
+recall: 0.6963
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0732
+recall: 0.9658
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0752
+recall: 0.9954
+
+177	NA	candidate size: 5915
+2168	NA	candidate size: 5915
+Time cost for this pair is 6.2700 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1374
+recall: 0.3311
+[<PA>]^(-1)	[<PP>]	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0702
+recall: 0.4772
+[<PA>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.1029
+recall: 0.9384
+
+4623	NA	candidate size: 5915
+5594	NA	candidate size: 5915
+Time cost for this pair is 20.6800 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0753
+recall: 0.9795
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0743
+recall: 0.9886
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.0747
+recall: 1.0000
+
+775	NA	candidate size: 5915
+5038	NA	candidate size: 5915
+Time cost for this pair is 23.4200 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 0.1878
+recall: 0.5502
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2581
+recall: 0.9064
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 0.0545
+recall: 0.4064
+
+5214	NA	candidate size: 5915
+4654	NA	candidate size: 5915
+Time cost for this pair is 17.4400 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0748
+recall: 0.9521
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.0764
+recall: 0.9863
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0745
+recall: 0.9932
+
+753	NA	candidate size: 5915
+4552	NA	candidate size: 5915
+Time cost for this pair is 16.4800 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0744
+recall: 0.9954
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0736
+recall: 0.9863
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.0740
+recall: 1.0000
+
+280	NA	candidate size: 5915
+5087	NA	candidate size: 5915
+Time cost for this pair is 45.2900 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 0.1529
+recall: 0.7374
+[<PA>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0706
+recall: 0.7831
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.0740
+recall: 1.0000
+
+5281	NA	candidate size: 5915
+544	NA	candidate size: 5915
+Time cost for this pair is 8.5300 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2890
+recall: 0.8037
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1913
+recall: 0.2397
+[<PA>]^(-1)	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3506
+recall: 0.6324
+
+2255	NA	candidate size: 5915
+1	NA	candidate size: 5915
+Time cost for this pair is 81.7800 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0739
+recall: 0.9954
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2738
+recall: 0.7671
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0750
+recall: 0.9817
+
+621	NA	candidate size: 5915
+855	NA	candidate size: 5915
+Time cost for this pair is 2.5600 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2890
+recall: 0.8037
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0824
+recall: 0.3653
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PA>]	
+precision: 0.4722
+recall: 0.0388
+
+146	NA	candidate size: 5915
+816	NA	candidate size: 5915
+Time cost for this pair is 5.8100 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3039
+recall: 0.4315
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3039
+recall: 0.4315
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2890
+recall: 0.8037
+
+5481	NA	candidate size: 5915
+2231	NA	candidate size: 5915
+Time cost for this pair is 0.3200 seconds
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 0.3043
+recall: 0.0160
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1017
+recall: 0.1233
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3506
+recall: 0.6324
+
+4723	NA	candidate size: 5915
+360	NA	candidate size: 5915
+Time cost for this pair is 8.2500 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2890
+recall: 0.8037
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.2073
+recall: 0.1164
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.0402
+recall: 0.0685
+
+5551	NA	candidate size: 5915
+458	NA	candidate size: 5915
+Time cost for this pair is 20.3100 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0731
+recall: 0.9658
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0745
+recall: 0.9932
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.0740
+recall: 1.0000
+
+5538	NA	candidate size: 5915
+4406	NA	candidate size: 5915
+Time cost for this pair is 26.9700 seconds
+[<PA>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.1004
+recall: 0.9521
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 0.1187
+recall: 0.3242
+[<PA>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0724
+recall: 0.8151
+
+44	NA	candidate size: 5915
+4799	NA	candidate size: 5915
+Time cost for this pair is 18.4100 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0741
+recall: 0.9909
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0753
+recall: 0.9795
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.0745
+recall: 1.0000
+
+445	NA	candidate size: 5915
+121	NA	candidate size: 5915
+Time cost for this pair is 9.8500 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.1331
+recall: 0.9406
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PA>]	
+precision: 0.0723
+recall: 0.1872
+[<PA>]^(-1)	[<PP>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0708
+recall: 0.7785
+
+10017	NA	candidate size: 5915
+5064	NA	candidate size: 5915
+Time cost for this pair is 38.9900 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.0338
+recall: 0.0365
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.0745
+recall: 1.0000
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0736
+recall: 0.9703
+
+5622	NA	candidate size: 5915
+5364	NA	candidate size: 5915
+Time cost for this pair is 25.9200 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.1847
+recall: 0.6621
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.1847
+recall: 0.6621
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.1847
+recall: 0.6621
+
+6008	NA	candidate size: 5915
+646	NA	candidate size: 5915
+Time cost for this pair is 11.2600 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1183
+recall: 0.4817
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.0730
+recall: 0.1210
+[<PA>]^(-1)	[<PP>]	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.1429
+recall: 0.0023
+
+84	NA	candidate size: 5915
+463	NA	candidate size: 5915
+Time cost for this pair is 6.5300 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2890
+recall: 0.8037
+[<PA>]^(-1)	[<PP>]	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2583
+recall: 0.5868
+[<PA>]^(-1)	[<PP>]^(-1)	[<PP>]	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2583
+recall: 0.5868
+
+5783	NA	candidate size: 5915
+232	NA	candidate size: 5915
+Time cost for this pair is 19.7900 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
+precision: 0.1245
+recall: 0.2648
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0734
+recall: 0.9635
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.0751
+recall: 1.0000
+
+5739	NA	candidate size: 5915
+699	NA	candidate size: 5915
+Time cost for this pair is 6.2100 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3506
+recall: 0.6324
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3506
+recall: 0.6324
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 0.2014
+recall: 0.7374
+
+300	NA	candidate size: 5915
+576	NA	candidate size: 5915
+Time cost for this pair is 4.4100 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3039
+recall: 0.4315
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3039
+recall: 0.4315
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3039
+recall: 0.4315
+
+359	NA	candidate size: 5915
+191	NA	candidate size: 5915
+Time cost for this pair is 9.3700 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0746
+recall: 0.7922
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.0918
+recall: 0.9772
+[<PA>]^(-1)	[<PP>]	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0714
+recall: 0.7626
+
+4747	NA	candidate size: 5915
+777	NA	candidate size: 5915
+Time cost for this pair is 24.3000 seconds
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.0936
+recall: 0.9361
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0709
+recall: 0.7694
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.0740
+recall: 1.0000
+
+5072	NA	candidate size: 5915
+2222	NA	candidate size: 5915
+Time cost for this pair is 22.6400 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2738
+recall: 0.7671
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2738
+recall: 0.7671
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 0.1638
+recall: 0.8447
+
+6609	NA	candidate size: 5915
+1353	NA	candidate size: 5915
+Time cost for this pair is 23.0800 seconds
+[<PA>]^(-1)	[<PP>]^(-1)	[<PP>]	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1215
+recall: 0.6813
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.0769
+recall: 1.0000
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0772
+recall: 1.0000
+
+1826	NA	candidate size: 5915
+3415	NA	candidate size: 5915
+Time cost for this pair is 4.1700 seconds
+[<PA>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
+precision: 0.1894
+recall: 0.1956
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0962
+recall: 0.8440
+[<PA>]^(-1)	[<PP>]	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.1349
+recall: 0.8901
+
+7569	NA	candidate size: 5915
+2047	NA	candidate size: 5915
+Time cost for this pair is 34.8800 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
+precision: 0.2217
+recall: 0.2923
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
+precision: 0.1181
+recall: 0.6813
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0771
+recall: 1.0000
+
+2145	NA	candidate size: 5915
+2047	NA	candidate size: 5915
+Time cost for this pair is 24.8600 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1360
+recall: 0.1736
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.4004
+recall: 0.7868
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.4004
+recall: 0.7868
+
+7614	NA	candidate size: 5915
+4538	NA	candidate size: 5915
+Time cost for this pair is 2.3400 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2898
+recall: 0.7516
+[<PA>]^(-1)	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.4150
+recall: 0.7407
+[<PA>]^(-1)	[<PP>]	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0950
+recall: 0.7692
+
+7957	NA	candidate size: 5915
+2426	NA	candidate size: 5915
+Time cost for this pair is 2.0400 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.4150
+recall: 0.7407
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.2960
+recall: 0.2791
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PA>]	
+precision: 0.3327
+recall: 0.3736
+
+985	NA	candidate size: 5915
+4072	NA	candidate size: 5915
+Time cost for this pair is 25.7300 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2809
+recall: 0.8791
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PA>]	
+precision: 0.2812
+recall: 0.4352
+[<PA>]^(-1)	[<PP>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1022
+recall: 0.6725
+
+1455	NA	candidate size: 5915
+8117	NA	candidate size: 5915
+Time cost for this pair is 29.6600 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PA>]	
+precision: 0.2384
+recall: 0.1802
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
+precision: 0.1273
+recall: 0.4484
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 0.0856
+recall: 0.3473
+
+7705	NA	candidate size: 5915
+1969	NA	candidate size: 5915
+Time cost for this pair is 5.0900 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.4150
+recall: 0.7407
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1434
+recall: 0.6484
+[<PA>]^(-1)	[<PP>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 0.4500
+recall: 0.0396
+
+1653	NA	candidate size: 5915
+7960	NA	candidate size: 5915
+Time cost for this pair is 12.3500 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PA>]	
+precision: 0.2384
+recall: 0.1802
+[<PA>]^(-1)	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2809
+recall: 0.8791
+[<PA>]^(-1)	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PA>]	
+precision: 0.2812
+recall: 0.4352
+
+7659	NA	candidate size: 5915
+7547	NA	candidate size: 5915
+Time cost for this pair is 2.3600 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.4150
+recall: 0.7407
+[<PA>]^(-1)	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.1738
+recall: 0.7978
+[<PA>]^(-1)	[<PP>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0972
+recall: 0.7824
+
+7850	NA	candidate size: 5915
+7668	NA	candidate size: 5915
+Time cost for this pair is 6.6500 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.4150
+recall: 0.7407
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.4150
+recall: 0.7407
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.4004
+recall: 0.7868
+
+7696	NA	candidate size: 5915
+5149	NA	candidate size: 5915
+Time cost for this pair is 26.1600 seconds
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0967
+recall: 0.8571
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.0814
+recall: 0.9934
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0803
+recall: 0.9824
+
+7578	NA	candidate size: 5915
+5107	NA	candidate size: 5915
+Time cost for this pair is 3.9200 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1624
+recall: 0.3055
+[<PA>]^(-1)	[<PP>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1436
+recall: 0.3560
+[<PA>]^(-1)	[<PP>]	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1217
+recall: 0.4110
+
+7930	NA	candidate size: 5915
+2846	NA	candidate size: 5915
+Time cost for this pair is 11.3100 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PA>]	
+precision: 0.3327
+recall: 0.3736
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PP>]	[<PA>]	
+precision: 0.2650
+recall: 0.2044
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PP>]^(-1)	[<PA>]	
+precision: 0.3307
+recall: 0.2791
+
+8101	NA	candidate size: 5915
+8266	NA	candidate size: 5915
+Time cost for this pair is 8.0300 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.4150
+recall: 0.7407
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.2520
+recall: 0.3516
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.4150
+recall: 0.7407
+
+8266	NA	candidate size: 5915
+1968	NA	candidate size: 5915
+Time cost for this pair is 1.2300 seconds
+[<PA>]^(-1)	[<PA>]	
+precision: 0.5000
+recall: 0.0110
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 0.1860
+recall: 0.0352
+[<PA>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
+precision: 0.2564
+recall: 0.0440
+
+7771	NA	candidate size: 5915
+7425	NA	candidate size: 5915
+Time cost for this pair is 2.8000 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.4150
+recall: 0.7407
+[<PA>]^(-1)	[<PP>]	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.4150
+recall: 0.7407
+[<PA>]^(-1)	[<PP>]	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1869
+recall: 0.5253
+
+4519	NA	candidate size: 5915
+1113	NA	candidate size: 5915
+Time cost for this pair is 18.6000 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0959
+recall: 0.2901
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2898
+recall: 0.7516
+[<PA>]^(-1)	[<PP>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0952
+recall: 0.4418
+
+8101	NA	candidate size: 5915
+2049	NA	candidate size: 5915
+Time cost for this pair is 25.2100 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.0769
+recall: 1.0000
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0771
+recall: 1.0000
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0835
+recall: 0.9912
+
+8117	NA	candidate size: 5915
+2027	NA	candidate size: 5915
+Time cost for this pair is 3.9300 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1560
+recall: 0.5868
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.1452
+recall: 0.2549
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PA>]	
+precision: 0.1935
+recall: 0.3407
+
+7812	NA	candidate size: 5915
+979	NA	candidate size: 5915
+Time cost for this pair is 0.9400 seconds
+[<PA>]^(-1)	[<PP>]	[<PP>]	[<PA>]	
+precision: 0.2188
+recall: 0.0154
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.4150
+recall: 0.7407
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.2005
+recall: 0.5626
+
+8083	NA	candidate size: 5915
+7772	NA	candidate size: 5915
+Time cost for this pair is 6.8200 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.4150
+recall: 0.7407
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PA>]	
+precision: 0.3327
+recall: 0.3736
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.4150
+recall: 0.7407
+
+7602	NA	candidate size: 5915
+3763	NA	candidate size: 5915
+Time cost for this pair is 27.3500 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
+precision: 0.1208
+recall: 0.6418
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 0.0962
+recall: 0.7429
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0787
+recall: 1.0000
+
+931	NA	candidate size: 5915
+1987	NA	candidate size: 5915
+Time cost for this pair is 36.1600 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
+precision: 0.1262
+recall: 0.5912
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
+precision: 0.1223
+recall: 0.6132
+[<PA>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0923
+recall: 0.8725
+
+985	NA	candidate size: 5915
+2076	NA	candidate size: 5915
+Time cost for this pair is 83.4200 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.1512
+recall: 0.3187
+[<PA>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
+precision: 0.3186
+recall: 0.3165
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.1283
+recall: 0.3495
+
+1948	NA	candidate size: 5915
+7452	NA	candidate size: 5915
+Time cost for this pair is 42.3800 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0780
+recall: 1.0000
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0774
+recall: 1.0000
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.0769
+recall: 1.0000
+
+7815	NA	candidate size: 5915
+7789	NA	candidate size: 5915
+Time cost for this pair is 7.1500 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.4150
+recall: 0.7407
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.4150
+recall: 0.7407
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 0.2390
+recall: 0.8264
+
+10090	NA	candidate size: 5915
+4280	NA	candidate size: 5915
+Time cost for this pair is 23.9400 seconds
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2110
+recall: 0.8418
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0826
+recall: 0.9429
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.0828
+recall: 0.9538
+
+7929	NA	candidate size: 5915
+1531	NA	candidate size: 5915
+Time cost for this pair is 3.1100 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2809
+recall: 0.8791
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1372
+recall: 0.7429
+[<PA>]^(-1)	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2809
+recall: 0.8791
+
+7788	NA	candidate size: 5915
+7826	NA	candidate size: 5915
+Time cost for this pair is 8.4500 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.4150
+recall: 0.7407
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PP>]	[<PA>]	
+precision: 0.2650
+recall: 0.2044
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PP>]	[<PA>]	
+precision: 0.1383
+recall: 0.1714
+
+6353	NA	candidate size: 5915
+6185	NA	candidate size: 5915
+Time cost for this pair is 3.7600 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2371
+recall: 0.7582
+[<PA>]^(-1)	[<PP>]	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2371
+recall: 0.7582
+[<PA>]^(-1)	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2027
+recall: 0.8945
+
+7508	NA	candidate size: 5915
+235	NA	candidate size: 5915
+Time cost for this pair is 18.5600 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]^(-1)	[<PA>]	
+precision: 0.1718
+recall: 0.3407
+[<PA>]^(-1)	[<PP>]	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1418
+recall: 0.3714
+[<PA>]^(-1)	[<PP>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1502
+recall: 0.4286
+
+1447	NA	candidate size: 5915
+2418	NA	candidate size: 5915
+Time cost for this pair is 30.5200 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PP>]	[<PA>]	
+precision: 0.1421
+recall: 0.1670
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0780
+recall: 1.0000
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0774
+recall: 1.0000
+
+7789	NA	candidate size: 5915
+4519	NA	candidate size: 5915
+Time cost for this pair is 2.3700 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2898
+recall: 0.7516
+[<PA>]^(-1)	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2264
+recall: 0.8835
+[<PA>]^(-1)	[<PP>]	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.4150
+recall: 0.7407
+
+1802	NA	candidate size: 5915
+1023	NA	candidate size: 5915
+Time cost for this pair is 16.8300 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1143
+recall: 0.8418
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2809
+recall: 0.8791
+[<PA>]^(-1)	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.1829
+recall: 0.9209
+
+7991	NA	candidate size: 5915
+7458	NA	candidate size: 5915
+Time cost for this pair is 13.0600 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.4150
+recall: 0.7407
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.4150
+recall: 0.7407
+[<PA>]^(-1)	[<PP>]^(-1)	[<PP>]	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.4150
+recall: 0.7407
+
+7499	NA	candidate size: 5915
+2078	NA	candidate size: 5915
+Time cost for this pair is 6.6000 seconds
+[<PA>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
+precision: 0.2535
+recall: 0.0791
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0839
+recall: 0.5736
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.1888
+recall: 0.7560
+
+8101	NA	candidate size: 5915
+1158	NA	candidate size: 5915
+Time cost for this pair is 2.5900 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.4150
+recall: 0.7407
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0952
+recall: 0.2022
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.2960
+recall: 0.2791
+
+7652	NA	candidate size: 5915
+2418	NA	candidate size: 5915
+Time cost for this pair is 14.1100 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PP>]	[<PA>]	
+precision: 0.1739
+recall: 0.1319
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.2520
+recall: 0.3516
+[<PA>]^(-1)	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.1167
+recall: 0.3341
+
+556	NA	candidate size: 5915
+7690	NA	candidate size: 5915
+Time cost for this pair is 34.0600 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3103
+recall: 0.7912
+[<PA>]^(-1)	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.3103
+recall: 0.7912
+[<PA>]^(-1)	[<PP>]^(-1)	[<PP>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1170
+recall: 0.8505
+
+7932	NA	candidate size: 5915
+8139	NA	candidate size: 5915
+Time cost for this pair is 9.1300 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.4150
+recall: 0.7407
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.1103
+recall: 0.2703
+[<PA>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.4150
+recall: 0.7407
+
+1911	NA	candidate size: 5915
+1304	NA	candidate size: 5915
+Time cost for this pair is 14.5900 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2019
+recall: 0.8901
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0920
+recall: 0.7297
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.1888
+recall: 0.3692
+
+820	NA	candidate size: 5915
+2076	NA	candidate size: 5915
+Time cost for this pair is 19.0500 seconds
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 0.0877
+recall: 0.1363
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 0.0413
+recall: 0.1165
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0847
+recall: 0.9692
+
+7443	NA	candidate size: 5915
+1447	NA	candidate size: 5915
+Time cost for this pair is 33.6800 seconds
+[<PA>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.1194
+recall: 0.9516
+[<PA>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0942
+recall: 0.8615
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0787
+recall: 1.0000
+
+6251	NA	candidate size: 5915
+4100	NA	candidate size: 5915
+Time cost for this pair is 34.5100 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2371
+recall: 0.7582
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0738
+recall: 0.4022
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	[<PA>]^(-1)	[<PA>]	
+precision: 0.1368
+recall: 0.8440
+
+1110	NA	candidate size: 5915
+2059	NA	candidate size: 5915
+Time cost for this pair is 20.0200 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.4004
+recall: 0.7868
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.2870
+recall: 0.2813
+[<PA>]^(-1)	[<PP>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2771
+recall: 0.9099
+
+1247	NA	candidate size: 5915
+1742	NA	candidate size: 5915
+Time cost for this pair is 4.7700 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.1774
+recall: 0.3099
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]^(-1)	[<PA>]	
+precision: 0.2384
+recall: 0.1802
+[<PA>]^(-1)	[<PT>]	[<PT>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.1377
+recall: 0.2198
+
+8007	NA	candidate size: 5915
+8235	NA	candidate size: 5915
+Time cost for this pair is 10.5100 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.1738
+recall: 0.7978
+[<PA>]^(-1)	[<PP>]	[<PT>]	[<PT>]^(-1)	[<PA>]	
+precision: 0.0872
+recall: 0.8571
+[<PA>]^(-1)	[<PP>]^(-1)	[<PP>]^(-1)	[<PP>]	[<PP>]^(-1)	[<PA>]	
+precision: 0.1576
+recall: 0.1143
+
+4445	NA	candidate size: 5915
+1353	NA	candidate size: 5915
+Time cost for this pair is 10.9200 seconds
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.2898
+recall: 0.7516
+[<PA>]^(-1)	[<PP>]	[<PV>]	[<PV>]^(-1)	[<PA>]	
+precision: 0.1283
+recall: 0.1165
+[<PA>]^(-1)	[<PV>]	[<PV>]^(-1)	[<PP>]	[<PA>]	
+precision: 0.2500
+recall: 0.2857
+
+Average time cost is 17.9175 seconds
+
+Metrics	Precision	Precision@k
+1	0.207999	0.207999
+2	0.176358	0.192178
+3	0.176545	0.186967
+
+Metrics	Recall	Recall@k
+1	0.595324	0.595324
+2	0.611849	0.603586
+3	0.650937	0.619370
+
+Metrics	F1-score	F1-score@k
+1	0.308286	0.308286
+2	0.273797	0.291042
+3	0.277758	0.286614

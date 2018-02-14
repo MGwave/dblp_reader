@@ -14,17 +14,17 @@
 
 using namespace std;
 
-void output(vector<double> precision_result){
+void output(vector<double> result, string metric){
 	cout << endl;
-	if(precision_result.size() > 0){
-		cout << "Metrics" << "\t" << "Precision" << "\t" << "Precision@k" << endl;
+	if(result.size() > 0){
+		cout << "Metrics" << "\t" << metric << "\t" << metric << "@k" << endl;
 		cout.precision(6);
 		cout << fixed;
-		for(int i = 0; i < precision_result.size(); i++){
-			cout << i+1 << "\t" << precision_result[i] << "\t";
+		for(int i = 0; i < result.size(); i++){
+			cout << i+1 << "\t" << result[i] << "\t";
 			double sum = 0.0;
 			for(int j = 0; j <= i; j++){
-				sum += precision_result[j]; 
+				sum += result[j]; 
 			}
 			cout << sum/(i + 1) << endl;	
 		}
@@ -162,7 +162,7 @@ double getClassifierPrecision(vector<int> meta_path, vector<pair<int, int>> samp
 
 
 
-double getRecommendPrecision(vector<int> meta_path, int src, set<int> true_entities, HIN_Graph & hin_graph_){
+pair<double, double> getRecommendPrecisionAndRecall(vector<int> meta_path, int src, set<int> true_entities, HIN_Graph & hin_graph_){
 	set<int> dst_entities;
 	TopKCalculator::getDstEntities(src, meta_path, dst_entities, hin_graph_);
 	
@@ -172,7 +172,7 @@ double getRecommendPrecision(vector<int> meta_path, int src, set<int> true_entit
 			hit_count++;
 		}
 	}	
-	return hit_count*1.0/dst_entities.size();
+	return make_pair(hit_count*1.0/dst_entities.size(), hit_count*1.0/true_entities.size());
 }
 
 int main(int argc, const char * argv[]) {
@@ -258,6 +258,8 @@ int main(int argc, const char * argv[]) {
 		
 		int sample_size = pos_pairs.size();
 		vector<double> precision_result (k, 0.0);
+		vector<double> recall_result (k, 0.0);
+		vector<double> f1_result (k, 0.0);
 
 		double time_cost = 0.0;
 
@@ -302,19 +304,24 @@ int main(int argc, const char * argv[]) {
 			time_cost += curr_time_cost;
 	
 			vector<double> tmp_precision_result;	
+			vector<double> tmp_recall_result;
 			for(vector<pair<vector<double>, vector<int>>>::iterator iter_path = topKMetaPaths.begin(); iter_path != topKMetaPaths.end(); iter_path++){
 				
 				vector<int> curr_meta_path = iter_path->second;
 	
-				double precision;
+				double precision, recall;
 				if(strcmp(test_type.c_str(), "classifier") == 0){
 					precision = getClassifierPrecision(curr_meta_path, neg_pairs, hin_graph_);	
 				}else if(strcmp(test_type.c_str(), "recommend") == 0){
-					precision = getRecommendPrecision(curr_meta_path, src, candidate_entities, hin_graph_);
+					pair<double, double> result = getRecommendPrecisionAndRecall(curr_meta_path, src, candidate_entities, hin_graph_);
+					precision = result.first;
+					recall = result.second;
 				}
 	
 				tmp_precision_result.push_back(precision);	
-
+				if(strcmp(test_type.c_str(), "recommend") == 0){
+					tmp_recall_result.push_back(recall);
+				}
 				for(int j = 0; j < curr_meta_path.size(); j++){
 					int curr_edge_type = curr_meta_path[j];
 					if(curr_edge_type < 0){
@@ -336,6 +343,9 @@ int main(int argc, const char * argv[]) {
 				cout.precision(4);
 						cout << fixed;
 				cout << "precision: " << precision << endl;
+				if(strcmp(test_type.c_str(), "recommend") == 0){
+					cout << "recall: " << recall << endl;
+				}
 								
 				
 			}			
@@ -343,6 +353,9 @@ int main(int argc, const char * argv[]) {
 			topKMetaPaths.clear();
 			for(int j = 0; j < k; j++){
 				precision_result[j] += tmp_precision_result[j];
+				if(strcmp(test_type.c_str(), "recommend") == 0){
+					recall_result[j] += tmp_recall_result[j];
+				}
 			}
 		}
 
@@ -353,9 +366,17 @@ int main(int argc, const char * argv[]) {
 		// calculate the average value
 		for(int j = 0; j < k; j++){
 			precision_result[j] /= sample_size;
+			if(strcmp(test_type.c_str(), "recommend") == 0){
+				recall_result[j] /= sample_size;
+				f1_result[j] = recall_result[j]*precision_result[j]*(F1_BETA*F1_BETA+1)/(F1_BETA*F1_BETA*precision_result[j] + recall_result[j]);
+			}	
 		}
 
-		output(precision_result);
+		output(precision_result, "Precision");
+		if(strcmp(test_type.c_str(), "recommend") == 0){
+			output(recall_result, "Recall");
+			output(f1_result, "F1-score");	
+		}
 
 		
 	}else{

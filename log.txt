@@ -1,0 +1,3 @@
+nohup: ignoring input
+Take 0.06s to read DBLP dataset
+Take 0.07s to construct DBLP graph

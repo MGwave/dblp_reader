@@ -116,6 +116,9 @@ void tfidfSetup(const char* tfidf_type, int penalty_type, double beta, int sampl
 		if(strcmp(tfidf_type, "M-S") == 0){
 				TopKCalculator::support_type_ = 1;
 				TopKCalculator::rarity_type_ = 1;
+		}else if(strcmp(tfidf_type, "A-M-S") == 0){
+				TopKCalculator::support_type_ = 3;
+				TopKCalculator::rarity_type_ = 1;
 		}else if(strcmp(tfidf_type, "B-S") == 0){
 				TopKCalculator::support_type_ = 0;
 				TopKCalculator::rarity_type_ = 1;
