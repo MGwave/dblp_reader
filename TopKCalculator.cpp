@@ -13,6 +13,7 @@
 #include <cstring>
 #include <iostream>
 #include <fstream>
+#include <ctime>
 
 using namespace std;
 
@@ -667,6 +668,8 @@ vector<pair<vector<double>, vector<int>>> TopKCalculator::getTopKMetaPath_TFIDF(
 	
 	// cout << maxRarity << endl; 
 	// queue initialize
+	clock_t t2, t1;
+	t1 = clock();
 	priority_queue<TfIdfNode*, vector<TfIdfNode*>, TfIdfNodePointerCmp> q;
 	vector<TfIdfNode*> tmpTfIdfNodeList;
 	vector<HIN_Edge> curr_edges_src_ = hin_edges_src_[src];
@@ -712,9 +715,10 @@ vector<pair<vector<double>, vector<int>>> TopKCalculator::getTopKMetaPath_TFIDF(
 		q.push(temp_tfidf_node_p);
 		
 	}
-
 	// BFS
 	while(!q.empty()){
+		t1 = clock();
+
 		TfIdfNode* curr_tfidf_node_p = q.top();
 		tmpTfIdfNodeList.push_back(curr_tfidf_node_p); 
 		q.pop();
@@ -853,7 +857,6 @@ vector<pair<vector<double>, vector<int>>> TopKCalculator::getTopKMetaPath_TFIDF(
 		}	
 	}
 
-	
 	return topKMetaPath_;
 }
 
