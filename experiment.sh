@@ -1,10 +1,10 @@
 #!/bin/bash
 k=3
-experiment_type="recommend"
+experiment_type="classifier"
 datasets=( "DBLP" )
-betas=( "0.1" "0.15" )
+betas=( "0.15" )
 #betas=( "0.1" )
-tfidf_types=( "A-M-S" )
+tfidf_types=( "M-S" )
 target_file="labels.txt"
 for dataset in "${datasets[@]}"
 do
@@ -24,6 +24,6 @@ do
 		output_file="output_test/"$experiment_type"_"$dataset"_2_"$tfidf_type"_"$k".txt"
 		./topKQueryTest --"$experiment_type" "$dataset" "$dataset"_pos_pairs.txt $target_file $k $tfidf_type 2 > $output_file
 	done
-	#./topKQueryTest --"$experiment_type" "$dataset" "$dataset"_pos_pairs.txt $target_file $k SP 1 > "output_test/"$experiment_type"_"$dataset"_SP_"$k".txt"
+	./topKQueryTest --"$experiment_type" "$dataset" "$dataset"_pos_pairs.txt $target_file $k SP 1 > "output_test/"$experiment_type"_"$dataset"_SP_"$k".txt"
 done
 

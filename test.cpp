@@ -64,7 +64,7 @@ void printUsage(const char* argv[]){
 	cout << endl;
 }
 
-bool readClassifierSampleFile(string pos_file, string neg_file, vector<pair<int, int>> & pos_pairs, vector<pair<int, vector<int>>> & neg_pairs){
+bool readClassifierSampleFile(string pos_file, string neg_file, vector<pair<int, int>> & pos_pairs, vector<pair<int, int>> & neg_pairs){
 	ifstream posSamplesIn(pos_file.c_str(), ios::in);
 	ifstream negSamplesIn(neg_file.c_str(), ios::in);
 	if(!posSamplesIn.good() || !negSamplesIn.good()){
@@ -80,20 +80,14 @@ bool readClassifierSampleFile(string pos_file, string neg_file, vector<pair<int,
 		vector<string> neg_strs = split(neg_line, "\t");	
 		if(pos_strs.size() != 2){
 			cerr << "Unsupported format for the pair: " << pos_line << endl;
-		}else if(strcmp(pos_strs[0].c_str(), neg_strs[0].c_str()) != 0){
-			cerr << "Unmatched pairs: " << pos_strs[0] << " and " << neg_strs[0] << endl;
 		}else{
-			int src = atoi(pos_strs[0].c_str());
-
+			int pos_src = atoi(pos_strs[0].c_str());
 			int pos_dst = atoi(pos_strs[1].c_str());
-			pos_pairs.push_back(make_pair(src, pos_dst));
+			pos_pairs.push_back(make_pair(pos_src, pos_dst));
 
-			vector<int> neg_dsts;
-			vector<string> neg_dst_strs = split(neg_strs[1], ",");	
-			for(int i = 0; i < neg_dst_strs.size(); i++){
-				neg_dsts.push_back(atoi(neg_dst_strs[i].c_str()));
-			}	
-			neg_pairs.push_back(make_pair(src, neg_dsts));
+			int neg_src = atoi(neg_strs[0].c_str());	
+			int neg_dst = atoi(neg_strs[1].c_str());
+			neg_pairs.push_back(make_pair(neg_src, neg_dst));
 		}
 
 	}
@@ -149,15 +143,21 @@ bool readRecommendSampleFile(string pos_file, string labels_file, vector<pair<in
 	return true;
 }
 
-double getClassifierPrecision(vector<int> meta_path, vector<pair<int, int>> sample_pairs, HIN_Graph & hin_graph_){
+pair<double, double> getClassifierPrecisionAndRecall(vector<int> meta_path, vector<pair<int, int>> pos_pairs, vector<pair<int, int>> neg_pairs, HIN_Graph & hin_graph_){
 
-	int hit_count = 0; 
-	for(vector<pair<int, int>>::iterator iter = sample_pairs.begin(); iter != sample_pairs.end(); iter++){
+	int pos_hit_count = 0; 
+	int neg_hit_count = 0;
+	for(vector<pair<int, int>>::iterator iter = pos_pairs.begin(); iter != pos_pairs.end(); iter++){
 		if(TopKCalculator::isConnected(iter->first, iter->second, meta_path, hin_graph_)){
-			hit_count++;	
+			pos_hit_count++;	
 		}		
 	}
-	return 1.0/(1.0 + hit_count);
+	for(vector<pair<int, int>>::iterator iter = neg_pairs.begin(); iter != neg_pairs.end(); iter++){
+		if(TopKCalculator::isConnected(iter->first, iter->second, meta_path, hin_graph_)){
+			neg_hit_count++;	
+		}		
+	}
+	return make_pair(pos_hit_count*1.0/(pos_hit_count + neg_hit_count), pos_hit_count*1.0/pos_pairs.size());
 }
 
 
@@ -246,8 +246,8 @@ int main(int argc, const char * argv[]) {
 
 		vector<pair<int, int>> pos_pairs;
 
-		vector<pair<int, vector<int>>> neg_entities;
-			if(strcmp(test_type.c_str(), "classifier") == 0 && !readClassifierSampleFile(pos_pairs_file_name, argv[4], pos_pairs, neg_entities)){
+		vector<pair<int, int>> neg_pairs;
+			if(strcmp(test_type.c_str(), "classifier") == 0 && !readClassifierSampleFile(pos_pairs_file_name, argv[4], pos_pairs, neg_pairs)){
 					return -1;
 			}
 
@@ -264,20 +264,13 @@ int main(int argc, const char * argv[]) {
 		double time_cost = 0.0;
 
 
-		vector<pair<int, int>> neg_pairs; 
 		set<int> candidate_entities;
 
 		for(int i = 0; i < pos_pairs.size(); i++){
 					int src = pos_pairs[i].first;
 					int dst = pos_pairs[i].second;
 
-			if(strcmp(test_type.c_str(), "classifier") == 0){
-				vector<int> neg_dsts = neg_entities[i].second;
-				neg_pairs.clear();
-							for(int i = 0; i < neg_dsts.size();i++){
-									neg_pairs.push_back(make_pair(src, neg_dsts[i]));
-							}
-			}else if(strcmp(test_type.c_str(), "recommend") == 0){
+			if(strcmp(test_type.c_str(), "recommend") == 0){
 				for(map<int, set<int>>::iterator iter = labeled_entities.begin(); iter != labeled_entities.end(); iter++){
 					if(iter->second.find(src) != iter->second.end()){
 						candidate_entities = iter->second;
@@ -311,7 +304,9 @@ int main(int argc, const char * argv[]) {
 	
 				double precision, recall;
 				if(strcmp(test_type.c_str(), "classifier") == 0){
-					precision = getClassifierPrecision(curr_meta_path, neg_pairs, hin_graph_);	
+					pair<double, double> result = getClassifierPrecisionAndRecall(curr_meta_path, pos_pairs, neg_pairs, hin_graph_);	
+					precision = result.first;
+					recall = result.second;
 				}else if(strcmp(test_type.c_str(), "recommend") == 0){
 					pair<double, double> result = getRecommendPrecisionAndRecall(curr_meta_path, src, candidate_entities, hin_graph_);
 					precision = result.first;
@@ -319,9 +314,7 @@ int main(int argc, const char * argv[]) {
 				}
 	
 				tmp_precision_result.push_back(precision);	
-				if(strcmp(test_type.c_str(), "recommend") == 0){
-					tmp_recall_result.push_back(recall);
-				}
+				tmp_recall_result.push_back(recall);
 				for(int j = 0; j < curr_meta_path.size(); j++){
 					int curr_edge_type = curr_meta_path[j];
 					if(curr_edge_type < 0){
@@ -343,9 +336,7 @@ int main(int argc, const char * argv[]) {
 				cout.precision(4);
 						cout << fixed;
 				cout << "precision: " << precision << endl;
-				if(strcmp(test_type.c_str(), "recommend") == 0){
-					cout << "recall: " << recall << endl;
-				}
+				cout << "recall: " << recall << endl;
 								
 				
 			}			
@@ -353,9 +344,7 @@ int main(int argc, const char * argv[]) {
 			topKMetaPaths.clear();
 			for(int j = 0; j < k; j++){
 				precision_result[j] += tmp_precision_result[j];
-				if(strcmp(test_type.c_str(), "recommend") == 0){
-					recall_result[j] += tmp_recall_result[j];
-				}
+				recall_result[j] += tmp_recall_result[j];
 			}
 		}
 
@@ -366,17 +355,13 @@ int main(int argc, const char * argv[]) {
 		// calculate the average value
 		for(int j = 0; j < k; j++){
 			precision_result[j] /= sample_size;
-			if(strcmp(test_type.c_str(), "recommend") == 0){
-				recall_result[j] /= sample_size;
-				f1_result[j] = recall_result[j]*precision_result[j]*(F1_BETA*F1_BETA+1)/(F1_BETA*F1_BETA*precision_result[j] + recall_result[j]);
-			}	
+			recall_result[j] /= sample_size;
+			f1_result[j] = recall_result[j]*precision_result[j]*(F1_BETA*F1_BETA+1)/(F1_BETA*F1_BETA*precision_result[j] + recall_result[j]);
 		}
 
 		output(precision_result, "Precision");
-		if(strcmp(test_type.c_str(), "recommend") == 0){
-			output(recall_result, "Recall");
-			output(f1_result, "F1-score");	
-		}
+		output(recall_result, "Recall");
+		output(f1_result, "F1-score");	
 
 		
 	}else{
