@@ -19,8 +19,8 @@ using namespace std;
 
 int TopKCalculator::penalty_type_ = 1;
 double TopKCalculator::beta_ = 0.3;
-int TopKCalculator::rarity_type_ = 1; // 1 -> true rarity; 0 -> 1(constant)
-int TopKCalculator::support_type_ = 1; // 1 -> MNI; 2 -> PCRW; 0 -> 1(constant)
+int TopKCalculator::rarity_type_ = 1;
+int TopKCalculator::support_type_ = 1;
 int TopKCalculator::sample_size_ = 100;
 
 TfIdfNode::TfIdfNode(int curr_edge_type, map<int, set<int>> curr_nodes_with_parents, double max_support, vector<int> meta_path, TfIdfNode* parent):curr_edge_type_(curr_edge_type), curr_nodes_with_parents_(curr_nodes_with_parents), max_support_(max_support), meta_path_(meta_path), parent_(parent){}
@@ -83,6 +83,10 @@ double TopKCalculator::penalty(int length)
 		return pow(beta_, length);
 	}else if(penalty_type_ == 2){
 		return 1.0/factorial(length);
+	}else if(penalty_type_ == 3){
+		return 1.0/length;
+	}else if(penalty_type_ == 4){
+		return 1/exp(length);
 	}else{
 		return 1.0;
 	}
@@ -217,7 +221,7 @@ double TopKCalculator::getHit(set<int> & srcSimilarNodes, set<int> & dstSimilarN
 // This is a light weight version of getRarity where we consider a smaller set of D
 // D' = {(src, v)|v \in dstSimilarNodes} \cup {(u, dst)|u \in srcSimilarNodes}
 double TopKCalculator::getRarity(int src, int dst, set<int> & srcSimilarNodes, set<int> & dstSimilarNodes, vector<int> & meta_path, HIN_Graph & hin_graph_) {
-	if (rarity_type_ != 1) {
+	if (rarity_type_ == 0) {
 		return 1.0;
 	}
 
@@ -239,7 +243,26 @@ double TopKCalculator::getRarity(int src, int dst, set<int> & srcSimilarNodes, s
 
 	hit += 1;
 
-	return log(similarPairsSize*1.0 / hit);
+	if(rarity_type_ == 1){
+		return log(similarPairsSize*1.0 / hit);
+	}else{
+		double normalizedHit = hit*1.0;
+		map<int, pair<double, double>> edgeTypeAvgDegree = hin_graph_.edge_type_avg_degree_;
+		int meta_path_size = meta_path.size();
+		for(int i = 0; i < meta_path_size; i++){
+			int curr_edge_type = meta_path[i];
+			if(curr_edge_type < 0){
+				curr_edge_type = -curr_edge_type;
+			}
+			if(edgeTypeAvgDegree.find(curr_edge_type) != edgeTypeAvgDegree.end()){
+				normalizedHit /= pow(edgeTypeAvgDegree[curr_edge_type].first*edgeTypeAvgDegree[curr_edge_type].second, STRENGTH_ALPHA);
+				if(normalizedHit <= 1){
+					break;
+				}
+			}
+		}
+		return log(similarPairsSize*1.0 / normalizedHit);
+	}
 }
 
 double TopKCalculator::getRarity(int similarPairsSize, set<int> & srcSimilarNodes, set<int> & dstSimilarNodes, vector<int> & meta_path, HIN_Graph & hin_graph_){
@@ -475,7 +498,28 @@ double TopKCalculator::getMaxSupport(double candidateSupport){
 double TopKCalculator::getSupport(int src, int dst, TfIdfNode* curr_tfidf_node_p, vector<int> meta_path, HIN_Graph & hin_graph_){
 	if(support_type_ == 0){// Binary Support
 		return 1.0;
-	}else if(support_type_ == 1 || support_type_ == 3){// 1 -> MNI Support; 3 -> AMNI
+	}else if(support_type_ == 1 || support_type_ == 3 ||  support_type_ == 4 || support_type_ == 5){// 1 -> MNI Support; 3 -> Normalized MNI Support
+		double strength_ratio = 1.0;
+		if(support_type_ != 1){
+			map<int, pair<double, double>> edgeTypeAvgDegree = hin_graph_.edge_type_avg_degree_;
+			int meta_path_size = meta_path.size();
+			for(int i = 0; i < meta_path_size; i++){
+				int curr_edge_type = meta_path[i];
+				if(curr_edge_type < 0){
+					curr_edge_type = -curr_edge_type;
+				}
+				if(edgeTypeAvgDegree.find(curr_edge_type) != edgeTypeAvgDegree.end()){
+					strength_ratio /= pow(edgeTypeAvgDegree[curr_edge_type].first*edgeTypeAvgDegree[curr_edge_type].second, STRENGTH_ALPHA);
+				}
+			}
+
+			if(support_type_ == 4){
+				return strength_ratio;
+			}else if(support_type_ == 5){
+				return exp(strength_ratio);
+			}
+
+		}
 
 		if(curr_tfidf_node_p == NULL){
 			return 1.0;
@@ -527,67 +571,10 @@ double TopKCalculator::getSupport(int src, int dst, TfIdfNode* curr_tfidf_node_p
 			
 		}	
 		//cout << min_instances_num << endl;	
-		if(support_type_ == 1)
+		if(support_type_ == 1){
 			return min_instances_num*1.0;
-		else{
-			double ratio;
-			ratio = 0.0;
-			/*
-			vector<int> src_meta_path;
-			vector<int> dst_meta_path;
-			for(int i = 0; i <= min_next_edge_index; i++){
-				src_meta_path.push_back(meta_path[i]);
-			}
-			for(int i = int(meta_path.size()) - 1; i >= min_last_edge_index; i--){
-				dst_meta_path.push_back(-meta_path[i]);
-			}
-
-			for(set<int>::iterator iter = min_curr_nodes.begin(); iter != min_curr_nodes.end(); iter++){
-				double tmp_ratio1 = getPCRW(src, *iter, src_meta_path, hin_graph_);
-				double tmp_ratio2 = getPCRW(dst, *iter, dst_meta_path, hin_graph_);
-				ratio += tmp_ratio1*tmp_ratio2;
-			}*/
-			double min_dst_ratio, min_src_ratio;
-			map<int, double> min_src_hit_ratio;
-			map<int, double> min_dst_hit_ratio;
-
-			double src_ratio = 1.0/min_last_nodes.size();
-			for(set<int>::iterator iter = min_last_nodes.begin(); iter != min_last_nodes.end(); iter++){
-				set<int> tmp_entities;
-				getNextEntities(*iter, -meta_path[min_last_edge_index], tmp_entities, hin_graph_);
-				set<int> tmp_intersect_entities;
-				set_intersection(min_curr_nodes.begin(), min_curr_nodes.end(), tmp_entities.begin(), tmp_entities.end(), inserter(tmp_intersect_entities, tmp_intersect_entities.begin()));
-				double tmp_weight = 1.0/tmp_entities.size();
-				for(set<int>::iterator iter_t = tmp_intersect_entities.begin(); iter_t !=  tmp_intersect_entities.end(); iter_t++){
-					if(min_src_hit_ratio.find(*iter_t) == min_src_hit_ratio.end()){
-						min_src_hit_ratio[*iter_t] = 0.0;
-					}
-					min_src_hit_ratio[*iter_t] += src_ratio*tmp_weight; 
-				}
-			}
-
-			double dst_ratio = 1.0/min_next_nodes.size();	
-			for(set<int>::iterator iter = min_next_nodes.begin(); iter != min_next_nodes.end(); iter++){
-				set<int> tmp_entities;
-				getNextEntities(*iter, meta_path[min_next_edge_index], tmp_entities, hin_graph_);
-				set<int> tmp_intersect_entities;
-				set_intersection(min_curr_nodes.begin(), min_curr_nodes.end(), tmp_entities.begin(), tmp_entities.end(), inserter(tmp_intersect_entities, tmp_intersect_entities.begin()));
-				double tmp_weight = 1.0/tmp_entities.size();
-				for(set<int>::iterator iter_t = tmp_intersect_entities.begin(); iter_t !=  tmp_intersect_entities.end(); iter_t++){
-					if(min_dst_hit_ratio.find(*iter_t) == min_dst_hit_ratio.end()){
-						min_dst_hit_ratio[*iter_t] = 0.0;
-					}
-					min_dst_hit_ratio[*iter_t] += dst_ratio*tmp_weight; 
-				}
-			}	
-			for(map<int, double>::iterator iter = min_src_hit_ratio.begin(); iter != min_src_hit_ratio.end(); iter++){
-				if(min_dst_hit_ratio.find(iter->first) != min_dst_hit_ratio.end()){
-					ratio += iter->second*min_dst_hit_ratio[iter->first]; 
-				}
-
-			}
-			return min_instances_num*ratio;
-
+		}else{
+			return min_instances_num*strength_ratio;
 		}
 
 	}else if(support_type_ == 2){// PCRW Support
@@ -599,7 +586,7 @@ double TopKCalculator::getSupport(int src, int dst, TfIdfNode* curr_tfidf_node_p
 
 		//double pcrw = SimCalculator::calSim_PCRW(src, dst, tempmetapath, id_sim);
 		double pcrw = getPCRW(src, dst, meta_path, hin_graph_);
-		return pow(pcrw, 0.01);
+		return 1/(1.0 - log(pcrw));
 	}
 }
 
@@ -632,6 +619,8 @@ vector<pair<vector<double>, vector<int>>> TopKCalculator::getTopKMetaPath_TFIDF(
 	vector<pair<vector<double>, vector<int>>> topKMetaPath_;
 	map<int, vector<HIN_Edge> > hin_edges_src_ = hin_graph_.edges_src_;
 	map<int, vector<HIN_Edge> > hin_edges_dst_ = hin_graph_.edges_dst_;
+    	map<int, pair<double, double>> edgeTypeAvgDegree = hin_graph_.edge_type_avg_degree_;	
+
 	if((hin_edges_src_.find(src) == hin_edges_src_.end() && hin_edges_dst_.find(src) == hin_edges_dst_.end()) || (hin_edges_src_.find(dst) == hin_edges_src_.end() && hin_edges_dst_.find(dst) == hin_edges_dst_.end()))
 	{
 		return topKMetaPath_;
@@ -703,7 +692,10 @@ vector<pair<vector<double>, vector<int>>> TopKCalculator::getTopKMetaPath_TFIDF(
 		int curr_edge_type = iter->first;
 		vector<int> meta_path (1, curr_edge_type);
 		map<int, set<int>> next_nodes_with_parents = iter->second;
-		TfIdfNode* temp_tfidf_node_p = new TfIdfNode(curr_edge_type, next_nodes_with_parents, getMaxSupport(next_nodes_with_parents.size()), meta_path, NULL);
+		
+		double candidate_max_support = next_nodes_with_parents.size()*1.0;
+
+		TfIdfNode* temp_tfidf_node_p = new TfIdfNode(curr_edge_type, next_nodes_with_parents, getMaxSupport(candidate_max_support), meta_path, NULL);
 		if(next_nodes_with_parents.find(dst) != next_nodes_with_parents.end()){
 			double support = getSupport(src, dst, temp_tfidf_node_p, meta_path, hin_graph_);
 			//double rarity = getRarity(similarPairsSize, srcSimilarNodes, dstSimilarNodes, meta_path, hin_graph_); // original version
@@ -725,6 +717,13 @@ vector<pair<vector<double>, vector<int>>> TopKCalculator::getTopKMetaPath_TFIDF(
 
 		vector<int> meta_path = curr_tfidf_node_p->meta_path_;		
 		double curr_max_support = curr_tfidf_node_p->max_support_;
+		for(int i = 0; i < meta_path.size(); i++){
+			int curr_edge_type = meta_path[i];
+			curr_edge_type = curr_edge_type > 0 ? curr_edge_type: -curr_edge_type;
+			if(edgeTypeAvgDegree.find(curr_edge_type) != edgeTypeAvgDegree.end()){
+				curr_max_support /= pow(edgeTypeAvgDegree[curr_edge_type].first*edgeTypeAvgDegree[curr_edge_type].second, STRENGTH_ALPHA); 
+			}	
+		}
 
 		if(topKMetaPath_.size() == k){ // stop if maximum tfidf in the queue is less than the minimum one in found meta paths
 			//cout << curr_max_support << " " << meta_path.size() << " " << curr_max_support*penalty(meta_path.size())*maxRarity << " " << topKMetaPath_.back().first[0] << endl;
@@ -797,13 +796,12 @@ vector<pair<vector<double>, vector<int>>> TopKCalculator::getTopKMetaPath_TFIDF(
 			temp_meta_path.push_back(curr_edge_type);
 			map<int, set<int>> next_nodes_with_parents = iter->second;
 			
-			int temp_max_support = edge_max_instances_num[curr_edge_type].size();
-
-			if (temp_max_support > curr_max_support) { // keep the minimum instance number in the meta path expanding
-				temp_max_support = curr_max_support;
+			int candidate_max_support = edge_max_instances_num[curr_edge_type].size();	
+			if (candidate_max_support > curr_max_support) { // keep the minimum instance number in the meta path expanding
+				candidate_max_support = curr_max_support;
 			}
 			
-			TfIdfNode* temp_tfidf_node_p = new TfIdfNode(curr_edge_type, next_nodes_with_parents, getMaxSupport(temp_max_support), temp_meta_path, curr_tfidf_node_p);
+			TfIdfNode* temp_tfidf_node_p = new TfIdfNode(curr_edge_type, next_nodes_with_parents, getMaxSupport(candidate_max_support), temp_meta_path, curr_tfidf_node_p);
 						
 			if (next_nodes_with_parents.find(dst) != next_nodes_with_parents.end()) {
 				//double rarity = getRarity(similarPairsSize, srcSimilarNodes, dstSimilarNodes, temp_meta_path, hin_graph_); // original

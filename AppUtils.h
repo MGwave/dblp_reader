@@ -16,6 +16,11 @@
 #define DEFAULT_SCORE_FUNCTION 1
 #define DEFAULT_OUTPUT_DIR "topKResult"
 #define DEFAULT_SAMPLE_SIZE 100
+#define DEFAULT_CACHE_DIRECTORY "cache/"
+#define DEFAULT_CACHE_NODE_TYPE_NUM_FILE_SUFFIX "nodeTypeNum.txt"
+#define DEFAULT_CACHE_EDGE_TYPE_NUM_FILE_SUFFIX "edgeTypeNum.txt"
+#define DEFAULT_CACHE_EDGE_TYPE_AVG_DEG_FILE_SUFFIX "edgeTypeAvgDegree.txt"
+
 
 using namespace std;
 
@@ -25,4 +30,7 @@ string getFileName(int src, int dst, string dataset);
 
 void tfidfSetup(const char* tfidf_type, int penalty_type, double beta, int sample_size=DEFAULT_SAMPLE_SIZE);
 
+void loadMetaInfo(string dataset, HIN_Graph & hin_graph_, string inDir=DEFAULT_CACHE_DIRECTORY);
+
+void getMetaInfo(string dataset, string outDir=DEFAULT_CACHE_DIRECTORY);
 #endif

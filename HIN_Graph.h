@@ -57,6 +57,13 @@ public:
     
     map<int, vector<HIN_Edge> > edges_src_;
     map<int, vector<HIN_Edge> > edges_dst_;
+
+    // node type num
+    map<int, int> node_type_num_;
+    // edge type num
+    map<int, int> edge_type_num_;
+    // edge type average degree
+    map<int, pair<double, double>> edge_type_avg_degree_;
     
     map<string, int> key2id_;
     

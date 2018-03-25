@@ -1,0 +1,991 @@
+ACM_labels.txt
+14011	Ming-Chien_Shan	candidate size: 17431
+7485	Jiri_Schindler	candidate size: 17431
+Time cost for this pair is 232.02 seconds
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[A_F]	[A_F]^(-1)	[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_A]	[P_A]^(-1)	[P_P]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_P]	[P_A]	
+precision: 0.0000
+recall: -nan
+
+6001	Ibrahim_Kamel	candidate size: 17431
+6850	Armando_Fox	candidate size: 17431
+Time cost for this pair is 248.2300 seconds
+[A_F]	[A_F]^(-1)	[P_A]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_A]	[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+[A_F]	[A_F]^(-1)	[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+
+1728	Evaggelia_Pitoura	candidate size: 17431
+3734	Neoklis_Polyzotis	candidate size: 17431
+Time cost for this pair is 58.3100 seconds
+[P_A]^(-1)	[P_P]	[P_P]	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]	[P_P]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[A_F]	[A_F]^(-1)	[P_A]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+
+16039	Luping_Ding	candidate size: 17431
+5782	Sihem_Amer-Yahia	candidate size: 17431
+Time cost for this pair is 233.6400 seconds
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]^(-1)	[P_A]	[P_A]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]^(-1)	[P_P]	[P_P]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]^(-1)	[P_A]	[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+
+5283	Shaofeng_Bu	candidate size: 17431
+16358	Anat_Eyal	candidate size: 17431
+Time cost for this pair is 198.9400 seconds
+[P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]^(-1)	[P_V]	[P_V]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_P]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+
+6518	Feifei_Li	candidate size: 17431
+12313	Wang-Chien_Lee	candidate size: 17431
+Time cost for this pair is 57.7800 seconds
+[A_F]	[A_F]^(-1)	[P_A]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_A]	[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[A_F]	[A_F]^(-1)	[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+
+14011	Ming-Chien_Shan	candidate size: 17431
+7485	Jiri_Schindler	candidate size: 17431
+Time cost for this pair is 233.9600 seconds
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[A_F]	[A_F]^(-1)	[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]	[P_A]	[P_A]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+
+10886	Sherif_Sakr	candidate size: 17431
+13333	Wen-Syan_Li	candidate size: 17431
+Time cost for this pair is 248.5200 seconds
+[P_A]^(-1)	[P_A]	[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+[A_F]	[A_F]^(-1)	[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]	[P_V]	[P_V]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+
+923	Stratis_D._Viglas	candidate size: 17431
+5044	Mariano_P._Consens	candidate size: 17431
+Time cost for this pair is 63.0900 seconds
+[P_A]^(-1)	[P_P]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]	[P_P]	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]^(-1)	[P_P]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]^(-1)	[P_P]	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]	[P_P]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+
+3588	Chendong_Zou	candidate size: 17431
+12313	Wang-Chien_Lee	candidate size: 17431
+Time cost for this pair is 220.9200 seconds
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[A_F]	[A_F]^(-1)	[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_P]	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_C]	[V_C]^(-1)	[P_V]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+
+4817	Opher_Etzion	candidate size: 17431
+5745	Ekow_Otoo	candidate size: 17431
+Time cost for this pair is 533.0800 seconds
+[A_F]	[A_F]^(-1)	[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[A_F]	[A_F]^(-1)	[P_A]^(-1)	[P_P]	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_P]	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_P]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+
+3507	Stelios_Sidiroglou	candidate size: 17431
+12761	Surajit_Chaudhuri	candidate size: 17431
+Time cost for this pair is 157.2100 seconds
+[P_A]^(-1)	[P_A]	[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+[A_F]	[A_F]^(-1)	[P_A]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[A_F]	[A_F]^(-1)	[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[A_F]	[A_F]^(-1)	[P_A]^(-1)	[P_P]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+
+1375	Klaudia_Hergula	candidate size: 17431
+9292	Sabine_Loudcher_Rabas&#233;da	candidate size: 17431
+Time cost for this pair is 626.4400 seconds
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_V]	[V_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_C]	[V_C]^(-1)	[P_V]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+
+7124	Noureddine_Mouaddib	candidate size: 17431
+16229	Il-Yeol_Song	candidate size: 17431
+Time cost for this pair is 239.8300 seconds
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[A_F]	[A_F]^(-1)	[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_P]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[A_F]	[A_F]^(-1)	[P_A]^(-1)	[P_P]	[P_A]	
+precision: 0.0000
+recall: -nan
+
+3010	Calisto_Zuzarte	candidate size: 17431
+12313	Wang-Chien_Lee	candidate size: 17431
+Time cost for this pair is 292.8700 seconds
+[P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_A]	[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[A_F]	[A_F]^(-1)	[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+
+2455	Fatma_&#214;zcan	candidate size: 17431
+694	Jarek_Gryz	candidate size: 17431
+Time cost for this pair is 57.4400 seconds
+[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]	[P_P]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_A]	[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+
+4700	Sujoe_Bose	candidate size: 17431
+16358	Anat_Eyal	candidate size: 17431
+Time cost for this pair is 1005.2800 seconds
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_P]	[P_A]	
+precision: 0.0000
+recall: -nan
+[A_F]	[A_F]^(-1)	[P_A]^(-1)	[P_P]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+
+2269	Giedrius_Slivinskas	candidate size: 17431
+7485	Jiri_Schindler	candidate size: 17431
+Time cost for this pair is 198.7700 seconds
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]	[P_P]	[P_P]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_V]	[V_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+
+6001	Ibrahim_Kamel	candidate size: 17431
+8383	Cyrus_Shahabi	candidate size: 17431
+Time cost for this pair is 264.9500 seconds
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_A]	[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+[A_F]	[A_F]^(-1)	[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]^(-1)	[P_P]^(-1)	[P_P]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+
+2675	Yanif_Ahmad	candidate size: 17431
+8383	Cyrus_Shahabi	candidate size: 17431
+Time cost for this pair is 254.5800 seconds
+[P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]	[P_P]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[A_F]	[A_F]^(-1)	[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+
+497	Moira_C._Norrie	candidate size: 17431
+923	Stratis_D._Viglas	candidate size: 17431
+Time cost for this pair is 159.3800 seconds
+[A_F]	[A_F]^(-1)	[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_P]	[P_A]	
+precision: 0.0000
+recall: -nan
+[A_F]	[A_F]^(-1)	[P_A]^(-1)	[P_P]	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_P]	[P_A]	
+precision: 0.0000
+recall: -nan
+
+17357	Yuhang_Zhao	candidate size: 17431
+12466	Kun-Lung_Wu	candidate size: 17431
+Time cost for this pair is 190.8500 seconds
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[A_F]	[A_F]^(-1)	[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]^(-1)	[P_V]	[P_V]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]	[P_A]	[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+
+5521	Hui-I_Hsiao	candidate size: 17431
+3734	Neoklis_Polyzotis	candidate size: 17431
+Time cost for this pair is 287.8800 seconds
+[P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[A_F]	[A_F]^(-1)	[P_A]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[A_F]	[A_F]^(-1)	[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+
+17389	Achim_Guttmann	candidate size: 17431
+2751	Shalom_Tsur	candidate size: 17431
+Time cost for this pair is 448.1600 seconds
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_A]	[P_A]^(-1)	[P_A]	[P_A]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+
+10148	Leonardo_Weiss_Ferreira_Chaves	candidate size: 17431
+2751	Shalom_Tsur	candidate size: 17431
+Time cost for this pair is 152.2000 seconds
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]	[P_P]	[P_P]	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_P]	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]	[P_A]	[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+
+16532	Dengfeng_Gao	candidate size: 17431
+2209	Yufei_Tao	candidate size: 17431
+Time cost for this pair is 271.8900 seconds
+[P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[A_F]	[A_F]^(-1)	[P_A]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[A_F]	[A_F]^(-1)	[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+
+7924	Baihua_Zheng	candidate size: 17431
+2209	Yufei_Tao	candidate size: 17431
+Time cost for this pair is 53.2000 seconds
+[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]	[P_P]	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_A]	[P_A]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]	[P_P]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+
+12071	Raymie_Stata	candidate size: 17431
+14154	Meichun_Hsu	candidate size: 17431
+Time cost for this pair is 703.5600 seconds
+[A_F]	[A_F]^(-1)	[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_P]	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_P]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+
+11703	Shetal_Shah	candidate size: 17431
+7485	Jiri_Schindler	candidate size: 17431
+Time cost for this pair is 218.5100 seconds
+[P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[A_F]	[A_F]^(-1)	[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_V]	[V_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+
+157	Christoffer_Hall	candidate size: 17431
+6676	Zografoula_Vagena	candidate size: 17431
+Time cost for this pair is 146.5800 seconds
+[P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[A_F]	[A_F]^(-1)	[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_P]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+
+5283	Shaofeng_Bu	candidate size: 17431
+7226	Linqi_Liu	candidate size: 17431
+Time cost for this pair is 189.0300 seconds
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]	[P_P]^(-1)	[P_P]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]	[P_A]	[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]^(-1)	[P_A]	[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+
+3495	Markos_Zaharioudakis	candidate size: 17431
+12761	Surajit_Chaudhuri	candidate size: 17431
+Time cost for this pair is 61.0100 seconds
+[P_A]^(-1)	[P_P]^(-1)	[P_P]	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]^(-1)	[P_P]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]	[P_P]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+
+13755	Yuan-Chi_Chang	candidate size: 17431
+3010	Calisto_Zuzarte	candidate size: 17431
+Time cost for this pair is 59.7400 seconds
+[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]	[P_P]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[A_F]	[A_F]^(-1)	[P_A]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+
+6942	Chinya_V._Ravishankar	candidate size: 17431
+5468	Lipyeow_Lim	candidate size: 17431
+Time cost for this pair is 64.3500 seconds
+[P_A]^(-1)	[P_P]	[P_P]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[A_F]	[A_F]^(-1)	[P_A]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_A]	[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+
+3737	Ramkumar_Krishnan	candidate size: 17431
+5745	Ekow_Otoo	candidate size: 17431
+Time cost for this pair is 176.0100 seconds
+[P_A]^(-1)	[P_P]	[P_P]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]^(-1)	[P_P]	[P_P]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]	[P_P]^(-1)	[P_P]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+
+15944	Jiun-Long_Huang	candidate size: 17431
+5745	Ekow_Otoo	candidate size: 17431
+Time cost for this pair is 185.2100 seconds
+[P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]	[P_V]	[P_V]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+
+14424	Min-Jae_Lee	candidate size: 17431
+6652	Jianzhong_Li	candidate size: 17431
+Time cost for this pair is 57.7700 seconds
+[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[A_F]	[A_F]^(-1)	[P_A]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_A]	[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+
+7916	Giansalvatore_Mecca	candidate size: 17431
+871	Utkarsh_Srivastava	candidate size: 17431
+Time cost for this pair is 196.1400 seconds
+[P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[A_F]	[A_F]^(-1)	[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]	[P_A]	[P_A]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+
+2269	Giedrius_Slivinskas	candidate size: 17431
+7924	Baihua_Zheng	candidate size: 17431
+Time cost for this pair is 203.4600 seconds
+[A_F]	[A_F]^(-1)	[P_A]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[A_F]	[A_F]^(-1)	[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_P]	[P_A]	
+precision: 0.0000
+recall: -nan
+
+3737	Ramkumar_Krishnan	candidate size: 17431
+7297	Jens-Peter_Dittrich	candidate size: 17431
+Time cost for this pair is 170.3100 seconds
+[A_F]	[A_F]^(-1)	[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]	[P_A]	[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_P]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+
+15825	Jung-Hwan_Shin	candidate size: 17431
+16222	Kyu-Young_Whang	candidate size: 17431
+Time cost for this pair is 26.4100 seconds
+[P_A]^(-1)	[P_A]	[P_A]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[A_F]	[A_F]^(-1)	[P_A]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[A_F]	[A_F]^(-1)	[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_A]	[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+
+923	Stratis_D._Viglas	candidate size: 17431
+871	Utkarsh_Srivastava	candidate size: 17431
+Time cost for this pair is 302.9100 seconds
+[A_F]	[A_F]^(-1)	[P_A]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_A]	[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+[A_F]	[A_F]^(-1)	[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+
+4438	Shu-Yao_Chien	candidate size: 17431
+5613	Masatoshi_Yoshikawa	candidate size: 17431
+Time cost for this pair is 1069.3500 seconds
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]^(-1)	[P_A]	[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_P]	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+
+497	Moira_C._Norrie	candidate size: 17431
+7297	Jens-Peter_Dittrich	candidate size: 17431
+Time cost for this pair is 163.6100 seconds
+[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+[A_F]	[A_F]^(-1)	[P_A]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_A]	[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+[A_F]	[A_F]^(-1)	[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+
+16796	Li-Yang_Tan	candidate size: 17431
+9026	Khuzaima_Daudjee	candidate size: 17431
+Time cost for this pair is 853.2700 seconds
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_P]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_P]	[P_A]	
+precision: 0.0000
+recall: -nan
+
+2337	Naphtali_Rishe	candidate size: 17431
+14263	Guohong_Cao	candidate size: 17431
+Time cost for this pair is 1045.5500 seconds
+[P_A]^(-1)	[P_A]	[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+[A_F]	[A_F]^(-1)	[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_P]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_P]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+
+9292	Sabine_Loudcher_Rabas&#233;da	candidate size: 17431
+864	Catharine_M._Wyss	candidate size: 17431
+Time cost for this pair is 102.0400 seconds
+[P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_P]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_P]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+
+4913	Xiaochun_Yang	candidate size: 17431
+1313	Zahir_Tari	candidate size: 17431
+Time cost for this pair is 1023.7800 seconds
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]^(-1)	[P_P]	[P_V]	[P_V]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+
+16044	Yi-Cheng_Chen	candidate size: 17431
+871	Utkarsh_Srivastava	candidate size: 17431
+Time cost for this pair is 155.4900 seconds
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]	[P_V]	[P_V]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_P]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_P]	[P_A]	
+precision: 0.0000
+recall: -nan
+
+16796	Li-Yang_Tan	candidate size: 17431
+9026	Khuzaima_Daudjee	candidate size: 17431
+Time cost for this pair is 851.4000 seconds
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_P]	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_P]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+
+9085	Hyung-Jeong_Yang	candidate size: 17431
+8778	Sugato_Basu	candidate size: 17431
+Time cost for this pair is 52.3800 seconds
+[P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_A]	[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+[A_F]	[A_F]^(-1)	[P_A]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[A_F]	[A_F]^(-1)	[A_F]	[A_F]^(-1)	
+precision: 0.0000
+recall: -nan
+
+6406	Shengnan_Cong	candidate size: 17431
+8847	Toon_Calders	candidate size: 17431
+Time cost for this pair is 186.1300 seconds
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_P]	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_P]	[P_V]	[P_V]^(-1)	[P_A]	
+precision: 0.0000
+recall: -nan
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_P]	[P_A]	
+precision: 0.0000
+recall: -nan
+
+2714	Yinghui_Xu	candidate size: 17431
+16538	Yulan_Liang	candidate size: 17431

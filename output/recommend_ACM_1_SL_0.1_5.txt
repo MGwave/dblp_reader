@@ -1,7 +1,7 @@
 ACM_labels.txt
 1133	Neema_Moraveji	candidate size: 17431
 14882	Zaiqing_Nie	candidate size: 17431
-Time cost for this pair is 29.26 seconds
+Time cost for this pair is 6.1 seconds
 [A_F]	[A_F]^(-1)	
 precision: 0.0084
 recall: 0.1321
@@ -11,11 +11,23 @@ recall: 0.1415
 [A_F]	[A_F]^(-1)	[P_A]^(-1)	[P_A]	
 precision: 0.0074
 recall: 0.3868
+[A_F]	[A_F]^(-1)	[A_F]	[A_F]^(-1)	
+precision: 0.0058
+recall: 0.7547
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0061
+recall: 1.0000
 
 8014	Sakari_Hokkanen	candidate size: 17431
 9238	Songbo_Tan	candidate size: 17431
-Time cost for this pair is 111.7400 seconds
+Time cost for this pair is 10.7100 seconds
 [P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0185
+recall: 0.9245
+[P_A]^(-1)	[P_V]	[V_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0185
+recall: 0.9245
+[P_A]^(-1)	[P_C]	[V_C]^(-1)	[P_V]^(-1)	[P_A]	
 precision: 0.0185
 recall: 0.9245
 [P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
@@ -27,20 +39,26 @@ recall: 0.9245
 
 8865	Guomao_Xin	candidate size: 17431
 16437	Fredric_C._Gey	candidate size: 17431
-Time cost for this pair is 255.0000 seconds
-[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
-precision: 0.0185
-recall: 0.9245
+Time cost for this pair is 15.3000 seconds
 [A_F]	[A_F]^(-1)	[A_F]	[A_F]^(-1)	
 precision: 0.0055
 recall: 0.6132
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0185
+recall: 0.9245
 [P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0061
+recall: 1.0000
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_P]^(-1)	[P_A]	
+precision: 0.0180
+recall: 0.7264
+[P_A]^(-1)	[P_P]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
 precision: 0.0061
 recall: 1.0000
 
 6387	Hidekazu_Nakawatase	candidate size: 17431
 10718	Chih-Fong_Tsai	candidate size: 17431
-Time cost for this pair is 690.6600 seconds
+Time cost for this pair is 36.5500 seconds
 [P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
 precision: 0.0061
 recall: 1.0000
@@ -50,128 +68,194 @@ recall: 1.0000
 [P_A]^(-1)	[P_P]	[P_T]	[P_T]^(-1)	[P_A]	
 precision: 0.0061
 recall: 1.0000
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	[A_F]	[A_F]^(-1)	
+precision: 0.0062
+recall: 0.9245
+[P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0061
+recall: 1.0000
 
 10278	Hongzhao_He	candidate size: 17431
 10556	Tomoharu_Iwata	candidate size: 17431
-Time cost for this pair is 211.4600 seconds
+Time cost for this pair is 27.2700 seconds
 [P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
 precision: 0.0061
 recall: 1.0000
-[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_P]^(-1)	[P_A]	
-precision: 0.0220
-recall: 0.6887
 [P_A]^(-1)	[P_P]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
 precision: 0.0185
 recall: 0.9245
+[P_A]^(-1)	[P_P]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0061
+recall: 1.0000
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_P]	[P_A]	
+precision: 0.0061
+recall: 1.0000
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_P]^(-1)	[P_A]	
+precision: 0.0061
+recall: 1.0000
 
 6387	Hidekazu_Nakawatase	candidate size: 17431
 6565	Haizhou_Li	candidate size: 17431
-Time cost for this pair is 173.5600 seconds
+Time cost for this pair is 22.1000 seconds
 [P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
 precision: 0.0061
 recall: 1.0000
 [P_A]^(-1)	[P_P]	[P_C]	[P_C]^(-1)	[P_A]	
 precision: 0.0185
 recall: 0.9245
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_P]^(-1)	[P_A]	
+precision: 0.0061
+recall: 1.0000
+[P_A]^(-1)	[P_P]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0061
+recall: 1.0000
+[P_A]^(-1)	[P_P]	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0061
+recall: 1.0000
+
+3443	Jun-ichi_Takeuchi	candidate size: 17431
+12190	Gilad_Mishne	candidate size: 17431
+Time cost for this pair is 14.2600 seconds
+[A_F]	[A_F]^(-1)	[A_F]	[A_F]^(-1)	
+precision: 0.0062
+recall: 0.8208
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0097
+recall: 0.1981
+[A_F]	[A_F]^(-1)	[P_A]^(-1)	[P_P]	[P_A]	
+precision: 0.0100
+recall: 0.4340
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0061
+recall: 1.0000
+[P_A]^(-1)	[P_P]	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0102
+recall: 0.5094
+
+6701	Atsuhiro_Takasu	candidate size: 17431
+5677	Shenghuo_Zhu	candidate size: 17431
+Time cost for this pair is 7.9700 seconds
+[P_A]^(-1)	[P_P]	[P_P]^(-1)	[P_A]	
+precision: 0.0228
+recall: 0.0566
+[P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_A]	
+precision: 0.0175
+recall: 0.2264
+[A_F]	[A_F]^(-1)	[A_F]	[A_F]^(-1)	
+precision: 0.0076
+recall: 0.0943
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0185
+recall: 0.9245
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0061
+recall: 1.0000
+
+6122	Ming-Ting_Sun	candidate size: 17431
+8942	Zonghuan_Wu	candidate size: 17431
+Time cost for this pair is 16.8300 seconds
+[A_F]	[A_F]^(-1)	[P_A]^(-1)	[P_P]	[P_A]	
+precision: 0.0122
+recall: 0.2264
+[A_F]	[A_F]^(-1)	[P_A]^(-1)	[P_P]^(-1)	[P_A]	
+precision: 0.0071
+recall: 0.2075
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0061
+recall: 1.0000
+[P_A]^(-1)	[P_P]	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0077
+recall: 0.5660
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_P]	[P_A]	
+precision: 0.0061
+recall: 1.0000
+
+1562	Hung-Chen_Chen	candidate size: 17431
+416	Azadeh_Shakery	candidate size: 17431
+Time cost for this pair is 11.1800 seconds
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0185
+recall: 0.9245
+[P_A]^(-1)	[P_V]	[V_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0185
+recall: 0.9245
+[P_A]^(-1)	[P_C]	[V_C]^(-1)	[P_V]^(-1)	[P_A]	
+precision: 0.0185
+recall: 0.9245
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0061
+recall: 1.0000
 [P_A]^(-1)	[P_P]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
 precision: 0.0131
 recall: 0.9623
 
-3443	Jun-ichi_Takeuchi	candidate size: 17431
-12190	Gilad_Mishne	candidate size: 17431
-Time cost for this pair is 235.7300 seconds
-[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
-precision: 0.0097
-recall: 0.1981
-[A_F]	[A_F]^(-1)	[A_F]	[A_F]^(-1)	
-precision: 0.0062
-recall: 0.8208
-[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
-precision: 0.0061
-recall: 1.0000
-
-6701	Atsuhiro_Takasu	candidate size: 17431
-5677	Shenghuo_Zhu	candidate size: 17431
-Time cost for this pair is 48.9300 seconds
-[P_A]^(-1)	[P_P]	[P_P]^(-1)	[P_A]	
-precision: 0.0228
-recall: 0.0566
-[A_F]	[A_F]^(-1)	[A_F]	[A_F]^(-1)	
-precision: 0.0076
-recall: 0.0943
-[P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_A]	
-precision: 0.0175
-recall: 0.2264
-
-6122	Ming-Ting_Sun	candidate size: 17431
-8942	Zonghuan_Wu	candidate size: 17431
-Time cost for this pair is 267.8000 seconds
-[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
-precision: 0.0061
-recall: 1.0000
-[P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_P]	[P_A]	
-precision: 0.0408
-recall: 0.3208
-[A_F]	[A_F]^(-1)	[P_A]^(-1)	[P_P]	[P_A]	
-precision: 0.0122
-recall: 0.2264
-
-1562	Hung-Chen_Chen	candidate size: 17431
-416	Azadeh_Shakery	candidate size: 17431
-Time cost for this pair is 120.1600 seconds
-[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
-precision: 0.0185
-recall: 0.9245
-[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
-precision: 0.0061
-recall: 1.0000
-[P_A]^(-1)	[P_P]	[P_V]	[P_V]^(-1)	[P_A]	
-precision: 0.0212
-recall: 0.7736
-
 12190	Gilad_Mishne	candidate size: 17431
 14882	Zaiqing_Nie	candidate size: 17431
-Time cost for this pair is 68.5100 seconds
+Time cost for this pair is 8.3800 seconds
 [P_A]^(-1)	[P_P]	[P_P]^(-1)	[P_A]	
 precision: 0.0197
 recall: 0.3208
-[P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_A]	
-precision: 0.0083
-recall: 0.3113
 [A_F]	[A_F]^(-1)	[P_A]^(-1)	[P_A]	
 precision: 0.0103
 recall: 0.3302
+[A_F]	[A_F]^(-1)	[A_F]	[A_F]^(-1)	
+precision: 0.0063
+recall: 0.7830
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0070
+recall: 0.5660
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0061
+recall: 1.0000
 
 4843	Po-Jun_Tsai	candidate size: 17431
 1004	Dagobert_Soergel	candidate size: 17431
-Time cost for this pair is 596.7300 seconds
+Time cost for this pair is 27.6000 seconds
 [P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
 precision: 0.0061
 recall: 1.0000
 [P_A]^(-1)	[P_P]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
 precision: 0.0185
 recall: 0.9245
+[P_A]^(-1)	[P_P]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0061
+recall: 1.0000
 [P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_P]^(-1)	[P_A]	
+precision: 0.0061
+recall: 1.0000
+[P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
 precision: 0.0061
 recall: 1.0000
 
 10278	Hongzhao_He	candidate size: 17431
 8384	Ryen_W._White	candidate size: 17431
-Time cost for this pair is 47.3600 seconds
-[P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_A]	
-precision: 0.0158
-recall: 0.7925
+Time cost for this pair is 7.4200 seconds
 [A_F]	[A_F]^(-1)	[P_A]^(-1)	[P_A]	
 precision: 0.0108
 recall: 0.3868
+[P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_A]	
+precision: 0.0158
+recall: 0.7925
 [P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
 precision: 0.0112
 recall: 0.9811
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0061
+recall: 1.0000
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_P]^(-1)	[P_A]	
+precision: 0.0121
+recall: 0.7642
 
 5603	Yitong_Yin	candidate size: 17431
 14195	Nivio_Ziviani	candidate size: 17431
-Time cost for this pair is 1008.8300 seconds
+Time cost for this pair is 33.1700 seconds
 [P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0061
+recall: 1.0000
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_P]^(-1)	[P_A]	
+precision: 0.0061
+recall: 1.0000
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_P]	[P_A]	
 precision: 0.0061
 recall: 1.0000
 [P_A]^(-1)	[P_P]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
@@ -183,7 +267,7 @@ recall: 1.0000
 
 3476	Nathalie_Hernandez	candidate size: 17431
 6387	Hidekazu_Nakawatase	candidate size: 17431
-Time cost for this pair is 403.1800 seconds
+Time cost for this pair is 28.2700 seconds
 [P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
 precision: 0.0061
 recall: 1.0000
@@ -193,222 +277,330 @@ recall: 1.0000
 [P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_P]^(-1)	[P_A]	
 precision: 0.0061
 recall: 1.0000
+[P_A]^(-1)	[P_A]	[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0061
+recall: 1.0000
+[P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0061
+recall: 1.0000
 
 1942	Dolf_Trieschnigg	candidate size: 17431
 724	Wen-Hsiang_Lu	candidate size: 17431
-Time cost for this pair is 238.4500 seconds
+Time cost for this pair is 11.1300 seconds
 [P_A]^(-1)	[P_P]	[P_P]^(-1)	[P_A]	
 precision: 0.0667
 recall: 0.1226
+[P_A]^(-1)	[P_P]	[P_P]	[P_P]^(-1)	[P_A]	
+precision: 0.0463
+recall: 0.2453
 [P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
 precision: 0.0185
 recall: 0.9245
 [P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
 precision: 0.0061
 recall: 1.0000
+[P_A]^(-1)	[P_P]	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0185
+recall: 0.9245
 
 10277	Sanda_Harabagiu	candidate size: 17431
 13371	Weiguo_Fan	candidate size: 17431
-Time cost for this pair is 50.2000 seconds
+Time cost for this pair is 7.6500 seconds
 [P_A]^(-1)	[P_P]^(-1)	[P_P]	[P_A]	
 precision: 0.0880
 recall: 0.1038
 [P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_A]	
 precision: 0.0763
 recall: 0.3679
+[A_F]	[A_F]^(-1)	[A_F]	[A_F]^(-1)	
+precision: 0.0062
+recall: 0.6792
 [P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
 precision: 0.0346
 recall: 0.7925
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0061
+recall: 1.0000
 
 4843	Po-Jun_Tsai	candidate size: 17431
 7635	Razvan_Stefan_Bot	candidate size: 17431
-Time cost for this pair is 136.6400 seconds
+Time cost for this pair is 19.2400 seconds
 [P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0134
+recall: 0.4528
+[P_A]^(-1)	[P_V]	[V_C]	[P_C]^(-1)	[P_A]	
 precision: 0.0134
 recall: 0.4528
 [P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
 precision: 0.0061
 recall: 1.0000
-[P_A]^(-1)	[P_C]	[V_C]^(-1)	[P_V]^(-1)	[P_A]	
-precision: 0.0134
-recall: 0.4528
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_P]	[P_A]	
+precision: 0.0061
+recall: 1.0000
+[P_A]^(-1)	[P_P]	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0061
+recall: 1.0000
 
 6276	Pik-Shan_Cheung	candidate size: 17431
 15340	Shinjae_Yoo	candidate size: 17431
-Time cost for this pair is 168.9700 seconds
-[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
-precision: 0.0206
-recall: 0.8491
+Time cost for this pair is 8.9000 seconds
 [A_F]	[A_F]^(-1)	[A_F]	[A_F]^(-1)	
 precision: 0.0059
 recall: 0.6792
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0206
+recall: 0.8491
+[P_A]^(-1)	[P_V]	[V_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0206
+recall: 0.8491
 [P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
 precision: 0.0061
 recall: 1.0000
+[P_A]^(-1)	[P_P]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0145
+recall: 0.9434
 
 7445	Ting-Sheng_Lai	candidate size: 17431
 10277	Sanda_Harabagiu	candidate size: 17431
-Time cost for this pair is 136.0800 seconds
+Time cost for this pair is 10.4600 seconds
 [P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0346
+recall: 0.7925
+[P_A]^(-1)	[P_C]	[V_C]^(-1)	[P_V]^(-1)	[P_A]	
 precision: 0.0346
 recall: 0.7925
 [P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
 precision: 0.0061
 recall: 1.0000
-[P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_P]^(-1)	[P_A]	
-precision: 0.0435
-recall: 0.3962
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_P]^(-1)	[P_A]	
+precision: 0.0220
+recall: 0.6887
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_P]	[P_A]	
+precision: 0.0061
+recall: 1.0000
 
 1004	Dagobert_Soergel	candidate size: 17431
 724	Wen-Hsiang_Lu	candidate size: 17431
-Time cost for this pair is 35.6000 seconds
+Time cost for this pair is 6.2200 seconds
 [P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_A]	
 precision: 0.0981
 recall: 0.2453
-[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
-precision: 0.0346
-recall: 0.7925
 [A_F]	[A_F]^(-1)	[A_F]	[A_F]^(-1)	
 precision: 0.0058
 recall: 0.6415
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0346
+recall: 0.7925
+[P_A]^(-1)	[P_C]	[V_C]^(-1)	[P_V]^(-1)	[P_A]	
+precision: 0.0346
+recall: 0.7925
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0061
+recall: 1.0000
 
 2229	Seung-Taek_Park	candidate size: 17431
 14195	Nivio_Ziviani	candidate size: 17431
-Time cost for this pair is 59.6400 seconds
-[P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_A]	
-precision: 0.0254
-recall: 0.5943
+Time cost for this pair is 11.3100 seconds
 [P_A]^(-1)	[P_A]	[A_F]	[A_F]^(-1)	
 precision: 0.0120
 recall: 0.1038
+[P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_A]	
+precision: 0.0254
+recall: 0.5943
 [P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
 precision: 0.0131
 recall: 0.9623
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0061
+recall: 1.0000
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_P]^(-1)	[P_A]	
+precision: 0.0141
+recall: 0.7547
 
 7489	Tat-Seng_Chua	candidate size: 17431
 12483	Wei-Ying_Ma	candidate size: 17431
-Time cost for this pair is 72.8100 seconds
+Time cost for this pair is 7.0800 seconds
 [P_A]^(-1)	[P_P]^(-1)	[P_A]	
 precision: 0.0274
 recall: 0.1604
 [P_A]^(-1)	[P_A]	[P_A]^(-1)	[P_A]	
 precision: 0.0339
 recall: 0.2264
-[P_A]^(-1)	[P_P]^(-1)	[P_P]^(-1)	[P_A]	
-precision: 0.0166
-recall: 0.2264
-
-1004	Dagobert_Soergel	candidate size: 17431
-6565	Haizhou_Li	candidate size: 17431
-Time cost for this pair is 183.0800 seconds
+[P_A]^(-1)	[P_P]	[P_P]^(-1)	[P_A]	
+precision: 0.0187
+recall: 0.4811
 [P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
-precision: 0.0346
-recall: 0.7925
-[A_F]	[A_F]^(-1)	[A_F]	[A_F]^(-1)	
-precision: 0.0058
-recall: 0.6415
+precision: 0.0103
+recall: 0.9811
 [P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
 precision: 0.0061
 recall: 1.0000
 
+1004	Dagobert_Soergel	candidate size: 17431
+6565	Haizhou_Li	candidate size: 17431
+Time cost for this pair is 8.8600 seconds
+[A_F]	[A_F]^(-1)	[A_F]	[A_F]^(-1)	
+precision: 0.0058
+recall: 0.6415
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0346
+recall: 0.7925
+[P_A]^(-1)	[P_C]	[V_C]^(-1)	[P_V]^(-1)	[P_A]	
+precision: 0.0346
+recall: 0.7925
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0061
+recall: 1.0000
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_P]	[P_A]	
+precision: 0.0289
+recall: 0.5755
+
 15340	Shinjae_Yoo	candidate size: 17431
 6532	Baoli_Li	candidate size: 17431
-Time cost for this pair is 51.7300 seconds
-[P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_A]	
-precision: 0.0491
-recall: 0.3491
+Time cost for this pair is 8.1600 seconds
 [A_F]	[A_F]^(-1)	[P_A]^(-1)	[P_A]	
 precision: 0.0076
 recall: 0.1604
+[P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_A]	
+precision: 0.0491
+recall: 0.3491
+[A_F]	[A_F]^(-1)	[A_F]	[A_F]^(-1)	
+precision: 0.0059
+recall: 0.6792
 [P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
 precision: 0.0206
 recall: 0.8491
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0061
+recall: 1.0000
 
 14676	Xiaofei_He	candidate size: 17431
 7394	ChengXiang_Zhai	candidate size: 17431
-Time cost for this pair is 75.4200 seconds
+Time cost for this pair is 5.9500 seconds
 [P_A]^(-1)	[P_P]	[P_A]	
 precision: 0.0494
 recall: 0.0377
 [P_A]^(-1)	[P_P]^(-1)	[P_A]	
 precision: 0.0753
 recall: 0.0660
-[P_A]^(-1)	[P_P]	[P_P]	[P_A]	
-precision: 0.0383
-recall: 0.0755
+[P_A]^(-1)	[P_A]	[P_A]^(-1)	[P_A]	
+precision: 0.0286
+recall: 0.1038
+[P_A]^(-1)	[P_P]	[P_P]^(-1)	[P_A]	
+precision: 0.0239
+recall: 0.1792
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0061
+recall: 1.0000
 
 7894	Chun-Keat_Koh	candidate size: 17431
 7489	Tat-Seng_Chua	candidate size: 17431
-Time cost for this pair is 44.7900 seconds
+Time cost for this pair is 5.0500 seconds
 [P_A]^(-1)	[P_A]	
 precision: 0.1111
 recall: 0.0283
 [A_F]	[A_F]^(-1)	
 precision: 0.0235
 recall: 0.0472
-[P_A]^(-1)	[P_P]^(-1)	[P_P]	[P_A]	
-precision: 0.0456
-recall: 0.1132
-
-15340	Shinjae_Yoo	candidate size: 17431
-1093	Ruizhang_Huang	candidate size: 17431
-Time cost for this pair is 249.2000 seconds
+[P_A]^(-1)	[P_A]	[P_A]^(-1)	[P_A]	
+precision: 0.0595
+recall: 0.0472
 [P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
-precision: 0.0206
-recall: 0.8491
-[A_F]	[A_F]^(-1)	[A_F]	[A_F]^(-1)	
-precision: 0.0059
-recall: 0.6792
+precision: 0.0119
+recall: 0.9623
 [P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
 precision: 0.0061
 recall: 1.0000
 
+15340	Shinjae_Yoo	candidate size: 17431
+1093	Ruizhang_Huang	candidate size: 17431
+Time cost for this pair is 16.9500 seconds
+[A_F]	[A_F]^(-1)	[A_F]	[A_F]^(-1)	
+precision: 0.0059
+recall: 0.6792
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0206
+recall: 0.8491
+[P_A]^(-1)	[P_C]	[V_C]^(-1)	[P_V]^(-1)	[P_A]	
+precision: 0.0206
+recall: 0.8491
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0061
+recall: 1.0000
+[P_A]^(-1)	[P_P]	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0185
+recall: 0.9245
+
 5456	Judith_Klein-Seetharaman	candidate size: 17431
 6122	Ming-Ting_Sun	candidate size: 17431
-Time cost for this pair is 137.2600 seconds
-[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
-precision: 0.0346
-recall: 0.7925
+Time cost for this pair is 6.6400 seconds
 [A_F]	[A_F]^(-1)	[A_F]	[A_F]^(-1)	
 precision: 0.0059
 recall: 0.6887
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0346
+recall: 0.7925
+[A_F]	[A_F]^(-1)	[P_A]^(-1)	[P_P]^(-1)	[P_A]	
+precision: 0.0090
+recall: 0.4717
+[P_A]^(-1)	[P_V]	[V_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0346
+recall: 0.7925
 [P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
 precision: 0.0061
 recall: 1.0000
 
 9809	Ming-Hung_Hsu	candidate size: 17431
 12190	Gilad_Mishne	candidate size: 17431
-Time cost for this pair is 200.1600 seconds
-[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
-precision: 0.0077
-recall: 0.5660
+Time cost for this pair is 10.1500 seconds
 [A_F]	[A_F]^(-1)	[A_F]	[A_F]^(-1)	
 precision: 0.0065
 recall: 0.6887
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0077
+recall: 0.5660
+[P_A]^(-1)	[P_V]	[V_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0077
+recall: 0.5660
 [P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
 precision: 0.0061
 recall: 1.0000
+[P_A]^(-1)	[P_P]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0131
+recall: 0.9623
 
 7722	Keizo_Sato	candidate size: 17431
 8384	Ryen_W._White	candidate size: 17431
-Time cost for this pair is 155.3700 seconds
+Time cost for this pair is 8.1900 seconds
 [P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_A]	
 precision: 0.0158
 recall: 0.7925
 [P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
 precision: 0.0112
 recall: 0.9811
+[P_A]^(-1)	[P_V]	[V_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0112
+recall: 0.9811
 [P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
 precision: 0.0061
 recall: 1.0000
+[P_A]^(-1)	[P_P]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0093
+recall: 0.9811
 
 8014	Sakari_Hokkanen	candidate size: 17431
 2229	Seung-Taek_Park	candidate size: 17431
-Time cost for this pair is 114.3900 seconds
+Time cost for this pair is 5.6900 seconds
 [P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_A]	
 precision: 0.0960
 recall: 0.1604
 [P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0346
+recall: 0.7925
+[A_F]	[A_F]^(-1)	[P_A]^(-1)	[P_P]^(-1)	[P_A]	
+precision: 0.0380
+recall: 0.1226
+[P_A]^(-1)	[P_V]	[V_C]	[P_C]^(-1)	[P_A]	
 precision: 0.0346
 recall: 0.7925
 [P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
@@ -417,115 +609,169 @@ recall: 1.0000
 
 2501	Trystan_Upstill	candidate size: 17431
 5456	Judith_Klein-Seetharaman	candidate size: 17431
-Time cost for this pair is 218.9600 seconds
+Time cost for this pair is 13.5900 seconds
 [P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_A]	
 precision: 0.0981
 recall: 0.2453
 [P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
 precision: 0.0346
 recall: 0.7925
+[P_A]^(-1)	[P_C]	[V_C]^(-1)	[P_V]^(-1)	[P_A]	
+precision: 0.0346
+recall: 0.7925
 [P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
 precision: 0.0061
 recall: 1.0000
+[P_A]^(-1)	[P_P]	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0178
+recall: 0.8868
 
 7171	Goldee_Udani	candidate size: 17431
 8942	Zonghuan_Wu	candidate size: 17431
-Time cost for this pair is 379.7500 seconds
+Time cost for this pair is 20.3100 seconds
 [P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
 precision: 0.0061
 recall: 1.0000
+[P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_P]^(-1)	[P_P]	[P_A]	
+precision: 0.0301
+recall: 0.5000
 [P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_P]	[P_A]	
 precision: 0.0061
 recall: 1.0000
 [P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_P]^(-1)	[P_A]	
 precision: 0.0061
 recall: 1.0000
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_P]^(-1)	[P_P]	[P_A]	
+precision: 0.0061
+recall: 1.0000
 
 352	Pertti_Vakkari	candidate size: 17431
 5117	Emine_Yilmaz	candidate size: 17431
-Time cost for this pair is 115.0300 seconds
+Time cost for this pair is 5.8300 seconds
 [P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0185
+recall: 0.9245
+[P_A]^(-1)	[P_P]	[P_A]	[A_F]	[A_F]^(-1)	
+precision: 0.0073
+recall: 0.5189
+[P_A]^(-1)	[P_V]	[V_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0185
+recall: 0.9245
+[P_A]^(-1)	[P_C]	[V_C]^(-1)	[P_V]^(-1)	[P_A]	
 precision: 0.0185
 recall: 0.9245
 [P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
 precision: 0.0061
 recall: 1.0000
-[P_A]^(-1)	[P_P]^(-1)	[P_A]	[A_F]	[A_F]^(-1)	
-precision: 0.0073
-recall: 0.5189
 
 11419	Parry_Husbands	candidate size: 17431
 13087	Hae-Chang_Rim	candidate size: 17431
-Time cost for this pair is 205.6900 seconds
+Time cost for this pair is 7.2900 seconds
 [P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_A]	
 precision: 0.0960
 recall: 0.1604
-[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
-precision: 0.0346
-recall: 0.7925
 [A_F]	[A_F]^(-1)	[A_F]	[A_F]^(-1)	
 precision: 0.0058
 recall: 0.7264
-
-6819	Xinsong_Xia	candidate size: 17431
-7635	Razvan_Stefan_Bot	candidate size: 17431
-Time cost for this pair is 242.8700 seconds
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0346
+recall: 0.7925
 [P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
 precision: 0.0061
 recall: 1.0000
 [P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_P]^(-1)	[P_A]	
 precision: 0.0220
 recall: 0.6887
-[P_A]^(-1)	[P_P]	[P_C]	[P_C]^(-1)	[P_A]	
-precision: 0.0145
-recall: 0.9434
 
-1261	Endong_Xun	candidate size: 17431
-3443	Jun-ichi_Takeuchi	candidate size: 17431
-Time cost for this pair is 188.3100 seconds
+6819	Xinsong_Xia	candidate size: 17431
+7635	Razvan_Stefan_Bot	candidate size: 17431
+Time cost for this pair is 31.3800 seconds
 [P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
 precision: 0.0061
 recall: 1.0000
+[P_A]^(-1)	[P_P]	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0145
+recall: 0.9434
+[P_A]^(-1)	[P_P]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0131
+recall: 0.9623
+[P_A]^(-1)	[P_P]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0061
+recall: 1.0000
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_P]^(-1)	[P_A]	
+precision: 0.0061
+recall: 1.0000
+
+1261	Endong_Xun	candidate size: 17431
+3443	Jun-ichi_Takeuchi	candidate size: 17431
+Time cost for this pair is 26.1600 seconds
 [A_F]	[A_F]^(-1)	[P_A]^(-1)	[P_P]	[P_A]	
 precision: 0.0100
 recall: 0.4340
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0061
+recall: 1.0000
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_P]^(-1)	[P_A]	
+precision: 0.0061
+recall: 1.0000
 [P_A]^(-1)	[P_P]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0061
+recall: 1.0000
+[P_A]^(-1)	[P_P]	[P_T]	[P_T]^(-1)	[P_A]	
 precision: 0.0061
 recall: 1.0000
 
 1942	Dolf_Trieschnigg	candidate size: 17431
 3443	Jun-ichi_Takeuchi	candidate size: 17431
-Time cost for this pair is 222.7200 seconds
+Time cost for this pair is 20.8300 seconds
 [A_F]	[A_F]^(-1)	[A_F]	[A_F]^(-1)	
 precision: 0.0062
 recall: 0.8208
 [P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
 precision: 0.0061
 recall: 1.0000
-[P_A]^(-1)	[P_P]	[P_C]	[P_C]^(-1)	[P_A]	
-precision: 0.0102
-recall: 0.5094
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_P]	[P_A]	
+precision: 0.0061
+recall: 1.0000
+[P_A]^(-1)	[P_P]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0061
+recall: 1.0000
+[P_A]^(-1)	[P_P]	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0061
+recall: 1.0000
 
 8865	Guomao_Xin	candidate size: 17431
 13371	Weiguo_Fan	candidate size: 17431
-Time cost for this pair is 55.5700 seconds
+Time cost for this pair is 7.4100 seconds
 [P_A]^(-1)	[P_P]^(-1)	[P_P]	[P_A]	
 precision: 0.0964
 recall: 0.0755
-[P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_A]	
-precision: 0.1133
-recall: 0.3208
 [A_F]	[A_F]^(-1)	[P_A]^(-1)	[P_A]	
 precision: 0.0323
 recall: 0.1509
+[P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_A]	
+precision: 0.1133
+recall: 0.3208
+[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0346
+recall: 0.7925
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0061
+recall: 1.0000
 
 8014	Sakari_Hokkanen	candidate size: 17431
 7394	ChengXiang_Zhai	candidate size: 17431
-Time cost for this pair is 119.2700 seconds
+Time cost for this pair is 5.6600 seconds
 [P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_A]	
 precision: 0.0134
 recall: 0.9340
 [P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0112
+recall: 0.9811
+[P_A]^(-1)	[P_P]	[P_A]	[A_F]	[A_F]^(-1)	
+precision: 0.0070
+recall: 0.7925
+[P_A]^(-1)	[P_C]	[V_C]^(-1)	[P_V]^(-1)	[P_A]	
 precision: 0.0112
 recall: 0.9811
 [P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
@@ -534,46 +780,64 @@ recall: 1.0000
 
 1364	Eija_Airio	candidate size: 17431
 10718	Chih-Fong_Tsai	candidate size: 17431
-Time cost for this pair is 205.8700 seconds
+Time cost for this pair is 16.1700 seconds
 [P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0346
+recall: 0.7925
+[P_A]^(-1)	[P_C]	[V_C]^(-1)	[P_V]^(-1)	[P_A]	
 precision: 0.0346
 recall: 0.7925
 [P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
 precision: 0.0061
 recall: 1.0000
-[P_A]^(-1)	[P_P]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+[P_A]^(-1)	[P_P]	[P_C]	[P_C]^(-1)	[P_A]	
 precision: 0.0346
 recall: 0.7925
+[P_A]^(-1)	[P_P]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0061
+recall: 1.0000
 
 8014	Sakari_Hokkanen	candidate size: 17431
 12483	Wei-Ying_Ma	candidate size: 17431
-Time cost for this pair is 113.8700 seconds
+Time cost for this pair is 5.9800 seconds
 [P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
+precision: 0.0346
+recall: 0.7925
+[A_F]	[A_F]^(-1)	[P_A]^(-1)	[P_P]^(-1)	[P_A]	
+precision: 0.0380
+recall: 0.1226
+[P_A]^(-1)	[P_C]	[V_C]^(-1)	[P_V]^(-1)	[P_A]	
+precision: 0.0346
+recall: 0.7925
+[P_A]^(-1)	[P_V]	[V_C]	[P_C]^(-1)	[P_A]	
 precision: 0.0346
 recall: 0.7925
 [P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
 precision: 0.0061
 recall: 1.0000
-[A_F]	[A_F]^(-1)	[P_A]^(-1)	[P_P]^(-1)	[P_A]	
-precision: 0.0380
-recall: 0.1226
 
 11419	Parry_Husbands	candidate size: 17431
 1951	Gui-Rong_Xue	candidate size: 17431
-Time cost for this pair is 45.1500 seconds
+Time cost for this pair is 6.7500 seconds
 [P_A]^(-1)	[P_A]	[P_A]^(-1)	[P_A]	
 precision: 0.0635
 recall: 0.0377
 [P_A]^(-1)	[P_P]^(-1)	[P_P]^(-1)	[P_A]	
 precision: 0.0533
 recall: 0.0849
+[A_F]	[A_F]^(-1)	[A_F]	[A_F]^(-1)	
+precision: 0.0058
+recall: 0.7264
 [P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
 precision: 0.0346
 recall: 0.7925
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0061
+recall: 1.0000
 
 1004	Dagobert_Soergel	candidate size: 17431
 1158	Zhiwei_Guan	candidate size: 17431
-Time cost for this pair is 169.8100 seconds
+Time cost for this pair is 25.1700 seconds
 [A_F]	[A_F]^(-1)	[A_F]	[A_F]^(-1)	
 precision: 0.0058
 recall: 0.6415
@@ -583,85 +847,19 @@ recall: 1.0000
 [P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_P]^(-1)	[P_A]	
 precision: 0.0220
 recall: 0.6887
+[P_A]^(-1)	[P_P]	[P_T]	[P_T]^(-1)	[P_A]	
+precision: 0.0061
+recall: 1.0000
+[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_P]^(-1)	[P_A]	
+precision: 0.0061
+recall: 1.0000
 
 12174	Mukul_M._Joshi	candidate size: 17431
 3038	Dekang_Lin	candidate size: 17431
-Time cost for this pair is 256.1500 seconds
-[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
-precision: 0.0145
-recall: 0.9434
-[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
-precision: 0.0061
-recall: 1.0000
+Time cost for this pair is 9.5600 seconds
 [P_A]^(-1)	[P_P]^(-1)	[P_P]	[P_P]^(-1)	[P_A]	
 precision: 0.0182
 recall: 0.3302
-
-10277	Sanda_Harabagiu	candidate size: 17431
-5677	Shenghuo_Zhu	candidate size: 17431
-Time cost for this pair is 51.6500 seconds
-[P_A]^(-1)	[P_P]	[P_A]	
-precision: 0.0435
-recall: 0.0660
-[P_A]^(-1)	[P_P]	[P_P]	[P_A]	
-precision: 0.0475
-recall: 0.1509
-[P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_A]	
-precision: 0.0132
-recall: 0.5755
-
-6122	Ming-Ting_Sun	candidate size: 17431
-7635	Razvan_Stefan_Bot	candidate size: 17431
-Time cost for this pair is 253.5300 seconds
-[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
-precision: 0.0061
-recall: 1.0000
-[P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_P]^(-1)	[P_A]	
-precision: 0.0157
-recall: 0.7264
-[P_A]^(-1)	[P_P]	[P_C]	[P_C]^(-1)	[P_A]	
-precision: 0.0077
-recall: 0.5660
-
-8014	Sakari_Hokkanen	candidate size: 17431
-285	Farzin_Maghoul	candidate size: 17431
-Time cost for this pair is 108.0900 seconds
-[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
-precision: 0.0061
-recall: 1.0000
-[P_A]^(-1)	[P_P]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
-precision: 0.0104
-recall: 0.9811
-[P_A]^(-1)	[P_P]	[P_C]	[P_C]^(-1)	[P_A]	
-precision: 0.0105
-recall: 0.9623
-
-12174	Mukul_M._Joshi	candidate size: 17431
-6122	Ming-Ting_Sun	candidate size: 17431
-Time cost for this pair is 249.8000 seconds
 [P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
-precision: 0.0178
-recall: 0.8868
-[P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
-precision: 0.0061
-recall: 1.0000
-[P_A]^(-1)	[P_P]	[P_P]^(-1)	[P_P]^(-1)	[P_A]	
-precision: 0.0307
-recall: 0.2264
-
-Average time cost is 191.6158 seconds
-
-Metrics	Precision	Precision@k
-1	0.030817	0.030817
-2	0.018950	0.024883
-3	0.015006	0.021591
-
-Metrics	Recall	Recall@k
-1	0.625660	0.625660
-2	0.680377	0.653019
-3	0.723019	0.676352
-
-Metrics	F1-score	F1-score@k
-1	0.058740	0.058740
-2	0.036873	0.047806
-3	0.029402	0.041672
+precision: 0.0145
+recall: 0.9434

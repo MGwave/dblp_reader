@@ -1,7 +1,7 @@
 ACM_labels.txt
 1133	Neema_Moraveji	candidate size: 17431
 14882	Zaiqing_Nie	candidate size: 17431
-Time cost for this pair is 55.33 seconds
+Time cost for this pair is 55.54 seconds
 [A_F]	[A_F]^(-1)	
 precision: 0.0084
 recall: 0.1321
@@ -14,7 +14,7 @@ recall: 0.1415
 
 8014	Sakari_Hokkanen	candidate size: 17431
 9238	Songbo_Tan	candidate size: 17431
-Time cost for this pair is 101.8900 seconds
+Time cost for this pair is 102.4100 seconds
 [P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
 precision: 0.0185
 recall: 0.9245
@@ -27,7 +27,7 @@ recall: 0.9245
 
 8865	Guomao_Xin	candidate size: 17431
 16437	Fredric_C._Gey	candidate size: 17431
-Time cost for this pair is 232.8600 seconds
+Time cost for this pair is 233.2000 seconds
 [P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
 precision: 0.0185
 recall: 0.9245
@@ -40,7 +40,7 @@ recall: 1.0000
 
 6387	Hidekazu_Nakawatase	candidate size: 17431
 10718	Chih-Fong_Tsai	candidate size: 17431
-Time cost for this pair is 628.2700 seconds
+Time cost for this pair is 628.2200 seconds
 [P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
 precision: 0.0061
 recall: 1.0000
@@ -53,7 +53,7 @@ recall: 1.0000
 
 10278	Hongzhao_He	candidate size: 17431
 10556	Tomoharu_Iwata	candidate size: 17431
-Time cost for this pair is 254.9400 seconds
+Time cost for this pair is 255.5200 seconds
 [P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
 precision: 0.0061
 recall: 1.0000
@@ -66,7 +66,7 @@ recall: 0.9245
 
 6387	Hidekazu_Nakawatase	candidate size: 17431
 6565	Haizhou_Li	candidate size: 17431
-Time cost for this pair is 521.1000 seconds
+Time cost for this pair is 521.1300 seconds
 [P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
 precision: 0.0061
 recall: 1.0000
@@ -79,7 +79,7 @@ recall: 1.0000
 
 3443	Jun-ichi_Takeuchi	candidate size: 17431
 12190	Gilad_Mishne	candidate size: 17431
-Time cost for this pair is 213.8400 seconds
+Time cost for this pair is 214.5100 seconds
 [P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
 precision: 0.0097
 recall: 0.1981
@@ -92,7 +92,7 @@ recall: 0.8208
 
 6701	Atsuhiro_Takasu	candidate size: 17431
 5677	Shenghuo_Zhu	candidate size: 17431
-Time cost for this pair is 135.0200 seconds
+Time cost for this pair is 136.1800 seconds
 [P_A]^(-1)	[P_P]	[P_P]^(-1)	[P_A]	
 precision: 0.0228
 recall: 0.0566
@@ -105,7 +105,7 @@ recall: 0.0943
 
 6122	Ming-Ting_Sun	candidate size: 17431
 8942	Zonghuan_Wu	candidate size: 17431
-Time cost for this pair is 243.6100 seconds
+Time cost for this pair is 244.6500 seconds
 [P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
 precision: 0.0061
 recall: 1.0000
@@ -118,7 +118,7 @@ recall: 0.2264
 
 1562	Hung-Chen_Chen	candidate size: 17431
 416	Azadeh_Shakery	candidate size: 17431
-Time cost for this pair is 110.1200 seconds
+Time cost for this pair is 111.2500 seconds
 [P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
 precision: 0.0185
 recall: 0.9245
@@ -131,7 +131,7 @@ recall: 0.7736
 
 12190	Gilad_Mishne	candidate size: 17431
 14882	Zaiqing_Nie	candidate size: 17431
-Time cost for this pair is 227.4000 seconds
+Time cost for this pair is 228.2500 seconds
 [P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_A]	
 precision: 0.0083
 recall: 0.3113
@@ -144,7 +144,7 @@ recall: 0.5660
 
 4843	Po-Jun_Tsai	candidate size: 17431
 1004	Dagobert_Soergel	candidate size: 17431
-Time cost for this pair is 545.6700 seconds
+Time cost for this pair is 547.6900 seconds
 [P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
 precision: 0.0061
 recall: 1.0000
@@ -157,7 +157,7 @@ recall: 1.0000
 
 10278	Hongzhao_He	candidate size: 17431
 8384	Ryen_W._White	candidate size: 17431
-Time cost for this pair is 42.7300 seconds
+Time cost for this pair is 43.0500 seconds
 [P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_A]	
 precision: 0.0158
 recall: 0.7925
@@ -170,7 +170,7 @@ recall: 0.9811
 
 5603	Yitong_Yin	candidate size: 17431
 14195	Nivio_Ziviani	candidate size: 17431
-Time cost for this pair is 562.5900 seconds
+Time cost for this pair is 565.1600 seconds
 [P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
 precision: 0.0061
 recall: 1.0000
@@ -183,7 +183,7 @@ recall: 1.0000
 
 3476	Nathalie_Hernandez	candidate size: 17431
 6387	Hidekazu_Nakawatase	candidate size: 17431
-Time cost for this pair is 365.7800 seconds
+Time cost for this pair is 368.6200 seconds
 [P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
 precision: 0.0061
 recall: 1.0000
@@ -196,7 +196,7 @@ recall: 1.0000
 
 1942	Dolf_Trieschnigg	candidate size: 17431
 724	Wen-Hsiang_Lu	candidate size: 17431
-Time cost for this pair is 193.8100 seconds
+Time cost for this pair is 194.2800 seconds
 [P_A]^(-1)	[P_P]	[P_P]^(-1)	[P_A]	
 precision: 0.0667
 recall: 0.1226
@@ -209,7 +209,7 @@ recall: 1.0000
 
 10277	Sanda_Harabagiu	candidate size: 17431
 13371	Weiguo_Fan	candidate size: 17431
-Time cost for this pair is 68.2300 seconds
+Time cost for this pair is 68.9600 seconds
 [P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_A]	
 precision: 0.0763
 recall: 0.3679
@@ -222,7 +222,7 @@ recall: 0.7925
 
 4843	Po-Jun_Tsai	candidate size: 17431
 7635	Razvan_Stefan_Bot	candidate size: 17431
-Time cost for this pair is 125.2100 seconds
+Time cost for this pair is 126.1000 seconds
 [P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
 precision: 0.0134
 recall: 0.4528
@@ -235,7 +235,7 @@ recall: 0.4528
 
 6276	Pik-Shan_Cheung	candidate size: 17431
 15340	Shinjae_Yoo	candidate size: 17431
-Time cost for this pair is 156.3400 seconds
+Time cost for this pair is 157.2800 seconds
 [P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
 precision: 0.0206
 recall: 0.8491
@@ -248,7 +248,7 @@ recall: 1.0000
 
 7445	Ting-Sheng_Lai	candidate size: 17431
 10277	Sanda_Harabagiu	candidate size: 17431
-Time cost for this pair is 127.1600 seconds
+Time cost for this pair is 127.7500 seconds
 [P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
 precision: 0.0346
 recall: 0.7925
@@ -261,7 +261,7 @@ recall: 0.3962
 
 1004	Dagobert_Soergel	candidate size: 17431
 724	Wen-Hsiang_Lu	candidate size: 17431
-Time cost for this pair is 55.2900 seconds
+Time cost for this pair is 55.9100 seconds
 [P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_A]	
 precision: 0.0981
 recall: 0.2453
@@ -274,7 +274,7 @@ recall: 0.6415
 
 2229	Seung-Taek_Park	candidate size: 17431
 14195	Nivio_Ziviani	candidate size: 17431
-Time cost for this pair is 219.0600 seconds
+Time cost for this pair is 218.4200 seconds
 [P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_A]	
 precision: 0.0254
 recall: 0.5943
@@ -287,7 +287,7 @@ recall: 0.9623
 
 7489	Tat-Seng_Chua	candidate size: 17431
 12483	Wei-Ying_Ma	candidate size: 17431
-Time cost for this pair is 61.6500 seconds
+Time cost for this pair is 62.0400 seconds
 [P_A]^(-1)	[P_P]^(-1)	[P_A]	
 precision: 0.0274
 recall: 0.1604
@@ -300,7 +300,7 @@ recall: 0.7642
 
 1004	Dagobert_Soergel	candidate size: 17431
 6565	Haizhou_Li	candidate size: 17431
-Time cost for this pair is 168.4000 seconds
+Time cost for this pair is 168.5500 seconds
 [P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
 precision: 0.0346
 recall: 0.7925
@@ -313,7 +313,7 @@ recall: 1.0000
 
 15340	Shinjae_Yoo	candidate size: 17431
 6532	Baoli_Li	candidate size: 17431
-Time cost for this pair is 209.9900 seconds
+Time cost for this pair is 210.5600 seconds
 [P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_A]	
 precision: 0.0491
 recall: 0.3491
@@ -326,7 +326,7 @@ recall: 0.8491
 
 14676	Xiaofei_He	candidate size: 17431
 7394	ChengXiang_Zhai	candidate size: 17431
-Time cost for this pair is 69.1400 seconds
+Time cost for this pair is 69.6600 seconds
 [P_A]^(-1)	[P_P]	[P_A]	
 precision: 0.0494
 recall: 0.0377
@@ -339,7 +339,7 @@ recall: 0.1604
 
 7894	Chun-Keat_Koh	candidate size: 17431
 7489	Tat-Seng_Chua	candidate size: 17431
-Time cost for this pair is 41.2700 seconds
+Time cost for this pair is 41.6000 seconds
 [P_A]^(-1)	[P_A]	
 precision: 0.1111
 recall: 0.0283
@@ -352,7 +352,7 @@ recall: 0.1132
 
 15340	Shinjae_Yoo	candidate size: 17431
 1093	Ruizhang_Huang	candidate size: 17431
-Time cost for this pair is 202.1000 seconds
+Time cost for this pair is 202.7500 seconds
 [P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
 precision: 0.0206
 recall: 0.8491
@@ -365,7 +365,7 @@ recall: 0.6792
 
 5456	Judith_Klein-Seetharaman	candidate size: 17431
 6122	Ming-Ting_Sun	candidate size: 17431
-Time cost for this pair is 125.1900 seconds
+Time cost for this pair is 125.7600 seconds
 [P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
 precision: 0.0346
 recall: 0.7925
@@ -378,7 +378,7 @@ recall: 1.0000
 
 9809	Ming-Hung_Hsu	candidate size: 17431
 12190	Gilad_Mishne	candidate size: 17431
-Time cost for this pair is 164.0000 seconds
+Time cost for this pair is 165.2600 seconds
 [P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
 precision: 0.0077
 recall: 0.5660
@@ -391,7 +391,7 @@ recall: 1.0000
 
 7722	Keizo_Sato	candidate size: 17431
 8384	Ryen_W._White	candidate size: 17431
-Time cost for this pair is 142.4400 seconds
+Time cost for this pair is 143.0600 seconds
 [P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_A]	
 precision: 0.0158
 recall: 0.7925
@@ -404,7 +404,7 @@ recall: 1.0000
 
 8014	Sakari_Hokkanen	candidate size: 17431
 2229	Seung-Taek_Park	candidate size: 17431
-Time cost for this pair is 105.2400 seconds
+Time cost for this pair is 105.0900 seconds
 [P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_A]	
 precision: 0.0960
 recall: 0.1604
@@ -417,7 +417,7 @@ recall: 1.0000
 
 2501	Trystan_Upstill	candidate size: 17431
 5456	Judith_Klein-Seetharaman	candidate size: 17431
-Time cost for this pair is 198.2200 seconds
+Time cost for this pair is 198.8500 seconds
 [P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_A]	
 precision: 0.0981
 recall: 0.2453
@@ -430,7 +430,7 @@ recall: 1.0000
 
 7171	Goldee_Udani	candidate size: 17431
 8942	Zonghuan_Wu	candidate size: 17431
-Time cost for this pair is 348.9200 seconds
+Time cost for this pair is 351.3700 seconds
 [P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
 precision: 0.0061
 recall: 1.0000
@@ -443,7 +443,7 @@ recall: 1.0000
 
 352	Pertti_Vakkari	candidate size: 17431
 5117	Emine_Yilmaz	candidate size: 17431
-Time cost for this pair is 103.6700 seconds
+Time cost for this pair is 104.9900 seconds
 [P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
 precision: 0.0185
 recall: 0.9245
@@ -456,7 +456,7 @@ recall: 0.5189
 
 11419	Parry_Husbands	candidate size: 17431
 13087	Hae-Chang_Rim	candidate size: 17431
-Time cost for this pair is 188.3900 seconds
+Time cost for this pair is 189.8200 seconds
 [P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_A]	
 precision: 0.0960
 recall: 0.1604
@@ -469,7 +469,7 @@ recall: 0.7264
 
 6819	Xinsong_Xia	candidate size: 17431
 7635	Razvan_Stefan_Bot	candidate size: 17431
-Time cost for this pair is 219.4500 seconds
+Time cost for this pair is 220.9600 seconds
 [P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
 precision: 0.0061
 recall: 1.0000
@@ -482,7 +482,7 @@ recall: 0.9434
 
 1261	Endong_Xun	candidate size: 17431
 3443	Jun-ichi_Takeuchi	candidate size: 17431
-Time cost for this pair is 170.4400 seconds
+Time cost for this pair is 171.5800 seconds
 [P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
 precision: 0.0061
 recall: 1.0000
@@ -495,7 +495,7 @@ recall: 1.0000
 
 1942	Dolf_Trieschnigg	candidate size: 17431
 3443	Jun-ichi_Takeuchi	candidate size: 17431
-Time cost for this pair is 561.5300 seconds
+Time cost for this pair is 565.8100 seconds
 [P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
 precision: 0.0061
 recall: 1.0000
@@ -508,7 +508,7 @@ recall: 1.0000
 
 8865	Guomao_Xin	candidate size: 17431
 13371	Weiguo_Fan	candidate size: 17431
-Time cost for this pair is 49.8000 seconds
+Time cost for this pair is 50.0300 seconds
 [P_A]^(-1)	[P_P]^(-1)	[P_P]	[P_A]	
 precision: 0.0964
 recall: 0.0755
@@ -521,7 +521,7 @@ recall: 0.1509
 
 8014	Sakari_Hokkanen	candidate size: 17431
 7394	ChengXiang_Zhai	candidate size: 17431
-Time cost for this pair is 108.2400 seconds
+Time cost for this pair is 109.2800 seconds
 [P_A]^(-1)	[P_V]	[P_V]^(-1)	[P_A]	
 precision: 0.0134
 recall: 0.9340
@@ -534,7 +534,7 @@ recall: 1.0000
 
 1364	Eija_Airio	candidate size: 17431
 10718	Chih-Fong_Tsai	candidate size: 17431
-Time cost for this pair is 184.9000 seconds
+Time cost for this pair is 186.3400 seconds
 [P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
 precision: 0.0346
 recall: 0.7925
@@ -547,7 +547,7 @@ recall: 0.7925
 
 8014	Sakari_Hokkanen	candidate size: 17431
 12483	Wei-Ying_Ma	candidate size: 17431
-Time cost for this pair is 105.2600 seconds
+Time cost for this pair is 106.3900 seconds
 [P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
 precision: 0.0346
 recall: 0.7925
@@ -560,7 +560,7 @@ recall: 0.1226
 
 11419	Parry_Husbands	candidate size: 17431
 1951	Gui-Rong_Xue	candidate size: 17431
-Time cost for this pair is 67.8600 seconds
+Time cost for this pair is 69.2700 seconds
 [P_A]^(-1)	[P_A]	[P_A]^(-1)	[P_A]	
 precision: 0.0635
 recall: 0.0377
@@ -573,7 +573,7 @@ recall: 0.7925
 
 1004	Dagobert_Soergel	candidate size: 17431
 1158	Zhiwei_Guan	candidate size: 17431
-Time cost for this pair is 151.3800 seconds
+Time cost for this pair is 152.6400 seconds
 [A_F]	[A_F]^(-1)	[A_F]	[A_F]^(-1)	
 precision: 0.0058
 recall: 0.6415
@@ -586,7 +586,7 @@ recall: 0.6887
 
 12174	Mukul_M._Joshi	candidate size: 17431
 3038	Dekang_Lin	candidate size: 17431
-Time cost for this pair is 231.4400 seconds
+Time cost for this pair is 233.1100 seconds
 [P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
 precision: 0.0145
 recall: 0.9434
@@ -599,7 +599,7 @@ recall: 0.3302
 
 10277	Sanda_Harabagiu	candidate size: 17431
 5677	Shenghuo_Zhu	candidate size: 17431
-Time cost for this pair is 46.2800 seconds
+Time cost for this pair is 46.9200 seconds
 [P_A]^(-1)	[P_P]	[P_A]	
 precision: 0.0435
 recall: 0.0660
@@ -612,7 +612,7 @@ recall: 0.5755
 
 6122	Ming-Ting_Sun	candidate size: 17431
 7635	Razvan_Stefan_Bot	candidate size: 17431
-Time cost for this pair is 975.2800 seconds
+Time cost for this pair is 974.2400 seconds
 [P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
 precision: 0.0061
 recall: 1.0000
@@ -625,7 +625,7 @@ recall: 0.5660
 
 8014	Sakari_Hokkanen	candidate size: 17431
 285	Farzin_Maghoul	candidate size: 17431
-Time cost for this pair is 98.9900 seconds
+Time cost for this pair is 98.7500 seconds
 [P_A]^(-1)	[P_T]	[P_T]^(-1)	[P_A]	
 precision: 0.0061
 recall: 1.0000
@@ -638,7 +638,7 @@ recall: 0.9623
 
 12174	Mukul_M._Joshi	candidate size: 17431
 6122	Ming-Ting_Sun	candidate size: 17431
-Time cost for this pair is 231.6500 seconds
+Time cost for this pair is 229.9600 seconds
 [P_A]^(-1)	[P_C]	[P_C]^(-1)	[P_A]	
 precision: 0.0178
 recall: 0.8868
@@ -649,7 +649,7 @@ recall: 1.0000
 precision: 0.0169
 recall: 0.6509
 
-Average time cost is 210.3474 seconds
+Average time cost is 211.1744 seconds
 
 Metrics	Precision	Precision@k
 1	0.030351	0.030351

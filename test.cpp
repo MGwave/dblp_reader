@@ -45,14 +45,21 @@ void printUsage(const char* argv[]){
 
 	cout << "\t TF-IDF-type:" << endl;
 	cout << "\t\t M-S -> MNI-based Support" << endl;
+	cout << "\t\t S-M-S -> Strength-based M-S" << endl;
 	cout << "\t\t B-S -> Binary-based Support" << endl;
+	cout << "\t\t S-B-S -> Strength-based Binary Support"<< endl;
 	cout << "\t\t P-S -> PCRW-based Support" << endl;
+	cout << "\t\t SLV1 -> Strength & Length based Version 1" << endl;
+        cout << "\t\t SLV2 -> Strength & Length based Version 2" << endl;
 	cout << "\t\t SP -> Shortest Path" << endl;
+	cout << "\t\t S-SP -> Strengrg-based Shortest Path" << endl;
 	
 	cout << "recommend && classifier mode:" << endl;
 	cout << "\t length-penalty(l is the meta-path's length): " << endl;
 	cout << "\t\t 1 -> 1/beta^l" << endl;
 	cout << "\t\t 2 -> 1/factorial(l)" << endl;
+	cout << "\t\t 3 -> 1/l" << endl;
+	cout << "\t\t 4 -> 1/e^l" << endl;
 
 	cout << endl;
 
@@ -244,6 +251,9 @@ int main(int argc, const char * argv[]) {
 
 			hin_graph_ = loadHinGraph(dataset.c_str(), node_name, adj, node_type_name, node_type_num, node_id_to_type, edge_name);
 
+			 if(strcmp(tfidf_type.c_str(), "S-M-S") == 0 || strcmp(tfidf_type.c_str(), "S-B-S") == 0|| strcmp(tfidf_type.c_str(), "SLV1") == 0 || strcmp(tfidf_type.c_str(), "SLV2") == 0 ){	
+				loadMetaInfo(dataset, hin_graph_);
+			}
 		vector<pair<int, int>> pos_pairs;
 
 		vector<pair<int, int>> neg_pairs;

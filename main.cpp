@@ -8,6 +8,7 @@
 #include "AppUtils.h"
 
 #include <iostream>
+#include <fstream>
 #include <sstream>
 #include <cstdlib>
 #include <cstring>
@@ -91,15 +92,17 @@ void output(vector<pair<vector<double>, vector<int>>> topKMetaPaths, map<int, st
 
 	}
 	else {
-		cerr << "No Meta Pah Found in the HIN Graph." << endl;
+		cerr << "No Meta Path Found in the HIN Graph." << endl;
 	}
 }
+
 
 void printUsage(const char* argv[]) {
 	cout << "Usage: " << endl;
 	cout << argv[0] << " --default dataset entityId1 entityId2 k" << endl;
 	cout << argv[0] << " --advance dataset entityId1 entityId2 k output-type TF-IDF-type length-penalty (beta)" << endl;
 	cout << argv[0] << " --refine dataset entityId1 entityId2 k score-function" << endl;
+	cout << argv[0] << " --train dataset" << endl;
 	cout << endl;
 
 	cout << "--advance mode:" << endl;
@@ -111,13 +114,20 @@ void printUsage(const char* argv[]) {
 
 	cout << "\t TF-IDF-type:" << endl;
 	cout << "\t\t M-S -> MNI-based Support" << endl;
+	cout << "\t\t S-M-S -> Strength-based M-S" << endl;
 	cout << "\t\t B-S -> Binary-based Support" << endl;
+	cout << "\t\t S-B-S -> Strength-based B-S" << endl;
 	cout << "\t\t P-S -> PCRW-based Support" << endl;
+	cout << "\t\t SLV1 -> Strength & Length based Version 1" << endl;
+	cout << "\t\t SLV2 -> Strength & Length based Version 2" << endl;
 	cout << "\t\t SP -> Shortest Path" << endl;
+	cout << "\t\t S-SP -> Strength-based Shortest Path" << endl;
 
 	cout << "\t length-penalty(l is the meta-path's length): " << endl;
 	cout << "\t\t 1 -> beta^l (beta < 1)" << endl;
 	cout << "\t\t 2 -> 1/factorial(l)" << endl;	
+	cout << "\t\t 3 -> 1/l" << endl;
+	cout << "\t\t 4 -> 1/e^l" << endl;
 	cout << endl;
 
 
@@ -135,11 +145,20 @@ void printUsage(const char* argv[]) {
 	cout << "\t score-function: 1 -> PCRW" << endl;
 	cout << "\t output-type -> 1" << endl;
 	cout << endl;
+
+	cout << "--train mode:" << endl;
+	cout << "\t get statistics of different node types and edge types(including the number of each node type, each edge type and the weight of each edge type" << endl;
+	cout << endl; 
 }
 
 int main(int argc, const char * argv[]) {
-
-	if (argc > 5) {
+	
+	if (argc == 3){
+		if(strcmp(argv[1], "--train") == 0 || strcmp(argv[1], "-t")){
+			getMetaInfo(argv[2]);
+			return 0;
+		}
+	}else if (argc > 5) {
 
 		int penalty_type = DEFAULT_PENALTY_TYPE;
 		double beta = DEFAULT_BETA;
@@ -202,6 +221,9 @@ int main(int argc, const char * argv[]) {
 		map<int, string> edge_name;
 
 		hin_graph_ = loadHinGraph(dataset.c_str(), node_name, adj, node_type_name, node_type_num, node_id_to_type, edge_name);
+		if(strcmp(tfidf_type.c_str(), "S-M-S") == 0 || strcmp(tfidf_type.c_str(), "S-B-S") == 0|| strcmp(tfidf_type.c_str(), "SLV1") == 0 || strcmp(tfidf_type.c_str(), "SLV2") == 0 ){
+			loadMetaInfo(dataset, hin_graph_);
+		}
 
 
 		string file_name = getFileName(src, dst, dataset);
