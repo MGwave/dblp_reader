@@ -226,7 +226,7 @@ int main(int argc, const char * argv[]) {
 		}
 
 
-		string file_name = getFileName(src, dst, dataset);
+		string file_name = getFileName(src, dst, tfidf_type, dataset);
 
 		vector<pair<vector<double>, vector<int>>> topKMetaPaths;
 

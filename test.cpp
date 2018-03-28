@@ -297,7 +297,7 @@ int main(int argc, const char * argv[]) {
 					if(!refine_flag){
 							topKMetaPaths = TopKCalculator::getTopKMetaPath_TFIDF(src, dst, k, hin_graph_);
 					}else{
-							string file_name = getFileName(src, dst, dataset);
+							string file_name = getFileName(src, dst, tfidf_type, dataset);
 							vector<vector<int>> meta_paths = TopKCalculator::loadMetaPaths(file_name);
 							topKMetaPaths = TopKCalculator::getTopKMetaPath_Refiner(src, dst, k, meta_paths, score_function, hin_graph_);
 					}
