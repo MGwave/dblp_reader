@@ -13,3 +13,4 @@ topKQueryTest
 /.vs/dblp_reader/v15/.suo
 /.vs/dblp_reader/v15/Browse.VC.db
 HeteRecmTest/IMDB/__pycache__/
+HeteRecmTest/IMDB/HIN.pkl
