@@ -103,7 +103,6 @@ def loadRatingGroundTruth():
 def getDstEntitiesInfo(hin, srcEntityInfo, metaPath):
     hinEntities = hin['Entities']
     hinEntityType = hin['EntityTypes']
-
     dstEntitiesInfo = set()
     dstEntitiesInfo.add(srcEntityInfo)
     metaPathLength = len(metaPath)
@@ -120,7 +119,6 @@ def getDstEntitiesInfo(hin, srcEntityInfo, metaPath):
         dstEntitiesInfo.clear()
         dstEntitiesInfo = tmpDstEntitiesInfo.copy()
 
-
     return dstEntitiesInfo
 
 
@@ -130,7 +128,10 @@ def getPrecisionAndRecall(groundTruth, predictResult):
     return hit/len(predictResult), hit/len(groundTruth)
 
 def getF1Score(precision, recall, beta=0.5):
-    return (1+beta*beta)*precision*recall/(beta*beta*precision + recall)
+    if precision == 0 and recall == 0:
+        return 0
+    else:
+        return (1+beta*beta)*precision*recall/(beta*beta*precision + recall)
 
 
 def main():
@@ -153,7 +154,7 @@ def main():
     movieEntityIdDict = HIN['EntityTypes']['movie']
 
     # input pairs for testing
-    fin = open('dataset/HeteRecomInputPairsPython.txt','r')
+    fin = open('./dataset/HeteRecomInputPairsPython.txt','r')
     testPairsRecords = fin.readlines()
     testPairsSize = len(testPairsRecords)
     for method in methods:
@@ -173,9 +174,9 @@ def main():
             movieScores = dict()
             movieScores.clear()
             for i in range(metaPathK):
-                currMetaPath = metaPaths[i]
+                currMetaPath = transform(metaPaths[i], edgeTypeDict)
                 currMetaPathWeight = metaPathsWeights[i]
-                movieEntitiesInfo = getDstEntitiesInfo(HIN, userEntityInfo, transform(currMetaPath, edgeTypeDict))
+                movieEntitiesInfo = getDstEntitiesInfo(HIN, userEntityInfo, currMetaPath)
                 for movieEntityInfo in movieEntitiesInfo:
 
                     currMovieId = movieEntityInfo.entity.entityId
