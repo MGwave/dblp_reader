@@ -246,8 +246,8 @@ void getMetaInfo(string dataset, string outDir){
 
 
 
-string getFileName(int src, int dst, string tfidf_type, string dataset){
-		return string(DEFAULT_OUTPUT_DIR) + "/" + dataset + "_" + tfidf_type + "_" + to_string(src) + "_" + to_string(dst) + ".txt";
+string getFileName(int src, int dst, string tfidf_type, int k, string dataset){
+		return string(DEFAULT_OUTPUT_DIR) + "/" + dataset + "_" + tfidf_type + "_" + to_string(src) + "_" + to_string(dst) + "_" + to_string(k) + ".txt";
 }
 
 void tfidfSetup(const char* tfidf_type, int penalty_type, double beta, int sample_size){

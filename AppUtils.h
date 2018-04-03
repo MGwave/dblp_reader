@@ -26,7 +26,7 @@ using namespace std;
 
 HIN_Graph loadHinGraph(const char* dataset, map<int,string> & node_name, map<int, vector<Edge>> & adj, map<int,string> & node_type_name, map<int,int> & node_type_num, map<int,vector<int>> & node_id_to_type, map<int,string> & edge_name);
 
-string getFileName(int src, int dst, string tfidf_type, string dataset);
+string getFileName(int src, int dst, string tfidf_type, int k, string dataset);
 
 void tfidfSetup(const char* tfidf_type, int penalty_type, double beta, int sample_size=DEFAULT_SAMPLE_SIZE);
 
