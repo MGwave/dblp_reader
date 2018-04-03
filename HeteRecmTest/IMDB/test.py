@@ -12,7 +12,7 @@ def loadEdgeTypeStrength():
     edgeTypeRecords = fin.readlines()
     for record in edgeTypeRecords:
         [edgeTypeStr, edgeTypeIdStr] = record.strip().split("\t")
-        edgeTypeDict[int(edgeTypeStr)] = edgeTypeStr
+        edgeTypeDict[int(edgeTypeIdStr)] = edgeTypeStr
     fin.close()
 
     edgeTypeStrength = dict()
@@ -27,13 +27,13 @@ def loadEdgeTypeStrength():
 def transform(metaPath, edgeTypeDict):
     nodeTypeMetaPath = []
     pathLength = len(metaPath)
-    for i in (0, pathLength):
+    for i in range(0, pathLength):
         edgeType = metaPath[i]
         nodeType = []
         if edgeType > 0:
             nodeType = edgeTypeDict[edgeType].strip().split("_")
         else:
-            nodeType = edgeTypeDict[edgeType].strip().split("_")
+            nodeType = edgeTypeDict[-edgeType].strip().split("_")
             nodeType.reverse()
 
         nodeTypeMetaPath.append(nodeType[0])
@@ -43,7 +43,7 @@ def transform(metaPath, edgeTypeDict):
 
 
 #loading the topK meta path for the given src and dst entity, the k and the method
-def loadTopKMetaPath(src, dst, method, k=5, edgeTypeDict):
+def loadTopKMetaPath(src, dst, method, edgeTypeDict, k=5):
     filename = "../../topKResult/IMDB_" + method + "_" + str(src) + "_" + str(dst) + "_" + str(k) + ".txt"
     fin = open(filename, "r")
     topKMetaPathsRecords = fin.readlines()
@@ -107,15 +107,18 @@ def getDstEntitiesInfo(hin, srcEntityInfo, metaPath):
     dstEntitiesInfo = set()
     dstEntitiesInfo.add(srcEntityInfo)
     metaPathLength = len(metaPath)
+    #print(metaPath)
     for i in range(1, metaPathLength):
         tmpDstEntitiesInfo = set()
         currEntityType = metaPath[i]
         for entityInfo in dstEntitiesInfo:
-            tmpOutRelation = entityInfo[currEntityType]
-            for nextEntityId in tmpOutRelation.keys():
-                tmpDstEntitiesInfo.add(hinEntities[hinEntityType[nextEntityId]])
+            if currEntityType not in entityInfo.outRelations:
+                continue
+            tmpRelIndexDict = entityInfo.outRelations[currEntityType]['relIndexDict']
+            for nextEntityId in tmpRelIndexDict.keys():
+                tmpDstEntitiesInfo.add(hinEntities[hinEntityType[currEntityType][nextEntityId]])
         dstEntitiesInfo.clear()
-        dstEntitiesInfo = tmpEndEntityInfo.copy()
+        dstEntitiesInfo = tmpDstEntitiesInfo.copy()
 
 
     return dstEntitiesInfo
@@ -131,7 +134,7 @@ def getF1Score(precision, recall, beta=0.5):
 
 
 def main():
-    f = open('HIN.pkl','rb')
+    f = open('./HIN.pkl','rb')
     HIN = pickle.load(f)
     f.close()
 
@@ -154,13 +157,16 @@ def main():
     testPairsRecords = fin.readlines()
     testPairsSize = len(testPairsRecords)
     for method in methods:
+        print("Running method:" + method)
         sumLinkPrediction = sumLinkRecall = 0
         sumRatePrediction = sumRateRecall = 0
+
+        i = 0
         for record in testPairsRecords:
             [srcStr, dstStr] = record.strip().split('\t')
             src = int(srcStr)
             dst = int(dstStr)
-            metaPaths = loadTopKMetaPath(src+200100, dst, method, metaPathK, edgeTypeDict)
+            metaPaths = loadTopKMetaPath(src+200100, dst, method, edgeTypeDict, metaPathK)
             metaPathsWeights = weight(metaPaths, edgeTypeStrength)
             userEntityInfo = HIN['Entities'][HIN['EntityTypes']['user'][src]]
             exclusionMovies = set(userEntityInfo.outRelations['movie'].keys())
@@ -169,20 +175,20 @@ def main():
             for i in range(metaPathK):
                 currMetaPath = metaPaths[i]
                 currMetaPathWeight = metaPathsWeights[i]
-                movieEntitiesInfo = getDstEntitiesInfo(HIN, userEntityInfo, currMetaPath)
+                movieEntitiesInfo = getDstEntitiesInfo(HIN, userEntityInfo, transform(currMetaPath, edgeTypeDict))
                 for movieEntityInfo in movieEntitiesInfo:
 
                     currMovieId = movieEntityInfo.entity.entityId
                     # exclude those directly connected movies in training set
                     if currMovieId in exclusionMovies:
                         continue
-                    heteSim = getHeteSim(HIN, userEntityInfo, movieEntityInfo, currMetaPathWeight)
+                    heteSim = getHeteSim(HIN, userEntityInfo.entity, movieEntityInfo.entity, currMetaPath)
                     if currMovieId not in movieScores:
                         movieScores[currMovieId] = currMetaPathWeight*heteSim
                     else:
                         movieScores[currMovieId] += currMetaPathWeight*heteSim
 
-            movieScoresList = [(score, movie) for movie, score in movieScores]
+            movieScoresList = [(score, movie) for movie, score in movieScores.items()]
             movieScoresList.sort(reverse=True)
             topKResult = [movie for _, movie in movieScoresList[:K]]
 
@@ -192,6 +198,11 @@ def main():
             ratePrediction, rateRecall = getPrecisionAndRecall(userRateGroundTruth[src][1], topKResult)
             sumRatePrediction += ratePrediction
             sumRateRecall += rateRecall
+
+            if i%(testPairsSize/10) == 0:
+                print("%d%..." % i/(testPairsSize/10), end="")
+
+        print("100%")
 
         avgLinkPrediction = sumLinkPrediction/testPairsSize
         avgLinkRecall = sumLinkRecall/testPairsSize

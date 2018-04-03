@@ -98,6 +98,8 @@ def loadRelationFile(hin, relationFileName, startEntityType, endEntityType):
 
 			# Data sensitive -> type ...
 			# Load the start entity and the end entity
+			if len(relation) < 2:
+				continue
 			startEntityId = int(relation[0])
 			endEntityId = relation[1]
 			if endEntityId.isdigit():
