@@ -162,7 +162,7 @@ def main():
         sumLinkPrediction = sumLinkRecall = 0
         sumRatePrediction = sumRateRecall = 0
 
-        i = 0
+        j = 0
         for record in testPairsRecords:
             [srcStr, dstStr] = record.strip().split('\t')
             src = int(srcStr)
@@ -200,8 +200,8 @@ def main():
             sumRatePrediction += ratePrediction
             sumRateRecall += rateRecall
 
-            print("record:" + str(i))
-            i += 1
+            print("record:" + str(j))
+            j += 1
 
         avgLinkPrediction = sumLinkPrediction/testPairsSize
         avgLinkRecall = sumLinkRecall/testPairsSize
