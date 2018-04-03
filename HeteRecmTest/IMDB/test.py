@@ -47,6 +47,7 @@ def loadTopKMetaPath(src, dst, method, edgeTypeDict, k=5):
     filename = "../../topKResult/IMDB_" + method + "_" + str(src) + "_" + str(dst) + "_" + str(k) + ".txt"
     fin = open(filename, "r")
     topKMetaPathsRecords = fin.readlines()
+    fin.close()
     metaPaths = []
     for record in topKMetaPathsRecords:
         tmpMetaPathStr = record.strip().split("\t")
@@ -156,6 +157,7 @@ def main():
     # input pairs for testing
     fin = open('./dataset/HeteRecomInputPairsPython.txt','r')
     testPairsRecords = fin.readlines()
+    fin.close()
     testPairsSize = len(testPairsRecords)
     for method in methods:
         print("Running method:" + method)
