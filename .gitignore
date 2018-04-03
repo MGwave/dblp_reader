@@ -12,4 +12,4 @@ topKQueryTest
 /.vs/dblp_reader/v15/ipch/AutoPCH
 /.vs/dblp_reader/v15/.suo
 /.vs/dblp_reader/v15/Browse.VC.db
-*/__pycache__/
+HeteRecmTest/IMDB/__pycache__/
