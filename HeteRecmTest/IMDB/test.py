@@ -200,10 +200,8 @@ def main():
             sumRatePrediction += ratePrediction
             sumRateRecall += rateRecall
 
-            if i%(testPairsSize/10) == 0:
-                print("%d%..." % i/(testPairsSize/10), end="")
-
-        print("100%")
+            print("record:" + str(i))
+            i += 1
 
         avgLinkPrediction = sumLinkPrediction/testPairsSize
         avgLinkRecall = sumLinkRecall/testPairsSize
