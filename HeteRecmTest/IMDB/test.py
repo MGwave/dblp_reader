@@ -160,7 +160,7 @@ def main():
             [srcStr, dstStr] = record.strip().split('\t')
             src = int(srcStr)
             dst = int(dstStr)
-            metaPaths = loadTopKMetaPath(src, dst, method, metaPathK, edgeTypeDict)
+            metaPaths = loadTopKMetaPath(src+200100, dst, method, metaPathK, edgeTypeDict)
             metaPathsWeights = weight(metaPaths, edgeTypeStrength)
             userEntityInfo = HIN['Entities'][HIN['EntityTypes']['user'][src]]
             exclusionMovies = set(userEntityInfo.outRelations['movie'].keys())
