@@ -1,7 +1,6 @@
 from Relation import Relation
 from Entity import Entity
 
-import numpy as np
 import pickle
 
 DATASET_DIR = "dataset/"
