@@ -1,0 +1,2800 @@
+Take 0.92s to read IMDB dataset
+Take 1.42s to construct IMDB graph
+225197	NA	candidate size: 2113
+2797	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_225197_2797_1.txt...
+finished saving meta-paths
+Take 0.66s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.45s to construct IMDB graph
+222166	NA	candidate size: 2113
+750	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_222166_750_1.txt...
+finished saving meta-paths
+Take 0.71s to calculate top k meta-paths
+Take 0.94s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+220535	NA	candidate size: 2113
+4308	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_220535_4308_1.txt...
+finished saving meta-paths
+Take 0.68s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.42s to construct IMDB graph
+258700	NA	candidate size: 2113
+50	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_258700_50_1.txt...
+finished saving meta-paths
+Take 0.68s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+506	NA	candidate size: 10197
+267271	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_267271_506_1.txt...
+finished saving meta-paths
+Take 0.68s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+256858	NA	candidate size: 2113
+1080	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_256858_1080_1.txt...
+finished saving meta-paths
+Take 0.67s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+200633	NA	candidate size: 2113
+1	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_200633_1_1.txt...
+finished saving meta-paths
+Take 1.39s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+224523	NA	candidate size: 2113
+260	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_224523_260_1.txt...
+finished saving meta-paths
+Take 0.67s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.42s to construct IMDB graph
+242988	NA	candidate size: 2113
+741	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_242988_741_1.txt...
+finished saving meta-paths
+Take 0.67s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+308	NA	candidate size: 10197
+234257	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_234257_308_1.txt...
+finished saving meta-paths
+Take 0.67s to calculate top k meta-paths
+Take 0.95s to read IMDB dataset
+Take 1.47s to construct IMDB graph
+244385	NA	candidate size: 2113
+111	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_244385_111_1.txt...
+finished saving meta-paths
+Take 0.66s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.42s to construct IMDB graph
+220631	NA	candidate size: 2113
+47	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_220631_47_1.txt...
+finished saving meta-paths
+Take 0.67s to calculate top k meta-paths
+Take 1.09s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+223747	NA	candidate size: 2113
+903	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_223747_903_1.txt...
+finished saving meta-paths
+Take 0.68s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+555	NA	candidate size: 10197
+269604	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_269604_555_1.txt...
+finished saving meta-paths
+Take 1.12s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+245386	NA	candidate size: 2113
+2324	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_245386_2324_1.txt...
+finished saving meta-paths
+Take 0.67s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+264660	NA	candidate size: 2113
+318	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_264660_318_1.txt...
+finished saving meta-paths
+Take 0.67s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+259629	NA	candidate size: 2113
+1089	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_259629_1089_1.txt...
+finished saving meta-paths
+Take 1.18s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+211654	NA	candidate size: 2113
+163	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_211654_163_1.txt...
+finished saving meta-paths
+Take 0.67s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+217407	NA	candidate size: 2113
+293	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_217407_293_1.txt...
+finished saving meta-paths
+Take 0.69s to calculate top k meta-paths
+Take 0.94s to read IMDB dataset
+Take 1.46s to construct IMDB graph
+228621	NA	candidate size: 2113
+32	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_228621_32_1.txt...
+finished saving meta-paths
+Take 0.67s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.39s to construct IMDB graph
+201492	NA	candidate size: 2113
+296	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_201492_296_1.txt...
+finished saving meta-paths
+Take 1.17s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+254160	NA	candidate size: 2113
+1235	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_254160_1235_1.txt...
+finished saving meta-paths
+Take 0.66s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+269235	NA	candidate size: 2113
+6	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_269235_6_1.txt...
+finished saving meta-paths
+Take 1.42s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+250	NA	candidate size: 10197
+266870	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_266870_250_1.txt...
+finished saving meta-paths
+Take 0.67s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+227215	NA	candidate size: 2113
+293	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_227215_293_1.txt...
+finished saving meta-paths
+Take 1.15s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+246216	NA	candidate size: 2113
+1206	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_246216_1206_1.txt...
+finished saving meta-paths
+Take 0.67s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+201604	NA	candidate size: 2113
+224	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_201604_224_1.txt...
+finished saving meta-paths
+Take 0.67s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.43s to construct IMDB graph
+199	NA	candidate size: 10197
+253415	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_253415_199_1.txt...
+finished saving meta-paths
+Take 0.71s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.48s to construct IMDB graph
+234896	NA	candidate size: 2113
+70	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_234896_70_1.txt...
+finished saving meta-paths
+Take 0.66s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+222553	NA	candidate size: 2113
+592	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_222553_592_1.txt...
+finished saving meta-paths
+Take 0.67s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+215278	NA	candidate size: 2113
+32	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_215278_32_1.txt...
+finished saving meta-paths
+Take 0.66s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+247868	NA	candidate size: 2113
+21	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_247868_21_1.txt...
+finished saving meta-paths
+Take 0.67s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+229692	NA	candidate size: 2113
+2571	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_229692_2571_1.txt...
+finished saving meta-paths
+Take 0.66s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+266032	NA	candidate size: 2113
+431	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_266032_431_1.txt...
+finished saving meta-paths
+Take 0.67s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+54	NA	candidate size: 10197
+253479	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_253479_54_1.txt...
+finished saving meta-paths
+Take 0.67s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+262887	NA	candidate size: 2113
+17	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_262887_17_1.txt...
+finished saving meta-paths
+Take 0.66s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.47s to construct IMDB graph
+209575	NA	candidate size: 2113
+720	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_209575_720_1.txt...
+finished saving meta-paths
+Take 0.69s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+258677	NA	candidate size: 2113
+296	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_258677_296_1.txt...
+finished saving meta-paths
+Take 0.67s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+247880	NA	candidate size: 2113
+1	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_247880_1_1.txt...
+finished saving meta-paths
+Take 0.67s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+268007	NA	candidate size: 2113
+296	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_268007_296_1.txt...
+finished saving meta-paths
+Take 0.67s to calculate top k meta-paths
+Take 0.94s to read IMDB dataset
+Take 1.39s to construct IMDB graph
+266490	NA	candidate size: 2113
+296	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_266490_296_1.txt...
+finished saving meta-paths
+Take 0.97s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.44s to construct IMDB graph
+257238	NA	candidate size: 2113
+25	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_257238_25_1.txt...
+finished saving meta-paths
+Take 0.67s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.39s to construct IMDB graph
+229542	NA	candidate size: 2113
+19	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_229542_19_1.txt...
+finished saving meta-paths
+Take 1.34s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.39s to construct IMDB graph
+205338	NA	candidate size: 2113
+50	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_205338_50_1.txt...
+finished saving meta-paths
+Take 1.13s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.44s to construct IMDB graph
+212551	NA	candidate size: 2113
+551	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_212551_551_1.txt...
+finished saving meta-paths
+Take 0.69s to calculate top k meta-paths
+Take 0.94s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+203968	NA	candidate size: 2113
+2571	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_203968_2571_1.txt...
+finished saving meta-paths
+Take 0.67s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+166	NA	candidate size: 10197
+260282	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_260282_166_1.txt...
+finished saving meta-paths
+Take 0.68s to calculate top k meta-paths
+Take 0.94s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+215	NA	candidate size: 10197
+217954	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_217954_215_1.txt...
+finished saving meta-paths
+Take 0.67s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+222801	NA	candidate size: 2113
+364	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_222801_364_1.txt...
+finished saving meta-paths
+Take 0.68s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+231080	NA	candidate size: 2113
+293	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_231080_293_1.txt...
+finished saving meta-paths
+Take 0.67s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+221623	NA	candidate size: 2113
+32	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_221623_32_1.txt...
+finished saving meta-paths
+Take 0.66s to calculate top k meta-paths
+Take 0.94s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+248495	NA	candidate size: 2113
+1	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_248495_1_1.txt...
+finished saving meta-paths
+Take 0.68s to calculate top k meta-paths
+Take 0.94s to read IMDB dataset
+Take 1.42s to construct IMDB graph
+213977	NA	candidate size: 2113
+1280	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_213977_1280_1.txt...
+finished saving meta-paths
+Take 0.69s to calculate top k meta-paths
+Take 0.97s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+248390	NA	candidate size: 2113
+260	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_248390_260_1.txt...
+finished saving meta-paths
+Take 0.66s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+232931	NA	candidate size: 2113
+1202	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_232931_1202_1.txt...
+finished saving meta-paths
+Take 0.66s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+199	NA	candidate size: 10197
+251541	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_251541_199_1.txt...
+finished saving meta-paths
+Take 0.68s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.42s to construct IMDB graph
+261774	NA	candidate size: 2113
+293	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_261774_293_1.txt...
+finished saving meta-paths
+Take 0.68s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+208958	NA	candidate size: 2113
+17	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_208958_17_1.txt...
+finished saving meta-paths
+Take 0.67s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+216074	NA	candidate size: 2113
+32	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_216074_32_1.txt...
+finished saving meta-paths
+Take 0.67s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+237680	NA	candidate size: 2113
+47	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_237680_47_1.txt...
+finished saving meta-paths
+Take 0.68s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+203641	NA	candidate size: 2113
+111	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_203641_111_1.txt...
+finished saving meta-paths
+Take 0.68s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+259574	NA	candidate size: 2113
+1	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_259574_1_1.txt...
+finished saving meta-paths
+Take 0.67s to calculate top k meta-paths
+Take 0.95s to read IMDB dataset
+Take 1.46s to construct IMDB graph
+227087	NA	candidate size: 2113
+260	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_227087_260_1.txt...
+finished saving meta-paths
+Take 0.68s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+237628	NA	candidate size: 2113
+39	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_237628_39_1.txt...
+finished saving meta-paths
+Take 0.66s to calculate top k meta-paths
+Take 0.94s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+233108	NA	candidate size: 2113
+318	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_233108_318_1.txt...
+finished saving meta-paths
+Take 0.67s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+217753	NA	candidate size: 2113
+318	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_217753_318_1.txt...
+finished saving meta-paths
+Take 1.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+209515	NA	candidate size: 2113
+111	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_209515_111_1.txt...
+finished saving meta-paths
+Take 0.67s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+170	NA	candidate size: 10197
+269086	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_269086_170_1.txt...
+finished saving meta-paths
+Take 0.68s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+258073	NA	candidate size: 2113
+318	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_258073_318_1.txt...
+finished saving meta-paths
+Take 0.67s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+257737	NA	candidate size: 2113
+150	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_257737_150_1.txt...
+finished saving meta-paths
+Take 1.09s to calculate top k meta-paths
+Take 0.96s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+841	NA	candidate size: 10197
+259596	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_259596_841_1.txt...
+finished saving meta-paths
+Take 0.66s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+240995	NA	candidate size: 2113
+18	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_240995_18_1.txt...
+finished saving meta-paths
+Take 0.67s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.42s to construct IMDB graph
+228201	NA	candidate size: 2113
+260	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_228201_260_1.txt...
+finished saving meta-paths
+Take 0.67s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+235205	NA	candidate size: 2113
+19	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_235205_19_1.txt...
+finished saving meta-paths
+Take 1.2s to calculate top k meta-paths
+Take 0.96s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+254917	NA	candidate size: 2113
+1222	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_254917_1222_1.txt...
+finished saving meta-paths
+Take 0.67s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+240428	NA	candidate size: 2113
+6	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_240428_6_1.txt...
+finished saving meta-paths
+Take 0.67s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+250993	NA	candidate size: 2113
+110	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_250993_110_1.txt...
+finished saving meta-paths
+Take 1.39s to calculate top k meta-paths
+Take 0.94s to read IMDB dataset
+Take 1.45s to construct IMDB graph
+220028	NA	candidate size: 2113
+1	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_220028_1_1.txt...
+finished saving meta-paths
+Take 1.16s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+233577	NA	candidate size: 2113
+111	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_233577_111_1.txt...
+finished saving meta-paths
+Take 1.25s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+226343	NA	candidate size: 2113
+260	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_226343_260_1.txt...
+finished saving meta-paths
+Take 0.67s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+234813	NA	candidate size: 2113
+32	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_234813_32_1.txt...
+finished saving meta-paths
+Take 0.66s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+252247	NA	candidate size: 2113
+296	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_252247_296_1.txt...
+finished saving meta-paths
+Take 0.68s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+223460	NA	candidate size: 2113
+110	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_223460_110_1.txt...
+finished saving meta-paths
+Take 0.67s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+248106	NA	candidate size: 2113
+110	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_248106_110_1.txt...
+finished saving meta-paths
+Take 0.68s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+264812	NA	candidate size: 2113
+590	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_264812_590_1.txt...
+finished saving meta-paths
+Take 0.67s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+240085	NA	candidate size: 2113
+29	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_240085_29_1.txt...
+finished saving meta-paths
+Take 0.68s to calculate top k meta-paths
+Take 0.94s to read IMDB dataset
+Take 1.45s to construct IMDB graph
+270387	NA	candidate size: 2113
+175	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_270387_175_1.txt...
+finished saving meta-paths
+Take 0.68s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+248228	NA	candidate size: 2113
+16	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_248228_16_1.txt...
+finished saving meta-paths
+Take 0.67s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.39s to construct IMDB graph
+154	NA	candidate size: 10197
+219231	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_219231_154_1.txt...
+finished saving meta-paths
+Take 0.67s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+31364	NA	candidate size: 10197
+254476	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_254476_31364_1.txt...
+finished saving meta-paths
+Take 0.66s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+1	NA	candidate size: 10197
+231954	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_231954_1_1.txt...
+finished saving meta-paths
+Take 1.64s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+251433	NA	candidate size: 2113
+50	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_251433_50_1.txt...
+finished saving meta-paths
+Take 0.68s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+252121	NA	candidate size: 2113
+6	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_252121_6_1.txt...
+finished saving meta-paths
+Take 0.67s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+238211	NA	candidate size: 2113
+356	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_238211_356_1.txt...
+finished saving meta-paths
+Take 0.69s to calculate top k meta-paths
+Take 0.95s to read IMDB dataset
+Take 1.45s to construct IMDB graph
+209277	NA	candidate size: 2113
+32	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_209277_32_1.txt...
+finished saving meta-paths
+Take 0.68s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+200883	NA	candidate size: 2113
+1500	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_200883_1500_1.txt...
+finished saving meta-paths
+Take 0.67s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+203810	NA	candidate size: 2113
+253	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_203810_253_1.txt...
+finished saving meta-paths
+Take 0.68s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+244947	NA	candidate size: 2113
+306	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_244947_306_1.txt...
+finished saving meta-paths
+Take 0.67s to calculate top k meta-paths
+Take 0.95s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+223573	NA	candidate size: 2113
+1028	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_223573_1028_1.txt...
+finished saving meta-paths
+Take 0.67s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+220448	NA	candidate size: 2113
+50	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_S-M-S_220448_50_1.txt...
+finished saving meta-paths
+Take 0.66s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+225197	NA	candidate size: 2113
+2797	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_225197_2797_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+222166	NA	candidate size: 2113
+750	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_222166_750_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+220535	NA	candidate size: 2113
+4308	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_220535_4308_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.95s to read IMDB dataset
+Take 1.46s to construct IMDB graph
+258700	NA	candidate size: 2113
+50	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_258700_50_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+506	NA	candidate size: 10197
+267271	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_SP_267271_506_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.94s to read IMDB dataset
+Take 1.39s to construct IMDB graph
+256858	NA	candidate size: 2113
+1080	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_256858_1080_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+200633	NA	candidate size: 2113
+1	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_200633_1_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+224523	NA	candidate size: 2113
+260	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_224523_260_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+242988	NA	candidate size: 2113
+741	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_242988_741_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.42s to construct IMDB graph
+308	NA	candidate size: 10197
+234257	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_SP_234257_308_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+244385	NA	candidate size: 2113
+111	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_244385_111_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+220631	NA	candidate size: 2113
+47	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_220631_47_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.42s to construct IMDB graph
+223747	NA	candidate size: 2113
+903	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_223747_903_1.txt...
+finished saving meta-paths
+Take 0.35s to calculate top k meta-paths
+Take 0.96s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+555	NA	candidate size: 10197
+269604	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_SP_269604_555_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+245386	NA	candidate size: 2113
+2324	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_245386_2324_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.42s to construct IMDB graph
+264660	NA	candidate size: 2113
+318	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_264660_318_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.94s to read IMDB dataset
+Take 1.39s to construct IMDB graph
+259629	NA	candidate size: 2113
+1089	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_259629_1089_1.txt...
+finished saving meta-paths
+Take 0.35s to calculate top k meta-paths
+Take 0.95s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+211654	NA	candidate size: 2113
+163	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_211654_163_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.39s to construct IMDB graph
+217407	NA	candidate size: 2113
+293	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_217407_293_1.txt...
+finished saving meta-paths
+Take 0.35s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+228621	NA	candidate size: 2113
+32	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_228621_32_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.42s to construct IMDB graph
+201492	NA	candidate size: 2113
+296	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_201492_296_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+254160	NA	candidate size: 2113
+1235	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_254160_1235_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 1s to read IMDB dataset
+Take 1.44s to construct IMDB graph
+269235	NA	candidate size: 2113
+6	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_269235_6_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.94s to read IMDB dataset
+Take 1.43s to construct IMDB graph
+250	NA	candidate size: 10197
+266870	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_SP_266870_250_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+227215	NA	candidate size: 2113
+293	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_227215_293_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+246216	NA	candidate size: 2113
+1206	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_246216_1206_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+201604	NA	candidate size: 2113
+224	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_201604_224_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+199	NA	candidate size: 10197
+253415	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_SP_253415_199_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+234896	NA	candidate size: 2113
+70	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_234896_70_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+222553	NA	candidate size: 2113
+592	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_222553_592_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+215278	NA	candidate size: 2113
+32	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_215278_32_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+247868	NA	candidate size: 2113
+21	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_247868_21_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.94s to read IMDB dataset
+Take 1.46s to construct IMDB graph
+229692	NA	candidate size: 2113
+2571	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_229692_2571_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+266032	NA	candidate size: 2113
+431	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_266032_431_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.42s to construct IMDB graph
+54	NA	candidate size: 10197
+253479	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_SP_253479_54_1.txt...
+finished saving meta-paths
+Take 0.35s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+262887	NA	candidate size: 2113
+17	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_262887_17_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.94s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+209575	NA	candidate size: 2113
+720	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_209575_720_1.txt...
+finished saving meta-paths
+Take 0.35s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+258677	NA	candidate size: 2113
+296	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_258677_296_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+247880	NA	candidate size: 2113
+1	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_247880_1_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.42s to construct IMDB graph
+268007	NA	candidate size: 2113
+296	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_268007_296_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+266490	NA	candidate size: 2113
+296	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_266490_296_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+257238	NA	candidate size: 2113
+25	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_257238_25_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.97s to read IMDB dataset
+Take 1.43s to construct IMDB graph
+229542	NA	candidate size: 2113
+19	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_229542_19_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+205338	NA	candidate size: 2113
+50	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_205338_50_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+212551	NA	candidate size: 2113
+551	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_212551_551_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+203968	NA	candidate size: 2113
+2571	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_203968_2571_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.97s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+166	NA	candidate size: 10197
+260282	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_SP_260282_166_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+215	NA	candidate size: 10197
+217954	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_SP_217954_215_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+222801	NA	candidate size: 2113
+364	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_222801_364_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+231080	NA	candidate size: 2113
+293	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_231080_293_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+221623	NA	candidate size: 2113
+32	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_221623_32_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.44s to construct IMDB graph
+248495	NA	candidate size: 2113
+1	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_248495_1_1.txt...
+finished saving meta-paths
+Take 0.35s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.42s to construct IMDB graph
+213977	NA	candidate size: 2113
+1280	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_213977_1280_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+248390	NA	candidate size: 2113
+260	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_248390_260_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+232931	NA	candidate size: 2113
+1202	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_232931_1202_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.94s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+199	NA	candidate size: 10197
+251541	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_SP_251541_199_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.97s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+261774	NA	candidate size: 2113
+293	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_261774_293_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+208958	NA	candidate size: 2113
+17	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_208958_17_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+216074	NA	candidate size: 2113
+32	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_216074_32_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.42s to construct IMDB graph
+237680	NA	candidate size: 2113
+47	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_237680_47_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+203641	NA	candidate size: 2113
+111	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_203641_111_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+259574	NA	candidate size: 2113
+1	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_259574_1_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+227087	NA	candidate size: 2113
+260	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_227087_260_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+237628	NA	candidate size: 2113
+39	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_237628_39_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+233108	NA	candidate size: 2113
+318	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_233108_318_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+217753	NA	candidate size: 2113
+318	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_217753_318_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+209515	NA	candidate size: 2113
+111	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_209515_111_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+170	NA	candidate size: 10197
+269086	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_SP_269086_170_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+258073	NA	candidate size: 2113
+318	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_258073_318_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.42s to construct IMDB graph
+257737	NA	candidate size: 2113
+150	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_257737_150_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+841	NA	candidate size: 10197
+259596	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_SP_259596_841_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+240995	NA	candidate size: 2113
+18	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_240995_18_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+228201	NA	candidate size: 2113
+260	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_228201_260_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+235205	NA	candidate size: 2113
+19	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_235205_19_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+254917	NA	candidate size: 2113
+1222	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_254917_1222_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+240428	NA	candidate size: 2113
+6	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_240428_6_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.94s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+250993	NA	candidate size: 2113
+110	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_250993_110_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+220028	NA	candidate size: 2113
+1	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_220028_1_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+233577	NA	candidate size: 2113
+111	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_233577_111_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.95s to read IMDB dataset
+Take 1.44s to construct IMDB graph
+226343	NA	candidate size: 2113
+260	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_226343_260_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+234813	NA	candidate size: 2113
+32	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_234813_32_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+252247	NA	candidate size: 2113
+296	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_252247_296_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.94s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+223460	NA	candidate size: 2113
+110	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_223460_110_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+248106	NA	candidate size: 2113
+110	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_248106_110_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+264812	NA	candidate size: 2113
+590	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_264812_590_1.txt...
+finished saving meta-paths
+Take 0.35s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+240085	NA	candidate size: 2113
+29	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_240085_29_1.txt...
+finished saving meta-paths
+Take 0.35s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+270387	NA	candidate size: 2113
+175	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_270387_175_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.95s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+248228	NA	candidate size: 2113
+16	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_248228_16_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+154	NA	candidate size: 10197
+219231	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_SP_219231_154_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+31364	NA	candidate size: 10197
+254476	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_SP_254476_31364_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+1	NA	candidate size: 10197
+231954	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_SP_231954_1_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+251433	NA	candidate size: 2113
+50	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_251433_50_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+252121	NA	candidate size: 2113
+6	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_252121_6_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.42s to construct IMDB graph
+238211	NA	candidate size: 2113
+356	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_238211_356_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+209277	NA	candidate size: 2113
+32	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_209277_32_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.94s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+200883	NA	candidate size: 2113
+1500	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_200883_1500_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+203810	NA	candidate size: 2113
+253	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_203810_253_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.42s to construct IMDB graph
+244947	NA	candidate size: 2113
+306	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_244947_306_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+223573	NA	candidate size: 2113
+1028	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_223573_1028_1.txt...
+finished saving meta-paths
+Take 0.35s to calculate top k meta-paths
+Take 0.94s to read IMDB dataset
+Take 1.39s to construct IMDB graph
+220448	NA	candidate size: 2113
+50	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SP_220448_50_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.94s to read IMDB dataset
+Take 1.5s to construct IMDB graph
+225197	NA	candidate size: 2113
+2797	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_225197_2797_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+222166	NA	candidate size: 2113
+750	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_222166_750_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+220535	NA	candidate size: 2113
+4308	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_220535_4308_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+258700	NA	candidate size: 2113
+50	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_258700_50_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.42s to construct IMDB graph
+506	NA	candidate size: 10197
+267271	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_SLV1_267271_506_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.94s to read IMDB dataset
+Take 1.45s to construct IMDB graph
+256858	NA	candidate size: 2113
+1080	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_256858_1080_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+200633	NA	candidate size: 2113
+1	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_200633_1_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+224523	NA	candidate size: 2113
+260	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_224523_260_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+242988	NA	candidate size: 2113
+741	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_242988_741_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+308	NA	candidate size: 10197
+234257	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_SLV1_234257_308_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+244385	NA	candidate size: 2113
+111	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_244385_111_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+220631	NA	candidate size: 2113
+47	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_220631_47_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.39s to construct IMDB graph
+223747	NA	candidate size: 2113
+903	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_223747_903_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.94s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+555	NA	candidate size: 10197
+269604	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_SLV1_269604_555_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+245386	NA	candidate size: 2113
+2324	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_245386_2324_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.45s to construct IMDB graph
+264660	NA	candidate size: 2113
+318	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_264660_318_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.42s to construct IMDB graph
+259629	NA	candidate size: 2113
+1089	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_259629_1089_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+211654	NA	candidate size: 2113
+163	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_211654_163_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.42s to construct IMDB graph
+217407	NA	candidate size: 2113
+293	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_217407_293_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.49s to construct IMDB graph
+228621	NA	candidate size: 2113
+32	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_228621_32_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.42s to construct IMDB graph
+201492	NA	candidate size: 2113
+296	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_201492_296_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+254160	NA	candidate size: 2113
+1235	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_254160_1235_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+269235	NA	candidate size: 2113
+6	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_269235_6_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+250	NA	candidate size: 10197
+266870	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_SLV1_266870_250_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.94s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+227215	NA	candidate size: 2113
+293	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_227215_293_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+246216	NA	candidate size: 2113
+1206	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_246216_1206_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+201604	NA	candidate size: 2113
+224	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_201604_224_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+199	NA	candidate size: 10197
+253415	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_SLV1_253415_199_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.95s to read IMDB dataset
+Take 1.42s to construct IMDB graph
+234896	NA	candidate size: 2113
+70	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_234896_70_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+222553	NA	candidate size: 2113
+592	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_222553_592_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+215278	NA	candidate size: 2113
+32	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_215278_32_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+247868	NA	candidate size: 2113
+21	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_247868_21_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.42s to construct IMDB graph
+229692	NA	candidate size: 2113
+2571	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_229692_2571_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+266032	NA	candidate size: 2113
+431	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_266032_431_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+54	NA	candidate size: 10197
+253479	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_SLV1_253479_54_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+262887	NA	candidate size: 2113
+17	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_262887_17_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.42s to construct IMDB graph
+209575	NA	candidate size: 2113
+720	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_209575_720_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.95s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+258677	NA	candidate size: 2113
+296	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_258677_296_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.42s to construct IMDB graph
+247880	NA	candidate size: 2113
+1	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_247880_1_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.94s to read IMDB dataset
+Take 1.42s to construct IMDB graph
+268007	NA	candidate size: 2113
+296	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_268007_296_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.96s to read IMDB dataset
+Take 1.39s to construct IMDB graph
+266490	NA	candidate size: 2113
+296	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_266490_296_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.39s to construct IMDB graph
+257238	NA	candidate size: 2113
+25	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_257238_25_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+229542	NA	candidate size: 2113
+19	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_229542_19_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.42s to construct IMDB graph
+205338	NA	candidate size: 2113
+50	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_205338_50_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+212551	NA	candidate size: 2113
+551	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_212551_551_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+203968	NA	candidate size: 2113
+2571	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_203968_2571_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+166	NA	candidate size: 10197
+260282	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_SLV1_260282_166_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+215	NA	candidate size: 10197
+217954	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_SLV1_217954_215_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.94s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+222801	NA	candidate size: 2113
+364	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_222801_364_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+231080	NA	candidate size: 2113
+293	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_231080_293_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+221623	NA	candidate size: 2113
+32	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_221623_32_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.94s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+248495	NA	candidate size: 2113
+1	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_248495_1_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+213977	NA	candidate size: 2113
+1280	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_213977_1280_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+248390	NA	candidate size: 2113
+260	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_248390_260_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+232931	NA	candidate size: 2113
+1202	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_232931_1202_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+199	NA	candidate size: 10197
+251541	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_SLV1_251541_199_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+261774	NA	candidate size: 2113
+293	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_261774_293_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+208958	NA	candidate size: 2113
+17	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_208958_17_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.94s to read IMDB dataset
+Take 1.47s to construct IMDB graph
+216074	NA	candidate size: 2113
+32	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_216074_32_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+237680	NA	candidate size: 2113
+47	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_237680_47_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+203641	NA	candidate size: 2113
+111	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_203641_111_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+259574	NA	candidate size: 2113
+1	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_259574_1_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+227087	NA	candidate size: 2113
+260	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_227087_260_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.42s to construct IMDB graph
+237628	NA	candidate size: 2113
+39	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_237628_39_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.42s to construct IMDB graph
+233108	NA	candidate size: 2113
+318	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_233108_318_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+217753	NA	candidate size: 2113
+318	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_217753_318_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+209515	NA	candidate size: 2113
+111	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_209515_111_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+170	NA	candidate size: 10197
+269086	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_SLV1_269086_170_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.94s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+258073	NA	candidate size: 2113
+318	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_258073_318_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.94s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+257737	NA	candidate size: 2113
+150	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_257737_150_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+841	NA	candidate size: 10197
+259596	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_SLV1_259596_841_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+240995	NA	candidate size: 2113
+18	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_240995_18_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+228201	NA	candidate size: 2113
+260	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_228201_260_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.94s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+235205	NA	candidate size: 2113
+19	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_235205_19_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.95s to read IMDB dataset
+Take 1.46s to construct IMDB graph
+254917	NA	candidate size: 2113
+1222	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_254917_1222_1.txt...
+finished saving meta-paths
+Take 0.31s to calculate top k meta-paths
+Take 0.94s to read IMDB dataset
+Take 1.39s to construct IMDB graph
+240428	NA	candidate size: 2113
+6	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_240428_6_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+250993	NA	candidate size: 2113
+110	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_250993_110_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.48s to construct IMDB graph
+220028	NA	candidate size: 2113
+1	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_220028_1_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+233577	NA	candidate size: 2113
+111	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_233577_111_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+226343	NA	candidate size: 2113
+260	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_226343_260_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+234813	NA	candidate size: 2113
+32	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_234813_32_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+252247	NA	candidate size: 2113
+296	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_252247_296_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+223460	NA	candidate size: 2113
+110	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_223460_110_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+248106	NA	candidate size: 2113
+110	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_248106_110_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+264812	NA	candidate size: 2113
+590	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_264812_590_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.94s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+240085	NA	candidate size: 2113
+29	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_240085_29_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.94s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+270387	NA	candidate size: 2113
+175	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_270387_175_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+248228	NA	candidate size: 2113
+16	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_248228_16_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+154	NA	candidate size: 10197
+219231	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_SLV1_219231_154_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+31364	NA	candidate size: 10197
+254476	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_SLV1_254476_31364_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+1	NA	candidate size: 10197
+231954	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_SLV1_231954_1_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+251433	NA	candidate size: 2113
+50	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_251433_50_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+252121	NA	candidate size: 2113
+6	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_252121_6_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+238211	NA	candidate size: 2113
+356	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_238211_356_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.42s to construct IMDB graph
+209277	NA	candidate size: 2113
+32	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_209277_32_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+200883	NA	candidate size: 2113
+1500	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_200883_1500_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+203810	NA	candidate size: 2113
+253	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_203810_253_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.95s to read IMDB dataset
+Take 1.46s to construct IMDB graph
+244947	NA	candidate size: 2113
+306	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_244947_306_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+223573	NA	candidate size: 2113
+1028	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_223573_1028_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+220448	NA	candidate size: 2113
+50	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV1_220448_50_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+225197	NA	candidate size: 2113
+2797	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_225197_2797_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+222166	NA	candidate size: 2113
+750	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_222166_750_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.39s to construct IMDB graph
+220535	NA	candidate size: 2113
+4308	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_220535_4308_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.94s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+258700	NA	candidate size: 2113
+50	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_258700_50_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+506	NA	candidate size: 10197
+267271	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_SLV2_267271_506_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.42s to construct IMDB graph
+256858	NA	candidate size: 2113
+1080	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_256858_1080_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.94s to read IMDB dataset
+Take 1.42s to construct IMDB graph
+200633	NA	candidate size: 2113
+1	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_200633_1_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.42s to construct IMDB graph
+224523	NA	candidate size: 2113
+260	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_224523_260_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+242988	NA	candidate size: 2113
+741	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_242988_741_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+308	NA	candidate size: 10197
+234257	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_SLV2_234257_308_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.94s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+244385	NA	candidate size: 2113
+111	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_244385_111_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+220631	NA	candidate size: 2113
+47	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_220631_47_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+223747	NA	candidate size: 2113
+903	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_223747_903_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.94s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+555	NA	candidate size: 10197
+269604	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_SLV2_269604_555_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+245386	NA	candidate size: 2113
+2324	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_245386_2324_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+264660	NA	candidate size: 2113
+318	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_264660_318_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+259629	NA	candidate size: 2113
+1089	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_259629_1089_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.94s to read IMDB dataset
+Take 1.48s to construct IMDB graph
+211654	NA	candidate size: 2113
+163	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_211654_163_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+217407	NA	candidate size: 2113
+293	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_217407_293_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+228621	NA	candidate size: 2113
+32	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_228621_32_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.42s to construct IMDB graph
+201492	NA	candidate size: 2113
+296	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_201492_296_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+254160	NA	candidate size: 2113
+1235	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_254160_1235_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+269235	NA	candidate size: 2113
+6	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_269235_6_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+250	NA	candidate size: 10197
+266870	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_SLV2_266870_250_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+227215	NA	candidate size: 2113
+293	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_227215_293_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+246216	NA	candidate size: 2113
+1206	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_246216_1206_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+201604	NA	candidate size: 2113
+224	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_201604_224_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+199	NA	candidate size: 10197
+253415	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_SLV2_253415_199_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+234896	NA	candidate size: 2113
+70	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_234896_70_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+222553	NA	candidate size: 2113
+592	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_222553_592_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+215278	NA	candidate size: 2113
+32	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_215278_32_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.99s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+247868	NA	candidate size: 2113
+21	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_247868_21_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+229692	NA	candidate size: 2113
+2571	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_229692_2571_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+266032	NA	candidate size: 2113
+431	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_266032_431_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+54	NA	candidate size: 10197
+253479	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_SLV2_253479_54_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.95s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+262887	NA	candidate size: 2113
+17	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_262887_17_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+209575	NA	candidate size: 2113
+720	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_209575_720_1.txt...
+finished saving meta-paths
+Take 0.31s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+258677	NA	candidate size: 2113
+296	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_258677_296_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+247880	NA	candidate size: 2113
+1	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_247880_1_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.95s to read IMDB dataset
+Take 1.46s to construct IMDB graph
+268007	NA	candidate size: 2113
+296	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_268007_296_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+266490	NA	candidate size: 2113
+296	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_266490_296_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+257238	NA	candidate size: 2113
+25	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_257238_25_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+229542	NA	candidate size: 2113
+19	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_229542_19_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.42s to construct IMDB graph
+205338	NA	candidate size: 2113
+50	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_205338_50_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+212551	NA	candidate size: 2113
+551	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_212551_551_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.42s to construct IMDB graph
+203968	NA	candidate size: 2113
+2571	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_203968_2571_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+166	NA	candidate size: 10197
+260282	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_SLV2_260282_166_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+215	NA	candidate size: 10197
+217954	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_SLV2_217954_215_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+222801	NA	candidate size: 2113
+364	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_222801_364_1.txt...
+finished saving meta-paths
+Take 0.31s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+231080	NA	candidate size: 2113
+293	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_231080_293_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+221623	NA	candidate size: 2113
+32	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_221623_32_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+248495	NA	candidate size: 2113
+1	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_248495_1_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.42s to construct IMDB graph
+213977	NA	candidate size: 2113
+1280	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_213977_1280_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+248390	NA	candidate size: 2113
+260	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_248390_260_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.42s to construct IMDB graph
+232931	NA	candidate size: 2113
+1202	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_232931_1202_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+199	NA	candidate size: 10197
+251541	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_SLV2_251541_199_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+261774	NA	candidate size: 2113
+293	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_261774_293_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+208958	NA	candidate size: 2113
+17	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_208958_17_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+216074	NA	candidate size: 2113
+32	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_216074_32_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+237680	NA	candidate size: 2113
+47	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_237680_47_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+203641	NA	candidate size: 2113
+111	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_203641_111_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+259574	NA	candidate size: 2113
+1	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_259574_1_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+227087	NA	candidate size: 2113
+260	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_227087_260_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+237628	NA	candidate size: 2113
+39	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_237628_39_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.42s to construct IMDB graph
+233108	NA	candidate size: 2113
+318	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_233108_318_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+217753	NA	candidate size: 2113
+318	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_217753_318_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+209515	NA	candidate size: 2113
+111	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_209515_111_1.txt...
+finished saving meta-paths
+Take 0.31s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+170	NA	candidate size: 10197
+269086	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_SLV2_269086_170_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.94s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+258073	NA	candidate size: 2113
+318	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_258073_318_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.42s to construct IMDB graph
+257737	NA	candidate size: 2113
+150	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_257737_150_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+841	NA	candidate size: 10197
+259596	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_SLV2_259596_841_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.49s to construct IMDB graph
+240995	NA	candidate size: 2113
+18	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_240995_18_1.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+228201	NA	candidate size: 2113
+260	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_228201_260_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+235205	NA	candidate size: 2113
+19	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_235205_19_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.94s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+254917	NA	candidate size: 2113
+1222	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_254917_1222_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+240428	NA	candidate size: 2113
+6	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_240428_6_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+250993	NA	candidate size: 2113
+110	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_250993_110_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+220028	NA	candidate size: 2113
+1	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_220028_1_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.42s to construct IMDB graph
+233577	NA	candidate size: 2113
+111	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_233577_111_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+226343	NA	candidate size: 2113
+260	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_226343_260_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.42s to construct IMDB graph
+234813	NA	candidate size: 2113
+32	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_234813_32_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+252247	NA	candidate size: 2113
+296	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_252247_296_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.43s to construct IMDB graph
+223460	NA	candidate size: 2113
+110	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_223460_110_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+248106	NA	candidate size: 2113
+110	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_248106_110_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.94s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+264812	NA	candidate size: 2113
+590	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_264812_590_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.42s to construct IMDB graph
+240085	NA	candidate size: 2113
+29	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_240085_29_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+270387	NA	candidate size: 2113
+175	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_270387_175_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+248228	NA	candidate size: 2113
+16	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_248228_16_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+154	NA	candidate size: 10197
+219231	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_SLV2_219231_154_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+31364	NA	candidate size: 10197
+254476	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_SLV2_254476_31364_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+1	NA	candidate size: 10197
+231954	NA	candidate size: 2113
+start saving the top k meta-paths to topKResult/IMDB_SLV2_231954_1_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.42s to construct IMDB graph
+251433	NA	candidate size: 2113
+50	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_251433_50_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.94s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+252121	NA	candidate size: 2113
+6	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_252121_6_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.93s to read IMDB dataset
+Take 1.4s to construct IMDB graph
+238211	NA	candidate size: 2113
+356	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_238211_356_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.94s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+209277	NA	candidate size: 2113
+32	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_209277_32_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.42s to construct IMDB graph
+200883	NA	candidate size: 2113
+1500	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_200883_1500_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+203810	NA	candidate size: 2113
+253	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_203810_253_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.97s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+244947	NA	candidate size: 2113
+306	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_244947_306_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+223573	NA	candidate size: 2113
+1028	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_223573_1028_1.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.92s to read IMDB dataset
+Take 1.41s to construct IMDB graph
+220448	NA	candidate size: 2113
+50	NA	candidate size: 10197
+start saving the top k meta-paths to topKResult/IMDB_SLV2_220448_50_1.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths

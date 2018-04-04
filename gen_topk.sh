@@ -1,6 +1,6 @@
 #!/bin/bash
 inputFileName="/home/zczhu2/dblp_reader/HeteRecmTest/IMDB/dataset/HeteRecomInputPairsCPP.txt"
-k=5
+k=1
 dataset="IMDB"
 betas=( "0.2" )
 tfidf_types=( "S-M-S" "S-B-S" "M-S" "B-S" )
