@@ -3,6 +3,8 @@
 #include "Meta-Structure.h"
 #include "CommonUtils.h"
 
+#include <stdlib.h>     /* srand, rand */
+#include <time.h>       /* time */
 #include <vector>
 #include <iterator>
 #include <queue>
@@ -39,7 +41,16 @@ bool TfIdfNodePointerCmp::operator () (TfIdfNode* & node_p1, TfIdfNode* & node_p
 	if(node_p1->max_support_ == 0 && node_p2->max_support_ == 0){
 		return node_p1->meta_path_.size() > node_p2->meta_path_.size();
 	}else{
-		return node_p1->max_support_*(TopKCalculator::penalty(node_p1->meta_path_.size())) <  node_p2->max_support_*(TopKCalculator::penalty(node_p2->meta_path_.size()));
+		double tmp1 = node_p1->max_support_*(TopKCalculator::penalty(node_p1->meta_path_.size()));
+		double tmp2 = node_p2->max_support_*(TopKCalculator::penalty(node_p2->meta_path_.size()));
+		if(tmp1 < tmp2){
+			return true;
+		}else if(tmp1 == tmp2){
+			double randomNumber = (double)rand()/RAND_MAX;
+			return randomNumber <= 0.5;
+		}else{
+			return false;
+		}
 	}
 }
 
@@ -664,6 +675,8 @@ vector<pair<vector<double>, vector<int>>> TopKCalculator::getTopKMetaPath_TFIDF(
 	vector<HIN_Edge> curr_edges_src_ = hin_edges_src_[src];
 	vector<HIN_Edge> curr_edges_dst_ = hin_edges_dst_[src];
 	map<int, map<int, set<int>>> next_nodes_id_; // edge type -> (destination id -> parent node ids)
+
+	srand((unsigned)time(NULL));
 	
 	
 	// out-relation:
@@ -727,7 +740,7 @@ vector<pair<vector<double>, vector<int>>> TopKCalculator::getTopKMetaPath_TFIDF(
 
 		if(topKMetaPath_.size() == k){ // stop if maximum tfidf in the queue is less than the minimum one in found meta paths
 			//cout << curr_max_support << " " << meta_path.size() << " " << curr_max_support*penalty(meta_path.size())*maxRarity << " " << topKMetaPath_.back().first[0] << endl;
-			if(curr_max_support*penalty(meta_path.size())*maxRarity <= topKMetaPath_.back().first[0]){
+			if(curr_max_support*penalty(meta_path.size())*maxRarity < topKMetaPath_.back().first[0]){
 
 				while(!q.empty()){
 					TfIdfNode* tmp_tfidf_node_p = q.top();
