@@ -44,16 +44,20 @@ def transform(metaPath, edgeTypeDict):
 
 #loading the topK meta path for the given src and dst entity, the k and the method
 def loadTopKMetaPath(src, dst, method, edgeTypeDict, k=5):
-    filename = "../../topKResult/IMDB_" + method + "_" + str(src) + "_" + str(dst) + "_" + str(k) + ".txt"
+    filename = "../../topKResult/IMDB_" + method + "_" + str(src) + "_" + str(dst) + "_5.txt"
     fin = open(filename, "r")
     topKMetaPathsRecords = fin.readlines()
     fin.close()
     metaPaths = []
+    i = 0
     for record in topKMetaPathsRecords:
         tmpMetaPathStr = record.strip().split("\t")
         tmpMetaPath = [int(edgeTypeStr) for edgeTypeStr in tmpMetaPathStr]
-
-        metaPaths.append(tmpMetaPath)
+        if len(tmpMetaPath) != 1:
+            metaPaths.append(tmpMetaPath)
+            i += 1
+        if i >= k:
+            break
 
     return metaPaths
 
@@ -141,7 +145,7 @@ def main():
     f.close()
 
     K = 10
-    metaPathK = 5
+    metaPathK = 1
     methods = ["SP", "S-M-S"]
     print('k ', K)
 
