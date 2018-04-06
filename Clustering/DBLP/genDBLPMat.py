@@ -26,12 +26,20 @@ fin1 = open('DBLP_labels.txt', 'r')
 data1 = fin1.readlines()
 inv_index_authors = dict()
 authors = []
+author_labels = dict()
 
 for line in data1:
-	[authorStr, _ ] = line.strip().split('\t')
+	[authorStr, labelStr] = line.strip().split('\t')
 	author = int(authorStr)
+	label = int(labelStr)
 	inv_index_authors[author] = len(authors)
+	author_labels[len(authors)] = label
 	authors.append(author)
+
+author_labels_matrix = np.zeros((len(authors), 4))
+for author, label in author_labels.items():
+	author_labels_matrix[author][label] = 1
+
 
 fin2 = open('dblpAdj.txt', 'r')
 data2 = fin2.readlines()
@@ -61,12 +69,9 @@ for paper1, paper2 in adj[4]:
 		paper2paper.append((paper1, paper2))
 
 
-# A_P
 author2paper_matrix = getRelationMatrix(author2paper, inv_index_authors, inv_index_papers)
 paper2topic_matrix = getRelationMatrix(paper2topic, inv_index_papers, inv_index_topics)
 paper2venue_matrix = getRelationMatrix(paper2venue, inv_index_papers, inv_index_venues)
 paper2paper_matrix = getRelationMatrix(paper2paper, inv_index_papers, inv_index_papers)
 
-
-
-sio.savemat('test.mat',{'A_P':author2paper_matrix, 'P_T':paper2topic_matrix, 'P_V':paper2venue_matrix, 'P_P':paper2paper_matrix}, do_compression=True)
+sio.savemat('test.mat',{'A_P':author2paper_matrix, 'P_T':paper2topic_matrix, 'P_V':paper2venue_matrix, 'P_P':paper2paper_matrix, 'groundTruth':author_labels_matrix}, do_compression=True)
