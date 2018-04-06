@@ -126,8 +126,9 @@ while(epsi>EPSI)
     
         %compare, output inner_epsi
         [t, pos] = max(thetaMat, [], 2);
-        accuracy = sum(pos(groundTruth(:,1)) == groundTruth(:,2))/length(groundTruth(:,1));
-        nmi = NMI_V(pos(groundTruth(:,1)), groundTruth(:,2));
+        [t1,pos1] = max(groundTruth, [], 2);
+        accuracy = sum(pos == pos1)/length(groundTruth(:,1));
+        nmi = NMI(pos, pos1);
         inner_epsi = sum(sum(abs(thetaMat-thetaMat_new)))/n;
         fprintf('Inner_Iter %d: inner_epsi = %f, Accuracy = %f, NMI = %f\n', Inner_Iter, inner_epsi, accuracy, nmi);
         thetaMat = thetaMat_new;
@@ -142,8 +143,8 @@ while(epsi>EPSI)
     %output  
     epsi = sum(abs(piVec-piVec_new))/sum(piVec);
     fprintf('Iter %d: epsi = %f\n',Iter, epsi);
-    piVec = piVec_new
-    piVec./tVec
+    piVec = piVec_new;
+    piVec./tVec;
 end
 
 function w = getNewWeight_1(w_old, thetaMat, betaMat, S)
