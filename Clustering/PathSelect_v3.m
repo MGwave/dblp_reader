@@ -130,7 +130,7 @@ while(epsi>EPSI)
         accuracy = sum(pos == pos1)/length(groundTruth(:,1));
         nmi = NMI(pos, pos1);
         inner_epsi = sum(sum(abs(thetaMat-thetaMat_new)))/n;
-        fprintf('Inner_Iter %d: inner_epsi = %f, Accuracy = %f, NMI = %f\n', Inner_Iter, inner_epsi, accuracy, nmi);
+        %fprintf('Inner_Iter %d: inner_epsi = %f, Accuracy = %f, NMI = %f\n', Inner_Iter, inner_epsi, accuracy, nmi);
         thetaMat = thetaMat_new;
     end
     %step2: fix thetaMat and betaMat (p_m(j|i)), derive the best alpha
@@ -142,7 +142,7 @@ while(epsi>EPSI)
     
     %output  
     epsi = sum(abs(piVec-piVec_new))/sum(piVec);
-    fprintf('Iter %d: epsi = %f\n',Iter, epsi);
+    %fprintf('Iter %d: epsi = %f\n',Iter, epsi);
     piVec = piVec_new;
     piVec./tVec;
 end

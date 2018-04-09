@@ -54,6 +54,8 @@ for _, authors in labels.items():
 	for i in range(m):
 		test_pairs.append(random.sample(authors, 2))
 
+test_pairs_matrix = [(inv_index_authors[author1], inv_index_authors[author2]) for author1, author2 in test_pairs]
+
 
 
 fin2 = open('dblpAdj.txt', 'r')
@@ -67,7 +69,7 @@ for line in data2:
 	entityId = int(entityIdStr)
 	tmpPair = (paper, entityId)
 	if edgeType == 1:
-		tmpPair = (entityId, paper)	
+		tmpPair = (entityId, paper)
 	if edgeType not in adj:
 		adj[edgeType] = [tmpPair]
 	else:
@@ -89,7 +91,7 @@ paper2topic_matrix = getRelationMatrix(paper2topic, inv_index_papers, inv_index_
 paper2venue_matrix = getRelationMatrix(paper2venue, inv_index_papers, inv_index_venues)
 paper2paper_matrix = getRelationMatrix(paper2paper, inv_index_papers, inv_index_papers)
 
-sio.savemat('test.mat',{'A_P':author2paper_matrix, 'P_T':paper2topic_matrix, 'P_V':paper2venue_matrix, 'P_P':paper2paper_matrix, 'groundTruth':author_labels_matrix, 'testPairs':test_pairs}, do_compression=True)
+sio.savemat('test.mat',{'A_P':author2paper_matrix, 'P_T':paper2topic_matrix, 'P_V':paper2venue_matrix, 'P_P':paper2paper_matrix, 'groundTruth':author_labels_matrix, 'testPairs':test_pairs_matrix}, do_compression=True)
 
 fout = open('ClusteringInputPairs.txt','w')
 for author1, author2 in test_pairs:
