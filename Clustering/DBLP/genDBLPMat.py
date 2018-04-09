@@ -1,6 +1,7 @@
 
 import scipy.io as sio
 import numpy as np
+import random
 
 def getRelation(relations, candidates):
 	new_relations = []
@@ -24,6 +25,7 @@ def getRelationMatrix(relations, inv_index_entities_1, inv_index_entities_2):
 
 fin1 = open('DBLP_labels.txt', 'r')
 data1 = fin1.readlines()
+fin1.close()
 inv_index_authors = dict()
 authors = []
 author_labels = dict()
@@ -36,14 +38,27 @@ for line in data1:
 	author_labels[len(authors)] = label
 	authors.append(author)
 
+# labels and test pairs
+labels = dict()
 author_labels_matrix = np.zeros((len(authors), 4))
 for author, label in author_labels.items():
+	if label in labels:
+		labels[label].append(author)
+	else:
+		labels[label] = [author]
 	author_labels_matrix[author][label] = 1
+
+m = 25
+test_pairs = []
+for _, authors in labels.items():
+	for i in range(m):
+		test_pairs.append(random.sample(authors, 2))
+
 
 
 fin2 = open('dblpAdj.txt', 'r')
 data2 = fin2.readlines()
-
+fin2.close()
 adj = dict()
 for line in data2:
 	[paperStr, entityIdStr, edgeTypeStr] = line.strip().split('\t')
@@ -74,4 +89,9 @@ paper2topic_matrix = getRelationMatrix(paper2topic, inv_index_papers, inv_index_
 paper2venue_matrix = getRelationMatrix(paper2venue, inv_index_papers, inv_index_venues)
 paper2paper_matrix = getRelationMatrix(paper2paper, inv_index_papers, inv_index_papers)
 
-sio.savemat('test.mat',{'A_P':author2paper_matrix, 'P_T':paper2topic_matrix, 'P_V':paper2venue_matrix, 'P_P':paper2paper_matrix, 'groundTruth':author_labels_matrix}, do_compression=True)
+sio.savemat('test.mat',{'A_P':author2paper_matrix, 'P_T':paper2topic_matrix, 'P_V':paper2venue_matrix, 'P_P':paper2paper_matrix, 'groundTruth':author_labels_matrix, 'testPairs':test_pairs}, do_compression=True)
+
+fout = open('ClusteringInputPairs.txt','w')
+for author1, author2 in test_pairs:
+	fout.write(str(author1) + "\t" + str(author2) + "\n")
+fout.close()
