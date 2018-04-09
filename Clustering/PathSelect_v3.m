@@ -9,7 +9,7 @@
 %betaMat: K*n*dimS
 %piVec: dimS*1
 
-%%%%%%%%%%%%%revisions on Oct. 31, 2011 %%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%revisions on Oct. 31, 2011 %%%%%%%%%%%%%%%%%%%%%%%for
 %1. change user guidance to involve lambda as Dirichlet distribution
 %2. change formula for updating alpha, from approximation to using digamma
 
