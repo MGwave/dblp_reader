@@ -91,7 +91,7 @@ paper2topic_matrix = getRelationMatrix(paper2topic, inv_index_papers, inv_index_
 paper2venue_matrix = getRelationMatrix(paper2venue, inv_index_papers, inv_index_venues)
 paper2paper_matrix = getRelationMatrix(paper2paper, inv_index_papers, inv_index_papers)
 
-sio.savemat('test.mat',{'A_P':author2paper_matrix, 'P_T':paper2topic_matrix, 'P_V':paper2venue_matrix, 'P_P':paper2paper_matrix, 'groundTruth':author_labels_matrix, 'testPairs':test_pairs_matrix}, do_compression=True)
+sio.savemat('test.mat',{'A_P':author2paper_matrix, 'P_T':paper2topic_matrix, 'P_V':paper2venue_matrix, 'P_P':paper2paper_matrix, 'groundTruth':author_labels_matrix, 'A':authors, 'testPairs':test_pairs_matrix}, do_compression=True)
 
 fout = open('ClusteringInputPairs.txt','w')
 for author1, author2 in test_pairs:

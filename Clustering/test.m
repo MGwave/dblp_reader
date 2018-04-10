@@ -16,7 +16,7 @@ for method=methods
     for i=1:size(testPairs,1)
         src = testPairs(i, 1);
         dst = testPairs(i, 2);
-        fileName = strcat('../topKResult/DBLP_', method, '_',  int2str(src), '_',  int2str(dst), '_5.txt');  
+        fileName = strcat('../topKResult/DBLP_', method, '_',  int2str(A(src+1)), '_',  int2str(A(dst+1)), '_5.txt');  
         %%% read top k meta path file into a cell %%%
         fid = fopen(fileName);
         tline = fgetl(fid);
@@ -30,18 +30,13 @@ for method=methods
         %K = size(tlines,1);
         K = 3;
         Scell = cell(K, 1);
-        for i=1:K
+        for j=1:K
             W = eye(candidatesNum);
-            metapath = str2num(tlines{i,1});
+            metapath = str2num(tlines{j,1});
             for edgeType=metapath
-                if(size(W,2) ~= size( adjMatrixMap(edgeType), 1))
-                    disp(size(W));
-                    disp(edgeType);
-                    disp(size(adjMatrixMap(edgeType)));
-                end
                 W = W*adjMatrixMap(edgeType);
             end
-            Scell{i,1} = W;
+            Scell{j,1} = W;
         end
         %disp(metapaths);
         SeedsMat = zeros(candidatesNum, clustersNum);
@@ -51,6 +46,7 @@ for method=methods
 
         [thetaMat, betaCell, piVec, accuracy, nmi] = PathSelect_v3(Scell, SeedsMat, lambda, groundTruth);
         disp(nmi);
+        %disp(i);
     end
     nmiTotal = nmiTotal + nmi;
     disp(method);
