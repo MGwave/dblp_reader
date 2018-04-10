@@ -49,12 +49,12 @@ for author, label in author_labels.items():
 	author_labels_matrix[author][label] = 1
 
 m = 25
-test_pairs = []
-for _, authors in labels.items():
+test_pairs_matrix = []
+for _, labeled_authors in labels.items():
 	for i in range(m):
-		test_pairs.append(random.sample(authors, 2))
+		test_pairs_matrix.append(random.sample(labeled_authors, 2))
 
-test_pairs_matrix = [(inv_index_authors[author1], inv_index_authors[author2]) for author1, author2 in test_pairs]
+test_pairs = [(authors[author1], authors[author2]) for author1, author2 in test_pairs_matrix]
 
 
 

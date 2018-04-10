@@ -2798,3 +2798,2803 @@ Take 0.08s to construct DBLP graph
 start saving the top k meta-paths to topKResult/DBLP_SLV2_1626_914_5.txt...
 finished saving meta-paths
 Take 0.09s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+2860	NA	candidate size: 5915
+972	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_2860_972_5.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8566	NA	candidate size: 5915
+7098	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_7098_8566_5.txt...
+finished saving meta-paths
+Take 0.47s to calculate top k meta-paths
+Take 0.05s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+1594	NA	candidate size: 5915
+1086	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_1594_1086_5.txt...
+finished saving meta-paths
+Take 0.53s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.07s to construct DBLP graph
+8825	NA	candidate size: 5915
+2899	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_2899_8825_5.txt...
+finished saving meta-paths
+Take 0.42s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+9842	NA	candidate size: 5915
+1251	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_1251_9842_5.txt...
+finished saving meta-paths
+Take 0.96s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+1281	NA	candidate size: 5915
+2727	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_1281_2727_5.txt...
+finished saving meta-paths
+Take 0.88s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+3185	NA	candidate size: 5915
+8505	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_3185_8505_5.txt...
+finished saving meta-paths
+Take 3.47s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+3157	NA	candidate size: 5915
+9271	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_3157_9271_5.txt...
+finished saving meta-paths
+Take 1.31s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+2828	NA	candidate size: 5915
+3043	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_2828_3043_5.txt...
+finished saving meta-paths
+Take 0.62s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+3583	NA	candidate size: 5915
+9033	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_3583_9033_5.txt...
+finished saving meta-paths
+Take 1.51s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8807	NA	candidate size: 5915
+3410	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_8807_3410_5.txt...
+finished saving meta-paths
+Take 0.79s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+3583	NA	candidate size: 5915
+8483	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_8483_3583_5.txt...
+finished saving meta-paths
+Take 1.87s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+9117	NA	candidate size: 5915
+3506	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_9117_3506_5.txt...
+finished saving meta-paths
+Take 0.67s to calculate top k meta-paths
+Take 0.05s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8981	NA	candidate size: 5915
+7098	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_8981_7098_5.txt...
+finished saving meta-paths
+Take 0.7s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+2766	NA	candidate size: 5915
+3193	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_3193_2766_5.txt...
+finished saving meta-paths
+Take 0.62s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+9758	NA	candidate size: 5915
+1475	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_9758_1475_5.txt...
+finished saving meta-paths
+Take 0.38s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8466	NA	candidate size: 5915
+1321	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_1321_8466_5.txt...
+finished saving meta-paths
+Take 1.08s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+7213	NA	candidate size: 5915
+8839	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_7213_8839_5.txt...
+finished saving meta-paths
+Take 1.53s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+2959	NA	candidate size: 5915
+7118	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_2959_7118_5.txt...
+finished saving meta-paths
+Take 0.64s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8839	NA	candidate size: 5915
+9668	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_8839_9668_5.txt...
+finished saving meta-paths
+Take 1.17s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+9758	NA	candidate size: 5915
+1793	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_9758_1793_5.txt...
+finished saving meta-paths
+Take 0.68s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.07s to construct DBLP graph
+8716	NA	candidate size: 5915
+8578	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_8716_8578_5.txt...
+finished saving meta-paths
+Take 0.44s to calculate top k meta-paths
+Take 0.05s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+2542	NA	candidate size: 5915
+8952	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_2542_8952_5.txt...
+finished saving meta-paths
+Take 0.82s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.07s to construct DBLP graph
+1103	NA	candidate size: 5915
+2481	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_1103_2481_5.txt...
+finished saving meta-paths
+Take 0.39s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+9493	NA	candidate size: 5915
+1219	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_1219_9493_5.txt...
+finished saving meta-paths
+Take 0.36s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+3518	NA	candidate size: 5915
+4145	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_4145_3518_5.txt...
+finished saving meta-paths
+Take 2.26s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+5390	NA	candidate size: 5915
+6779	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_6779_5390_5.txt...
+finished saving meta-paths
+Take 0.66s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+6098	NA	candidate size: 5915
+4213	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_6098_4213_5.txt...
+finished saving meta-paths
+Take 1.62s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+2248	NA	candidate size: 5915
+3796	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_2248_3796_5.txt...
+finished saving meta-paths
+Take 0.97s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+6970	NA	candidate size: 5915
+3820	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_6970_3820_5.txt...
+finished saving meta-paths
+Take 1.29s to calculate top k meta-paths
+Take 0.07s to read DBLP dataset
+Take 0.07s to construct DBLP graph
+3857	NA	candidate size: 5915
+6508	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_3857_6508_5.txt...
+finished saving meta-paths
+Take 1.12s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+5987	NA	candidate size: 5915
+4717	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_5987_4717_5.txt...
+finished saving meta-paths
+Take 0.48s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+6773	NA	candidate size: 5915
+3960	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_6773_3960_5.txt...
+finished saving meta-paths
+Take 0.9s to calculate top k meta-paths
+Take 0.05s to read DBLP dataset
+Take 0.09s to construct DBLP graph
+9188	NA	candidate size: 5915
+2217	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_9188_2217_5.txt...
+finished saving meta-paths
+Take 1.73s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+4213	NA	candidate size: 5915
+6027	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_6027_4213_5.txt...
+finished saving meta-paths
+Take 1.18s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+6574	NA	candidate size: 5915
+2871	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_2871_6574_5.txt...
+finished saving meta-paths
+Take 0.85s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+9244	NA	candidate size: 5915
+2471	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_9244_2471_5.txt...
+finished saving meta-paths
+Take 0.73s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+6491	NA	candidate size: 5915
+3796	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_6491_3796_5.txt...
+finished saving meta-paths
+Take 1.02s to calculate top k meta-paths
+Take 0.05s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+3640	NA	candidate size: 5915
+3559	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_3559_3640_5.txt...
+finished saving meta-paths
+Take 0.73s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+7421	NA	candidate size: 5915
+1144	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_7421_1144_5.txt...
+finished saving meta-paths
+Take 1.13s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+9696	NA	candidate size: 5915
+3798	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_3798_9696_5.txt...
+finished saving meta-paths
+Take 0.78s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+6323	NA	candidate size: 5915
+6586	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_6586_6323_5.txt...
+finished saving meta-paths
+Take 1.6s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+6406	NA	candidate size: 5915
+9857	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_6406_9857_5.txt...
+finished saving meta-paths
+Take 0.69s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+3444	NA	candidate size: 5915
+6436	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_3444_6436_5.txt...
+finished saving meta-paths
+Take 1.82s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+6277	NA	candidate size: 5915
+6405	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_6277_6405_5.txt...
+finished saving meta-paths
+Take 0.72s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+6299	NA	candidate size: 5915
+3744	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_6299_3744_5.txt...
+finished saving meta-paths
+Take 0.89s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+4103	NA	candidate size: 5915
+2993	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_2993_4103_5.txt...
+finished saving meta-paths
+Take 0.58s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+5835	NA	candidate size: 5915
+3494	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_5835_3494_5.txt...
+finished saving meta-paths
+Take 0.48s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+3884	NA	candidate size: 5915
+3690	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_3690_3884_5.txt...
+finished saving meta-paths
+Take 0.43s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+6375	NA	candidate size: 5915
+3884	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_3884_6375_5.txt...
+finished saving meta-paths
+Take 1.3s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+842	NA	candidate size: 5915
+4723	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_842_4723_5.txt...
+finished saving meta-paths
+Take 0.91s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+5	NA	candidate size: 5915
+404	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_5_404_5.txt...
+finished saving meta-paths
+Take 0.38s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+4654	NA	candidate size: 5915
+121	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_4654_121_5.txt...
+finished saving meta-paths
+Take 0.41s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.07s to construct DBLP graph
+5696	NA	candidate size: 5915
+4988	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_5696_4988_5.txt...
+finished saving meta-paths
+Take 0.81s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+387	NA	candidate size: 5915
+5064	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_5064_387_5.txt...
+finished saving meta-paths
+Take 1.46s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+431	NA	candidate size: 5915
+510	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_431_510_5.txt...
+finished saving meta-paths
+Take 0.82s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+198	NA	candidate size: 5915
+5311	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_198_5311_5.txt...
+finished saving meta-paths
+Take 0.94s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+149	NA	candidate size: 5915
+307	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_307_149_5.txt...
+finished saving meta-paths
+Take 0.75s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.07s to construct DBLP graph
+5166	NA	candidate size: 5915
+390	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_5166_390_5.txt...
+finished saving meta-paths
+Take 0.77s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+657	NA	candidate size: 5915
+2296	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_2296_657_5.txt...
+finished saving meta-paths
+Take 0.51s to calculate top k meta-paths
+Take 0.05s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+368	NA	candidate size: 5915
+813	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_368_813_5.txt...
+finished saving meta-paths
+Take 0.93s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+5732	NA	candidate size: 5915
+5131	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_5732_5131_5.txt...
+finished saving meta-paths
+Take 1.04s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.07s to construct DBLP graph
+5639	NA	candidate size: 5915
+5013	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_5639_5013_5.txt...
+finished saving meta-paths
+Take 0.88s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+322	NA	candidate size: 5915
+4482	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_322_4482_5.txt...
+finished saving meta-paths
+Take 0.42s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+6750	NA	candidate size: 5915
+366	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_6750_366_5.txt...
+finished saving meta-paths
+Take 0.88s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+5226	NA	candidate size: 5915
+5072	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_5226_5072_5.txt...
+finished saving meta-paths
+Take 0.91s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+7300	NA	candidate size: 5915
+468	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_7300_468_5.txt...
+finished saving meta-paths
+Take 0.93s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+5285	NA	candidate size: 5915
+5336	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_5336_5285_5.txt...
+finished saving meta-paths
+Take 1s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+10124	NA	candidate size: 5915
+58	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_10124_58_5.txt...
+finished saving meta-paths
+Take 1.01s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+660	NA	candidate size: 5915
+439	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_660_439_5.txt...
+finished saving meta-paths
+Take 0.88s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+4884	NA	candidate size: 5915
+2423	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_4884_2423_5.txt...
+finished saving meta-paths
+Take 1.36s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+232	NA	candidate size: 5915
+471	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_232_471_5.txt...
+finished saving meta-paths
+Take 0.53s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+5249	NA	candidate size: 5915
+5674	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_5249_5674_5.txt...
+finished saving meta-paths
+Take 0.63s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+4525	NA	candidate size: 5915
+130	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_4525_130_5.txt...
+finished saving meta-paths
+Take 1.42s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.07s to construct DBLP graph
+5317	NA	candidate size: 5915
+5205	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_5205_5317_5.txt...
+finished saving meta-paths
+Take 0.84s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+3564	NA	candidate size: 5915
+4538	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_4538_3564_5.txt...
+finished saving meta-paths
+Take 0.59s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8165	NA	candidate size: 5915
+4445	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_8165_4445_5.txt...
+finished saving meta-paths
+Take 1.17s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+1929	NA	candidate size: 5915
+4560	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_4560_1929_5.txt...
+finished saving meta-paths
+Take 0.66s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+7760	NA	candidate size: 5915
+235	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_7760_235_5.txt...
+finished saving meta-paths
+Take 0.49s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+1062	NA	candidate size: 5915
+1510	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_1062_1510_5.txt...
+finished saving meta-paths
+Take 0.53s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8036	NA	candidate size: 5915
+7543	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_7543_8036_5.txt...
+finished saving meta-paths
+Take 0.67s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.07s to construct DBLP graph
+1653	NA	candidate size: 5915
+1510	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_1653_1510_5.txt...
+finished saving meta-paths
+Take 0.4s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8158	NA	candidate size: 5915
+5426	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_8158_5426_5.txt...
+finished saving meta-paths
+Take 0.41s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+800	NA	candidate size: 5915
+997	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_800_997_5.txt...
+finished saving meta-paths
+Take 0.56s to calculate top k meta-paths
+Take 0.07s to read DBLP dataset
+Take 0.07s to construct DBLP graph
+997	NA	candidate size: 5915
+1617	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_1617_997_5.txt...
+finished saving meta-paths
+Take 0.89s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8045	NA	candidate size: 5915
+1831	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_8045_1831_5.txt...
+finished saving meta-paths
+Take 1.34s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+1570	NA	candidate size: 5915
+903	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_1570_903_5.txt...
+finished saving meta-paths
+Take 0.4s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8294	NA	candidate size: 5915
+6217	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_8294_6217_5.txt...
+finished saving meta-paths
+Take 0.9s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+7494	NA	candidate size: 5915
+7661	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_7494_7661_5.txt...
+finished saving meta-paths
+Take 0.39s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+7948	NA	candidate size: 5915
+7661	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_7948_7661_5.txt...
+finished saving meta-paths
+Take 0.46s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+7541	NA	candidate size: 5915
+8033	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_7541_8033_5.txt...
+finished saving meta-paths
+Take 1.13s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+1263	NA	candidate size: 5915
+330	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_1263_330_5.txt...
+finished saving meta-paths
+Take 0.93s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8037	NA	candidate size: 5915
+8039	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_8037_8039_5.txt...
+finished saving meta-paths
+Take 0.58s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+4519	NA	candidate size: 5915
+896	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_4519_896_5.txt...
+finished saving meta-paths
+Take 0.51s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+1690	NA	candidate size: 5915
+1325	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_1690_1325_5.txt...
+finished saving meta-paths
+Take 0.5s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8032	NA	candidate size: 5915
+7560	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_7560_8032_5.txt...
+finished saving meta-paths
+Take 0.54s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+1467	NA	candidate size: 5915
+1324	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_1324_1467_5.txt...
+finished saving meta-paths
+Take 0.46s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8228	NA	candidate size: 5915
+7644	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_8228_7644_5.txt...
+finished saving meta-paths
+Take 0.96s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8239	NA	candidate size: 5915
+1769	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_1769_8239_5.txt...
+finished saving meta-paths
+Take 0.55s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+1617	NA	candidate size: 5915
+8235	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_S-M-S_8235_1617_5.txt...
+finished saving meta-paths
+Take 0.46s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+2860	NA	candidate size: 5915
+972	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_2860_972_5.txt...
+finished saving meta-paths
+Take 1.13s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8566	NA	candidate size: 5915
+7098	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_7098_8566_5.txt...
+finished saving meta-paths
+Take 3.77s to calculate top k meta-paths
+Take 0.07s to read DBLP dataset
+Take 0.07s to construct DBLP graph
+1594	NA	candidate size: 5915
+1086	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_1594_1086_5.txt...
+finished saving meta-paths
+Take 1.77s to calculate top k meta-paths
+Take 0.05s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8825	NA	candidate size: 5915
+2899	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_2899_8825_5.txt...
+finished saving meta-paths
+Take 1.33s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.07s to construct DBLP graph
+9842	NA	candidate size: 5915
+1251	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_1251_9842_5.txt...
+finished saving meta-paths
+Take 8.58s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+1281	NA	candidate size: 5915
+2727	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_1281_2727_5.txt...
+finished saving meta-paths
+Take 6.07s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+3185	NA	candidate size: 5915
+8505	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_3185_8505_5.txt...
+finished saving meta-paths
+Take 18.52s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+3157	NA	candidate size: 5915
+9271	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_3157_9271_5.txt...
+finished saving meta-paths
+Take 5.5s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.07s to construct DBLP graph
+2828	NA	candidate size: 5915
+3043	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_2828_3043_5.txt...
+finished saving meta-paths
+Take 2.76s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+3583	NA	candidate size: 5915
+9033	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_3583_9033_5.txt...
+finished saving meta-paths
+Take 14.43s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8807	NA	candidate size: 5915
+3410	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_8807_3410_5.txt...
+finished saving meta-paths
+Take 3.8s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.07s to construct DBLP graph
+3583	NA	candidate size: 5915
+8483	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_8483_3583_5.txt...
+finished saving meta-paths
+Take 14.47s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+9117	NA	candidate size: 5915
+3506	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_9117_3506_5.txt...
+finished saving meta-paths
+Take 2.89s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8981	NA	candidate size: 5915
+7098	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_8981_7098_5.txt...
+finished saving meta-paths
+Take 2.9s to calculate top k meta-paths
+Take 0.07s to read DBLP dataset
+Take 0.07s to construct DBLP graph
+2766	NA	candidate size: 5915
+3193	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_3193_2766_5.txt...
+finished saving meta-paths
+Take 4.43s to calculate top k meta-paths
+Take 0.05s to read DBLP dataset
+Take 0.09s to construct DBLP graph
+9758	NA	candidate size: 5915
+1475	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_9758_1475_5.txt...
+finished saving meta-paths
+Take 1.3s to calculate top k meta-paths
+Take 0.07s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8466	NA	candidate size: 5915
+1321	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_1321_8466_5.txt...
+finished saving meta-paths
+Take 4.82s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+7213	NA	candidate size: 5915
+8839	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_7213_8839_5.txt...
+finished saving meta-paths
+Take 7.41s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+2959	NA	candidate size: 5915
+7118	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_2959_7118_5.txt...
+finished saving meta-paths
+Take 4.09s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8839	NA	candidate size: 5915
+9668	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_8839_9668_5.txt...
+finished saving meta-paths
+Take 4.24s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+9758	NA	candidate size: 5915
+1793	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_9758_1793_5.txt...
+finished saving meta-paths
+Take 5.63s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8716	NA	candidate size: 5915
+8578	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_8716_8578_5.txt...
+finished saving meta-paths
+Take 2.96s to calculate top k meta-paths
+Take 0.07s to read DBLP dataset
+Take 0.07s to construct DBLP graph
+2542	NA	candidate size: 5915
+8952	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_2542_8952_5.txt...
+finished saving meta-paths
+Take 3.03s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.07s to construct DBLP graph
+1103	NA	candidate size: 5915
+2481	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_1103_2481_5.txt...
+finished saving meta-paths
+Take 1.54s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+9493	NA	candidate size: 5915
+1219	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_1219_9493_5.txt...
+finished saving meta-paths
+Take 1.98s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.07s to construct DBLP graph
+3518	NA	candidate size: 5915
+4145	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_4145_3518_5.txt...
+finished saving meta-paths
+Take 8.98s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+5390	NA	candidate size: 5915
+6779	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_6779_5390_5.txt...
+finished saving meta-paths
+Take 4.11s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+6098	NA	candidate size: 5915
+4213	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_6098_4213_5.txt...
+finished saving meta-paths
+Take 8.28s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+2248	NA	candidate size: 5915
+3796	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_2248_3796_5.txt...
+finished saving meta-paths
+Take 3.24s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+6970	NA	candidate size: 5915
+3820	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_6970_3820_5.txt...
+finished saving meta-paths
+Take 4.03s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+3857	NA	candidate size: 5915
+6508	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_3857_6508_5.txt...
+finished saving meta-paths
+Take 3.89s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+5987	NA	candidate size: 5915
+4717	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_5987_4717_5.txt...
+finished saving meta-paths
+Take 1.62s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+6773	NA	candidate size: 5915
+3960	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_6773_3960_5.txt...
+finished saving meta-paths
+Take 2.95s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+9188	NA	candidate size: 5915
+2217	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_9188_2217_5.txt...
+finished saving meta-paths
+Take 18.65s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+4213	NA	candidate size: 5915
+6027	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_6027_4213_5.txt...
+finished saving meta-paths
+Take 3.96s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+6574	NA	candidate size: 5915
+2871	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_2871_6574_5.txt...
+finished saving meta-paths
+Take 3.36s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+9244	NA	candidate size: 5915
+2471	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_9244_2471_5.txt...
+finished saving meta-paths
+Take 7.86s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+6491	NA	candidate size: 5915
+3796	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_6491_3796_5.txt...
+finished saving meta-paths
+Take 4.59s to calculate top k meta-paths
+Take 0.05s to read DBLP dataset
+Take 0.09s to construct DBLP graph
+3640	NA	candidate size: 5915
+3559	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_3559_3640_5.txt...
+finished saving meta-paths
+Take 4.69s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+7421	NA	candidate size: 5915
+1144	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_7421_1144_5.txt...
+finished saving meta-paths
+Take 3.93s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+9696	NA	candidate size: 5915
+3798	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_3798_9696_5.txt...
+finished saving meta-paths
+Take 8.91s to calculate top k meta-paths
+Take 0.05s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+6323	NA	candidate size: 5915
+6586	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_6586_6323_5.txt...
+finished saving meta-paths
+Take 15.91s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+6406	NA	candidate size: 5915
+9857	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_6406_9857_5.txt...
+finished saving meta-paths
+Take 6.25s to calculate top k meta-paths
+Take 0.07s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+3444	NA	candidate size: 5915
+6436	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_3444_6436_5.txt...
+finished saving meta-paths
+Take 10.99s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+6277	NA	candidate size: 5915
+6405	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_6277_6405_5.txt...
+finished saving meta-paths
+Take 4.04s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+6299	NA	candidate size: 5915
+3744	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_6299_3744_5.txt...
+finished saving meta-paths
+Take 7.92s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+4103	NA	candidate size: 5915
+2993	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_2993_4103_5.txt...
+finished saving meta-paths
+Take 4.43s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.07s to construct DBLP graph
+5835	NA	candidate size: 5915
+3494	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_5835_3494_5.txt...
+finished saving meta-paths
+Take 2s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+3884	NA	candidate size: 5915
+3690	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_3690_3884_5.txt...
+finished saving meta-paths
+Take 1.41s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+6375	NA	candidate size: 5915
+3884	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_3884_6375_5.txt...
+finished saving meta-paths
+Take 8.04s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.07s to construct DBLP graph
+842	NA	candidate size: 5915
+4723	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_842_4723_5.txt...
+finished saving meta-paths
+Take 3.5s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+5	NA	candidate size: 5915
+404	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_5_404_5.txt...
+finished saving meta-paths
+Take 3.28s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+4654	NA	candidate size: 5915
+121	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_4654_121_5.txt...
+finished saving meta-paths
+Take 1.37s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+5696	NA	candidate size: 5915
+4988	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_5696_4988_5.txt...
+finished saving meta-paths
+Take 4s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+387	NA	candidate size: 5915
+5064	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_5064_387_5.txt...
+finished saving meta-paths
+Take 14.88s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+431	NA	candidate size: 5915
+510	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_431_510_5.txt...
+finished saving meta-paths
+Take 7.73s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+198	NA	candidate size: 5915
+5311	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_198_5311_5.txt...
+finished saving meta-paths
+Take 3.34s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+149	NA	candidate size: 5915
+307	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_307_149_5.txt...
+finished saving meta-paths
+Take 3.43s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+5166	NA	candidate size: 5915
+390	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_5166_390_5.txt...
+finished saving meta-paths
+Take 3.54s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+657	NA	candidate size: 5915
+2296	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_2296_657_5.txt...
+finished saving meta-paths
+Take 5.11s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+368	NA	candidate size: 5915
+813	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_368_813_5.txt...
+finished saving meta-paths
+Take 3.62s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+5732	NA	candidate size: 5915
+5131	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_5732_5131_5.txt...
+finished saving meta-paths
+Take 3.66s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+5639	NA	candidate size: 5915
+5013	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_5639_5013_5.txt...
+finished saving meta-paths
+Take 5.14s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+322	NA	candidate size: 5915
+4482	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_322_4482_5.txt...
+finished saving meta-paths
+Take 1.2s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+6750	NA	candidate size: 5915
+366	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_6750_366_5.txt...
+finished saving meta-paths
+Take 3.54s to calculate top k meta-paths
+Take 0.07s to read DBLP dataset
+Take 0.07s to construct DBLP graph
+5226	NA	candidate size: 5915
+5072	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_5226_5072_5.txt...
+finished saving meta-paths
+Take 3.42s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+7300	NA	candidate size: 5915
+468	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_7300_468_5.txt...
+finished saving meta-paths
+Take 2.53s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+5285	NA	candidate size: 5915
+5336	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_5336_5285_5.txt...
+finished saving meta-paths
+Take 3.54s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+10124	NA	candidate size: 5915
+58	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_10124_58_5.txt...
+finished saving meta-paths
+Take 4.05s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+660	NA	candidate size: 5915
+439	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_660_439_5.txt...
+finished saving meta-paths
+Take 3.58s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+4884	NA	candidate size: 5915
+2423	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_4884_2423_5.txt...
+finished saving meta-paths
+Take 10.57s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+232	NA	candidate size: 5915
+471	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_232_471_5.txt...
+finished saving meta-paths
+Take 2.8s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+5249	NA	candidate size: 5915
+5674	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_5249_5674_5.txt...
+finished saving meta-paths
+Take 2.06s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+4525	NA	candidate size: 5915
+130	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_4525_130_5.txt...
+finished saving meta-paths
+Take 14.68s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+5317	NA	candidate size: 5915
+5205	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_5205_5317_5.txt...
+finished saving meta-paths
+Take 3.04s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+3564	NA	candidate size: 5915
+4538	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_4538_3564_5.txt...
+finished saving meta-paths
+Take 6.33s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.09s to construct DBLP graph
+8165	NA	candidate size: 5915
+4445	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_8165_4445_5.txt...
+finished saving meta-paths
+Take 4.41s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+1929	NA	candidate size: 5915
+4560	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_4560_1929_5.txt...
+finished saving meta-paths
+Take 7.85s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+7760	NA	candidate size: 5915
+235	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_7760_235_5.txt...
+finished saving meta-paths
+Take 1.91s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.07s to construct DBLP graph
+1062	NA	candidate size: 5915
+1510	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_1062_1510_5.txt...
+finished saving meta-paths
+Take 5.47s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8036	NA	candidate size: 5915
+7543	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_7543_8036_5.txt...
+finished saving meta-paths
+Take 6.19s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+1653	NA	candidate size: 5915
+1510	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_1653_1510_5.txt...
+finished saving meta-paths
+Take 1.64s to calculate top k meta-paths
+Take 0.05s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8158	NA	candidate size: 5915
+5426	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_8158_5426_5.txt...
+finished saving meta-paths
+Take 1.77s to calculate top k meta-paths
+Take 0.07s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+800	NA	candidate size: 5915
+997	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_800_997_5.txt...
+finished saving meta-paths
+Take 2.63s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+997	NA	candidate size: 5915
+1617	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_1617_997_5.txt...
+finished saving meta-paths
+Take 6.43s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8045	NA	candidate size: 5915
+1831	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_8045_1831_5.txt...
+finished saving meta-paths
+Take 16.37s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+1570	NA	candidate size: 5915
+903	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_1570_903_5.txt...
+finished saving meta-paths
+Take 1.81s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.07s to construct DBLP graph
+8294	NA	candidate size: 5915
+6217	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_8294_6217_5.txt...
+finished saving meta-paths
+Take 7.34s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+7494	NA	candidate size: 5915
+7661	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_7494_7661_5.txt...
+finished saving meta-paths
+Take 1.32s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+7948	NA	candidate size: 5915
+7661	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_7948_7661_5.txt...
+finished saving meta-paths
+Take 4.19s to calculate top k meta-paths
+Take 0.07s to read DBLP dataset
+Take 0.07s to construct DBLP graph
+7541	NA	candidate size: 5915
+8033	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_7541_8033_5.txt...
+finished saving meta-paths
+Take 4.21s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.09s to construct DBLP graph
+1263	NA	candidate size: 5915
+330	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_1263_330_5.txt...
+finished saving meta-paths
+Take 5.71s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8037	NA	candidate size: 5915
+8039	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_8037_8039_5.txt...
+finished saving meta-paths
+Take 6.22s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+4519	NA	candidate size: 5915
+896	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_4519_896_5.txt...
+finished saving meta-paths
+Take 2.31s to calculate top k meta-paths
+Take 0.07s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+1690	NA	candidate size: 5915
+1325	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_1690_1325_5.txt...
+finished saving meta-paths
+Take 5.66s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8032	NA	candidate size: 5915
+7560	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_7560_8032_5.txt...
+finished saving meta-paths
+Take 3.58s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+1467	NA	candidate size: 5915
+1324	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_1324_1467_5.txt...
+finished saving meta-paths
+Take 2.91s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8228	NA	candidate size: 5915
+7644	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_8228_7644_5.txt...
+finished saving meta-paths
+Take 4.07s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.07s to construct DBLP graph
+8239	NA	candidate size: 5915
+1769	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_1769_8239_5.txt...
+finished saving meta-paths
+Take 4.23s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.07s to construct DBLP graph
+1617	NA	candidate size: 5915
+8235	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SP_8235_1617_5.txt...
+finished saving meta-paths
+Take 1.57s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+2860	NA	candidate size: 5915
+972	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_2860_972_5.txt...
+finished saving meta-paths
+Take 0.14s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8566	NA	candidate size: 5915
+7098	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_7098_8566_5.txt...
+finished saving meta-paths
+Take 0.23s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+1594	NA	candidate size: 5915
+1086	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_1594_1086_5.txt...
+finished saving meta-paths
+Take 0.31s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8825	NA	candidate size: 5915
+2899	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_2899_8825_5.txt...
+finished saving meta-paths
+Take 0.21s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+9842	NA	candidate size: 5915
+1251	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_1251_9842_5.txt...
+finished saving meta-paths
+Take 0.71s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+1281	NA	candidate size: 5915
+2727	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_1281_2727_5.txt...
+finished saving meta-paths
+Take 0.6s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+3185	NA	candidate size: 5915
+8505	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_3185_8505_5.txt...
+finished saving meta-paths
+Take 3.19s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+3157	NA	candidate size: 5915
+9271	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_3157_9271_5.txt...
+finished saving meta-paths
+Take 0.95s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+2828	NA	candidate size: 5915
+3043	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_2828_3043_5.txt...
+finished saving meta-paths
+Take 0.39s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.07s to construct DBLP graph
+3583	NA	candidate size: 5915
+9033	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_3583_9033_5.txt...
+finished saving meta-paths
+Take 1.13s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8807	NA	candidate size: 5915
+3410	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_8807_3410_5.txt...
+finished saving meta-paths
+Take 0.53s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+3583	NA	candidate size: 5915
+8483	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_8483_3583_5.txt...
+finished saving meta-paths
+Take 1.5s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+9117	NA	candidate size: 5915
+3506	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_9117_3506_5.txt...
+finished saving meta-paths
+Take 0.39s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8981	NA	candidate size: 5915
+7098	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_8981_7098_5.txt...
+finished saving meta-paths
+Take 0.5s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+2766	NA	candidate size: 5915
+3193	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_3193_2766_5.txt...
+finished saving meta-paths
+Take 0.37s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+9758	NA	candidate size: 5915
+1475	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_9758_1475_5.txt...
+finished saving meta-paths
+Take 0.19s to calculate top k meta-paths
+Take 0.05s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8466	NA	candidate size: 5915
+1321	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_1321_8466_5.txt...
+finished saving meta-paths
+Take 0.74s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+7213	NA	candidate size: 5915
+8839	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_7213_8839_5.txt...
+finished saving meta-paths
+Take 1.24s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+2959	NA	candidate size: 5915
+7118	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_2959_7118_5.txt...
+finished saving meta-paths
+Take 0.41s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8839	NA	candidate size: 5915
+9668	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_8839_9668_5.txt...
+finished saving meta-paths
+Take 0.88s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+9758	NA	candidate size: 5915
+1793	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_9758_1793_5.txt...
+finished saving meta-paths
+Take 0.44s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8716	NA	candidate size: 5915
+8578	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_8716_8578_5.txt...
+finished saving meta-paths
+Take 0.2s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+2542	NA	candidate size: 5915
+8952	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_2542_8952_5.txt...
+finished saving meta-paths
+Take 0.55s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+1103	NA	candidate size: 5915
+2481	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_1103_2481_5.txt...
+finished saving meta-paths
+Take 0.18s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+9493	NA	candidate size: 5915
+1219	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_1219_9493_5.txt...
+finished saving meta-paths
+Take 0.15s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+3518	NA	candidate size: 5915
+4145	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_4145_3518_5.txt...
+finished saving meta-paths
+Take 1.93s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+5390	NA	candidate size: 5915
+6779	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_6779_5390_5.txt...
+finished saving meta-paths
+Take 0.54s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+6098	NA	candidate size: 5915
+4213	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_6098_4213_5.txt...
+finished saving meta-paths
+Take 1.29s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+2248	NA	candidate size: 5915
+3796	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_2248_3796_5.txt...
+finished saving meta-paths
+Take 0.67s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+6970	NA	candidate size: 5915
+3820	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_6970_3820_5.txt...
+finished saving meta-paths
+Take 0.94s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+3857	NA	candidate size: 5915
+6508	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_3857_6508_5.txt...
+finished saving meta-paths
+Take 0.82s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+5987	NA	candidate size: 5915
+4717	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_5987_4717_5.txt...
+finished saving meta-paths
+Take 0.27s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+6773	NA	candidate size: 5915
+3960	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_6773_3960_5.txt...
+finished saving meta-paths
+Take 0.6s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+9188	NA	candidate size: 5915
+2217	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_9188_2217_5.txt...
+finished saving meta-paths
+Take 1.39s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+4213	NA	candidate size: 5915
+6027	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_6027_4213_5.txt...
+finished saving meta-paths
+Take 0.84s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+6574	NA	candidate size: 5915
+2871	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_2871_6574_5.txt...
+finished saving meta-paths
+Take 0.55s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.07s to construct DBLP graph
+9244	NA	candidate size: 5915
+2471	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_9244_2471_5.txt...
+finished saving meta-paths
+Take 0.49s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+6491	NA	candidate size: 5915
+3796	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_6491_3796_5.txt...
+finished saving meta-paths
+Take 0.71s to calculate top k meta-paths
+Take 0.05s to read DBLP dataset
+Take 0.09s to construct DBLP graph
+3640	NA	candidate size: 5915
+3559	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_3559_3640_5.txt...
+finished saving meta-paths
+Take 0.47s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+7421	NA	candidate size: 5915
+1144	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_7421_1144_5.txt...
+finished saving meta-paths
+Take 0.79s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+9696	NA	candidate size: 5915
+3798	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_3798_9696_5.txt...
+finished saving meta-paths
+Take 0.53s to calculate top k meta-paths
+Take 0.05s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+6323	NA	candidate size: 5915
+6586	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_6586_6323_5.txt...
+finished saving meta-paths
+Take 1.27s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+6406	NA	candidate size: 5915
+9857	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_6406_9857_5.txt...
+finished saving meta-paths
+Take 0.46s to calculate top k meta-paths
+Take 0.07s to read DBLP dataset
+Take 0.07s to construct DBLP graph
+3444	NA	candidate size: 5915
+6436	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_3444_6436_5.txt...
+finished saving meta-paths
+Take 1.48s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+6277	NA	candidate size: 5915
+6405	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_6277_6405_5.txt...
+finished saving meta-paths
+Take 0.47s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+6299	NA	candidate size: 5915
+3744	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_6299_3744_5.txt...
+finished saving meta-paths
+Take 0.64s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+4103	NA	candidate size: 5915
+2993	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_2993_4103_5.txt...
+finished saving meta-paths
+Take 0.35s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+5835	NA	candidate size: 5915
+3494	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_5835_3494_5.txt...
+finished saving meta-paths
+Take 0.27s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+3884	NA	candidate size: 5915
+3690	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_3690_3884_5.txt...
+finished saving meta-paths
+Take 0.21s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+6375	NA	candidate size: 5915
+3884	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_3884_6375_5.txt...
+finished saving meta-paths
+Take 0.99s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+842	NA	candidate size: 5915
+4723	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_842_4723_5.txt...
+finished saving meta-paths
+Take 0.63s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+5	NA	candidate size: 5915
+404	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_5_404_5.txt...
+finished saving meta-paths
+Take 0.16s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+4654	NA	candidate size: 5915
+121	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_4654_121_5.txt...
+finished saving meta-paths
+Take 0.19s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.07s to construct DBLP graph
+5696	NA	candidate size: 5915
+4988	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_5696_4988_5.txt...
+finished saving meta-paths
+Take 0.56s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+387	NA	candidate size: 5915
+5064	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_5064_387_5.txt...
+finished saving meta-paths
+Take 1.16s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+431	NA	candidate size: 5915
+510	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_431_510_5.txt...
+finished saving meta-paths
+Take 0.57s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+198	NA	candidate size: 5915
+5311	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_198_5311_5.txt...
+finished saving meta-paths
+Take 0.64s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+149	NA	candidate size: 5915
+307	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_307_149_5.txt...
+finished saving meta-paths
+Take 0.52s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+5166	NA	candidate size: 5915
+390	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_5166_390_5.txt...
+finished saving meta-paths
+Take 0.48s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+657	NA	candidate size: 5915
+2296	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_2296_657_5.txt...
+finished saving meta-paths
+Take 0.3s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+368	NA	candidate size: 5915
+813	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_368_813_5.txt...
+finished saving meta-paths
+Take 0.63s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+5732	NA	candidate size: 5915
+5131	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_5732_5131_5.txt...
+finished saving meta-paths
+Take 0.76s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+5639	NA	candidate size: 5915
+5013	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_5639_5013_5.txt...
+finished saving meta-paths
+Take 0.63s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+322	NA	candidate size: 5915
+4482	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_322_4482_5.txt...
+finished saving meta-paths
+Take 0.18s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+6750	NA	candidate size: 5915
+366	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_6750_366_5.txt...
+finished saving meta-paths
+Take 0.6s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+5226	NA	candidate size: 5915
+5072	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_5226_5072_5.txt...
+finished saving meta-paths
+Take 0.64s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+7300	NA	candidate size: 5915
+468	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_7300_468_5.txt...
+finished saving meta-paths
+Take 0.61s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+5285	NA	candidate size: 5915
+5336	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_5336_5285_5.txt...
+finished saving meta-paths
+Take 0.72s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+10124	NA	candidate size: 5915
+58	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_10124_58_5.txt...
+finished saving meta-paths
+Take 0.71s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+660	NA	candidate size: 5915
+439	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_660_439_5.txt...
+finished saving meta-paths
+Take 0.62s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+4884	NA	candidate size: 5915
+2423	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_4884_2423_5.txt...
+finished saving meta-paths
+Take 0.94s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+232	NA	candidate size: 5915
+471	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_232_471_5.txt...
+finished saving meta-paths
+Take 0.28s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+5249	NA	candidate size: 5915
+5674	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_5249_5674_5.txt...
+finished saving meta-paths
+Take 0.38s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.07s to construct DBLP graph
+4525	NA	candidate size: 5915
+130	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_4525_130_5.txt...
+finished saving meta-paths
+Take 1.01s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.07s to construct DBLP graph
+5317	NA	candidate size: 5915
+5205	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_5205_5317_5.txt...
+finished saving meta-paths
+Take 0.58s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+3564	NA	candidate size: 5915
+4538	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_4538_3564_5.txt...
+finished saving meta-paths
+Take 0.37s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8165	NA	candidate size: 5915
+4445	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_8165_4445_5.txt...
+finished saving meta-paths
+Take 0.88s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+1929	NA	candidate size: 5915
+4560	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_4560_1929_5.txt...
+finished saving meta-paths
+Take 0.44s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+7760	NA	candidate size: 5915
+235	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_7760_235_5.txt...
+finished saving meta-paths
+Take 0.28s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+1062	NA	candidate size: 5915
+1510	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_1062_1510_5.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8036	NA	candidate size: 5915
+7543	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_7543_8036_5.txt...
+finished saving meta-paths
+Take 0.43s to calculate top k meta-paths
+Take 0.07s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+1653	NA	candidate size: 5915
+1510	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_1653_1510_5.txt...
+finished saving meta-paths
+Take 0.2s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8158	NA	candidate size: 5915
+5426	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_8158_5426_5.txt...
+finished saving meta-paths
+Take 0.19s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+800	NA	candidate size: 5915
+997	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_800_997_5.txt...
+finished saving meta-paths
+Take 0.39s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+997	NA	candidate size: 5915
+1617	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_1617_997_5.txt...
+finished saving meta-paths
+Take 0.65s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8045	NA	candidate size: 5915
+1831	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_8045_1831_5.txt...
+finished saving meta-paths
+Take 1.04s to calculate top k meta-paths
+Take 0.05s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+1570	NA	candidate size: 5915
+903	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_1570_903_5.txt...
+finished saving meta-paths
+Take 0.17s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.07s to construct DBLP graph
+8294	NA	candidate size: 5915
+6217	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_8294_6217_5.txt...
+finished saving meta-paths
+Take 0.64s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+7494	NA	candidate size: 5915
+7661	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_7494_7661_5.txt...
+finished saving meta-paths
+Take 0.18s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+7948	NA	candidate size: 5915
+7661	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_7948_7661_5.txt...
+finished saving meta-paths
+Take 0.26s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+7541	NA	candidate size: 5915
+8033	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_7541_8033_5.txt...
+finished saving meta-paths
+Take 0.83s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+1263	NA	candidate size: 5915
+330	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_1263_330_5.txt...
+finished saving meta-paths
+Take 0.64s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8037	NA	candidate size: 5915
+8039	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_8037_8039_5.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+4519	NA	candidate size: 5915
+896	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_4519_896_5.txt...
+finished saving meta-paths
+Take 0.29s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+1690	NA	candidate size: 5915
+1325	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_1690_1325_5.txt...
+finished saving meta-paths
+Take 0.26s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.07s to construct DBLP graph
+8032	NA	candidate size: 5915
+7560	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_7560_8032_5.txt...
+finished saving meta-paths
+Take 0.3s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+1467	NA	candidate size: 5915
+1324	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_1324_1467_5.txt...
+finished saving meta-paths
+Take 0.15s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8228	NA	candidate size: 5915
+7644	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_8228_7644_5.txt...
+finished saving meta-paths
+Take 0.7s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8239	NA	candidate size: 5915
+1769	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_1769_8239_5.txt...
+finished saving meta-paths
+Take 0.28s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+1617	NA	candidate size: 5915
+8235	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV1_8235_1617_5.txt...
+finished saving meta-paths
+Take 0.24s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+2860	NA	candidate size: 5915
+972	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_2860_972_5.txt...
+finished saving meta-paths
+Take 0.15s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8566	NA	candidate size: 5915
+7098	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_7098_8566_5.txt...
+finished saving meta-paths
+Take 0.22s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.07s to construct DBLP graph
+1594	NA	candidate size: 5915
+1086	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_1594_1086_5.txt...
+finished saving meta-paths
+Take 0.32s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8825	NA	candidate size: 5915
+2899	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_2899_8825_5.txt...
+finished saving meta-paths
+Take 0.2s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+9842	NA	candidate size: 5915
+1251	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_1251_9842_5.txt...
+finished saving meta-paths
+Take 0.71s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+1281	NA	candidate size: 5915
+2727	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_1281_2727_5.txt...
+finished saving meta-paths
+Take 0.59s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+3185	NA	candidate size: 5915
+8505	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_3185_8505_5.txt...
+finished saving meta-paths
+Take 3.18s to calculate top k meta-paths
+Take 0.07s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+3157	NA	candidate size: 5915
+9271	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_3157_9271_5.txt...
+finished saving meta-paths
+Take 0.96s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+2828	NA	candidate size: 5915
+3043	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_2828_3043_5.txt...
+finished saving meta-paths
+Take 0.39s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+3583	NA	candidate size: 5915
+9033	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_3583_9033_5.txt...
+finished saving meta-paths
+Take 1.15s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8807	NA	candidate size: 5915
+3410	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_8807_3410_5.txt...
+finished saving meta-paths
+Take 0.53s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.07s to construct DBLP graph
+3583	NA	candidate size: 5915
+8483	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_8483_3583_5.txt...
+finished saving meta-paths
+Take 1.5s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+9117	NA	candidate size: 5915
+3506	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_9117_3506_5.txt...
+finished saving meta-paths
+Take 0.4s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8981	NA	candidate size: 5915
+7098	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_8981_7098_5.txt...
+finished saving meta-paths
+Take 0.51s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+2766	NA	candidate size: 5915
+3193	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_3193_2766_5.txt...
+finished saving meta-paths
+Take 0.39s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+9758	NA	candidate size: 5915
+1475	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_9758_1475_5.txt...
+finished saving meta-paths
+Take 0.19s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8466	NA	candidate size: 5915
+1321	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_1321_8466_5.txt...
+finished saving meta-paths
+Take 0.76s to calculate top k meta-paths
+Take 0.07s to read DBLP dataset
+Take 0.07s to construct DBLP graph
+7213	NA	candidate size: 5915
+8839	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_7213_8839_5.txt...
+finished saving meta-paths
+Take 1.26s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+2959	NA	candidate size: 5915
+7118	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_2959_7118_5.txt...
+finished saving meta-paths
+Take 0.4s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8839	NA	candidate size: 5915
+9668	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_8839_9668_5.txt...
+finished saving meta-paths
+Take 0.87s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+9758	NA	candidate size: 5915
+1793	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_9758_1793_5.txt...
+finished saving meta-paths
+Take 0.45s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8716	NA	candidate size: 5915
+8578	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_8716_8578_5.txt...
+finished saving meta-paths
+Take 0.19s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+2542	NA	candidate size: 5915
+8952	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_2542_8952_5.txt...
+finished saving meta-paths
+Take 0.55s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+1103	NA	candidate size: 5915
+2481	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_1103_2481_5.txt...
+finished saving meta-paths
+Take 0.18s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.07s to construct DBLP graph
+9493	NA	candidate size: 5915
+1219	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_1219_9493_5.txt...
+finished saving meta-paths
+Take 0.16s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+3518	NA	candidate size: 5915
+4145	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_4145_3518_5.txt...
+finished saving meta-paths
+Take 1.95s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+5390	NA	candidate size: 5915
+6779	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_6779_5390_5.txt...
+finished saving meta-paths
+Take 0.53s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+6098	NA	candidate size: 5915
+4213	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_6098_4213_5.txt...
+finished saving meta-paths
+Take 1.29s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+2248	NA	candidate size: 5915
+3796	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_2248_3796_5.txt...
+finished saving meta-paths
+Take 0.68s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+6970	NA	candidate size: 5915
+3820	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_6970_3820_5.txt...
+finished saving meta-paths
+Take 0.95s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+3857	NA	candidate size: 5915
+6508	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_3857_6508_5.txt...
+finished saving meta-paths
+Take 0.82s to calculate top k meta-paths
+Take 0.05s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+5987	NA	candidate size: 5915
+4717	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_5987_4717_5.txt...
+finished saving meta-paths
+Take 0.27s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+6773	NA	candidate size: 5915
+3960	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_6773_3960_5.txt...
+finished saving meta-paths
+Take 0.6s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+9188	NA	candidate size: 5915
+2217	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_9188_2217_5.txt...
+finished saving meta-paths
+Take 1.39s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+4213	NA	candidate size: 5915
+6027	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_6027_4213_5.txt...
+finished saving meta-paths
+Take 0.85s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+6574	NA	candidate size: 5915
+2871	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_2871_6574_5.txt...
+finished saving meta-paths
+Take 0.56s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+9244	NA	candidate size: 5915
+2471	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_9244_2471_5.txt...
+finished saving meta-paths
+Take 0.48s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+6491	NA	candidate size: 5915
+3796	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_6491_3796_5.txt...
+finished saving meta-paths
+Take 0.72s to calculate top k meta-paths
+Take 0.05s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+3640	NA	candidate size: 5915
+3559	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_3559_3640_5.txt...
+finished saving meta-paths
+Take 0.47s to calculate top k meta-paths
+Take 0.07s to read DBLP dataset
+Take 0.09s to construct DBLP graph
+7421	NA	candidate size: 5915
+1144	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_7421_1144_5.txt...
+finished saving meta-paths
+Take 0.78s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.07s to construct DBLP graph
+9696	NA	candidate size: 5915
+3798	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_3798_9696_5.txt...
+finished saving meta-paths
+Take 0.54s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.07s to construct DBLP graph
+6323	NA	candidate size: 5915
+6586	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_6586_6323_5.txt...
+finished saving meta-paths
+Take 1.28s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+6406	NA	candidate size: 5915
+9857	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_6406_9857_5.txt...
+finished saving meta-paths
+Take 0.45s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.09s to construct DBLP graph
+3444	NA	candidate size: 5915
+6436	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_3444_6436_5.txt...
+finished saving meta-paths
+Take 1.48s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+6277	NA	candidate size: 5915
+6405	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_6277_6405_5.txt...
+finished saving meta-paths
+Take 0.47s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+6299	NA	candidate size: 5915
+3744	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_6299_3744_5.txt...
+finished saving meta-paths
+Take 0.64s to calculate top k meta-paths
+Take 0.05s to read DBLP dataset
+Take 0.09s to construct DBLP graph
+4103	NA	candidate size: 5915
+2993	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_2993_4103_5.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+5835	NA	candidate size: 5915
+3494	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_5835_3494_5.txt...
+finished saving meta-paths
+Take 0.27s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+3884	NA	candidate size: 5915
+3690	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_3690_3884_5.txt...
+finished saving meta-paths
+Take 0.21s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+6375	NA	candidate size: 5915
+3884	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_3884_6375_5.txt...
+finished saving meta-paths
+Take 1s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+842	NA	candidate size: 5915
+4723	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_842_4723_5.txt...
+finished saving meta-paths
+Take 0.64s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+5	NA	candidate size: 5915
+404	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_5_404_5.txt...
+finished saving meta-paths
+Take 0.16s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+4654	NA	candidate size: 5915
+121	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_4654_121_5.txt...
+finished saving meta-paths
+Take 0.19s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+5696	NA	candidate size: 5915
+4988	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_5696_4988_5.txt...
+finished saving meta-paths
+Take 0.55s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+387	NA	candidate size: 5915
+5064	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_5064_387_5.txt...
+finished saving meta-paths
+Take 1.16s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+431	NA	candidate size: 5915
+510	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_431_510_5.txt...
+finished saving meta-paths
+Take 0.57s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+198	NA	candidate size: 5915
+5311	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_198_5311_5.txt...
+finished saving meta-paths
+Take 0.64s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+149	NA	candidate size: 5915
+307	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_307_149_5.txt...
+finished saving meta-paths
+Take 0.53s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+5166	NA	candidate size: 5915
+390	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_5166_390_5.txt...
+finished saving meta-paths
+Take 0.48s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+657	NA	candidate size: 5915
+2296	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_2296_657_5.txt...
+finished saving meta-paths
+Take 0.3s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+368	NA	candidate size: 5915
+813	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_368_813_5.txt...
+finished saving meta-paths
+Take 0.63s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+5732	NA	candidate size: 5915
+5131	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_5732_5131_5.txt...
+finished saving meta-paths
+Take 0.77s to calculate top k meta-paths
+Take 0.07s to read DBLP dataset
+Take 0.07s to construct DBLP graph
+5639	NA	candidate size: 5915
+5013	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_5639_5013_5.txt...
+finished saving meta-paths
+Take 0.64s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+322	NA	candidate size: 5915
+4482	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_322_4482_5.txt...
+finished saving meta-paths
+Take 0.18s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+6750	NA	candidate size: 5915
+366	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_6750_366_5.txt...
+finished saving meta-paths
+Take 0.61s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+5226	NA	candidate size: 5915
+5072	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_5226_5072_5.txt...
+finished saving meta-paths
+Take 0.65s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+7300	NA	candidate size: 5915
+468	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_7300_468_5.txt...
+finished saving meta-paths
+Take 0.62s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.07s to construct DBLP graph
+5285	NA	candidate size: 5915
+5336	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_5336_5285_5.txt...
+finished saving meta-paths
+Take 0.73s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+10124	NA	candidate size: 5915
+58	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_10124_58_5.txt...
+finished saving meta-paths
+Take 0.72s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+660	NA	candidate size: 5915
+439	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_660_439_5.txt...
+finished saving meta-paths
+Take 0.62s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+4884	NA	candidate size: 5915
+2423	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_4884_2423_5.txt...
+finished saving meta-paths
+Take 0.95s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.07s to construct DBLP graph
+232	NA	candidate size: 5915
+471	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_232_471_5.txt...
+finished saving meta-paths
+Take 0.28s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+5249	NA	candidate size: 5915
+5674	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_5249_5674_5.txt...
+finished saving meta-paths
+Take 0.38s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.09s to construct DBLP graph
+4525	NA	candidate size: 5915
+130	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_4525_130_5.txt...
+finished saving meta-paths
+Take 1.03s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+5317	NA	candidate size: 5915
+5205	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_5205_5317_5.txt...
+finished saving meta-paths
+Take 0.58s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+3564	NA	candidate size: 5915
+4538	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_4538_3564_5.txt...
+finished saving meta-paths
+Take 0.37s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8165	NA	candidate size: 5915
+4445	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_8165_4445_5.txt...
+finished saving meta-paths
+Take 0.88s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+1929	NA	candidate size: 5915
+4560	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_4560_1929_5.txt...
+finished saving meta-paths
+Take 0.45s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+7760	NA	candidate size: 5915
+235	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_7760_235_5.txt...
+finished saving meta-paths
+Take 0.28s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+1062	NA	candidate size: 5915
+1510	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_1062_1510_5.txt...
+finished saving meta-paths
+Take 0.33s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8036	NA	candidate size: 5915
+7543	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_7543_8036_5.txt...
+finished saving meta-paths
+Take 0.43s to calculate top k meta-paths
+Take 0.07s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+1653	NA	candidate size: 5915
+1510	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_1653_1510_5.txt...
+finished saving meta-paths
+Take 0.2s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8158	NA	candidate size: 5915
+5426	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_8158_5426_5.txt...
+finished saving meta-paths
+Take 0.2s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+800	NA	candidate size: 5915
+997	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_800_997_5.txt...
+finished saving meta-paths
+Take 0.38s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+997	NA	candidate size: 5915
+1617	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_1617_997_5.txt...
+finished saving meta-paths
+Take 0.65s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8045	NA	candidate size: 5915
+1831	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_8045_1831_5.txt...
+finished saving meta-paths
+Take 1.04s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+1570	NA	candidate size: 5915
+903	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_1570_903_5.txt...
+finished saving meta-paths
+Take 0.16s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8294	NA	candidate size: 5915
+6217	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_8294_6217_5.txt...
+finished saving meta-paths
+Take 0.63s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+7494	NA	candidate size: 5915
+7661	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_7494_7661_5.txt...
+finished saving meta-paths
+Take 0.18s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+7948	NA	candidate size: 5915
+7661	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_7948_7661_5.txt...
+finished saving meta-paths
+Take 0.26s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+7541	NA	candidate size: 5915
+8033	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_7541_8033_5.txt...
+finished saving meta-paths
+Take 0.83s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+1263	NA	candidate size: 5915
+330	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_1263_330_5.txt...
+finished saving meta-paths
+Take 0.63s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8037	NA	candidate size: 5915
+8039	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_8037_8039_5.txt...
+finished saving meta-paths
+Take 0.34s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+4519	NA	candidate size: 5915
+896	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_4519_896_5.txt...
+finished saving meta-paths
+Take 0.29s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+1690	NA	candidate size: 5915
+1325	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_1690_1325_5.txt...
+finished saving meta-paths
+Take 0.26s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8032	NA	candidate size: 5915
+7560	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_7560_8032_5.txt...
+finished saving meta-paths
+Take 0.3s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.07s to construct DBLP graph
+1467	NA	candidate size: 5915
+1324	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_1324_1467_5.txt...
+finished saving meta-paths
+Take 0.15s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8228	NA	candidate size: 5915
+7644	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_8228_7644_5.txt...
+finished saving meta-paths
+Take 0.69s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+8239	NA	candidate size: 5915
+1769	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_1769_8239_5.txt...
+finished saving meta-paths
+Take 0.29s to calculate top k meta-paths
+Take 0.06s to read DBLP dataset
+Take 0.08s to construct DBLP graph
+1617	NA	candidate size: 5915
+8235	NA	candidate size: 5915
+start saving the top k meta-paths to topKResult/DBLP_SLV2_8235_1617_5.txt...
+finished saving meta-paths
+Take 0.24s to calculate top k meta-paths
