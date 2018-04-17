@@ -1,18 +1,18 @@
 lambda = 100;
-seeds = 10;
-[candidatesNum, clustersNum] = size(groundTruth);
+seeds = 1;
 
 
 %%% construct edge type matrix %%%
 load('DBLP/test.mat');
+[candidatesNum, clustersNum] = size(groundTruth);
 edgeTypeSet = {1,-1,2,-2,3,-3,4,-4};
 edgeTypeMatrixSet = {transpose(A_P), A_P, P_T, transpose(P_T), P_V, transpose(P_V), P_P, transpose(P_P)};
 adjMatrixMap = containers.Map(edgeTypeSet,edgeTypeMatrixSet);
 
-methods = ["SP" "S-M-S"];
+methods = ["SP","S-M-S"];
 
 for method=methods
-    numiTotal = 0;
+    nmiTotal = 0;
     for i=1:size(testPairs,1)
         src = testPairs(i, 1);
         dst = testPairs(i, 2);
@@ -47,8 +47,8 @@ for method=methods
         [thetaMat, betaCell, piVec, accuracy, nmi] = PathSelect_v3(Scell, SeedsMat, lambda, groundTruth);
         disp(nmi);
         %disp(i);
+        nmiTotal = nmiTotal + nmi;
     end
-    nmiTotal = nmiTotal + nmi;
     disp(method);
     disp(nmiTotal/size(testPairs,1));
 end
