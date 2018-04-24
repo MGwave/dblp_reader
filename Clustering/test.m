@@ -1,5 +1,5 @@
 lambda = 100;
-seeds = 1;
+seeds = 5;
 
 
 %%% construct edge type matrix %%%
