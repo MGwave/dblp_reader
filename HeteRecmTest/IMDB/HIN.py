@@ -10,7 +10,7 @@ MOVIE_DIRECTOR_FILENAME = "movie_directors.txt"
 MOVIE_COUNTRY_FILENAME = "movie_countries.txt"
 MOVIE_TAG_FILENAME = "movie_tags.txt"
 MOVIE_LOCATION_FILENAME = "movie_locations.txt"
-MOVIE_ACTOR_FILENAME = "movie_actors.txt"
+MOVIE_ACTOR_FILENAME = "weighted_movie_actors.txt"
 HIN_FILENAME = "HIN.pkl"
 
 class EntityInfo:

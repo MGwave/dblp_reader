@@ -7,7 +7,7 @@ alpha = 0.5
 #loading the edge type file and the strength file
 def loadEdgeTypeStrength():
     fin = open('../../IMDB/IMDBEdgeType.txt','r')
-    fin2 = open('../../cache/IMDBedgeTypeAvgDegree.txt','r')
+    fin2 = open('../../cache/orgnIMDBedgeTypeAvgDegree.txt','r')
     edgeTypeDict = dict()
     edgeTypeRecords = fin.readlines()
     for record in edgeTypeRecords:
@@ -174,6 +174,8 @@ def main():
             src = int(srcStr)
             dst = int(dstStr)
             metaPaths = loadTopKMetaPath(src+200100, dst, method, edgeTypeDict, metaPathK)
+            print('topk meta-paths:')
+            print(metaPaths)
             metaPathsWeights = weight(metaPaths, edgeTypeStrength)
             userEntityInfo = HIN['Entities'][HIN['EntityTypes']['user'][src]]
             exclusionMovies = set(userEntityInfo.outRelations['movie'].keys())
@@ -189,7 +191,7 @@ def main():
                     # exclude those directly connected movies in training set
                     if currMovieId in exclusionMovies:
                         continue
-                    heteSim = getHeteSim(HIN, userEntityInfo.entity, movieEntityInfo.entity, currMetaPath)
+                    heteSim = getWsRel(HIN, userEntityInfo.entity, movieEntityInfo.entity, currMetaPath)
                     if currMovieId not in movieScores:
                         movieScores[currMovieId] = currMetaPathWeight*heteSim
                     else:
@@ -200,9 +202,11 @@ def main():
             topKResult = [movie for _, movie in movieScoresList[:K]]
 
             linkPrediction, linkRecall = getPrecisionAndRecall(userRateGroundTruth[src][0], topKResult)
+            print("linkPrediction: " + str(linkPrediction) + "\tlinkRecall: " + str(linkRecall))
             sumLinkPrediction += linkPrediction
             sumLinkRecall += linkRecall
             ratePrediction, rateRecall = getPrecisionAndRecall(userRateGroundTruth[src][1], topKResult)
+            print("ratePrediction: " + str(ratePrediction) + "\trateRecall: " + str(rateRecall))
             sumRatePrediction += ratePrediction
             sumRateRecall += rateRecall
 
