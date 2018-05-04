@@ -1,5 +1,5 @@
 lambda = 100;
-seeds = 5;
+seeds = 1;
 
 
 %%% construct edge type matrix %%%
@@ -28,7 +28,7 @@ for method=methods
         fclose(fid);
 
         %K = size(tlines,1);
-        K = 3;
+        K = 5;
         Scell = cell(K, 1);
         for j=1:K
             W = eye(candidatesNum);
