@@ -60,6 +60,7 @@ def loadTopKMetaPath(src, dst, method, edgeTypeDict, k=5):
             break
 
     return metaPaths
+    #return [[7, 4, -4]]
 
 
 # get the weight of a group of meta paths
@@ -146,7 +147,7 @@ def main():
 
     K = 10
     metaPathK = 1
-    methods = ["SP", "S-M-S"]
+    methods = ["SP"]
     print('k ', K)
 
     # load meta info
@@ -163,19 +164,19 @@ def main():
     testPairsRecords = fin.readlines()
     fin.close()
     testPairsSize = len(testPairsRecords)
+
+    pairMetaPathsFin = open('./pairMetaPaths.pkl','rb')
+    pairMetaPaths = pickle.load(pairMetaPathsFin)
+    pairMetaPathsFin.close()
     for method in methods:
         print("Running method:" + method)
+        tmpPairMetaPaths = pairMetaPaths[method]
         sumLinkPrediction = sumLinkRecall = 0
         sumRatePrediction = sumRateRecall = 0
 
         j = 0
-        for record in testPairsRecords:
-            [srcStr, dstStr] = record.strip().split('\t')
-            src = int(srcStr)
-            dst = int(dstStr)
-            metaPaths = loadTopKMetaPath(src+200100, dst, method, edgeTypeDict, metaPathK)
-            print('topk meta-paths:')
-            print(metaPaths)
+        for ((src, dst), metaPaths) in tmpPairMetaPaths.items():
+            print("src: " + str(src) + ";dst: " + str(dst))
             metaPathsWeights = weight(metaPaths, edgeTypeStrength)
             userEntityInfo = HIN['Entities'][HIN['EntityTypes']['user'][src]]
             exclusionMovies = set(userEntityInfo.outRelations['movie'].keys())
@@ -191,7 +192,7 @@ def main():
                     # exclude those directly connected movies in training set
                     if currMovieId in exclusionMovies:
                         continue
-                    heteSim = getWsRel(HIN, userEntityInfo.entity, movieEntityInfo.entity, currMetaPath)
+                    heteSim = getHeteSim(HIN, userEntityInfo.entity, movieEntityInfo.entity, currMetaPath)
                     if currMovieId not in movieScores:
                         movieScores[currMovieId] = currMetaPathWeight*heteSim
                     else:

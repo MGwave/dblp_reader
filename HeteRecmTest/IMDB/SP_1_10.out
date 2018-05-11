@@ -1,0 +1,211 @@
+k  10
+Running method:SP
+src: 50893;dst: 110
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:0
+src: 51333;dst: 50
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:1
+src: 3710;dst: 253
+linkPrediction: 0.1	linkRecall: 0.16666666666666666
+ratePrediction: 0.0	rateRecall: 0.0
+record:2
+src: 15178;dst: 32
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:3
+src: 19131;dst: 154
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:4
+src: 26987;dst: 260
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:5
+src: 59496;dst: 841
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:6
+src: 33477;dst: 111
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:7
+src: 60182;dst: 166
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:8
+src: 52021;dst: 6
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:9
+src: 48006;dst: 110
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:10
+src: 59529;dst: 1089
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:11
+src: 40895;dst: 18
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:12
+src: 17854;dst: 215
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:13
+src: 24423;dst: 260
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:14
+src: 46116;dst: 1206
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:15
+src: 57637;dst: 150
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:16
+src: 12451;dst: 551
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:17
+src: 22701;dst: 364
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:18
+src: 1392;dst: 296
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:19
+src: 54817;dst: 1222
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:20
+src: 44847;dst: 306
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:21
+src: 42888;dst: 741
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:22
+src: 65932;dst: 431
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:23
+src: 57138;dst: 25
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:24
+src: 67907;dst: 296
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:25
+src: 11554;dst: 163
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:26
+src: 17307;dst: 293
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:27
+src: 64712;dst: 590
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:28
+src: 30980;dst: 293
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:29
+src: 48290;dst: 260
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:30
+src: 783;dst: 1500
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:31
+src: 48395;dst: 1
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:32
+src: 22453;dst: 592
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:33
+src: 53379;dst: 54
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:34
+src: 33008;dst: 318
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:35
+src: 69504;dst: 555
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:36
+src: 45286;dst: 2324
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:37
+src: 29442;dst: 19
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:38
+src: 29592;dst: 2571
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:39
+src: 20435;dst: 4308
+linkPrediction: 0.1	linkRecall: 0.02
+ratePrediction: 0.1	rateRecall: 0.020833333333333332
+record:40
+src: 28521;dst: 32
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:41
+src: 32831;dst: 1202
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:42
+src: 35105;dst: 19
+linkPrediction: 0.1	linkRecall: 0.004545454545454545
+ratePrediction: 0.1	rateRecall: 0.00641025641025641
+record:43
+src: 68986;dst: 170
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:44
+src: 19928;dst: 1
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:45
+src: 20348;dst: 50
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:46
+src: 64560;dst: 318
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:47
+src: 28101;dst: 260
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:48
+src: 17653;dst: 318
+linkPrediction: 0.4	linkRecall: 0.013114754098360656
+ratePrediction: 0.3	rateRecall: 0.016853932584269662
+record:49
+src: 20531;dst: 47
+linkPrediction: 0.1	linkRecall: 0.03125
+ratePrediction: 0.1	rateRecall: 0.041666666666666664
+record:50
+src: 1504;dst: 224
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:51
+src: 67171;dst: 506

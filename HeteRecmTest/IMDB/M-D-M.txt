@@ -1,0 +1,606 @@
+k  10
+Running method:S-M-S
+src: 25097;dst: 2797
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.1	linkRecall: 0.05
+ratePrediction: 0.1	rateRecall: 0.06666666666666667
+record:0
+src: 22066;dst: 750
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.1	linkRecall: 0.014492753623188406
+ratePrediction: 0.0	rateRecall: 0.0
+record:1
+src: 20435;dst: 4308
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.2	linkRecall: 0.04
+ratePrediction: 0.2	rateRecall: 0.041666666666666664
+record:2
+src: 58600;dst: 50
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:3
+src: 67171;dst: 506
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:4
+src: 56758;dst: 1080
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.1	linkRecall: 0.008695652173913044
+ratePrediction: 0.1	rateRecall: 0.015384615384615385
+record:5
+src: 533;dst: 1
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.4	linkRecall: 0.01238390092879257
+ratePrediction: 0.4	rateRecall: 0.01809954751131222
+record:6
+src: 24423;dst: 260
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:7
+src: 42888;dst: 741
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:8
+src: 34157;dst: 308
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.1	linkRecall: 0.010869565217391304
+ratePrediction: 0.0	rateRecall: 0.0
+record:9
+src: 44285;dst: 111
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.1	linkRecall: 0.01
+ratePrediction: 0.1	rateRecall: 0.014925373134328358
+record:10
+src: 20531;dst: 47
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.1	linkRecall: 0.03125
+ratePrediction: 0.1	rateRecall: 0.041666666666666664
+record:11
+src: 23647;dst: 903
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:12
+src: 69504;dst: 555
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.2	linkRecall: 0.007168458781362007
+ratePrediction: 0.0	rateRecall: 0.0
+record:13
+src: 45286;dst: 2324
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:14
+src: 64560;dst: 318
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:15
+src: 59529;dst: 1089
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.2	linkRecall: 0.011049723756906077
+ratePrediction: 0.2	rateRecall: 0.019417475728155338
+record:16
+src: 11554;dst: 163
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:17
+src: 17307;dst: 293
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.1	linkRecall: 0.01282051282051282
+ratePrediction: 0.1	rateRecall: 0.015625
+record:18
+src: 28521;dst: 32
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:19
+src: 1392;dst: 296
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.2	linkRecall: 0.010869565217391304
+ratePrediction: 0.2	rateRecall: 0.019417475728155338
+record:20
+src: 54060;dst: 1235
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:21
+src: 69135;dst: 6
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.4	linkRecall: 0.014184397163120567
+ratePrediction: 0.4	rateRecall: 0.02
+record:22
+src: 66770;dst: 250
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.2	linkRecall: 0.016260162601626018
+ratePrediction: 0.1	rateRecall: 0.019230769230769232
+record:23
+src: 27115;dst: 293
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.1	linkRecall: 0.006134969325153374
+ratePrediction: 0.0	rateRecall: 0.0
+record:24
+src: 46116;dst: 1206
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:25
+src: 1504;dst: 224
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:26
+src: 53315;dst: 199
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.1	linkRecall: 0.0013227513227513227
+ratePrediction: 0.1	rateRecall: 0.002197802197802198
+record:27
+src: 34796;dst: 70
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:28
+src: 22453;dst: 592
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:29
+src: 15178;dst: 32
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.1	linkRecall: 0.03225806451612903
+ratePrediction: 0.0	rateRecall: 0.0
+record:30
+src: 47768;dst: 21
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:31
+src: 29592;dst: 2571
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:32
+src: 65932;dst: 431
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.1	linkRecall: 0.016666666666666666
+ratePrediction: 0.1	rateRecall: 0.024390243902439025
+record:33
+src: 53379;dst: 54
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.2	linkRecall: 0.011428571428571429
+ratePrediction: 0.1	rateRecall: 0.009433962264150943
+record:34
+src: 62787;dst: 17
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.1	linkRecall: 0.038461538461538464
+ratePrediction: 0.0	rateRecall: 0.0
+record:35
+src: 9475;dst: 720
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:36
+src: 58577;dst: 296
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:37
+src: 47780;dst: 1
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:38
+src: 67907;dst: 296
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:39
+src: 66390;dst: 296
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.2	linkRecall: 0.019801980198019802
+ratePrediction: 0.2	rateRecall: 0.03389830508474576
+record:40
+src: 57138;dst: 25
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:41
+src: 29442;dst: 19
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.3	linkRecall: 0.00980392156862745
+ratePrediction: 0.3	rateRecall: 0.016216216216216217
+record:42
+src: 5238;dst: 50
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:43
+src: 12451;dst: 551
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.2	linkRecall: 0.031746031746031744
+ratePrediction: 0.2	rateRecall: 0.04081632653061224
+record:44
+src: 3868;dst: 2571
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:45
+src: 60182;dst: 166
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:46
+src: 17854;dst: 215
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:47
+src: 22701;dst: 364
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:48
+src: 30980;dst: 293
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:49
+src: 21523;dst: 32
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:50
+src: 48395;dst: 1
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.2	linkRecall: 0.09523809523809523
+ratePrediction: 0.2	rateRecall: 0.1
+record:51
+src: 13877;dst: 1280
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.1	linkRecall: 0.1
+ratePrediction: 0.0	rateRecall: 0.0
+record:52
+src: 48290;dst: 260
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:53
+src: 32831;dst: 1202
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:54
+src: 51441;dst: 199
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:55
+src: 61674;dst: 293
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:56
+src: 8858;dst: 17
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:57
+src: 15974;dst: 32
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:58
+src: 37580;dst: 47
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:59
+src: 3541;dst: 111
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.3	linkRecall: 0.0375
+ratePrediction: 0.2	rateRecall: 0.04081632653061224
+record:60
+src: 59474;dst: 1
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:61
+src: 26987;dst: 260
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:62
+src: 37528;dst: 39
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:63
+src: 33008;dst: 318
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:64
+src: 17653;dst: 318
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.4	linkRecall: 0.013114754098360656
+ratePrediction: 0.3	rateRecall: 0.016853932584269662
+record:65
+src: 9415;dst: 111
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.8	linkRecall: 0.0851063829787234
+ratePrediction: 0.8	rateRecall: 0.1509433962264151
+record:66
+src: 68986;dst: 170
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.2	linkRecall: 0.009216589861751152
+ratePrediction: 0.1	rateRecall: 0.009009009009009009
+record:67
+src: 57973;dst: 318
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:68
+src: 57637;dst: 150
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.2	linkRecall: 0.013888888888888888
+ratePrediction: 0.1	rateRecall: 0.015625
+record:69
+src: 59496;dst: 841
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:70
+src: 40895;dst: 18
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.1	linkRecall: 0.015873015873015872
+ratePrediction: 0.1	rateRecall: 0.019230769230769232
+record:71
+src: 28101;dst: 260
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:72
+src: 35105;dst: 19
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.1	linkRecall: 0.004545454545454545
+ratePrediction: 0.1	rateRecall: 0.00641025641025641
+record:73
+src: 54817;dst: 1222
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:74
+src: 40328;dst: 6
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:75
+src: 50893;dst: 110
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:76
+src: 19928;dst: 1
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:77
+src: 33477;dst: 111
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:78
+src: 26243;dst: 260
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:79
+src: 34713;dst: 32
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:80
+src: 52147;dst: 296
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.1	linkRecall: 0.043478260869565216
+ratePrediction: 0.0	rateRecall: 0.0
+record:81
+src: 23360;dst: 110
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:82
+src: 48006;dst: 110
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:83
+src: 64712;dst: 590
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:84
+src: 39985;dst: 29
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.4	linkRecall: 0.04395604395604396
+ratePrediction: 0.4	rateRecall: 0.0625
+record:85
+src: 70287;dst: 175
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:86
+src: 48128;dst: 16
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:87
+src: 19131;dst: 154
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:88
+src: 54376;dst: 31364
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.1	linkRecall: 0.02127659574468085
+ratePrediction: 0.0	rateRecall: 0.0
+record:89
+src: 31854;dst: 1
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.5	linkRecall: 0.007112375533428165
+ratePrediction: 0.3	rateRecall: 0.00872093023255814
+record:90
+src: 51333;dst: 50
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:91
+src: 52021;dst: 6
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:92
+src: 38111;dst: 356
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:93
+src: 9177;dst: 32
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.1	linkRecall: 0.019230769230769232
+ratePrediction: 0.1	rateRecall: 0.025
+record:94
+src: 783;dst: 1500
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:95
+src: 3710;dst: 253
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:96
+src: 44847;dst: 306
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:97
+src: 23473;dst: 1028
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.1	linkRecall: 0.02
+ratePrediction: 0.1	rateRecall: 0.029411764705882353
+record:98
+src: 20348;dst: 50
+topk meta-paths:
+[[7, 3, -3]]
+linkPrediction: 0.0	linkRecall: 0.0
+ratePrediction: 0.0	rateRecall: 0.0
+record:99
+method: S-M-S
+Link: precision -> 0.07600; recall -> 0.00947; F1-score -> 0.03160
+Rate: precision -> 0.05800; recall -> 0.00904; F1-score -> 0.02783
+

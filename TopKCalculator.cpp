@@ -45,11 +45,11 @@ bool TfIdfNodePointerCmp::operator () (TfIdfNode* & node_p1, TfIdfNode* & node_p
 		double tmp2 = node_p2->max_support_*(TopKCalculator::penalty(node_p2->meta_path_.size()));
 		if(tmp1 < tmp2){
 			return true;
-		}else if(tmp1 == tmp2){
+		}else if(tmp1 > tmp2){
+			return false;
+		}else{
 			double randomNumber = (double)rand()/RAND_MAX;
 			return randomNumber <= 0.5;
-		}else{
-			return false;
 		}
 	}
 }
@@ -730,12 +730,13 @@ vector<pair<vector<double>, vector<int>>> TopKCalculator::getTopKMetaPath_TFIDF(
 
 		vector<int> meta_path = curr_tfidf_node_p->meta_path_;		
 		double curr_max_support = curr_tfidf_node_p->max_support_;
-		for(int i = 0; i < meta_path.size(); i++){
-			int curr_edge_type = meta_path[i];
-			curr_edge_type = curr_edge_type > 0 ? curr_edge_type: -curr_edge_type;
-			if(edgeTypeAvgDegree.find(curr_edge_type) != edgeTypeAvgDegree.end()){
+		
+		int curr_edge_type = meta_path.back();
+		
+		curr_edge_type = curr_edge_type > 0 ? curr_edge_type: -curr_edge_type;
+		if(edgeTypeAvgDegree.find(curr_edge_type) != edgeTypeAvgDegree.end()){
 				curr_max_support /= pow(edgeTypeAvgDegree[curr_edge_type].first*edgeTypeAvgDegree[curr_edge_type].second, STRENGTH_ALPHA); 
-			}	
+
 		}
 
 		if(topKMetaPath_.size() == k){ // stop if maximum tfidf in the queue is less than the minimum one in found meta paths
