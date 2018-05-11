@@ -1,0 +1,5915 @@
+862 124	Yan Zhang
+4828 435	Takeo Kanade
+6429 444	Hong Zhang
+10013 554	Longzhuang Li
+7729 560	Xin Liu
+380 643	Paul R. Schrater
+3808 714	Jens Gregor
+7246 748	Xiang Zhang
+1663 766	Chew Lim Tan
+10037 798	Steven Feiner
+4054 871	Stefano Lonardi
+2280 934	Thomas S. Huang
+4019 958	Stan Sclaroff
+3114 959	Benjamin Bustos
+3047 960	Daniel A. Keim
+6828 1041	Tony F. Chan
+468 1102	Yi Liu
+3526 1116	Darrell D. E. Long
+9443 1217	Hanan Samet
+867 1225	Min Chen
+4569 1245	Alex Pentland
+1105 1256	Wei Zhang
+7417 1300	Li Zhang
+2163 1314	Gang Li
+8809 1321	Leonard McMillan
+3832 1333	Kevin W. Bowyer
+4941 1342	Christopher G. Healey
+8669 1352	Abhinav Gupta
+4430 1475	David Page
+566 1481	Frank Dellaert
+8810 1558	Guodong Liu
+6198 1582	Rey-Long Liu
+1373 1705	Young-Koo Lee
+5794 1829	Ming Li
+2943 1842	Gang Xu
+4893 1843	Wei Xu
+4509 1975	David L. Dowe
+2709 2023	Quan Z. Sheng
+6566 2038	Ickjai Lee
+513 2048	Tokuro Matsuo
+6607 2078	Ruimin Shen
+3988 2096	Yanchun Zhang
+3392 2098	Yong Shi
+6994 2219	J¨²lio C. Nievola
+9496 2243	Joonho Kwon
+9497 2245	Sukho Lee
+120 2290	Wei Li
+8210 2345	Yansheng Lu
+5288 2374	Ryutaro Ichise
+5371 2418	Peter P. Chen
+3040 2478	Zhen Zhang
+10016 2499	In-Young Ko
+4268 2500	Lei Wang
+1512 2525	Joachim Hammer
+9852 2531	Phuong Nguyen
+1485 2588	Tao Li
+5443 2691	Brian Logan
+5295 2767	Takuichi Nishimura
+4577 2836	Irwin King
+5495 2898	Hiroshi Mizoguchi
+6541 2948	Ling Chen
+4243 3043	Hiroshi Yasuda
+8940 3108	Feng Tian
+5759 3210	Ke Xu
+1545 3255	Ah-Hwee Tan
+1404 3293	Katsumi Tanaka
+10000 3493	James A. Landay
+10054 3628	Carl Gutwin
+5622 3673	Roger C. Schank
+1763 3675	Ben Shneiderman
+10001 3711	Jason I. Hong
+9471 3720	Roger King
+423 3895	Illah R. Nourbakhsh
+4506 4018	Thorsten Joachims
+7651 4112	Daniel C. Robbins
+9917 4130	Matt Jones
+9918 4133	George Buchanan
+1652 4137	Mounia Lalmas
+3119 4195	Wei Jiang
+1302 4225	Nick Cercone
+901 4239	Abdur Chowdhury
+2013 4254	Josiane Mothe
+1236 4276	David M. Pennock
+1806 4279	Bin Wang
+1979 4281	Shamkant B. Navathe
+7892 4313	Raymond Y. K. Lau
+544 4319	Dongmo Zhang
+5013 4327	Guido Boella
+5014 4328	Leendert W. N. van der Torre
+2782 4386	Ying Chen
+6608 4394	Peng Han
+1927 4405	Thomas R. Ioerger
+3971 4456	Qi Li
+200 4472	Vincent Conitzer
+116 4473	Tuomas Sandholm
+381 4480	Maria L. Gini
+1738 4487	Raymond K. Wong
+855 4489	James T. Kwok
+576 4516	David C. Parkes
+4778 4560	David Pardoe
+427 4561	Peter Stone
+2244 4562	Maytal Saar-Tsechansky
+4956 4588	Stuart M. Shieber
+424 4595	Katia P. Sycara
+10049 4606	Rudi Studer
+8822 4663	Yan Chen
+1466 4676	Jun Xu
+4435 4678	Shuchi Chawla
+237 4681	Timothy W. Finin
+277 4682	Anupam Joshi
+3547 4701	Takahira Yamaguchi
+471 4730	Yongmei Liu
+10170 4746	Georg Lausen
+8502 4801	Xiaoling Wang
+2789 4802	Li Chen
+5702 4823	Thomas Tran
+5799 4839	Youyong Zou
+235 4840	Li Ding
+5800 4841	Harry Chen
+278 4842	Rong Pan
+804 4856	Bart Selman
+8981 4865	Louiqa Raschid
+4105 4872	Jaideep Srivastava
+5788 4922	Feng Zhao
+366 4927	Yoav Shoham
+7420 4934	Peter van der Putten
+7156 4942	Mohammad Mahdian
+1151 4968	Panagiotis G. Ipeirotis
+10042 4998	Rajan M. Lukose
+3846 5014	Ying Lu
+4123 5039	Foster J. Provost
+2245 5040	Prem Melville
+5783 5048	Jie Zhang
+5703 5049	Robin Cohen
+1674 5086	Wagner Meira Jr.
+9783 5128	Thodoros Topaloglou
+1486 5163	Mitsunori Ogihara
+7304 5173	Parry Husbands
+9344 5213	Gregory Buehrer
+9345 5214	Yen-Kuang Chen
+3790 5215	Srinivasan Parthasarathy
+9346 5216	Anthony Nguyen
+3791 5217	Amol Ghoting
+9347 5218	Daehyun Kim
+1061 5268	Chung-Min Chen
+2565 5269	Naphtali Rishe
+1233 5282	Juan E. Gilbert
+5372 5520	Jianhua Chen
+148 5577	Miroslaw Truszczynski
+5413 5586	Andrew Lim
+1437 5619	Shuang Liu
+9017 5667	Kwai Wong
+1823 5709	Qiaozhu Mei
+530 5795	B. John Oommen
+1272 5798	Tao Tao
+6120 5907	Jungsoon P. Yoo
+10062 5928	Christopher Williams
+6002 5985	Xin Zheng
+1196 6075	Xiaoyan Yu
+6708 6107	Yixin Chen
+1983 6127	Jyh-haw Yeh
+6382 6143	Morgan C. Wang
+2529 6207	Jun Zhang
+571 6274	Lei Li
+6449 6295	Li Yang
+10153 6330	Lei Zhang
+3954 6400	Kien A. Hua
+1961 6461	Catharine M. Wyss
+7290 6565	Shuting Xu
+6779 6613	Xin Xu
+4227 6805	Ching-Chi Hsu
+3643 6816	Dan A. Simovici
+1884 6890	Maria Zemankova
+2717 6975	Carl-Christian Kanne
+2718 6976	Guido Moerkotte
+2596 6982	Serge Abiteboul
+8349 6983	Bogdan Cautis
+7110 6985	Tova Milo
+207 7041	Walter Binder
+123 7046	Stefano Bistarelli
+5557 7274	Marco Pistore
+1621 7277	Wei Wang
+3397 7366	Markus Schneider
+2451 7452	Bhavani M. Thuraisingham
+1696 7514	Fred Douglis
+6850 7562	Zhanhuai Li
+931 7569	Paolo Giorgini
+5784 7632	Ali A. Ghorbani
+1434 7652	Bin Liu
+888 7731	Elisa Bertino
+1608 7739	Evangelos E. Milios
+3224 7757	Thomas J. E. Schwarz
+4897 7777	Bo Zhang
+3826 7871	Qi Wang
+7300 7907	Rattikorn Hewett
+3198 7951	Xiaolei Li
+2504 7956	Milan Petkovic
+3441 7975	John Mylopoulos
+957 8001	Xin Chen
+4984 8042	Salem Benferhat
+8288 8166	Xi Chen
+6720 8242	Yu Qian
+6721 8243	Kang Zhang
+9677 8297	Uwe R?hm
+7959 8301	David Hart
+6725 8320	Wei Lai
+6353 8394	Jie Tang
+6797 8395	Fuyan Zhang
+3125 8746	Hui Jin
+78 8754	Bing Liu
+4272 8756	Baile Shi
+4069 8760	Jian Liu
+1664 8788	Dong-Hong Ji
+3939 8874	Don-Lin Yang
+2778 8875	Jun Chen
+3752 8912	Wei Ding
+3237 8928	Ge Yu
+6632 8944	Haofeng Zhou
+8575 8946	Jianwen Su
+6504 8966	Jianzhong Li
+6513 8996	Xiaorong Li
+1461 9000	Yan Liu
+6856 9009	Shuigeng Zhou
+3231 9024	Lei Liu
+6814 9034	Xin Wang
+4284 9055	Hui Zhang
+1527 9071	Peng Liu
+10165 9090	Jian Yin
+3227 9091	Zhenyu Liu
+1492 9096	Ning Liu
+4222 9098	Hongwei Zhang
+1807 9109	Xueqi Cheng
+6609 9222	Fan Yang
+4273 9224	Peng Wang
+8306 9239	Yue Pan
+1330 9252	Aoying Zhou
+6454 9284	Jinyuan You
+4260 9285	Hui Wang
+9798 9309	Hongzhi Wang
+9771 9391	Xiaokui Xiao
+9006 9394	Qing Wang
+1711 9420	Hao Huang
+4148 9426	Ying Sai
+4092 9465	Ying Li
+1074 9485	Ling Liu
+856 9490	Zhihua Zhang
+2541 9503	Fengli Zhang
+6845 9518	Ying Zhang
+7074 9521	Jun Guo
+4061 9522	Shiwei Tang
+4062 9523	Dongqing Yang
+2164 9560	Honghua Dai
+9398 9590	Yuan Wang
+6464 9605	Jing Zhou
+8773 9659	Sang Ho Lee
+6682 9705	Bin Tang
+2794 9784	Meichun Hsu
+4349 9791	Yi Zhang
+3480 9794	Yi Li
+3640 9873	Keith C. C. Chan
+1879 9915	Gang Wang
+7978 9968	Yue Lu
+1438 10003	Fang Liu
+6705 10005	Jing Liu
+8990 10140	Ling Wang
+6734 10195	Tengjiao Wang
+6202 10220	Junqiang Liu
+7666 10227	Noriko Kando
+4884 10299	Tong Zhang
+4149 10431	Yiyu Yao
+3641 10450	Wai-Ho Au
+4255 10465	Helge Ritter
+3159 10496	Ken Barker
+3573 10497	Reda Alhajj
+7703 10505	Jian Zhang
+8538 10601	Song Wang
+6109 10619	Xin Jin
+4269 10655	Licheng Jiao
+10154 10698	Jian Zhou
+3814 10702	Dayou Liu
+6172 10714	Yifan Li
+6851 10735	Yan Tang
+3548 10751	Hidenao Abe
+3549 10752	Shusaku Tsumoto
+3550 10753	Miho Ohsaki
+9996 10807	Andrew Hogue
+3874 10851	Shoji Hirano
+3753 10934	Ping Chen
+5416 10945	Wang Ying
+7075 10978	Gang Liu
+7539 11175	Pedro Cano
+3351 11216	Menzo Windhouwer
+6330 11237	Belle L. Tseng
+6331 11238	Ching-Yung Lin
+9593 11239	John R. Smith
+8257 11298	Mohan S. Kankanhalli
+8005 11332	David S. Doermann
+2142 11354	Ingemar J. Cox
+9028 11379	Mahmut T. Kandemir
+6105 11407	Gagan Agrawal
+6301 11415	David R. Kaeli
+6289 11446	Manish Gupta
+1276 11454	Jun Yang
+5888 11530	David A. Padua
+5600 11532	Sanjeev Kumar
+8368 11689	Amy Wang
+9029 11761	Narayanan Vijaykrishnan
+9030 11762	Mary Jane Irwin
+2628 11763	Anand Sivasubramaniam
+9062 11917	Mark D. Hill
+7912 11964	Arnold L. Rosenberg
+2775 11981	Anastassia Ailamaki
+5763 11984	Roland H. C. Yap
+9261 12129	J. Gregory Steffan
+8344 12184	Asaf Adi
+1100 12199	Shahram Ghandeharizadeh
+2780 12269	Michael J. Carey
+6928 12280	Jianhua Yang
+5901 12308	Vasa Curcin
+1808 12309	Moustafa Ghanem
+5902 12310	Yike Guo
+5903 12311	Anthony Rowe
+8266 12316	Chenxi Lin
+479 12317	Yong Yu
+10155 12318	Yin Yang
+3191 12349	Wei Han
+1593 12350	Calton Pu
+2802 12351	James Caverlee
+1026 12353	Terence Critchlow
+2803 12355	David Buttler
+8354 12361	Jun Fang
+1851 12403	Munindar P. Singh
+10128 12406	Swaminathan Sivasubramanian
+9201 12442	Daniela Grigori
+2933 12509	Richard Hull
+5289 12526	Shinichi Honiden
+6410 12530	Shubir Kapoor
+8511 12539	Frederick Reiss
+9946 12540	Tapas Kanungo
+10129 12559	Guillaume Pierre
+10130 12560	Maarten van Steen
+624 12576	Yugyung Lee
+4848 12583	Yong Wang
+3169 12609	Zahir Tari
+9269 12626	Zhimin Chen
+2840 12630	Mu Su
+2841 12631	Chi-Hung Chi
+3432 12638	Qing Li
+5577 12689	Deepak Ramachandran
+1398 12692	Vikas Krishna
+993 12693	Savitha Srinivasan
+6438 12694	Wei Zhao
+227 12729	Jayant Kalagnanam
+2155 12744	Zhao Xu
+1283 12772	Hakan Hacig¨¹m¨¹s
+1401 12803	K. Krishna
+1082 12816	Mao Chen
+9085 12827	Prateek Jain
+12 12831	Giuseppe De Giacomo
+9129 12832	Massimo Mecella
+8345 12837	Opher Etzion
+2599 12874	Cesare Pautasso
+2526 12875	Gustavo Alonso
+283 12877	Martin Brooks
+13 12891	Riccardo Rosati
+9908 12971	Christina Tziviskou
+8868 12977	Chun Zhang
+3463 12978	Chang-Shing Perng
+245 12998	Prashant Doshi
+751 13079	Biplav Srivastava
+3383 13095	Brian F. Cooper
+1067 13101	Yi Chen
+9418 13107	Dirk Habich
+3583 13125	Nabil R. Adam
+8448 13126	Christof Bornh?vd
+4233 13134	Andrei L. Turinsky
+2408 13148	Fabio Casati
+6313 13152	Anuradha Bhamidipaty
+10032 13153	Rohit Lotlikar
+6523 13189	Lu Zhang
+4898 13209	Jun Zhu
+9793 13226	Marco Vieira
+3504 13235	Chen Li
+3369 13236	Manfred Reichert
+2552 13239	Yuan-Chi Chang
+1088 13240	George A. Mihaila
+4627 13241	David Cohn
+2521 13250	Timos K. Sellis
+3183 13276	Wolfgang Lehner
+5051 13287	Mark Brodie
+5364 13290	Jin-Kao Hao
+4603 13298	Teruo Koyanagi
+9853 13300	Liangzhao Zeng
+1493 13319	Jun Yan
+1697 13322	Lakshmish Ramaswamy
+9794 13364	Henrique Madeira
+9160 13371	Mourad Ouzzani
+1399 13377	Prasad M. Deshpande
+4202 13379	Huiming Qu
+3424 13380	Jimeng Sun
+3673 13401	Hasan Davulcu
+1041 13407	Bhuvan Bamba
+850 13430	Jie Yin
+3818 13443	Vasant Honavar
+8780 13451	German Shegalov
+1767 13452	Gerhard Weikum
+4578 13477	Kaizhu Huang
+3798 13485	Shantanu Godbole
+10033 13486	Shourya Roy
+8039 13548	Xing Wei
+819 13549	Ruchi Mahindru
+3754 13633	Chenyi Hu
+796 13676	Ewa Deelman
+2783 13713	Andrew Rau-Chaplin
+9661 13752	Carmen Constantinescu
+9662 13755	Uwe Heinkel
+2415 13770	Ernesto Damiani
+9901 13772	Stefano Paraboschi
+2739 13801	Ajay Gupta
+2997 13825	Xin Li
+1913 13848	Le Gruenwald
+562 13897	Milind Tambe
+3270 13945	Neeraj Mittal
+4126 13988	Baoying Wang
+687 14080	Virgil Andronache
+1296 14095	Min Song
+4845 14112	Tao Wang
+3219 14117	Jian Xu
+10134 14126	Bhuvan Urgaonkar
+8589 14127	Prashant J. Shenoy
+1584 14180	Panos K. Chrysanthis
+2453 14185	Robert Laurini
+8701 14197	Biao Chen
+3225 14235	Witold Litwin
+9440 14236	Tore Risch
+1715 14252	Kirk Scott
+5280 14390	Ullrich Hustadt
+6508 14408	Sadok Ben Yahia
+6509 14480	Yahya Slimani
+1349 14481	Maarten Marx
+4261 14490	Ivo D¨¹ntsch
+7186 14510	Claudio Guti¨¦rrez
+5212 14511	Petr H¨¢jek
+5130 14572	Andrzej Szalas
+7224 14573	Jerzy Tyszkiewicz
+3904 14692	Hong Shen
+7806 14960	Xiao Hu
+7678 14981	Li Wang
+3982 14991	Kun Deng
+2270 15009	Susumu Horiguchi
+8214 15083	Li Tao
+1 15138	Franz Baader
+2 15139	Carsten Lutz
+3 15140	Maja Milicic
+4 15141	Ulrike Sattler
+5 15142	Frank Wolter
+5638 15144	Alexander Borgida
+7 15150	Anbulagan
+8 15151	Duc Nghia Pham
+9 15152	John K. Slaney
+10 15153	Abdul Sattar
+4047 15157	Bruce G. Buchanan
+7380 15167	John R. Kender
+690 15168	David Anderson
+648 15170	Neal Lesh
+272 15182	Richard E. Korf
+5691 15197	Mary Berna
+4934 15200	Alon Altman
+130 15201	Moshe Tennenholtz
+14 15203	Andrea Acciarri
+15 15204	Diego Calvanese
+16 15205	Domenico Lembo
+17 15206	Maurizio Lenzerini
+18 15207	Mattia Palmieri
+2449 15211	Wei Fan
+20 15212	Dimitris Achlioptas
+4979 15213	Carla P. Gomes
+462 15214	Henry A. Kautz
+9021 15215	Jos¨¦ Luis Ambite
+4702 15216	Craig A. Knoblock
+21 15217	Haixia Jia
+22 15218	Cristopher Moore
+269 15221	Bruce W. Porter
+170 15222	William Adams
+737 15223	Dennis Perzanowski
+171 15224	Alan C. Schultz
+5723 15229	Wolfgang Wahlster
+7230 15230	Jafar Adibi
+4003 15231	Hans Chalupsky
+4907 15242	Stuart J. Russell
+401 15246	Gal A. Kaminka
+673 15247	Sarit Kraus
+5748 15249	Kagan Tumer
+1009 15259	Thomas Hofmann
+984 15260	Ioannis Tsochantaridis
+4422 15266	Fabrizio Angiulli
+24 15273	Carlos Ans¨®tegui
+4980 15274	Ram¨®n B¨¦jar
+25 15275	C¨¨sar Fern¨¢ndez
+26 15283	Alvaro del Val
+27 15284	Iv¨¢n Dot¨²
+28 15285	Felip Many¨¤
+111 15290	Grigoris Antoniou
+766 15293	Guido Governatori
+2555 15294	Michael J. Maher
+4985 15305	Henri Prade
+4904 15310	Eyal Amir
+541 15324	David W. Aha
+4990 15329	Piergiorgio Bertoli
+659 15331	Luciano Serafini
+3539 15332	Chidanand Apt¨¦
+6153 15333	Se June Hong
+733 15347	Jianna Zhang
+5191 15361	Alan M. Frisch
+30 15363	Nicholas L. Armstrong-Crews
+31 15364	Kenrick J. Mock
+8982 15379	Maria-Esther Vidal
+757 15380	Thomas G. Dietterich
+33 15381	Mehran Asadi
+34 15382	Manfred Huber
+8684 15387	Naveen Ashish
+260 15391	Daniel S. Weld
+36 15392	Robert St. Amant
+37 15396	Alexander B. Wood
+847 15399	Luke S. Zettlemoyer
+9022 15403	Maria Muslea
+533 15404	Jean Oh
+4703 15405	Steven Minton
+39 15406	R. Amit
+40 15407	Maja J. Mataric
+797 15408	Yolanda Gil
+5436 15413	Tom¨¢s E. Uribe
+1975 15414	Guizhen Yang
+342 15420	Randall Davis
+4564 15422	Dana S. Nau
+42 15423	Moshe Babaioff
+43 15424	Ron Lavi
+44 15425	Elan Pavlov
+46 15426	Gustave Anderson
+47 15427	Andrew Burnheimer
+48 15428	Vincent A. Cicirello
+49 15429	David Dorsey
+50 15430	Christopher Dugan
+51 15431	Iris Howley
+52 15432	Moshe Kam
+53 15433	Joseph Kopena
+54 15434	Robert N. Lass
+55 15435	Kris Malfettone
+56 15436	Andrew Mroczkowski
+57 15437	Gaurav Naik
+58 15438	Maxim Peysakhov
+59 15439	Brian Pyles
+60 15440	William C. Regli
+61 15441	Evan Sultanik
+62 15442	James Thiel
+63 15443	Kyle Usbeck
+64 15444	Dan Venutolo
+65 15445	Marc Winners
+67 15446	Saturnino Garcia
+68 15447	Joshua Shaffer
+69 15448	Kenneth Tsang
+70 15449	Leonardo Urbano
+71 15450	Jacob Warren
+7971 15453	Julia Hirschberg
+4959 15459	Fahiem Bacchus
+73 15463	Sugato Basu
+5855 15465	Chumki Basu
+1542 15466	Haym Hirsh
+5106 15467	William W. Cohen
+117 15468	Craig Boutilier
+5087 15475	Joseph Y. Halpern
+4523 15476	Daphne Koller
+9083 15480	Roberto J. Bayardo Jr.
+191 15481	Qiang Yang
+404 15493	Raymond J. Mooney
+438 15496	Berthe Y. Choueiry
+3647 15503	Abraham Bagherjeiran
+4964 15505	J. Andrew Bagnell
+5437 15510	Sheila A. McIlraith
+75 15513	Chris Bailey-Kellogg
+76 15514	Naren Ramakrishnan
+4968 15516	Christopher Bailey-Kellogg
+4970 15524	Delbert D. Bailey
+4971 15525	V¨ªctor Dalmau
+4972 15526	Phokion G. Kolaitis
+183 15530	J. Christopher Beck
+228 15531	Andrew J. Davenport
+211 15540	Pierre Marquis
+79 15545	Minqing Hu
+4909 15550	Judea Pearl
+4503 15556	Risto Miikkulainen
+1030 15560	Lisa Ballesteros
+81 15565	Shumeet Baluja
+82 15570	Henry A. Rowley
+84 15571	Nadya Belov
+10017 15575	Robert Neches
+87 15582	Bikramjit Banerjee
+88 15583	Jing Peng
+5168 15584	Rachel Ben-Eliyahu-Zohary
+5183 15588	Didier Dubois
+91 15592	Chitta Baral
+5220 15593	J¨¦r?me Lang
+165 15594	Alessandro Saffiotti
+92 15596	Thomas Eiter
+93 15597	Jicheng Zhao
+742 15601	Tran Cao Son
+95 15604	Michael Gelfond
+787 15609	Nam Tran
+743 15610	Le-Chi Tuan
+97 15615	Russell Bent
+98 15616	Pascal Van Hentenryck
+100 15637	Cheuk Yiu Ip
+5630 15641	Cheryl E. Martin
+5311 15645	Jihie Kim
+8131 15655	Adele E. Howe
+6501 15657	Wai Lam
+5066 15662	James C. Lester
+5628 15663	Torsten Schaub
+912 15672	Cyrus Shahabi
+4726 15675	Theodore J. Perkins
+4930 15676	Shlomo Zilberstein
+6411 15686	Stephen J. Buckley
+810 15689	Hector Geffner
+5238 15694	Rene Quiniou
+106 15698	Christian Bessi¨¨re
+2322 15701	Marie-Odile Cordier
+2188 15702	Remi Coletta
+2189 15703	Fr¨¦d¨¦ric Koriche
+124 15704	Barry O'Sullivan
+102 15705	Lucas Bordeaux
+103 15706	Marco Cadoli
+104 15707	Toni Mancini
+107 15708	Emmanuel Hebrard
+108 15709	Brahim Hnich
+109 15710	Toby Walsh
+5857 15714	Alina Beygelzimer
+4309 15715	John Langford
+3540 15716	Bianca Zadrozny
+9886 15717	Alan Borning
+5864 15734	Raj Bhatnagar
+5631 15736	R. Peter Bonasso
+2259 15739	Lihong Li
+4771 15740	Michael L. Littman
+112 15749	Antonis Bikakis
+3692 15751	Mikhail Bilenko
+131 15752	Ronen I. Brafman
+4999 15753	Darse Billings
+5000 15755	Jonathan Schaeffer
+608 15756	Duane Szafron
+4480 15757	Richard Dearden
+4524 15759	Nir Friedman
+114 15764	Arnold Binas
+5038 15768	Raymond Reiter
+305 15770	Sebastian Thrun
+118 15773	Rob Shields
+5410 15775	James Bowen
+5411 15783	Chavalit Likitvivatanavong
+121 15787	Andrew McCallum
+125 15788	Simon N. Foley
+127 15791	Michael H. Bowling
+128 15792	Peter McCracken
+838 15795	Dana F. Wilkinson
+4401 15796	Ali Ghodsi
+133 15800	Gheorghe Tecuci
+134 15801	Mihai Boicu
+552 15804	Brian C. Williams
+3871 15807	Andrew W. Moore
+435 15823	Hector J. Levesque
+4326 15830	Eric Bloedorn
+4981 15839	Carmel Domshlak
+2292 15841	Solomon Eyal Shimony
+161 15844	Manuela M. Veloso
+5329 15861	Thomas Dean
+5720 15863	Benjamin W. Wah
+135 15864	Cindy Ayers
+136 15865	Dorin Marcu
+137 15866	Cristina Boicu
+138 15867	Marcel Barbulescu
+139 15868	Bogdan Stanescu
+140 15869	William Wagner
+141 15870	Vu Le
+142 15871	Denitsa Apostolova
+143 15872	Adrian Ciubotariu
+5336 15876	David Kortenkamp
+444 15878	Fangzhen Lin
+5802 15883	Felix Brandt
+725 15887	Gregory Dudek
+4745 15888	Nicholas Roy
+726 15889	Robert Sim
+5047 15896	Rodrigo de Salvo Braz
+5048 15897	Dan Roth
+5566 15899	Vasin Punyakanok
+146 15901	Darius Braziunas
+149 15904	Gerhard Brewka
+150 15905	Ilkka Niemel?
+152 15907	Menkes van den Briel
+153 15908	Romeo Sanchez Nigenda
+154 15909	Minh Binh Do
+155 15910	Subbarao Kambhampati
+7448 15917	Eric Brill
+9203 15921	Michael L. Brodie
+8092 15922	Gerald DeJong
+4708 15926	Jennifer G. Dy
+5617 15940	Brian Scassellati
+1184 15946	W. Bruce Croft
+157 15949	Laura E. Brown
+158 15950	Ioannis Tsamardinos
+159 15951	Constantin F. Aliferis
+162 15952	Brett Browning
+163 15953	Ling Xu
+166 15954	Mathias Broxvall
+167 15955	Silvia Coradeschi
+168 15956	Lars Karlsson
+5344 15957	Peter Jonsson
+7139 15975	Werner Nutt
+172 15978	Magdalena D. Bugajska
+173 15979	Scott Thomas
+174 15980	J. Gregory Trafton
+176 15984	Hung Hai Bui
+177 15986	Svetha Venkatesh
+178 15987	Dinh Q. Phung
+455 15989	Vadim Bulitko
+4549 15993	David C. Wilkins
+2174 15997	Wray L. Buntine
+791 15998	Wolfram Burgard
+451 15999	Dieter Fox
+436 16001	Gerhard Lakemeyer
+1336 16038	James P. Callan
+4792 16039	Paul E. Utgoff
+181 16041	Ellen Campana
+411 16043	Jason Campbell
+3819 16047	Adrian Silvescu
+5149 16048	Sandra Carberry
+1462 16049	Jaime G. Carbonell
+184 16050	Tom Carchrae
+4841 16053	Claire Cardie
+186 16055	Giuseppe Carenini
+187 16056	Rita Sharma
+189 16057	Mark James Carman
+988 16058	David Carmel
+7636 16059	Shaul Markovitch
+665 16067	Leslie Pack Kaelbling
+311 16078	Jes¨²s Cerquides
+598 16081	Angelo Oddi
+534 16082	Stephen F. Smith
+1921 16085	Yahiko Kambayashi
+4379 16088	Sargur N. Srihari
+192 16092	Xiaoyong Chai
+4492 16094	Ronald Parr
+5072 16101	Hei Chan
+359 16102	Adnan Darwiche
+592 16107	Hwee Tou Ng
+5623 16122	Eugene Charniak
+5210 16124	Robert P. Goldman
+10104 16128	Mike Perkowitz
+5320 16133	Mark E. Stickel
+194 16142	Hubie Chen
+7987 16144	Vasant Dhar
+196 16151	Jimming Cheng
+197 16152	Winston Cheng
+198 16153	Radhika Nagpal
+5082 16155	Kenil C. K. Cheng
+3576 16162	David Maxwell Chickering
+9932 16163	Steve Chien
+5619 16164	Steve A. Chien
+7560 16169	Hai Leong Chieu
+4547 16176	Jesus A. Gonzalez
+830 16177	Lawrence B. Holder
+820 16198	Jennifer Chu-Carroll
+2078 16201	Tat-Seng Chua
+4991 16214	Alessandro Cimatti
+4992 16215	Marco Roveri
+4993 16216	Paolo Traverso
+354 16224	Tad Hogg
+390 16225	Bradley J. Clement
+3613 16240	Paul R. Cohen
+5099 16244	David A. Cohen
+5100 16245	Peter Jeavons
+5601 16249	Philip R. Cohen
+3614 16259	Niall M. Adams
+4482 16260	Yoram Singer
+567 16268	Tucker R. Balch
+4476 16270	Dennis DeCoste
+287 16271	Kenneth D. Forbus
+202 16277	Jonathan Derryberry
+7873 16279	Margaret E. Connell
+208 16283	Ion Constantinescu
+209 16284	Boi Faltings
+831 16285	Diane J. Cook
+212 16311	Sylvie Coste-Marquis
+213 16312	Daniel Le Berre
+214 16313	Florian Letombe
+216 16314	Caroline Devred
+217 16315	S¨¦bastien Konieczny
+218 16316	Marie-Christine Lagasquie-Schiex
+524 16319	Barry Smyth
+545 16322	Norman Y. Foo
+9937 16328	Dimitris Plexousakis
+4441 16330	Mark Craven
+6025 16334	Kamal Nigam
+4528 16335	Se¨¢n Slattery
+500 16336	Susan Craw
+5542 16342	Peter F. Patel-Schneider
+220 16344	Beau Crawford
+221 16345	Kai Miller
+222 16346	Pradeep Shenoy
+223 16347	Rajesh P. N. Rao
+2079 16355	Hang Cui
+2584 16356	Mayur Datar
+5275 16358	James P. Delgrande
+225 16359	Aron Culotta
+4418 16362	James Cussens
+4431 16363	Ashwin Srinivasan
+857 16381	Dit-Yan Yeung
+5064 16396	Charles B. Callaway
+239 16399	Matthew L. Ginsberg
+579 16401	Rajarshi Das
+4473 16403	Denver Dash
+5350 16404	Branislav Kveton
+5933 16410	Piew Datta
+7637 16415	Dmitry Davidov
+230 16416	Ian Davidson
+6914 16422	S. S. Ravi
+635 16423	Andrew Y. Ng
+717 16425	Ernest Davis
+5353 16469	Abhaya C. Nayak
+232 16501	Bistra N. Dilkina
+233 16502	William S. Havens
+1888 16503	Chris H. Q. Ding
+2196 16504	Wei Peng
+240 16509	Heidi E. Dixon
+241 16510	David K. Hofer
+242 16511	Eugene M. Luks
+243 16512	Andrew J. Parkes
+730 16523	Pedro Domingos
+9951 16524	Stanley Kok
+731 16527	Parag Singla
+9919 16528	Michael J. Pazzani
+8017 16535	Bonnie J. Dorr
+246 16537	Piotr J. Gmytrasiewicz
+6228 16559	Maheshkumar Sabhnani
+1158 16564	Susan T. Dumais
+6400 16567	Stephen D. Durbin
+6401 16568	Doug Warner
+6402 16569	J. Neal Richter
+6641 16571	Jaeho Lee
+439 16577	Eugene C. Freuder
+248 16578	Stefan Edelkamp
+249 16579	Shahid Jabbar
+250 16580	Alberto Lluch-Lafuente
+4842 16581	Stefan Schr?dl
+252 16588	Hans Tompits
+253 16589	Stefan Woltran
+1101 16595	Jacob Eisenstein
+254 16596	Michael Fink
+767 16599	Kewen Wang
+4742 16626	Juho Rousu
+813 16633	Michael P. Wellman
+537 16639	Martha E. Pollack
+4961 16641	Jeffrey S. Rosenschein
+256 16646	Marco Ernandes
+257 16647	Giovanni Angelini
+258 16648	Marco Gori
+3060 16651	V. S. Subrahmanian
+6049 16653	Kave Eshghi
+312 16661	Juan A. Rodr¨ªguez-Aguilar
+5945 16667	Eric Mjolsness
+395 16668	Donald Perlis
+261 16669	Oren Etzioni
+7649 16670	Michele Banko
+262 16671	Michael J. Cafarella
+263 16672	Doug Downey
+264 16673	Ana-Maria Popescu
+265 16674	Tal Shaked
+266 16675	Stephen Soderland
+267 16676	Alexander Yates
+7106 16681	Ronald Fagin
+7113 16682	Moshe Y. Vardi
+3585 16694	Fang Chu
+1277 16695	Haixun Wang
+473 16696	Philip S. Yu
+270 16697	James Fan
+1928 16699	John Yen
+5005 16703	Jimmy Ho-Man Lee
+5083 16704	Peter J. Stuckey
+5184 16706	H¨¦l¨¨ne Fargier
+5369 16707	Thomas Schiex
+1123 16708	Robert G. Farrell
+6038 16712	Andrew Fast
+3316 16714	Usama M. Fayyad
+5201 16721	Kathleen McKeown
+7972 16722	Rebecca J. Passonneau
+649 16728	Charles Rich
+273 16735	Ariel Felner
+274 16736	Ram Meshulam
+275 16737	Robert C. Holte
+4713 16750	Alan Fern
+2230 16754	Doina Precup
+317 16756	Enrico Giunchiglia
+279 16765	Pranam Kolari
+280 16766	Akshay Java
+281 16767	Yun Peng
+680 16775	Paul E. Rybski
+3637 16782	Douglas H. Fisher
+284 16788	Will Fitzgerald
+285 16789	Daniel Lemire
+5641 16799	Holger Wache
+288 16806	Jeffrey M. Usher
+289 16807	Emmett Tomai
+1999 16832	Nicholas Kushmerick
+295 16841	Avi Pfeffer
+3603 16843	Ron Kohavi
+2682 16849	Georg Gottlob
+1091 16850	Wolfgang Nejdl
+5052 16856	Irina Rish
+291 16865	Akinori Fujino
+292 16866	Naonori Ueda
+293 16867	Kazumi Saito
+7638 16885	Evgeniy Gabrilovich
+296 16891	Ya'akov Gal
+297 16892	Francesca Marzo
+298 16893	Barbara J. Grosz
+5202 16895	Michel Galley
+5466 16897	Antony Galton
+300 16900	Artur S. d'Avila Garcez
+301 16901	Dov M. Gabbay
+650 16907	Andrew Garland
+5420 16911	Daniela Rus
+4279 16919	Les Gasser
+879 16922	Marie desJardins
+445 16932	Joohyung Lee
+318 16933	Yuliya Lierler
+303 16934	Christopher W. Geib
+5379 16942	Vladimir Lifschitz
+5216 16952	Ian P. Gent
+5035 16953	Holger H. Hoos
+4790 16958	Richard S. Sutton
+306 16963	Brian P. Gerkey
+307 16964	Geoffrey J. Gordon
+5109 16966	Cristina Conati
+6121 16970	Pat Langley
+2358 16973	Lise Getoor
+1629 16985	C. Lee Giles
+1237 16986	Steve Lawrence
+309 16987	Andrew Gilpin
+313 16996	Andrea Giovannucci
+314 16997	Antonio Reyes-Moro
+315 16998	Francesc X. Noria
+319 17000	Marco Maratea
+4772 17004	David A. McAllester
+5204 17006	Simon de Givry
+321 17013	Oren Glickman
+322 17014	Ido Dagan
+323 17015	Moshe Koppel
+4541 17016	Matthew R. Glickman
+4543 17017	Amir Globerson
+4534 17019	Naftali Tishby
+7114 17033	Christos H. Papadimitriou
+4931 17039	Claudia V. Goldman
+5323 17046	Paul H. Morris
+1741 17053	J. Ben Schafer
+1742 17054	Joseph A. Konstan
+10114 17056	Badrul M. Sarwar
+758 17057	Jonathan L. Herlocker
+1743 17058	John Riedl
+7956 17074	Vanathi Gopalakrishnan
+2971 17082	Reinhard Pichler
+5491 17091	Stacy Marsella
+5150 17096	Nancy Green
+325 17101	Russell Greiner
+5298 17104	Ramana Isukapalli
+697 17106	Douglas B. Lenat
+5561 17109	Rob Powers
+4550 17121	Eugene Grois
+9973 17123	Benjamin N. Grosof
+5241 17138	Henrik Grosskreutz
+841 17143	Dale Schuurmans
+5247 17147	Gregory Z. Grudic
+4110 17148	Lyle H. Ungar
+2894 17154	Carlos Guestrin
+6045 17156	Ramanathan V. Guha
+326 17164	Yuhong Guo
+328 17196	Udo Hahn
+329 17197	Korn¨¦l G. Mark¨®
+330 17198	Stefan Schulz
+333 17209	Asaad Hakeem
+334 17210	Mubarak Shah
+336 17211	Shou-de Lin
+338 17212	Yaser Sheikh
+3738 17216	Lawrence O. Hall
+340 17218	Daniel T. Halstead
+4369 17220	Shashi Shekhar
+343 17223	Tracy Hammond
+6647 17224	Kyungsook Han
+5122 17229	James E. Hanson
+580 17230	Jeffrey O. Kephart
+5263 17232	Andrew Olney
+5243 17240	Sanda M. Harabagiu
+7747 17242	V. Finley Lacatusu
+345 17249	Stephen Hart
+346 17250	Roderic A. Grupen
+347 17251	David Jensen
+4170 17257	Yuji Matsumoto
+7801 17264	Alexander G. Hauptmann
+5351 17267	Milos Hauskrecht
+662 17281	Sandip Sen
+6062 17284	David Heckerman
+7516 17285	Eric Horvitz
+3173 17302	Joseph L. Hellerstein
+9176 17303	T. S. Jayram
+5205 17312	Federico Heras
+5206 17313	Javier Larrosa
+2298 17317	Michael Thielscher
+5496 17330	Hiroaki Kitano
+8093 17342	Janet L. Kolodner
+5728 17345	Katsutoshi Hirayama
+3289 17348	Nina Mishra
+3728 17349	Leonard Pitt
+350 17351	Bret Hoehn
+351 17352	Finnegan Southey
+352 17353	Valeriy Bulitko
+355 17359	David W. Sretavan
+357 17365	Alan Holland
+2423 17383	Ian Horrocks
+9912 17384	Frank van Harmelen
+784 17388	David S. Touretzky
+1318 17396	Chun-Nan Hsu
+5567 17398	Wen-tau Yih
+360 17399	Jinbo Huang
+5075 17400	Mark Chavira
+362 17411	Fei Huang
+363 17412	Stephan Vogel
+364 17413	Alex Waibel
+517 17424	John E. Laird
+2231 17436	Joelle Pineau
+5276 17440	Aaron Hunter
+367 17458	Samuel Ieong
+368 17459	Robert McGrew
+369 17460	Eugene Nudelman
+370 17461	Qixiang Sun
+377 17468	Satinder P. Singh
+372 17470	Makoto Yokoo
+373 17477	Takayuki Ito
+374 17480	Atsushi Iwasaki
+375 17481	Shigeo Matsubara
+7738 17484	Makoto Iwayama
+925 17487	Peter Jackson
+378 17491	Michael R. James
+5307 17497	Jacek Jarmulak
+382 17507	Steven Jensen
+383 17508	Daniel Boley
+5041 17509	Rune M. Jensen
+1319 17511	Euna Jeong
+385 17515	Doug Strain
+5393 17517	Kevin Leyton-Brown
+387 17529	Jeffrey Johns
+388 17530	Sridhar Mahadevan
+391 17534	Mark D. Johnston
+393 17542	Chris Jones
+5754 17557	Aravind K. Joshi
+507 17560	Richard Maclin
+396 17568	Darsana P. Josyula
+397 17569	Michael L. Anderson
+399 17573	Ulrich Junker
+458 17577	Olivier Lhomme
+2225 17588	Mohammed Waleed Kadous
+402 17606	Meir Kalech
+1379 17611	Jugal K. Kalita
+1350 17628	Jaap Kamps
+1820 17633	Dimitris Papadias
+405 17639	Rohit J. Kate
+406 17640	Yuk Wah Wong
+5321 17648	Yongshao Ruan
+5847 17650	Steven P. Ketchpel
+6344 17675	Thomas L. Griffiths
+408 17689	Philip Kilby
+409 17690	Sylvie Thi¨¦baux
+5330 17693	Kee-Eung Kim
+5755 17712	Martha Stone Palmer
+412 17715	Brian Kirby
+413 17716	Burak Aksak
+414 17717	Padmanabhan Pillai
+415 17718	James F. Hoburg
+416 17719	Todd C. Mowry
+417 17720	Seth Copen Goldstein
+3986 17724	Ted E. Senator
+6233 17727	Henry G. Goldberg
+419 17752	Matthew Klenk
+420 17753	Hyeonkyeong Kim
+421 17754	Brian Kyckelhahn
+535 17763	Pragnesh Jay Modi
+559 17764	Ion Muslea
+4688 17767	Maxim Likhachev
+6317 17768	Boleslaw K. Szymanski
+4555 17770	Michail G. Lagoudakis
+3290 17774	Adam Meyerson
+425 17776	Mary Koes
+428 17779	Nate Kohl
+10171 17786	Sean M. McNee
+10172 17787	Cai-Nicolas Ziegler
+2425 17818	Manolis Koubarakis
+2522 17819	Spiros Skiadopoulos
+3770 17825	Stefan Kramer
+430 17828	Trausti T. Kristjansson
+431 17829	Paul A. Viola
+7869 17831	Lun-Wei Ku
+2063 17833	Hsin-Hsi Chen
+4747 17838	Miroslav Kubat
+3893 17840	Jeremy Kubica
+3895 17841	Jeff G. Schneider
+844 17842	Yiming Yang
+433 17860	T. K. Satish Kumar
+3733 17861	Vipin Kumar
+5476 17867	Dan I. Moldovan
+5736 17872	Tessa A. Lau
+440 17890	Anagh Lal
+631 17894	Kristian Kersting
+632 17895	Luc De Raedt
+5608 17906	Pedro Meseguer
+442 17907	Kate Larson
+5749 17935	David Wolpert
+5527 17943	David C. Wilson
+8775 17991	Kristina Lerman
+447 17995	Jure Leskovec
+448 17996	Natasa Milic-Frayling
+449 17997	Marko Grobelnik
+452 18006	Julie Letchner
+453 18007	Anthony LaMarca
+759 18013	Simone Stumpf
+456 18025	Ilya Levner
+4215 18027	Marie-Christine Rousset
+7213 18028	Anand Rajaraman
+460 18031	Jean-Charles R¨¦gin
+5017 18032	Pascal Poupart
+4654 18036	Xuejun Liao
+4655 18037	Lawrence Carin
+3724 18038	Jinyan Li
+1622 18041	Jian Pei
+3457 18042	Guozhu Dong
+463 18045	Lin Liao
+868 18047	Shimei Pan
+4453 18057	Prasad Tadepalli
+1416 18074	Wynne Hsu
+465 18075	Anton Likhodedov
+469 18076	Rong Jin
+774 18082	Yaxin Liu
+474 18084	Wee Sun Lee
+1645 18085	Joo-Hwee Lim
+651 18100	Candace L. Sidner
+475 18101	Xiaoli Li
+674 18104	David Sarne
+477 18111	Lengning Liu
+6203 18116	Yunhe Pan
+860 18118	Yuanlin Zhang
+480 18120	GuangCan Liu
+481 18121	Xing Zhu
+5837 18123	Shai Ben-David
+2295 18124	Shengli Sheng
+2296 18125	Charles X. Ling
+4661 18127	Shichao Zhang
+4048 18130	Gary Livingston
+483 18135	Lucian Vlad Lita
+484 18136	Andrew Hazen Schlaikjer
+485 18137	WeiChang Hong
+486 18138	Eric Nyberg
+7159 18142	Amnon Lotem
+488 18145	Victor W. Marek
+490 18148	Dimitris Margaritis
+492 18158	Kian Hsiang Low
+493 18159	Wee Kheng Leow
+494 18160	Marcelo H. Ang Jr.
+2262 18161	Dragos D. Margineantu
+7990 18171	Filippo Menczer
+5450 18191	Bhaskara Marthi
+497 18203	Paolo Massa
+498 18204	Paolo Avesani
+5461 18206	John MacIntyre
+7939 18208	John Tait
+501 18211	Stewart Massie
+502 18212	Nirmalie Wiratunga
+504 18214	Monaldo Mastrolilli
+505 18215	Luca Maria Gambardella
+508 18219	Jude W. Shavlik
+509 18222	Lisa Torrey
+510 18223	Trevor Walker
+511 18224	Edward W. Wild
+8709 18229	Alex Dekhtyar
+5221 18230	Judy Goldsmith
+5231 18232	Hideki Asoh
+5232 18238	Nobuyuki Otsu
+1410 18239	Omid Madani
+5290 18244	Hideaki Takeda
+514 18248	Toramatsu Shintani
+3254 18249	Jayant Madhavan
+2580 18250	Philip A. Bernstein
+2899 18251	Alon Y. Halevy
+698 18254	Cynthia Matuszek
+699 18255	Michael J. Witbrock
+4570 18261	Bruce Blumberg
+5908 18263	Mausam
+518 18264	Brian Magerko
+519 18265	Mazin Assanie
+520 18266	Alex Kerfoot
+521 18267	Devvan Stokes
+3544 18279	Matthew V. Mahoney
+5455 18292	Xuerui Wang
+525 18293	Kevin McCarthy
+526 18294	Lorraine McGinty
+527 18295	James Reilly
+4474 18301	Gregory F. Cooper
+531 18317	Sudip Misra
+1247 18330	Vasileios Hatzivassiloglou
+609 18343	Paul Lu
+5070 18354	Johanna D. Moore
+6110 18360	Bamshad Mobasher
+538 18370	Michael D. Moffitt
+539 18371	Bart Peintner
+542 18375	Matthew Molineaux
+1605 18382	Donald Metzler
+677 18386	Leonid Peshkin
+546 18387	Thomas Andreas Meyer
+547 18388	Rex Kwok
+549 18389	Kevin Lee
+550 18390	Richard Booth
+5480 18391	Michael Montemerlo
+4514 18401	Nada Lavrac
+5195 18413	Attilio Giordana
+4495 18414	Lorenza Saitta
+5481 18431	Ben Wegbreit
+5673 18446	Carlo Strapparava
+553 18451	Tsoline Mikaelian
+554 18452	Martin Sachenbacher
+825 18454	Nic Wilson
+8064 18487	Yan Qu
+5705 18491	Robert Milne
+2335 18505	Hiroshi Motoda
+4666 18508	Marina Sokolova
+602 18532	H¨¦ctor Mu?oz-Avila
+4920 18533	Len Breslow
+556 18562	Ani Nenkova
+4163 18567	Jennifer Neville
+4723 18580	XuanLong Nguyen
+560 18583	Thomas J. Lee
+5512 18602	Sanguk Noh
+1650 18611	Un Yong Nahm
+563 18613	Ranjit Nair
+564 18614	Pradeep Varakantham
+5497 18616	Kazuhiro Nakadai
+5498 18618	Hiroshi G. Okuno
+1566 18634	Ullas Nambiar
+568 18659	Sang Min Oh
+569 18660	James M. Rehg
+5769 18661	Naoki Ohta
+6750 18664	Manabu Okumura
+8154 18667	Jun-ichi Tsujii
+5316 18669	Tetsuo Ono
+5317 18670	Michita Imai
+5418 18687	Benson Limketkai
+5687 18711	Lin Padgham
+572 18718	Jeffrey Junfeng Pan
+5518 18724	Kathy Panton
+5519 18726	Nancy Salay
+3335 18732	Panos Kalnis
+2481 18733	Nikos Mamoulis
+574 18740	Laxmi Parida
+5538 18746	Austin Parker
+577 18747	Grant Schoenebeck
+1077 18751	Joel Sachs
+8023 18759	Marius Pasca
+5425 18760	Dekang Lin
+848 18765	Hanna Pasula
+581 18768	Relu Patrascu
+582 18769	Gerald Tesauro
+583 18770	William E. Walsh
+5943 18775	Goutam Paul
+3541 18788	Edwin P. D. Pednault
+586 18797	William Pentney
+587 18798	Marina Meila
+834 18800	Matthai Philipose
+5547 18804	Patrice Perny
+5548 18805	Olivier Spanjaard
+589 18807	Adrian Petcu
+593 18818	Thanh Phong Pham
+595 18819	John Thornton
+596 18820	Abdelraouf Ishtaiwi
+7734 18831	Massimo Poesio
+599 18832	Nicola Policella
+600 18833	Xiaofang Wang
+603 18839	Marc J. V. Ponsen
+604 18840	Pieter Spronck
+606 18846	Ryan Porter
+610 18847	Brett Poulin
+611 18848	Roman Eisner
+612 18849	David S. Wishart
+613 18850	Alona Fyshe
+614 18851	Brandon Pearcy
+615 18854	Luca Pireddu
+617 18873	Steven David Prestwich
+618 18874	Francesca Rossi
+619 18875	Kristen Brent Venable
+621 18876	Robert Price
+622 18877	Paul R. Messinger
+3746 18883	Salvatore J. Stolfo
+3760 18886	Tom Fawcett
+5564 18892	Jean-Francois Puget
+625 18893	Sushil Puradkar
+626 18894	Sachin Singh
+627 18895	Chintan Patel
+628 18896	Kartik Vishwanath
+629 18897	Rahul Gupta
+5492 18901	David V. Pynadath
+5570 18902	Guilin Qi
+5571 18903	Weiru Liu
+3815 18904	David A. Bell
+5551 18913	Gilles Pesant
+6294 18917	Filip Radlinski
+633 18918	Sunna Torge
+636 18922	Rajat Raina
+637 18923	Christopher D. Manning
+639 18929	Suju Rajan
+640 18930	Kunal Punera
+641 18931	Joydeep Ghosh
+768 18938	Kaile Su
+643 18940	Amit Ramesh
+814 18944	Daniel M. Reeves
+645 18959	Jiang Su
+646 18960	Harry Zhang
+5989 18967	R. Bharat Rao
+652 19000	Shane Booth
+653 19001	Markus Chimani
+655 19007	Patrick Riley
+1229 19009	Rosie Jones
+657 19012	Jussi Rintanen
+1488 19014	Sheng Ma
+660 19027	Floris Roelofsen
+4843 19029	Seth Rogers
+663 19039	Sabyasachi Saha
+3693 19042	Mehran Sahami
+5596 19056	Michael T. Rosenstein
+666 19064	Michael G. Ross
+5614 19082	Subhash Suri
+670 19095	Tian Sang
+671 19096	Paul Beame
+5674 19112	Oliviero Stock
+5264 19114	Arthur C. Graesser
+678 19116	Virginia Savova
+681 19122	Fernando De la Torre
+682 19123	Raju Patil
+683 19124	Carlos Vallesp¨ª
+2167 19129	Tobias Scheffer
+691 19135	Paul W. Schermerhorn
+692 19136	James F. Kramer
+693 19137	Christopher Middendorff
+685 19138	Matthias Scheutz
+688 19142	Kathleen M. Eberhard
+694 19144	M. Heilman
+695 19145	P. Bui
+2900 19176	AnHai Doan
+700 19183	Blake Shepard
+701 19184	C. Bruce Fraser
+702 19185	William Wechtenhiser
+703 19186	David Crabbe
+704 19187	Zelal G¨¹ng?rd¨¹
+705 19188	John Jantos
+706 19189	Todd Hughes
+707 19190	Larry Lefkowitz
+708 19191	Erik Larson
+710 19193	Alexander A. Sherstov
+5632 19199	Debra Schreckenghost
+5633 19201	Carroll Thronesbery
+5741 19207	Justin Werfel
+712 19215	Nathan Schurr
+713 19216	Janusz Marecki
+714 19217	John P. Lewis
+715 19218	Paul Scerri
+718 19221	Ji-Ae Shin
+4910 19232	Ilya Shpitser
+720 19252	Meinolf Sellmann
+2814 19257	Vishal Sikka
+722 19278	Teddy Candale
+723 19279	Susnata Basak
+728 19287	Saul Simhon
+4785 19312	?zg¨¹r Simsek
+4815 19313	Bryan Singer
+1771 19315	Moninder Singh
+5584 19317	Simon Parsons
+734 19324	Sam Skrivan
+735 19325	Debra S. Jusak
+738 19326	Marjorie Skubic
+739 19327	Derek Anderson
+740 19328	Samuel Blisard
+5662 19332	Aaron Sloman
+5217 19346	Kostas Stergiou
+745 19361	Phan Huy Tu
+746 19362	A. Ricardo Morales
+6336 19373	Ellen Spertus
+749 19377	Mohan Sridharan
+1785 19378	Rohini K. Srihari
+752 19379	Jussi Vanhatalo
+753 19380	Jana Koehler
+9913 19383	Stefan Decker
+3701 19385	Andreas Hotho
+10050 19386	Alexander Maedche
+800 19399	Boris Katz
+755 19401	Alexander R. Statnikov
+5598 19433	Peter Struss
+760 19435	Xinlong Bao
+761 19436	Anton N. Dragunov
+762 19437	Kevin Johnsrude
+763 19438	Lida Li
+764 19439	Jianqiang Shen
+769 19440	Xiangyu Luo
+770 19441	Vineet Padmanabhan
+1139 19446	Ronen Feldman
+775 19498	Matthew E. Taylor
+777 19512	Snehal Thakkar
+2315 19520	Cynthia A. Thompson
+779 19524	Stuart Bain
+780 19525	Valnir Ferreira Jr.
+5696 19542	Simon Tong
+782 19546	Luz Abril Torres-M¨¦ndez
+785 19550	Ethan J. Tira-Thompson
+789 19555	Carran Shankland
+4952 19561	Raul Trejo
+4953 19562	Vladik Kreinovich
+792 19563	Rudolph Triebel
+794 19579	Xin Zhang
+798 19580	Rattapoom Tuchinda
+7214 19592	Jeffrey D. Ullman
+801 19604	?zlem Uzuner
+1636 19617	Ke Wang
+1899 19618	Yabo Xu
+6325 19619	Rong She
+2336 19622	Takashi Washio
+1064 19627	Elke A. Rundensteiner
+4244 19634	Juan D. Vel¨¢squez
+805 19639	Wei Wei
+806 19640	Jordan Erenrich
+4855 19644	Kilian Q. Weinberger
+4799 19645	Lawrence K. Saul
+808 19655	Olya Veselova
+6084 19656	Sholom M. Weiss
+6085 19661	Nitin Indurkhya
+811 19670	Vincent Vidal
+5737 19671	Corin R. Anderson
+4573 19681	Amy R. Greenwald
+815 19683	Kevin M. Lochner
+816 19684	Shih-Fen Cheng
+817 19685	Rahul Suri
+821 19697	Christopher A. Welty
+5458 19705	Stefan Wermter
+880 19708	Kiri Wagstaff
+5721 19712	Minglun Qian
+823 19724	Shimon Whiteson
+2287 19729	Gerhard Widmer
+4861 19736	David Williams
+4863 19745	Elly Winner
+3246 19748	Marianne Winslett
+4786 19757	Alicia P. Wolfe
+4596 19758	Andrew G. Barto
+4696 19760	Weng-Keen Wong
+4867 19761	Michael Wagner
+5624 19765	William A. Woods
+827 19776	Robert E. Wray
+828 19777	Andrew Nuxoll
+832 19780	G. Michael Youngblood
+835 19781	Danny Wyatt
+836 19782	Tanzeem Choudhury
+2350 19793	Zhi-Hua Zhou
+839 19794	Gang Xiao
+842 19795	Linli Xu
+7617 19796	Koby Crammer
+5773 19797	Li-Yan Yuan
+6444 19805	Zhongfei (Mark) Zhang
+4408 19812	Jinbo Bi
+845 19823	Fan Li
+5176 19825	Uzi Zahavi
+10018 19832	Ke-Thia Yao
+6194 19852	Yanhong Zhai
+852 19863	Dou Shen
+853 19864	Ze-Nian Li
+1682 19867	Zhu Zhang
+1683 19868	Sasha Blair-Goldensohn
+1684 19869	Dragomir R. Radev
+858 19871	Kap Luk Chan
+5771 19877	Neil Yorke-Smith
+865 19888	Liangxiao Jiang
+869 19900	Michelle X. Zhou
+870 19901	Keith Houck
+871 19902	James Shaw
+872 19903	Vikram Aggarwal
+873 19904	Rosario Uceda-Sosa
+6829 19906	Andy M. Yip
+875 19907	Tingshao Zhu
+876 19908	Gerald H?ubl
+877 19909	Kevin Jewell
+3329 19914	HweeHwa Pang
+2645 19915	Xingquan Zhu
+1712 19916	Xindong Wu
+8790 19918	Yunyao Li
+8791 19920	Huahai Yang
+922 19922	H. V. Jagadish
+4559 19924	Deng Cai
+4560 19925	Xiaofei He
+1623 19926	Jiawei Han
+5151 19947	Ingrid Zukerman
+5001 19953	Neil Burch
+3241 19964	Gang Luo
+2359 19968	Priyang Rathod
+4730 19972	Marc Pickett
+3722 19974	Karsten M. Borgwardt
+2354 19979	Min-Ling Zhang
+2276 19986	Maurice Bruynooghe
+4552 19990	Andreas Krause
+8512 19991	Joseph M. Hellerstein
+4944 19992	Dorit Avrahami-Zilberbrand
+1854 20009	Xiaojun Wan
+4932 20014	Martin Allen
+5752 20030	Michael Zakharyaschev
+1876 20033	Masaru Kitsuregawa
+4614 20040	William G. Kennedy
+2293 20048	Guy Shani
+4686 20049	H. Brendan McMahan
+4600 20051	Dan Klein
+5715 20063	Tony Veale
+1356 20073	Prasenjit Mitra
+5292 20087	Katsumi Inoue
+5293 20088	Chiaki Sakama
+5789 20104	Xenofon D. Koutsoukos
+3552 20105	Yi-Dong Shen
+5422 20106	Jia-Huai You
+5341 20122	Laurence A. Kramer
+2864 20131	Gao Cong
+5426 20134	Ming Zhou
+1494 20146	Zheng Chen
+5909 20164	Deepak Verma
+2566 20173	Hai Lin
+5156 20175	Ulrich Endriss
+5157 20176	Nicolas Maudet
+6229 20178	Kenny Daniel
+5642 20181	Heiner Stuckenschmidt
+3577 20185	Christopher Meek
+5009 20187	Thomas Bittner
+5010 20188	Maureen Donnelly
+5639 20190	Andrei Tamilin
+1189 20197	Colm O'Riordan
+2904 20207	Timothy Edmunds
+1914 20222	Qiankun Zhao
+3739 20229	Nitesh V. Chawla
+5055 20233	Mehdi Dastani
+5376 20239	Christophe Lecoutre
+5260 20244	Pascal Hitzler
+2255 20265	Changshui Zhang
+3648 20284	Ricardo Vilalta
+4636 20289	Xiaojin Zhu
+7042 20297	Nathalie Pernelle
+1968 20308	Gui-Rong Xue
+5226 20325	Alban Grastien
+3624 20330	Feng Pan
+5648 20332	Afsaneh Shirazi
+5377 20344	St¨¦phane Cardon
+7149 20353	Peter Widmayer
+2398 20354	Andrea Pugliese
+1543 20357	Sofus A. Macskassy
+4499 20361	Shie Mannor
+7809 20364	Ruihua Song
+2080 20365	Ji-Rong Wen
+1579 20370	James Mayfield
+4962 20385	Yoram Bachrach
+4489 20415	Dan Ventura
+2266 20429	Jan Peters
+5244 20439	Cosmin Adrian Bejan
+4193 20458	Glenn Fung
+1855 20474	Yuxin Peng
+7079 20485	Vittorio Castelli
+5192 20497	Ian Miguel
+5218 20498	Peter Nightingale
+5285 20515	Frank Hutter
+5286 20516	Thomas St¨¹tzle
+5314 20523	Yi Jin
+10066 20544	Luke McDowell
+4921 20545	Kalyan Moy Gupta
+10043 20561	Eytan Adar
+4690 20580	Ashutosh Saxena
+5324 20581	Robert A. Morris
+5325 20583	Lina Khatib
+5101 20607	Martin C. Cooper
+5609 20608	Mart¨ª S¨¢nchez
+5207 20609	Matthias Zytnicki
+4280 20615	Jun Wang
+8645 20622	Wolfgang Faber
+5223 20623	Gianluigi Greco
+7175 20624	Nicola Leone
+2848 20629	Jan Chomicki
+5028 20630	Piero A. Bonatti
+5039 20644	Bob Price
+7348 20674	Ravi Kothari
+5178 20690	Christian Fritz
+1495 20709	Shuicheng Yan
+8308 20728	Cong Yu
+6798 20732	Songcan Chen
+6839 20735	Chi-Hoon Lee
+4851 20737	Shaojun Wang
+3192 20761	K. Sel?uk Candan
+1467 20768	Yunbo Cao
+7855 20769	Hae-Chang Rim
+1140 20775	Yonatan Aumann
+6751 20777	Hiroya Takamura
+4752 20798	David R. Karger
+3747 20799	Matthew Miller
+5470 20826	Brian Milch
+4852 20836	Li Cheng
+5137 20848	Manuel Cebri¨¢n
+5688 20853	John Thangarajah
+5689 20854	Michael Winikoff
+5360 20858	S¨¦bastien Lahaie
+4857 20864	Max Welling
+5281 20870	Boris Motik
+4997 20883	Zeynep Kiziltan
+2460 20903	Anthony Tomasic
+5446 20941	Suresh Manandhar
+5115 21084	Luca Console
+5116 21085	Daniele Theseider Dupr¨¦
+6404 21087	Geoffrey I. Webb
+8936 21128	Thomas R. Gross
+8132 21142	Gabriel Somlo
+5188 21324	Guilherme Bittencourt
+9615 21385	Shu Lin
+1866 21915	Francis Y. L. Chin
+3766 22014	Kun Liu
+3466 22042	Xiaodong Wu
+3209 22060	Kirk Pruhs
+4804 22116	Malcolm J. A. Strens
+3354 22168	Rudolf Bayer
+7354 22221	Sergio Bittanti
+2301 22275	Ivan Bratko
+6058 22319	David Harel
+7216 22410	Anca Muscholl
+4736 22432	Zoubin Ghahramani
+8641 22475	Jim Gray
+2828 22511	Pascal Felber
+8548 22512	Timothy Roscoe
+5162 22579	Giovanni Semeraro
+6525 22597	Yves Kodratoff
+8264 22796	Michael E. Tipping
+10166 22859	Lorenzo Alvisi
+9965 22860	Michael Dahlin
+8303 22861	Elad Yom-Tov
+6090 22868	Blaz Zupan
+6091 22870	Janez Demsar
+7674 22978	Guangyou Xu
+3935 22981	Longin Jan Latecki
+4145 23145	Pei Sun
+6585 23185	Yasuaki Nakamura
+4758 23257	Pushpak Bhattacharyya
+3972 23315	Chandra Kambhamettu
+2181 23346	Meng Chang Chen
+4737 23388	Rosalind W. Picard
+8269 23565	HongJiang Zhang
+2308 23631	Guoqiang Yu
+4336 23723	Chi Lap Yip
+3794 23882	Huidong Jin
+1451 24026	Alistair Moffat
+1452 24028	Justin Zobel
+6567 24147	Vladimir Estivill-Castro
+9429 24152	Robert W. Irving
+6206 24234	Ting Liu
+6688 24254	Pong Chi Yuen
+5967 24330	Rong Chen
+6074 24623	Udo Grimmer
+960 24692	Qi He
+3580 25056	Kotagiri Ramamohanarao
+1889 25144	Ming Gu
+1790 25581	Alexandre X. Falc?o
+2017 25739	Alan F. Smeaton
+7683 25826	Yueting Zhuang
+3542 26030	Naoki Abe
+4460 26083	Mehryar Mohri
+8147 26093	Amanda Stent
+5756 26110	Fei Xia
+1894 26119	John D. Lafferty
+7282 26135	Shivakumar Vaithyanathan
+7450 26138	Julio Gonzalo
+1365 26140	Nicholas J. Belkin
+7451 26145	Felisa Verdejo
+1923 26175	Shlomo Argamon
+10057 26197	Necip Fazil Ayan
+985 26251	Thorsten Brants
+8496 26301	David Campbell
+1468 26304	Hang Li
+7464 26311	Ben Carterette
+4590 26320	Joyce Y. Chai
+8286 26322	Chen Zhang
+1665 26346	Zheng-Yu Niu
+4071 26354	Lee-Feng Chien
+7581 26360	Pu-Jen Cheng
+4072 26361	Wen-Hsiang Lu
+7582 26362	Jei-Wen Teng
+5483 26365	Yoong Keok Lee
+2072 26394	Paul Clough
+5625 26396	Yorick Wilks
+7569 26434	Simon Corston-Oliver
+915 26466	Silviu Cucerzan
+7428 26479	Lillian Lee
+4634 26480	Fernando C. N. Pereira
+1421 26505	Jimmy J. Lin
+7704 26529	Changning Huang
+5152 26562	Stephanie Elzer
+5153 26563	Daniel Chester
+5154 26564	Seniz Demir
+8014 26576	David A. Evans
+1324 26577	ChengXiang Zhai
+986 26587	Francine Chen
+1802 26629	Atsushi Fujii
+1803 26630	Tetsuya Ishikawa
+6217 26636	Toshikazu Fukushima
+7698 26656	Jianfeng Gao
+1015 26657	Guihong Cao
+1852 26660	Bin Yu
+7699 26664	Xinsong Xia
+2007 26682	¨¦ric Gaussier
+2008 26685	Cyril Goutte
+7529 26699	Zhenmei Gu
+2097 26733	Alessandro Moschitti
+5245 26780	Paul Morarescu
+7749 26785	Hilda Hardy
+7750 26786	Tomek Strzalkowski
+8065 26800	Gregory Grefenstette
+4405 26807	Yasemin Altun
+5348 26855	Jonas Kuhn
+5283 26867	Ben Hutchinson
+10058 26871	Okan Kolak
+7787 26887	Naomi Inoue
+7915 26900	Sung-Hyon Myaeng
+1327 26907	Valentin Jijkoun
+1328 26908	Maarten de Rijke
+10121 26910	Kumiko Tanaka-Ishii
+1238 26958	Robert Krovetz
+7984 26979	Haizhou Li
+6218 27000	Kenji Yamanishi
+1353 27020	Min-Yen Kan
+7775 27029	Young-Suk Lee
+7856 27033	Heui-Seok Lim
+7776 27040	Clifford J. Weinstein
+5698 27048	Pietro Torasso
+2316 27053	Roger Levy
+4206 27060	Reinhard Rapp
+4676 27064	Zvika Marx
+7985 27077	Bin Ma
+7830 27084	Vijay Krishnan
+7929 27085	Wenjie Li
+8196 27086	Kam-Fai Wong
+7930 27089	Mingli Wu
+7931 27090	Qin Lu
+6852 27096	Yang Zhang
+4525 27099	Benjamin Taskar
+1012 27110	Iadh Ounis
+7705 27142	Endong Xun
+1016 27183	Jian-Yun Nie
+7894 27195	Bernardo Magnini
+8155 27237	Yoshimasa Tsuruoka
+4858 27246	Yee Whye Teh
+2271 27253	Minh Le Nguyen
+2272 27255	Xuan Hieu Phan
+4171 27286	Tadashi Nomoto
+7946 27287	G. Craig Murray
+3070 27299	Alexandros Ntoulas
+7953 27309	Hiroshi Nakagawa
+5023 27353	Branimir Boguraev
+6185 27361	Patrick Pantel
+6087 27408	Rebecca N. Wright
+4517 27428	Chin-Hui Lee
+1685 27462	Hong Qi
+1686 27473	John M. Prager
+7735 27475	Anne N. De Roeck
+1141 27491	Binyamin Rosenfeld
+2122 27498	Patrick Ruch
+8076 27507	Fatiha Sadat
+2159 27528	Guodong Zhou
+3505 27532	Lei Shi
+7751 27539	Nobuyuki Shimizu
+2074 27633	Mark Stevenson
+7752 27641	G. Bowden Wise
+2319 27653	Kristina Toutanova
+4975 27712	Maria Teresa Pazienza
+5765 27786	Nianwen Xue
+7862 27804	Sudeshna Sarkar
+8157 27810	Andrew Turpin
+5107 27836	Einat Minkov
+7632 27872	Fred Damerau
+4367 27883	Bing Zhao
+4674 27884	Eric P. Xing
+5394 27889	Galen Andrew
+4463 27961	Jason Weston
+7944 27966	Olena Medelyan
+2099 27968	Roberto Basili
+1112 27978	Andrea Esuli
+1113 27979	Fabrizio Sebastiani
+1809 28003	Songbo Tan
+7456 28009	Khurshid Ahmad
+6164 28015	Shan Wang
+1325 28020	Jing Jiang
+8061 28055	Fazli Can
+1033 28259	Edward A. Fox
+2862 28305	Vijay Kumar
+1458 28315	Soon Myoung Chung
+2409 28499	Ming-Chien Shan
+1297 28826	Il-Yeol Song
+5980 28899	Geneva G. Belford
+3216 29026	Yiu-Kai Ng
+2495 29037	David B. Lomet
+3876 29088	Veljko M. Milutinovic
+9976 29309	Gail E. Kaiser
+5925 29315	Gregg T. Vesonder
+1981 29477	Michael J. Donahoo
+3979 29676	Fu Tong
+1589 29751	Qiang Wang
+3064 29838	Stanley B. Zdonik
+6709 29868	Ming Zhang
+5626 29883	Terry Winograd
+2561 29889	Alfons Kemper
+2955 29934	Jeffrey Scott Vitter
+5926 29950	Jon R. Wright
+9822 29984	Chao Yao
+9110 29987	Sushil Jajodia
+6490 30019	Ee-Chien Chang
+4102 30066	Wenliang Du
+3410 30084	Mikhail J. Atallah
+6207 30092	Ke Yang
+3748 30103	Wenke Lee
+9420 30146	Gene Tsudik
+6837 30177	Kwong H. Yung
+1050 30185	Amitabha Das
+8784 30258	Jin Li
+3596 30277	Shakil M. Khan
+2704 30359	Luc Bouganim
+2924 30360	Daniela Florescu
+9240 30361	Beno?t Dageville
+6891 30396	Paolo Ciaccia
+935 30531	Peter M. G. Apers
+5346 30723	Arancha Casal
+3555 31126	Olivier Y. de Vel
+2646 31229	Evimaria Terzi
+2647 31230	Athena Vakali
+2884 31349	Lois M. L. Delcambre
+2885 31350	Shawn Bowers
+1251 31378	Chinya V. Ravishankar
+1678 31428	Michiharu Kudo
+10137 31617	Mudhakar Srivatsa
+9960 31641	Naftaly H. Minsky
+9617 31768	Wei Yu
+9870 31789	Marco Cova
+1284 31805	Sharad Mehrotra
+2632 31882	Tyrone Grandison
+4510 31904	Lloyd Allison
+3593 31909	Hugh E. Williams
+2036 31911	Ricardo A. Baeza-Yates
+9887 31970	Kim Marriott
+5883 31995	Richard Cole
+2710 32008	Marlon Dumas
+8181 32009	Owen de Kretser
+4504 32015	Raymond Lau
+1003 32017	Peter Bruza
+1453 32029	Nicholas Lester
+6167 32075	Damien McAullay
+4293 32076	Graham J. Williams
+6168 32077	Jie Chen
+3905 32206	Jiuyong Li
+8230 32229	Mingfang Wu
+6627 32269	David B. Skillicorn
+6628 32280	Simeon J. Simoff
+2711 32335	Boualem Benatallah
+3556 32594	Tamas Abraham
+2784 32676	Frank K. H. A. Dehne
+2473 32693	Eamonn J. Keogh
+2474 32694	Jessica Lin
+5913 32695	Bill Yuan-chi Chiu
+2341 32753	Xiaoyun Wu
+9430 32772	Malcolm P. Atkinson
+3654 33474	Elena Baralis
+2371 33475	Stefano Ceri
+8566 33478	Mariano P. Consens
+8662 33480	Per-?ke Larson
+3932 33482	Frank Wm. Tompa
+9249 33483	Alejandro P. Buchmann
+1524 33501	Alberto O. Mendelzon
+2849 33507	Parke Godfrey
+1475 33519	Hongjun Lu
+1941 33520	Beng Chin Ooi
+1417 33521	Kian-Lee Tan
+2432 33536	Rajeev Rastogi
+1667 33557	Yannis Manolopoulos
+1671 33576	Neoklis Polyzotis
+3109 33578	Raman Adaikkalavan
+1321 33579	Sharma Chakravarthy
+1258 33581	Heiko Schuldt
+1242 33582	Hans-J?rg Schek
+9121 33584	Jens Bleiholder
+2730 33585	Felix Naumann
+9064 33586	Fuat Akal
+1243 33587	Klemens B?hm
+2722 33609	Peer Kr?ger
+2605 33611	Toshiyuki Amagasa
+10143 33613	Kenji Hatano
+2606 33614	Masatoshi Yoshikawa
+2607 33615	Shunsuke Uemura
+1987 33620	Pasquale Savino
+2014 33626	Gilles Hubert
+1280 33635	Theo H?rder
+6615 33638	Ulrich G¨¹ntzer
+2749 33639	Omran A. Bukhres
+2581 33644	Paolo Atzeni
+8483 33647	Christoph Bussler
+1841 33665	Caetano Traina Jr.
+1842 33666	Agma J. M. Traina
+2032 33671	Nieves R. Brisaboa
+2033 33672	Jos¨¦ R. Param¨¢
+2713 33720	Nectaria Tryfona
+1146 33735	Sara Cohen
+1668 33745	Yannis Theodoridis
+1176 33746	B¨¦atrice Finance
+7038 33767	Jean-Fran?ois Boulicaut
+1601 33772	Omar Boussaid
+1602 33773	Riadh Ben Messaoud
+2714 33779	Sotiris Brakatsoulas
+2715 33780	Dieter Pfoser
+1383 33794	Evaggelia Pitoura
+7823 33804	Christopher B. Jones
+4361 33817	Yoshitsugu Kakemoto
+10140 33825	Geert-Jan Houben
+10141 33826	Richard Vdovjak
+8983 33832	Vladimir Zadorozhny
+2378 33849	Alvaro A. A. Fernandes
+3767 33867	Chris Giannella
+1054 33875	Moira C. Norrie
+2975 33876	G?sta Grahne
+2815 33886	Sang Kyun Cha
+6596 33887	Antonella Guzzo
+6597 33888	Domenico Sacc¨¤
+1255 33917	Oliver Haase
+1256 33918	Andreas Henrich
+1669 33922	Alexandros Nanopoulos
+9070 33933	Hector Garcia-Molina
+1265 33937	Lilian Harada
+1266 33938	Naoki Akaboshi
+1267 33939	Riichiro Take
+8618 33947	Steffen Rost
+2733 33948	Andreas Heuer
+3891 33955	Marzena Kryszkiewicz
+1745 33967	Gunter Saake
+3380 33972	Christian S. Jensen
+3381 33973	Simonas Saltenis
+9704 33978	Ralph Busse
+1676 33981	Erich J. Neuhold
+2515 33994	Ralf Rantzau
+1310 33995	Yannis E. Ioannidis
+1201 34003	Vanja Josifovski
+2496 34017	Manuel Barrena Garc¨ªa
+9225 34027	Rada Chirkova
+3220 34037	Xuemin Lin
+2405 34064	Gottfried Vossen
+2611 34085	Michael H. B?hlen
+3278 34104	Hiroyuki Kitagawa
+3279 34106	Atsuyuki Morishima
+8391 34108	C. Mohan
+3306 34153	Dimitrios Georgakopoulos
+5169 34159	Luigi Palopoli
+8646 34160	Giorgio Terracina
+9487 34162	Tobias Kraft
+9488 34163	Holger Schwarz
+2516 34164	Bernhard Mitschang
+1268 34171	Tadashi Ohmori
+4063 34175	Shojiro Nishio
+9605 34176	Masahiko Tsukamoto
+9766 34177	Keishi Tajima
+1746 34190	Eike Schallehn
+1747 34192	Kai-Uwe Sattler
+9803 34194	Christoph Schuler
+1910 34195	Roger Weber
+1259 34206	Can T¨¹rker
+8925 34224	Giedrius Slivinskas
+2523 34241	Panos Vassiliadis
+10146 34248	Jin Song Dong
+6536 34294	Jef Wijsen
+3506 34300	Xiaochun Yang
+3238 34301	Guoren Wang
+1988 34306	Pavel Zezula
+2399 34312	Angela Bonifati
+1322 34317	Qingchun Jiang
+9431 34319	Ela Hunt
+2379 34328	Anastasios Gounaris
+1641 34357	Philippe Rigaux
+2478 34398	Norbert Ritter
+9598 34413	Matthias Gro?mann
+9599 34415	Daniela Nicklas
+3188 34422	Heikki Mannila
+1518 34446	M. Tamer ?zsu
+9114 34453	Catriel Beeri
+5104 34472	Marc Gyssens
+2886 34477	David Maier
+9846 34491	Qing Liu
+3222 34492	Yidong Yuan
+3276 34493	Woong-Kee Loh
+1370 34494	Sang-Wook Kim
+3052 34501	Michael E. Houle
+1551 34507	Federica Mandreoli
+1506 34514	Chuan-Heng Ang
+7488 34519	Vo Ngoc Anh
+6936 34521	Werner Kie?ling
+8231 34527	Ross Wilkinson
+1756 34532	John Shepherd
+1757 34533	Anne H. H. Ngu
+9878 34534	James Bailey
+9161 34542	Athman Bouguettaya
+7757 34549	David Hawking
+2556 34551	Rodney W. Topor
+7619 34554	Nick Craswell
+7760 34555	Trystan Upstill
+1331 34558	Jeffrey Xu Yu
+8576 34573	Bin Cui
+3126 34574	Heng Tao Shen
+3116 34589	Haifeng Jiang
+3131 34606	Martin L. Kersten
+6892 34612	Marco Patella
+1758 34622	Jialie Shen
+6576 34638	Hongjian Fan
+8468 34651	Piero Fraternali
+2416 34653	Letizia Tanca
+9828 34658	Zengping Tian
+8067 34667	Dieter Merkl
+9687 34672	Noureddine Mouaddib
+2512 34675	Oded Shmueli
+1042 34679	Mukesh K. Mohania
+9594 34680	Apostol Natsev
+6754 34693	Kok-Leong Ong
+1051 34694	Wee Keong Ng
+1796 34695	Ee-Peng Lim
+8850 34701	Shankar Pal
+3340 34708	Dennis Pedersen
+2113 34710	Torben Bach Pedersen
+9007 34711	Hongwei Wu
+9008 34712	Jianchang Xiao
+3481 34718	Osmar R. Za?ane
+3609 34719	Maria-Luiza Antonie
+9847 34723	Qing Zhang
+1004 34761	Dawei Song
+8158 34798	William R. Hersh
+1606 34803	Yaniv Bernstein
+9364 34809	Florian Waas
+8202 34812	Raymond Wan
+2557 34813	Junhu Wang
+8590 34818	Krithi Ramamritham
+3085 34819	Raghu Ramakrishnan
+8749 34848	Kihong Kim
+3854 34856	Juntae Kim
+7687 34885	Peter Wilkins
+6529 34920	Shlomo Geva
+8242 34921	Phil Vines
+1199 35124	Xiaoyan Li
+7241 35135	Yunghsiang S. Han
+1657 35429	Fabio Crestani
+8987 35433	Kazi A. Zaman
+4849 35438	Ian H. Witten
+6791 35440	Robert B. Allen
+2680 35463	Christian B?hm
+8438 35464	Bernhard Braunm¨¹ller
+1395 35465	Hans-Peter Kriegel
+3881 35466	Matthias Schubert
+918 35468	Sourav S. Bhowmick
+2734 35478	Holger Meyer
+8504 35485	Tiziana Catarci
+8505 35486	Giuseppe Santucci
+2544 35505	Sunil Prabhakar
+3093 35506	Kothuri Venkata Ravi Kanth
+1161 35508	Divyakant Agrawal
+1162 35509	Amr El Abbadi
+1163 35511	Ambuj K. Singh
+1557 35512	Carlos Ordonez
+1558 35513	Edward Omiecinski
+2186 35520	Boris Chidlovskii
+2870 35523	Graham Cormode
+4111 35528	Alexandrin Popescul
+9957 35529	Gary William Flake
+8546 35534	David M. Choy
+7101 35536	Cynthia Dwork
+7600 35555	Michael G. Christel
+1625 35571	Arijit Sengupta
+3193 35581	Wen-Syan Li
+2816 35582	Yoshinori Hara
+3460 35625	Jianlin Feng
+882 35663	Clement T. Yu
+1473 35664	King-Lup Liu
+4303 35665	Wensheng Wu
+1439 35666	Weiyi Meng
+1816 35675	Aidong Zhang
+8235 35680	Zonghuan Wu
+2750 35699	Chris Gokey
+3574 35718	Mehmet Kaya
+2165 35732	Yiqing Tu
+1058 35739	Arbee L. P. Chen
+3918 35771	Jin Huang
+2200 35785	Stefano Ferilli
+2201 35786	Nicola Di Mauro
+2202 35787	Teresa Maria Altomare Basile
+3482 35815	Mohammad El-Hajj
+3082 35818	Ada Wai-Chee Fu
+1490 35856	Ting Chen
+9521 35865	Hector Gonzalez
+2288 35872	David R. Hardoon
+2239 35873	Craig Saunders
+4743 35874	S¨¢ndor Szedm¨¢k
+2289 35875	John Shawe-Taylor
+7398 35880	Olfa Nasraoui
+4142 35947	Ricco Rakotomalala
+950 35984	Hua Li
+951 35986	Rafael Alonso
+2101 36011	Alessandro Sperduti
+2553 36021	Min Wang
+6165 36045	Cuiping Li
+1273 36094	Bin He
+8704 36133	Bo Huang
+7394 36180	Hui Yang
+8906 36184	Jing Yang
+9009 36216	Kun Yue
+1332 36252	Cheqing Jin
+4223 36276	Fengzhan Tian
+9929 36321	Yu Chen
+3781 36324	Liqiang Geng
+4081 36327	Xiaogang Peng
+8635 36459	Dean Jacobs
+5006 36708	Philippe Codognet
+10010 36746	Mehmet Emin D?nderler
+6784 36926	Anthony J. Bagnall
+5365 36942	Fr¨¦d¨¦ric Saubion
+5366 36943	Fr¨¦d¨¦ric Lardeux
+6876 37007	Alex Alves Freitas
+4615 37034	Kenneth A. De Jong
+6863 37060	Dirk Thierens
+4216 37074	Mich¨¨le Sebag
+5706 37115	Louise Trav¨¦-Massuy¨¨s
+8412 37273	Donald D. Chamberlin
+3023 37276	Michael Stonebraker
+10069 37355	Ambj?rn Naeve
+9920 37477	Gary Marsden
+4717 37561	Simon Perkins
+1402 37642	Raghu Krishnapuram
+7349 37644	Vivek Jain
+5602 37730	Silvia Rossi
+1078 37732	R. Scott Cost
+5158 37741	Fariba Sadri
+5159 37742	Francesca Toni
+932 37775	Enrico Blanzieri
+5056 37829	Jan Broersen
+9881 37845	Yariv Aridor
+3615 37858	Brent Heeringa
+4579 37868	Michael R. Lyu
+1637 37889	Qiming Chen
+1638 37891	Umeshwar Dayal
+7598 37938	Ian Soboroff
+3788 38005	Andrew E. Fano
+1071 38060	George Karypis
+4683 38102	Amy McGovern
+4728 38113	Christian R. Shelton
+1204 38139	James H. Kaufman
+1205 38140	Joann Ruvolo
+1206 38141	Daniel Alexander Ford
+4530 38164	Mohammad Ghavamzadeh
+5213 38167	Francesc Esteva
+7549 38173	Yosi Mass
+9628 38174	Victor B. Zordan
+7901 38365	Elizabeth D. Liddy
+4585 38405	Odest Chadwicke Jenkins
+7118 38722	Victor Vianu
+8690 38737	Hasan M. Jamil
+3632 38766	Fosca Giannotti
+3633 38767	Dino Pedreschi
+2920 38830	Sergio Flesca
+2921 38831	Sergio Greco
+6960 38840	Elena Marchiori
+889 38846	Elena Ferrari
+2727 38848	Barbara Catania
+6953 38878	Franco Turini
+5224 38887	Francesco Scarcello
+2203 38894	Floriana Esposito
+5163 38895	Nicola Fanizzi
+2055 38896	Donato Malerba
+5605 38928	Paolo Torroni
+6598 38933	Giuseppe Manco
+5144 38952	Giovambattista Ianni
+8647 38953	Vincenzino Lio
+5692 38998	Frank Pfenning
+7046 39045	Gilles Richard
+3717 39114	Michael R. Berthold
+2067 39162	Mark T. Keane
+2130 39166	Nicola Stokes
+2131 39167	Joe Carthy
+2076 39233	Maurice Coyle
+10070 39268	Michael Sintek
+9643 39288	Carole A. Goble
+5665 39314	Jill Freyne
+5666 39336	Keith Bradley
+5573 39337	Rachael Rafter
+5667 39340	Peter Briggs
+7767 39364	Daqing He
+5126 39365	Marco Maggini
+1092 39371	Paul-Alexandru Chirita
+1496 39389	Wei-Ying Ma
+5304 39419	Anthony Jameson
+4158 39453	Henry Tirri
+5516 39551	John O'Donovan
+2145 39552	John Dunnion
+7743 39583	Daniela Petrelli
+1917 39596	Joemon M. Jose
+1708 39704	Susan Gauch
+5227 39740	Christine Largou?t
+1609 39748	Vlado Keselj
+5401 39764	Churn-Jung Liau
+4010 39784	Jie Cheng
+6526 39787	Ahmed Amrani
+6527 39789	Oriane Matte-Tailliez
+1303 39792	Aijun An
+1304 39796	Xiangji Huang
+3838 39810	Mohamed S. Kamel
+3782 39839	Howard J. Hamilton
+2198 39848	Chris Drummond
+2785 39849	Todd Eavis
+4340 39886	Cory J. Butz
+6604 39906	Jianchao Han
+6877 39917	Nelson F. F. Ebecken
+8026 39921	Fuchun Peng
+6602 39968	Kamran Karimi
+1166 39971	J?rg Sander
+7017 39972	Mark Schmidt
+4760 40044	Malcolm R. K. Ryan
+3958 40048	Yuhong Yan
+5651 40090	Juichi Miyamichi
+6510 40097	Engelbert Mephu Nguifo
+4341 40101	Hong Yao
+2344 40120	Huajie Zhang
+4375 40137	Tetsuya Yoshida
+6613 40142	Robert J. Hilderman
+4662 40148	Jianning Wang
+1298 40184	Xiaohua Hu
+7276 40225	Guichong Li
+4664 40245	Mario Marchand
+8036 40513	Victoria S. Uren
+5699 40538	Gianluca Torta
+2146 40551	Ruichao Wang
+2147 40552	William P. Doran
+2132 40553	Eamonn Newman
+4082 40628	Ben Choi
+4256 40693	J?rg Ontrup
+1754 41288	Mohamed A. Sharaf
+3581 41438	Hamad Alhammady
+3629 41715	Emilio Corchado
+3630 41716	Colin Fyfe
+7661 41726	Gareth J. F. Jones
+7662 41727	Adenike M. Lam-Adesina
+5528 41749	Derry O'Sullivan
+2380 41953	Paul Watson
+8117 41984	Qing Yu
+8459 42060	Jihad Boulos
+9914 42089	Dieter Fensel
+2182 42129	Yeali S. Sun
+9536 42206	Rim Moussa
+2531 42315	Giuseppe Sindoni
+2532 42316	Leonardo Tininini
+7264 42459	Daniel Keren
+4447 42467	Daphna Weinshall
+4424 42529	Peter A. Flach
+3618 42545	Setsuo Arikawa
+9111 42601	Claudio Bettini
+2109 42604	Gianni Amati
+5514 42610	Alessandro Micarelli
+4425 42620	Annalisa Appice
+2056 42621	Michelangelo Ceci
+5196 42643	Marco Botta
+3634 42665	Maurizio Atzori
+4403 42708	Margherita Berardi
+7573 42727	Fabio Ciravegna
+5117 42730	Claudia Picardi
+1413 42773	Alberto Lavelli
+4496 42785	Roberto Esposito
+5585 42828	Linda C. van der Gaag
+5296 42836	Hiroshi Ishiguro
+5197 42846	Ugo Galassi
+7039 42866	Ruggero G. Pensa
+6882 42877	Clara Pizzuti
+5644 42890	Alessandro Serra
+3795 42914	Man Leung Wong
+3796 42915	Kwong-Sak Leung
+909 42942	Diego Sona
+4515 43090	Dragan Gamberger
+7006 43168	Michael W. Kattan
+5586 43188	Silja Renooij
+2417 43192	Barbara Oliboni
+6919 43199	Michael Egmont-Petersen
+5868 43229	Peter Antal
+5869 43230	Geert Fannes
+5676 43380	Michel C. A. Klein
+1861 43411	Volker Tresp
+7063 43429	Francesca Demichelis
+4582 43445	Aleks Jakulin
+6946 43459	¨¦lisa Fromont
+4006 43512	David G. Lindsay
+4007 43513	Sian Cox
+6157 43559	Minca Mramor
+6158 43560	Gregor Leban
+10110 43651	Chris Wroe
+7225 43728	Marc Spielmann
+5946 43740	Padhraic Smyth
+3204 43770	Richard T. Snodgrass
+3399 43856	Zhiyong Huang
+5431 43964	Carlos Areces
+936 44089	Sunil Choenni
+937 44090	Henk M. Blanken
+5131 44170	Patrick Doherty
+5132 44171	Witold Lukaszewicz
+7780 44267	Nathalie Hernandez
+3877 44337	Milos Kovacevic
+3878 44338	Michelangelo Diligenti
+2771 44418	Joseph Davis
+6898 44452	Ioannis P. Vlahavas
+2171 44455	Fritz Wysotzki
+4178 44468	Zhong Zhang
+7771 44662	Muhammad Younas
+6685 44860	Chun Hung Li
+2637 44881	Gautam Das
+4030 44968	Panos M. Pardalos
+7772 45015	Yih-Ling Hedley
+7773 45016	Anne E. James
+8197 45058	Robert W. P. Luk
+7788 45135	Kazunori Matsumoto
+3296 45194	Masato Oguchi
+1361 45372	Jan-Ming Ho
+1948 45522	Xing Li
+9857 45537	Hai Wang
+3955 45822	Simon Sheu
+3170 45845	Kwong Yuen Lai
+4264 45914	Shian-Shyong Tseng
+9321 46043	Jianhua Lu
+6803 46079	Vincent Shin-Mu Tseng
+2895 46224	Wei Hong
+5917 46238	Xiaodong Zhou
+2592 46287	Wolf Siberski
+2593 46418	Wolf-Tilo Balke
+8469 46502	Marco Brambilla
+6981 46528	Jee-Hyub Kim
+3804 46529	Melanie Hilario
+2461 46538	Antoine Mensch
+5682 46656	Atsuhiro Takasu
+2705 46689	Fabio Porto
+4672 46718	Lei Yu
+4382 47075	Chunnian Liu
+9360 47128	Eric Simon
+1362 47352	Hung-Yu Kao
+9606 47632	Tsutomu Terada
+9858 47683	Ji Zhang
+7789 47794	Kazuo Hashimoto
+4245 47927	Terumasa Aoki
+6655 48152	Michael K. Ng
+5254 48161	Harry Wechsler
+4718 48236	James Theiler
+4957 48445	Tamara Babaian
+2902 48481	Denise Draper
+5356 48499	Philippe Laborie
+5534 48515	Luca Spalazzi
+4565 48555	Okhtay Ilghami
+5718 48573	Yevgeniy Vorobeychik
+4750 48574	Matthew R. Rudary
+4905 48585	Barbara Engelhardt
+3106 48604	Ehud Gudes
+5485 48620	Fusun Yaman
+4319 48623	Hong Cheng
+4988 48642	J. Benton
+5611 48646	Jason Wolfe
+4597 48693	Anders Jonsson
+2309 48697	Fei Xiao
+4764 48698	Soumya Ray
+8058 48749	Tao Qin
+6003 48750	Tie-Yan Liu
+8059 48751	Xu-Dong Zhang
+8168 48754	Kyoji Umemura
+1704 48763	Jacques Savoy
+6553 48775	Ki Chan
+1936 48785	Xing Xie
+1886 48788	Hua-Jun Zeng
+7667 48797	Koji Eguchi
+10163 48807	Yizhou Lu
+1497 48809	Benyu Zhang
+1969 48810	Wensi Xi
+7857 48829	Sang-Bum Kim
+2160 48840	Nie Yu
+2161 48841	Lingpeng Yang
+2064 48845	Ming-Hung Hsu
+2065 48846	Ming-Feng Tsai
+7810 48849	Guoping Hu
+7936 48852	Mingjing Li
+6389 48853	Zhiwei Li
+7866 48858	Ruizhang Huang
+8258 48880	Changsheng Xu
+5953 48896	Won Suk Lee
+8078 48897	Tetsuya Sakai
+7833 48901	In-Ho Kang
+7668 48928	Keizo Oyama
+7846 48949	Xin Fu
+1612 48968	Huyen-Trang Vu
+1613 48969	Patrick Gallinari
+8198 48971	Kui-Lam Kwok
+1658 48988	Shengli Wu
+7925 48989	Donghai Guan
+7926 48990	Byeong Man Kim
+10168 49003	Xinyi Yin
+8289 49014	Dell Zhang
+1810 49045	Hongbo Xu
+2018 49055	Cathal Gurrin
+4043 49077	Wenyin Liu
+9244 49167	Ju-Hong Lee
+3558 49403	Hillol Kargupta
+2251 49427	Mark Last
+3993 49440	Ning Zhong
+9568 49644	Andreas Meier
+5124 49721	Louise A. Dennis
+3307 49871	Andrzej Cichocki
+3308 49873	Donald Baker
+9277 49929	Paolo Missier
+3370 49946	Peter Dadam
+3371 49947	Stefanie Rinderle
+2676 50003	Deepak Goyal
+7150 50034	David Scot Taylor
+6088 50071	Geetha Jagannathan
+3626 50079	Wojciech Szpankowski
+2986 50093	Balachander Krishnamurthy
+4900 50098	Igor L. Markov
+1992 50116	Gonzalo Navarro
+5886 50193	Herv¨¦ Br?nnimann
+7431 50250	Holger Bast
+2961 50300	Ashish Goel
+2998 50301	Ramesh Govindan
+2585 50302	Rajeev Motwani
+2281 50556	Ashutosh Garg
+3820 50558	Jun Zhang 0002
+5842 50568	Michinari Momma
+4468 50569	Nello Cristianini
+5059 50586	Andrei A. Bulatov
+3619 50594	Hiroki Arimura
+2222 50600	Marcus Hutter
+7259 50601	Hiroshi Sakamoto
+4820 50609	N. V. Vinodchandran
+4436 50623	Avrim Blum
+4025 50629	Yang Dai
+4294 50634	Rohan A. Baxter
+4500 50650	Eyal Even-Dar
+968 50664	Nadav Eiron
+4511 50667	Leigh J. Fitzgibbon
+4406 50673	Alex J. Smola
+4836 50679	S. V. N. Vishwanathan
+5568 50682	Dav Zimak
+2871 50694	Piotr Indyk
+2240 50724	Volodya Vovk
+6258 50726	Shyam Kapur
+6586 50729	Tetsuhiro Miyahara
+6903 50732	Ross D. King
+9041 50737	Wolfgang Lindner
+4461 50743	Corinna Cortes
+4521 50745	Adam Kowalczyk
+6874 50747	Rudolf Kruse
+3718 50748	Christian Borgelt
+5381 50751	Shane Legg
+6759 50757	Yusuke Suzuki
+6587 50758	Takayoshi Shoudai
+6588 50759	Tomoyuki Uchida
+4773 50786	Robert E. Schapire
+4650 50789	Jaz S. Kandola
+4837 50791	M. Narasimha Murty
+6770 50798	Atsuyoshi Nakamura
+6223 50799	Jun-ichi Takeuchi
+2241 50806	Ilia Nouretdinov
+6664 50849	Yuko Itokawa
+2256 50856	Jingdong Wang
+2257 50857	Jianguo Lee
+6484 50863	Kenichi Yoshida
+4393 50865	Setsuo Ohsuga
+6826 50927	Ke Yin
+5414 50948	Brian Rodrigues
+4580 50955	Haiqin Yang
+4714 50981	Angelo C. Restificar
+7094 51072	Michael Benedikt
+2976 51149	Laks V. S. Lakshmanan
+8599 51252	Monica Marcus
+9894 51322	Sebastiano Vigna
+8392 51414	Mehmet Altinel
+3065 51416	Ugur ?etintemel
+3252 51417	Michael J. Franklin
+9691 51453	Ryoji Kataoka
+2386 51527	Michalis Vazirgiannis
+4623 51659	Bir Bhanu
+5742 51774	Yaneer Bar-Yam
+4774 51785	J¨¢nos A. Csirik
+5214 51793	Lluis Godo
+6465 51798	Dean P. Foster
+6799 51803	Xiaoyang Tan
+5532 51811	Yiqiang Chen
+4738 51844	Yuan (Alan) Qi
+7317 51857	Raghu Machiraju
+6592 51919	Warodom Geamsakul
+4220 51920	Kouzou Ohara
+6067 51921	Hideto Yokoi
+6068 51922	Katsuhiko Takabayashi
+7023 51929	Shinya Kitaguchi
+4383 51933	Muneaki Ohshima
+10076 52084	Christoph Schmitz
+1751 52089	James G. Shanahan
+2248 52093	Michael Wurst
+5265 52098	Xiangen Hu
+6893 52135	Ilaria Bartolini
+2149 52150	Ryen W. White
+1212 52163	James C. French
+7918 52168	Kyoung-Mi Lee
+2026 52178	Stefan M. R¨¹ger
+1700 52187	Thijs Westerveld
+1701 52188	Arjen P. de Vries
+1702 52189	Georgina Ram¨ªrez
+6986 52200	Dimitrios Mavroeidis
+1647 52203	Wolfgang M¨¹ller 0002
+1648 52208	Martin Eisenhardt
+7494 52222	Stefano Berretti
+7537 52223	Pietro Pala
+938 52247	Djoerd Hiemstra
+5757 52685	Chung-hye Han
+7491 52728	Douglas W. Oard
+5024 52819	Rie Kubota Ando
+1531 52890	Chris Buckley
+6026 52928	Matthew Hurst
+1426 52952	Xiaoyong Liu
+7902 52954	Anne Diekema
+5732 53167	Werner Dubitzky
+2214 53238	Geoffrey Holmes
+3713 53459	Nidal M. Zeidat
+2751 53506	Zina Ben-Miled
+969 54033	Ning Li
+7076 54222	Haifeng Shen
+6023 54359	Kevin S. McCurley
+3908 54427	Jin-yi Cai
+9018 54437	Qi Cheng
+7102 54541	Kobbi Nissim
+8991 54542	Brian Murphy
+9888 54644	Bernd Meyer
+9646 55155	Hans-Arno Jacobsen
+2999 55174	Ramakrishna Gummadi
+5535 55407	Loris Penserini
+910 55413	Giordano Adami
+8616 55428	George H. L. Fletcher
+8859 55449	Bo Ling
+3323 55450	Wee Siong Ng
+8860 55451	Yanfeng Shu
+10077 55470	Mario T. Schlosser
+10078 55476	Martin Wolpers
+10079 55477	Ingo Brunkhorst
+8549 55478	Brent N. Chun
+4327 55515	Jianping Zhang
+7966 55532	Sharon McDonald
+6662 55668	Peter Kunath
+3882 55669	Alexey Pryakhin
+3884 55670	Matthias Renz
+6731 55673	W. Bret Church
+3094 55688	Siva Ravada
+3725 55689	Huiqing Liu
+1546 55691	Hwee-Leng Ong
+1299 55694	Illhoi Yoo
+4609 55827	Kaibo Duan
+4118 55928	Gang Wu
+1441 55936	Liang Huai Yang
+1418 55937	Mong-Li Lee
+6397 56013	Chen Wang
+1828 56021	Robert Warren
+7345 56035	Satish Tadepalli
+6296 56037	Richard F. Helm
+8204 56076	Marcel J. T. Reinders
+8441 56091	Arthur Zimek
+3304 56129	Sudarshan Murthy
+9688 56150	R¨¦gis Saint-Paul
+10147 56171	Jing Sun
+10059 56323	Hisashi Shimamura
+10060 56324	Hajime Takano
+4362 56478	Akira Okada
+9079 56482	Raja Bose
+5904 56567	Martin K?hler
+3454 56573	Jianyong Wang
+7217 56651	Helmut Seidl
+7221 56663	William Maniatty
+3974 56678	Salvatore Orlando
+8910 56855	Michael Rys
+9164 57624	Carlos A. Heuser
+7301 58359	John H. Leuchner
+5536 58395	Maurizio Panti
+1444 58534	David Finkel
+6746 58574	John A. Keane
+5983 59071	Takehisa Yairi
+3532 59075	Simon Fong
+6043 59127	Boulos Harb
+7125 59138	Noga Alon
+7160 59162	Moni Naor
+7122 59172	Ziv Bar-Yossef
+5919 59174	Ravi Kumar
+4277 59205	Sourav Chakraborty
+8428 59275	Sumit Ganguly
+9933 59299	Nicole Immorlica
+5185 59303	Pawel Zielinski
+9071 59322	Ying Xu 0002
+2805 59383	S. Muthukrishnan
+7182 59400	Swastik Kopparty
+7202 59445	Mihalis Yannakakis
+4022 59475	Tao Liu
+7811 59508	Shuming Shi
+8823 59530	Yu Jiang
+1993 59951	Pablo de la Fuente
+1006 60018	Charles L. A. Clarke
+4106 60095	San-Yih Hwang
+3210 60184	Wenhui Zhang
+974 60374	Sanghyun Park
+5090 60436	Chiu Wo Choi
+9015 60684	Yali Zhu
+7578 60818	Geguang Pu
+6362 60956	Kwan-Liu Ma
+6363 60972	Soon Tee Teoh
+4721 61002	DucDung Nguyen
+2273 61003	Tu Bao Ho
+6069 61004	Saori Kawasaki
+3266 61203	Xiaofeng Meng
+3034 61209	Qiong Luo
+6004 61216	Bin Gao
+3929 61238	Shipeng Yu
+9010 61261	Zhimao Guo
+1937 61298	Chuang Wang
+3271 61323	Hui-I Hsiao
+8419 61324	Karen Brannon
+3897 61328	Chenyong Hu
+6557 61340	Kuo-Yu Huang
+6558 61341	Chia-Hui Chang
+1498 61406	Fengshan Bai
+2264 61412	Satoshi Oyama
+7888 61459	Huaizhong Kou
+1687 61475	Weiguo Fan
+8298 61476	Lei Ji
+1481 61492	Jiaheng Lu
+961 61493	Tok Wang Ling
+1333 61498	Weining Qian
+5796 61529	Shifu Chen
+10099 61565	Akiyo Nadamoto
+7819 61578	Rieko Kadobayashi
+6533 61596	Deepak Kolippakkam
+3661 61597	Huan Liu
+4036 61632	Laurence A. F. Park
+10144 61690	Kazunari Sugiyama
+1407 61702	Jayant R. Haritsa
+1405 61718	Tadahiko Kumamoto
+6398 61766	Yongtai Zhu
+6767 61767	Tianyi Wu
+6656 61784	Joshua Zhexue Huang
+1334 61803	Chaofeng Sha
+6005 61814	QianSheng Cheng
+1877 61834	Yitong Wang
+1949 61841	Shaozhi Ye
+3037 61860	Hai Yu
+1223 61874	Kun-Lung Wu
+1945 61875	Shyh-Kwei Chen
+2274 61891	Yasushi Inoguchi
+8793 61927	Yubin Bao
+7724 62079	Takayuki Tamura
+7579 62094	Liu Wenyin
+3006 62104	Zhiming Ding
+2941 62130	Gabriel Pui Cheong Fung
+6703 62131	Zheng Liu
+7242 62152	Shigang Chen
+1812 62156	Baihua Zheng
+2375 62261	Erhard Rahm
+1952 62330	Arie Shoshani
+1857 62337	Kai Yu
+3470 62782	Richard R. Muntz
+5646 63113	Mathieu Serrurier
+10022 63323	Ramesh C. Agarwal
+8470 63439	Sara Comai
+1776 63441	A. Prasad Sistla
+2536 63442	Ouri Wolfson
+4901 63637	Karem A. Sakallah
+5383 63737	Gaetano Borriello
+1252 64085	Sandeep Gupta
+10014 64334	Yi Shang
+4592 64380	Vladimir Pavlovic
+8818 65081	Ueli M. Maurer
+4501 65101	Yishay Mansour
+6046 65123	Ravi Sundaram
+6473 65136	Sheng Zhong
+4419 65343	Nicos Angelopoulos
+2806 65428	Zhiyuan Chen
+5920 65491	Prabhakar Raghavan
+1976 65515	I. V. Ramakrishnan
+3014 65558	Dan Suciu
+1068 65890	Susan B. Davidson
+2277 65896	Jan Van den Bussche
+7048 65946	Salvatore Rinzivillo
+5433 66019	Thomas Linke
+9711 66048	Ismail Hakki Toroslu
+4902 66153	Fadi A. Aloul
+5580 66154	Arathi Ramani
+5407 66174	Mark H. Liffiton
+3568 66373	Jong-Sheng Cherng
+3097 66706	Hiroaki Etoh
+5970 67147	Rahul Kumar
+7506 67292	G. Kim
+8777 68141	Zhihua Wang
+883 68590	Carlo Curino
+10067 68915	Henry M. Levy
+9068 68926	Armando Fox
+4872 68972	Richard M. Karp
+975 68982	Khalil Amiri
+1532 69047	Gordon V. Cormack
+2110 69111	Douglas Johnson
+1083 69177	Jaswinder Pal Singh
+8550 69185	Sean C. Rhea
+9985 69205	Vivek Sarkar
+6347 69219	Pat Hanrahan
+2320 69234	Mark Mitchell
+9058 69262	Alaa R. Alameldeen
+6290 69319	Ramendra K. Sahoo
+9012 69345	Windsor W. Hsu
+9722 69368	Steven W. Schlosser
+9701 69369	Gregory R. Ganger
+8355 69372	Xiaowei Jiang
+9262 69388	Christopher B. Colohan
+1824 69400	Xuanhui Wang
+2663 69402	Shimin Chen
+2776 69403	Phillip B. Gibbons
+8937 69463	Christoph von Praun
+9647 69497	Ioana Burcea
+9031 69515	Sudhanva Gurumurthi
+1124 69765	Peter G. Fairweather
+3293 69857	Saikat Mukherjee
+1977 69858	Michael Kifer
+7940 69996	Siobhan Devlin
+10111 70387	Marta Sabou
+4016 70558	Nazim H. Madhavji
+1278 71292	Hao He
+7297 71298	Michael C. Burl
+8125 71358	Charles K. Nicholas
+5140 71394	Carlos Eisenberg
+6937 71475	Stefan Holland
+3355 71593	Aris Tsois
+2944 71620	Avigdor Gal
+5634 71711	Tod Milam
+4350 71727	W. Nick Street
+4926 71855	Donovan Artz
+4734 71900	Matthew Rosencrantz
+1134 71910	David Levine
+10123 71951	Hongchi Shi
+10124 71953	Su-Shing Chen
+5725 72052	Scott A. Wallace
+6039 72104	Brian Neil Levine
+6760 72111	Kenichi Takahashi
+5361 72214	Florin Constantin
+4779 72223	Nicholas K. Jong
+4197 72290	Chun-Yi Shi
+7166 72309	Martin Strauss
+4865 72317	Britton Wolfe
+7574 72439	Alexiei Dingli
+4711 72541	Sriraam Natarajan
+4288 72610	Li Wei
+6439 72617	Shengquan Wang
+3778 72839	Floris Geerts
+2966 73063	R. Jha
+6620 73496	Yutaka Hata
+2648 73611	Jianping Fan
+9814 73695	Tian Xia
+6761 73836	Hiroaki Ueda
+4059 73985	Wei Zou
+6297 74010	Bud Mishra
+3990 74078	Chao Wang
+7265 74085	Assaf Schuster
+9921 74271	Harold W. Thimbleby
+3604 74281	Zijian Zheng
+6405 74355	Shane M. Butler
+6174 74423	Feng Liang
+4295 74503	Lifang Gu
+4296 74504	Hongxing He
+4297 74505	Simon Hawkins
+6169 74506	Chris Kelman
+2302 74558	Dorian Suc
+6762 74597	Sachio Hirokawa
+5354 74598	Rex Bing Hung Kwok
+2215 74605	Mark Hall
+2216 74606	Eibe Frank
+2217 74739	Bernhard Pfahringer
+3855 74760	Hyungil Kim
+2772 74812	Sanjay Chawla
+3994 74829	Yuefeng Li
+1985 74841	Jie Lu
+6834 75023	Unil Yun
+2226 75059	Claude Sammut
+1924 75154	Casey Whitelaw
+2351 75195	Yuan Jiang
+2172 75201	Peter Geibel
+2218 75218	Richard Kirkby
+5588 75224	Jochen Renz
+3662 75256	Manoranjan Dash
+6710 75279	Chao Liu
+7173 75303	Klaus U. Schulz
+6516 75317	Peter Christen
+6517 75319	Tim Churches
+1938 75352	Yuchang Gong
+6788 75355	Warwick Graco
+6600 75356	Sylvie Guillaume
+6666 75368	Vijay S. Iyengar
+6629 75400	Paul J. Kennedy
+9658 75995	Qi Su
+7601 76051	Chang Huang
+7652 76143	Jonathan J. Cadiz
+6885 76246	Stefano Rizzi
+6059 76319	Yehuda Koren
+3262 76331	Alexandra Poulovassilis
+3842 76372	Mike Sips
+3843 76436	Christian Panse
+2381 76449	Norman W. Paton
+7653 76499	Edward Cutrell
+7654 76500	Raman Sarin
+2981 76520	Tony Griffiths
+2934 76608	Bharat Kumar
+2935 76609	Daniel F. Lieuwen
+7680 76863	Hui Fang
+4119 76914	Edward Y. Chang
+7187 77073	Carlos A. Hurtado
+9966 77149	Lei Gao
+4384 77192	Jiajin Huang
+6922 77216	Bracha Shapira
+6923 77217	Yuval Elovici
+6924 77218	Omer Zaafrany
+6150 77219	Abraham Kandel
+8366 77228	Foto N. Afrati
+2706 77755	Fran?oise Fabret
+2707 77756	Patrick Valduriez
+8455 77757	Fran?ois Dang Ngoc
+1177 77758	Philippe Pucheral
+1642 77763	Michel Scholl
+9033 77775	Nicolas Anciaux
+8827 77782	Bernd Amann
+7111 77787	Omar Benjelloun
+2400 77788	Ioana Manolescu
+8342 77795	Gregory Cobena
+2462 77800	Georges Gardarin
+2597 77809	Nicoleta Preda
+2484 77826	Jean-Marc Petit
+2936 77836	Irini Fundulaki
+9938 77839	Vassilis Christophides
+5929 77844	Lotfi Lakhal
+963 77845	Sihem Amer-Yahia
+7098 77848	Luc Segoufin
+2616 77849	Yannis Kotidis
+9037 77859	Mihnea Andrei
+9034 77869	Christophe Bobineau
+2913 77875	Philippe Bonnet
+2765 77900	Peter Buneman
+5930 77918	Alain Casali
+5931 77919	Rosine Cicchetti
+2485 77925	St¨¦phane Lopes
+2486 77927	Fabien De Marchi
+9052 77941	Florin Dragan
+8536 77956	Vincent Oria
+2688 77979	J¨¦r?me Sim¨¦on
+2743 77990	Am¨¦lie Marian
+964 78004	Mary F. Fern¨¢ndez
+1357 78006	Jaewoo Kang
+9361 78010	Helena Galhardas
+3376 78011	Dennis Shasha
+1178 78012	Sa?da Medjdoub
+9288 78014	Khaled Yagoub
+2926 78015	Donald Kossmann
+3530 78017	Fr¨¦d¨¦ric Flouvat
+9289 78041	Mohamed Za?t
+4800 78046	Fei Sha
+2658 78075	Leonid Libkin
+9689 78077	Guillaume Raschia
+4098 78086	Viet Phan Luong
+2401 78108	Andrei Arion
+8883 78110	Yannis Papakonstantinou
+2396 78113	Thomas Brinkhoff
+10005 78118	Gregory Karvounarakis
+10006 78119	Sofia Alexaki
+2659 78121	Laurent Mignet
+9162 78133	Brahim Medjahed
+1643 78136	C¨¦dric du Mouza
+1570 78139	Philippe Mulhem
+6354 78149	ZhaoHui Tang
+6162 78222	Douglas Stott Parker Jr.
+3402 78278	Patricia G. Selinger
+1870 78295	Kenneth C. Sevcik
+8429 78296	Henry F. Korth
+3365 78337	Bruce G. Lindsay
+1345 78360	Vana Kalogeraki
+1346 78362	Demetrios Zeinalipour-Yazti
+8962 78364	Gregory C. Sharp
+892 78526	Ming-Syan Chen
+5002 78540	Aaron Davidson
+3312 78614	Laura M. Haas
+3143 78617	Peter M. Schwarz
+3048 78624	Alexander Hinneburg
+1902 78653	Anthony K. H. Tung
+8691 78704	Liangyou Chen
+3346 78726	Daxin Jiang
+3080 78733	Tamer Kahveci
+7318 78758	Matt Coatney
+3686 78782	Michihiro Kuramochi
+1594 78824	Henrique Paques
+6982 78842	Alex Mitchell
+6983 78843	Terri K. Attwood
+2488 78869	Victor M. Markowitz
+5880 78897	Robert F. Murphy
+3232 78929	Jiong Yang
+4788 78934	Tommi Jaakkola
+8998 78945	Kevin Y. Yip
+3256 78946	David W. Cheung
+8730 78951	Abhijit Pol
+3486 78964	Mohammed Javeed Zaki
+1817 79032	Chun Tang
+6101 79033	Murali Ramanathan
+9253 79059	Sridhar Ramachandran
+6106 79067	Ruoming Jin
+3863 79069	Hannu Toivonen
+4239 79071	Kari Vasko
+6320 79072	Vesa Ollikainen
+6321 79073	Petteri Sevon
+7340 79166	Hyunsoo Kim
+4027 79167	Haesun Park
+3377 79206	Jason Tsong-Li Wang
+1867 79256	Yu He
+3740 79275	Steven Eschrich
+1358 79287	Dongwon Lee
+2445 79353	Stefan Sch?nauer
+2810 79402	Jiejun Kong
+1312 79448	Nazli Goharian
+942 79449	Ophir Frieder
+1890 79638	Hongyuan Zha
+4948 79853	Sebastian Brandt
+8006 80164	Martin Franz
+3007 80761	Frank Hoffmann
+6010 81587	Zengjian Hu
+3668 81653	Christian Baumgartner
+3493 81687	Xianghong Jasmine Zhou
+2178 81899	Liviu Badea
+7115 82054	Gabriel M. Kuper
+3588 82087	Amihood Amir
+8713 82132	Paul Brown
+2799 82133	Peter J. Haas
+1207 82134	Jussi Myllymaki
+1679 82135	Hamid Pirahesh
+8449 82136	Berthold Reinwald
+3412 82137	Yannis Sismanis
+2489 82182	I-Min A. Chen
+7219 82270	Rosalba Giugno
+1019 82275	Marcos Andr¨¦ Gon?alves
+9583 82333	Susanne E. Hambrusch
+4445 82368	Justin Basilico
+1396 82448	Martin Pfeifle
+2723 82449	Marco P?tke
+2446 82450	Thomas Seidl
+906 82524	Jeffrey F. Naughton
+9600 82541	Thomas Schwarz
+7732 82577	Carol Peters
+9549 82666	Hans-Peter Steiert
+2361 82733	Carlo Zaniolo
+3331 82738	Xuan Zhou
+6505 82876	Jing Gao
+10051 83051	Ljiljana Stojanovic
+4013 83326	Aristides Gionis
+5510 83826	Geoff Nitschke
+4432 83848	Hendrik Blockeel
+3779 83852	Bart Goethals
+6034 83853	Eveline Hoekx
+1617 83863	Gilad Mishne
+4159 83881	Petri Myllym?ki
+1528 83916	Wang-Chien Lee
+8558 83922	Kajal T. Claypool
+9209 83948	Leonard Brown
+939 84010	Henk Ernst Blok
+9141 84014	Peter A. Boncz
+3263 84020	Peter McBrien
+9180 84029	Svein Erik Bratsberg
+2442 84031	Henrik Engstr?m
+2443 84032	Brian Lings
+2796 84037	Mal¨² Castellanos
+2683 84049	Michal Ceresna
+2684 84052	Marcus Herzog
+9841 84058	Christian Garcia-Arellano
+1964 84060	Edward L. Robertson
+2982 84072	Seung-Hyun Jeong
+2983 84073	Nassima Djafri
+9142 84077	Torsten Grust
+2790 84081	Amarnath Gupta
+2479 84093	Wolfgang Mahnke
+2937 84107	Arnaud Sahuguet
+1118 84108	Ming Xiong
+1034 84145	Alberto H. F. Laender
+1871 84158	Calisto Zuzarte
+3356 84159	Volker Markl
+8952 84164	Niels Nes
+3189 84165	Carson Kai-Sang Leung
+3320 84166	Thomas Neumann
+2719 84167	Sven Helmer
+3148 84172	Wenxin Liang
+3149 84173	Haruo Yokota
+7008 84215	Sergei O. Kuznetsov
+9143 84216	Stefan Manegold
+7495 84248	Xiao Mang Shou
+8423 84275	Gavin M. Bierman
+3991 84279	Adriano Veloso
+7066 84280	Bruno Gusm?o Rocha
+7067 84281	M¨¢rcio de Carvalho
+9974 84282	Raphael Volz
+9879 84294	Peter T. Wood
+1966 84298	Chenyi Xia
+8602 84309	Thomas Zurek
+3352 84310	Roelof van Zwol
+1135 84338	Leonidas Fegaras
+3026 84351	Yang-Sae Moon
+7497 84353	Sebastian Michel
+8705 84362	Dan Lin
+9573 84489	Alejandro A. Vaisman
+8410 84525	Silvana Castano
+6673 84561	Gerrit K. Janssens
+3372 84682	Ulrich Kreher
+10027 85564	Purushottam Kulkarni
+8657 85771	Michael Gillmann
+8755 85806	J¨¹rgen Kr?mer
+2573 85807	Bernhard Seeger
+2104 85811	Norbert Fuhr
+2465 85814	Achim Kraiss
+8685 85843	Arnon Rosenthal
+2466 85846	Uwe Deppisch
+1962 85853	Dirk Van Gucht
+3357 85855	Frank Ramsak
+9106 85860	Peter Baumann
+2376 85873	Hong Hai Do
+9313 85877	Jost Enderle
+7498 85883	Matthias Bender
+7499 85884	Christian Zimmer
+3157 85897	Stefan Berchtold
+1858 85913	Martin Ester
+1859 85918	Xiaowei Xu
+9706 85927	Bj?rn Blohsfeld
+2724 85957	Stefan Brecheisen
+9283 85965	Goetz Graefe
+9369 85966	Jens Graupmann
+9370 85967	Michael Biwer
+9371 85968	Patrick Zimmer
+4183 85981	Arno Siebes
+3029 85990	Johannes Klein
+3111 86000	Markus Keidl
+3112 86001	Alexander Kreutz
+2670 86002	Ming-Chuan Wu
+2467 86006	Frank Sch?n
+1281 86022	Klaudia Hergula
+1956 86025	Sam Lightstone
+2990 86026	K. Bernhard Schiefer
+9842 86027	Adam J. Storm
+9493 86077	Angelika Reiser
+8869 86117	Jim Kleewein
+8820 86133	Sergey Melnik
+9474 86148	Stefanie Scherzinger
+1768 86195	Stefan Siersdorfer
+1769 86196	Sergej Sizov
+3358 86200	Roland Pieringer
+3359 86201	Klaus Elhardt
+3360 86202	Robert Fenk
+2507 86203	Anja Theobald
+3030 86217	Hansj?rg Zeller
+9144 86232	Jan Rittinger
+2119 86236	Thomas R?lleke
+2735 86263	Andre Zeitz
+2948 86264	Bernhard Zeller
+9494 86321	Richard Kuntschke
+9145 86323	Jens Teubner
+3415 86345	Martin Theobald
+2508 86346	Ralf Schenkel
+9781 86359	Andreas Thor
+9550 86363	Christian Mathis
+5976 86367	Jens-Peter Dittrich
+9300 86368	Lukas Blunschi
+9301 86372	Marcos Antonio Vaz Salles
+3562 86373	Elke Achtert
+4448 86398	Tomer Hertz
+7363 86473	Hyuk Cho
+2951 86729	Dmitry Lenkov
+8627 87062	Ming C. Lin
+8628 87063	Dinesh Manocha
+989 87329	Andrei Z. Broder
+2588 87481	Jennifer Widom
+5171 87926	Quang Huy Nguyen
+4914 87947	Philippe Chatalic
+4915 87948	Laurent Simon
+8584 88178	David Toman
+5709 88187	Dmitry Tsarkov
+7099 88200	Thomas Schwentick
+2114 88531	Rafael Berlanga Llavori
+5671 88541	Alvaro Soto
+2034 88621	Eva Lorenzo Iglesias
+6545 88970	Qiang Ding
+1716 88971	William Perrizo
+6546 88972	Qin Ding
+7028 89067	Fei Pan
+1717 89069	Dongmei Ren
+7029 89070	Xin Hu
+6835 89095	John J. Leggett
+7730 89464	Yihong Gong
+6491 89721	Hang Yu
+4624 89828	Krzysztof Krawiec
+8686 90419	Dina Bitton
+1055 90476	Corsin Decurtins
+3008 90499	Dirk Ansorge
+9130 90529	Daniela Berardi
+8648 90619	Marco Ruzzi
+3389 90642	Mehmet Sayal
+2987 90665	Euthimios Panagos
+3164 90666	Michael Rabinovich
+8097 90673	Michael Christoffel
+1035 90697	Altigran Soares da Silva
+9326 90702	Elio Masciari
+6910 90703	Andrea Tagarelli
+9340 90709	Enrico Franconi
+9341 90711	Andrei Lopatenko
+9399 90713	Leonidas Galanis
+8551 90714	Shawn R. Jeffery
+8319 90715	David J. DeWitt
+1260 90768	Klaus Haller
+8945 90824	Xiaowei Sun
+9245 90866	Chin-Wan Chung
+7570 90889	Raman Chandrasekar
+1219 90913	Xiaoyang Sean Wang
+10080 90935	Alexander L?ser
+3384 90947	Neal Sample
+8725 90955	Monica Scannapieco
+1056 90994	Beat Signer
+3166 91118	Georgia Koutrika
+2454 91160	Sylvie Servigne
+8055 91250	Harris Wu
+7587 91294	Raluca Paiu
+8958 91315	Melanie Weis
+3260 91462	Norman May
+6047 91537	D. Sivakumar
+6243 91879	Dhabaleswar K. Panda
+3273 91948	Ibrahim Kamel
+8963 92500	Hiroki Shirato
+4194 92692	Jonathan Stoeckel
+9671 92727	Lei Jiang
+6478 92777	Jonathan Tang
+8464 94882	Ivan T. Bowman
+1957 94943	Kelly A. Lyons
+6129 94948	Edwin M. Knorr
+2807 94949	Raymond T. Ng
+1285 95002	Balakrishna R. Iyer
+9065 95019	Yuri Breitbart
+4017 95020	Tilmann F. W. Bruckhaus
+6291 95077	Jos¨¦ E. Moreira
+2429 95103	George T. Heineman
+1366 95146	Diane Kelly
+1958 95186	Guy M. Lohman
+8559 95187	Harumi A. Kuno
+2633 95268	Walid Rjaibi
+3811 95289	Robert L. Grossman
+9723 95334	Minglong Shao
+7425 95378	Elaine G. Toms
+7721 95379	Luanne Freund
+7426 95381	Joan C. Bartlett
+3438 95425	Jean Hou
+1959 95439	Daniel C. Zilio
+2634 95441	Paul Bird
+1502 95491	Wen-Chi Hou
+8473 95521	Aldo Bongio
+1598 96069	June-Suh Cho
+1503 96099	Zhewei Jiang
+1718 96137	Imad Rahal
+1504 96233	Cheng Luo
+3500 96317	King-Ip Lin
+1996 96479	Kamal Ali
+9977 97044	Suhit Gupta
+3298 97289	Ying Hu
+5088 97440	Hana Chockler
+1147 97600	Yehoshua Sagiv
+978 97623	Rani Nelken
+5096 97705	Roberto Cavada
+3348 97945	Sudarshan S. Chawathe
+3559 97986	Krishnamoorthy Sivakumar
+3635 98066	Francesco Bonchi
+7011 98330	Akira Tanaka
+8507 98422	Seung-won Hwang
+1590 98517	Vasileios Megalooikonomou
+5843 98589	Mark J. Embrechts
+4289 98651	Helga Van Herle
+8571 98765	Paolo Merialdo
+1230 98863	Dunja Mladenic
+3805 98877	Julien Prados
+3806 98878	Alexandros Kalousis
+6445 98896	Ruofei Zhang
+5968 99023	Edward Herskovits
+3829 99224	Nitin Kumar
+7359 99225	Venkata Nishanth Lolla
+3936 99226	Chotirat (Ann) Ratanamahatana
+4210 99386	Wei-Guang Teng
+5459 99420	Kenneth McGarry
+3975 99450	Fabrizio Silvestri
+3885 99508	Sebastian Wurst
+10138 99604	Li Xiong
+9829 99919	Long Zhang
+9910 100045	Janet L. Wiener
+3211 100107	Vincenzo Liberatore
+9895 100282	Paolo Boldi
+7824 100334	Marc J. van Kreveld
+6160 100560	Jon M. Kleinberg
+4610 100588	S. Sathiya Keerthi
+3274 100595	Khaled M. Elbassioni
+4345 100649	Ravi Janardan
+3589 100760	Nathan S. Netanyahu
+1580 100761	Christine D. Piatko
+2930 100777	Leonidas Palios
+2696 100800	Ralf Hartmut G¨¹ting
+8752 100842	Yunyue Zhu
+2600 100957	Win Bausch
+1729 101129	Kurt Stockinger
+913 101151	Farnoush Banaei Kashani
+3930 101401	Yi Huang
+8205 101422	Johan A. Pouwelse
+1347 101467	Dimitrios Gunopulos
+8941 101634	Tobias Mayr
+2433 101635	Johannes Gehrke
+2382 101672	M. Nedim Alpdemir
+6244 101690	Sundeep Narravula
+7266 101833	Ran Wolff
+3983 101859	Stephen Scott
+1513 101913	Ingo J. Timm
+6292 102260	Adam J. Oliner
+7319 102428	David Thompson
+2366 102514	Rakesh Agrawal
+9112 102525	Duminda Wijesekera
+2945 102551	Vijayalakshmi Atluri
+890 102597	Barbara Carminati
+2995 102667	Ting Yu
+1903 102678	Nan Wang
+1202 102764	Beverly Yang
+3247 102777	Xiaosong Ma
+2548 102778	William Shapiro
+2549 102779	Radek Vingralek
+10028 102794	Weibo Gong
+7103 102863	Frank McSherry
+3120 102874	Jaideep Vaidya
+1529 102910	Bo Luo
+6476 102919	Hui Xiong
+4949 102934	Ralf K¨¹sters
+7095 102935	Thomas Wilke
+6274 103092	Sridhar Ramaswamy
+1533 103687	Thomas R. Lynam
+4398 103688	Ron Bekkerman
+1380 103703	Aleksander Kolcz
+6132 103704	Joshua Alspector
+5738 103768	Krzysztof Gajos
+2567 103910	Hu Cao
+7040 104281	C¨¦line Robardet
+5085 104292	J¨¦r?me Fuselier
+6961 104295	J¨¦r¨¦mie Mary
+6962 104316	Antoine Cornu¨¦jols
+6511 104321	Ghada Gasmi
+5003 104361	Terence Schauenberg
+6092 104392	Martin Mozina
+5007 104722	Kin Chuen Hui
+2931 104930	Ioannis Fudos
+4830 105290	Marc Toussaint
+7418 105442	Yuqing Song
+9254 105796	Sanjay E. Sarma
+5739 105997	Steven A. Wolfman
+10089 106312	Alan F. Blackwell
+3675 106344	Krishna Bharat
+10105 106386	Kenneth P. Fishkin
+7690 106551	Marc Najork
+6337 106621	Orkut Buyukkokten
+7655 106630	Gavin Jancke
+7957 106634	Judith Klein-Seetharaman
+1626 106724	Sriram Mohan
+7659 106955	Susan Dziadosz
+1152 107800	Kenneth R. Wood
+7602 107932	Neema Moraveji
+1339 107961	Harry Bruce
+7744 108125	Jussi Karlgren
+3341 108161	Jesper Pedersen
+5233 108276	Masataka Goto
+8920 108365	Vineet Sinha
+5921 108401	Andrew Tomkins
+6775 108436	Joseph Lee
+4331 108514	Kiyoung Yang
+994 108699	Arnon Amir
+10090 108801	Kerry Rodden
+7695 108901	Robert K. France
+1722 109721	Michael J. Taylor
+4753 109729	Jaime Teevan
+4936 109730	Christine Alvarado
+5746 109995	Daniel H. Wilson
+8056 110028	Michael D. Gordon
+3676 110081	Bay-Wei Chang
+9680 110102	Angel Janevski
+8706 110155	Yaxiao Song
+10063 110222	Saverio Perugini
+3844 110679	Stephen C. North
+2234 110908	Andreas Dengel
+10106 111002	Donald J. Patterson
+7484 111295	Ronny Lempel
+979 111296	Aya Soffer
+7550 111297	Yo?lle S. Maarek
+2426 111328	Christos Tryfonopoulos
+9342 111354	Ilya Zaihrayeu
+2736 111356	Ilvio Bruder
+3763 111414	Paolo Ferragina
+4698 111938	Eduardo F. Morales
+5956 112422	Alan Wagner
+1374 112479	Won-Young Kim
+7932 112737	Baoli Li
+7954 112879	Takeshi Masuyama
+7834 112955	Gil-Chang Kim
+5266 112958	Zhiqiang Cai
+7859 113014	Hee-Cheol Seo
+7700 113042	Haoliang Qi
+9672 113093	Iluju Kiringa
+8040 113099	David Pinto
+9634 113155	Christopher Olston
+8814 113156	Amit Manjhi
+2638 113161	Sanjay Agrawal
+2639 113162	Surajit Chaudhuri
+1564 113168	Zaiqing Nie
+3133 113170	Ander de Keijzer
+8474 113177	Roberto Acerbis
+8578 113185	Mirek Riedewald
+5891 113187	Walker M. White
+2569 113190	Jignesh M. Patel
+8513 113192	Sirish Chandrasekaran
+8514 113193	Owen Cooper
+2896 113194	Amol Deshpande
+8393 113195	Sailesh Krishnamurthy
+2897 113196	Samuel Madden
+3194 113197	Vijayshankar Raman
+8515 113198	Mehul A. Shah
+8325 113199	Daniel J. Abadi
+9290 113200	Karl Dias
+6326 113206	Fei Chen 0002
+8768 113207	Yoonkyong Lee
+9177 113208	Douglas Burdick
+3404 113209	Adam Silberstein
+2589 113211	Kamesh Munagala
+8326 113212	Mitch Cherniack
+8407 113213	Hari Balakrishnan
+3066 113214	Magdalena Balazinska
+8327 113215	Donald Carney
+8328 113216	Ying Xing
+3018 113217	Mohamed Y. Eltabakh
+2438 113218	Walid G. Aref
+8619 113229	Andreas Gr¨¹nhagen
+8492 113232	Xin Luna Dong
+2664 113233	Roger S. Barga
+8663 113234	Jonathan Goldstein
+3019 113235	Mohamed H. Ali
+6633 113236	Mingsheng Hong
+9388 113238	Florian Haftmann
+3015 113239	Zachary G. Ives
+3016 113240	Igor Tatarinov
+1119 113243	Minos N. Garofalakis
+8552 113244	Boon Thau Loo
+8553 113248	Ryan Huebsch
+8554 113249	Scott Shenker
+8555 113250	Ion Stoica
+3035 113252	Bingsheng He
+3511 113253	Nitin Khandelwal
+8528 113260	Ravishankar Ramamurthy
+9050 113261	Bogdan Alexe
+2590 113265	Shivnath Babu
+8320 113266	Pedro Bizarro
+8430 113267	Xin Dong
+7128 113269	Arvind Arasu
+2586 113270	Brian Babcock
+8317 113271	Chris Olston
+8310 113272	Justin Rosenstein
+8903 113277	Shariq Rizvi
+9271 113278	Eugene Wu 0002
+9272 113279	Anil Edakkunni
+8785 113280	Vassilis Papadimos
+8786 113281	Kristin Tufte
+2671 113285	Conor Cunningham
+9625 113286	Leo Giakoumakis
+1274 113289	Kevin Chen-Chuan Chang
+7500 113290	Peter Triantafillou
+8373 113293	Yanif Ahmad
+3067 113294	Jeong-Hyon Hwang
+8329 113295	Anurag Maskey
+3068 113296	Alex Rasin
+9091 113297	Esther Ryvkina
+8330 113298	Nesime Tatbul
+9072 113299	Gagan Aggarwal
+9073 113300	Mayank Bawa
+8525 113301	Prasanna Ganesan
+9074 113302	Krishnaram Kenthapadi
+7227 113303	Utkarsh Srivastava
+9075 113304	Dilys Thomas
+2853 113310	Aravind Yalamanchi
+2854 113311	Jagannathan Srinivasan
+2952 113312	Dieter Gawlick
+8984 113315	Laura Bright
+9529 113316	Bishwaranjan Bhattacharjee
+3366 113318	Jun Rao
+4281 113321	Bei Yu
+3055 113333	Bill Howe
+2427 113334	Stratos Idreos
+1692 113607	Byron Dom
+884 113608	Yuanyuan Jia
+885 113609	Bruce Lambert
+886 113610	Patricia M. West
+946 113611	James Allan
+1535 113613	Ling Ma
+902 113614	David A. Grossman
+3545 113618	Philip K. Chan
+893 113619	Cheng-Yue Chang
+5954 113621	Joong Hyuk Chang
+895 113622	Javed A. Aslam
+896 113623	Emine Yilmaz
+898 113631	Virgiliu Pavlu
+899 113632	Robert Savell
+7874 113634	Leah S. Larkey
+903 113636	Steven M. Beitzel
+904 113637	Eric C. Jensen
+907 113638	Ashraf Aboulnaga
+3195 113640	Vishal S. Batra
+2649 113646	Moustafa A. Hammad
+2439 113647	Ahmed K. Elmagarmid
+1371 113648	Charu C. Aggarwal
+9080 113652	Abdelsalam Helal
+916 113653	Eugene Agichtein
+919 113657	Vivek Vedagiri
+920 113658	Amey V. Laud
+923 113662	Shurug Al-Khalifa
+926 113664	Khalid Al-Kofahi
+927 113665	Alex Tyrrell
+928 113666	Arun Vachher
+929 113667	Tim Travers
+933 113670	Sabrina Recla
+940 113672	Franciska de Jong
+943 113673	Mohammed Aljlayl
+8477 113674	Markus M. Breunig
+947 113675	Ao Feng
+948 113676	Alvaro Bolivar
+7876 113678	Victor Lavrenko
+952 113683	Jeffrey A. Bloom
+954 113684	Razvan Stefan Bot
+955 113685	Yi-fang Brook Wu
+958 113686	Quanzhi Li
+965 113687	Rick Greer
+966 113688	Divesh Srivastava
+970 113689	Chavdar Botev
+971 113690	Marcus Fontoura
+972 113691	Eugene J. Shekita
+8184 113693	Anastasios Tombros
+976 113696	Renu Tewari
+980 113698	Einat Amitay
+981 113699	Wayne Niblack
+982 113700	Ron Sivan
+8670 113701	Tolga Bozkaya
+990 113706	Michael Herscovici
+991 113707	Jason Y. Zien
+995 113712	Eric W. Brown
+996 113713	Anni Coden
+997 113714	Dulce B. Ponceleon
+998 113715	James W. Cooper
+999 113716	Jan Pieper
+1001 113718	Jeanette Bruno
+1007 113730	Stefan B¨¹ttcher
+1010 113733	Lijuan Cai
+1013 113735	Ben He
+2150 113737	C. J. van Rijsbergen
+1017 113738	Jing Bai
+1020 113739	P¨¢vel Calado
+1021 113740	Marco Cristo
+1022 113741	Edleno Silva de Moura
+1023 113742	Nivio Ziviani
+1024 113743	Berthier A. Ribeiro-Neto
+1027 113744	Chuck Baldwin
+1028 113745	Ghaleb Abdulla
+1031 113748	Mark Sanderson
+1036 113749	Juliano Palmieri Lage
+1037 113750	Davi de Castro Reis
+1038 113751	Pablo A. Roberto
+1039 113752	Monique V. Vieira
+1043 113753	Prasan Roy
+1045 113754	Deepayan Chakrabarti
+1046 113755	Christos Faloutsos
+1048 113756	Rodrigo C. Vieira
+1052 113757	Yew Kwong Woon
+2490 113766	Anthony Kosky
+7711 113767	Aitao Chen
+1059 113768	Hung-Chen Chen
+1062 113770	Christine T. Cheng
+1065 113772	Kurt W. Deschler
+1069 113773	Yifeng Zheng
+1072 113774	Mukund Deshpande
+2070 113779	Fernando Diaz
+1075 113782	Keke Chen
+1079 113783	Pavan Reddivari
+1080 113784	Vishal Doshi
+1084 113785	Andrea S. LaPaugh
+1086 113788	Luping Ding
+1089 113789	Sriram Padmanabhan
+1306 113791	Wen-Chih Peng
+1730 113792	Doron Rotem
+4198 113793	Jian-Tao Sun
+1868 113806	David Wai-Lok Cheung
+4337 113807	Ben Kao
+1093 113809	J?rg Diederich
+1095 113813	Krishna Prasad Chitrapura
+1096 113814	Srinivas R. Kashyap
+1098 113815	Miles Efron
+3027 113821	Wook-Shin Han
+1375 113822	Kyu-Young Whang
+3649 113824	Christoph F. Eick
+2855 113828	Eugene Inseok Chong
+2856 113829	Souripriya Das
+2857 113830	Chuck Freiwald
+2858 113831	Mahesh Jagannath
+2859 113832	Anh-Tuan Tran
+2860 113833	Ramkumar Krishnan
+1102 113835	Gautam Shanbhag
+1103 113836	Roger Zimmermann
+1106 113837	Kiam Choo
+1107 113838	Rajat Mukherjee
+1108 113839	Rami Smair
+1110 113841	Greg Pass
+4305 113845	Kun-Ta Chuang
+1115 113848	Chiasen Chung
+1120 113851	Wenfei Fan
+1121 113852	Xibei Jia
+7675 113853	Hangzai Luo
+5959 113854	Christina Yip Chung
+1125 113861	Kathleen Snyder
+1127 113862	Egidio L. Terra
+1129 113864	Philip L. Tilker
+1130 113865	Allen Quoc-Luan Tran
+1131 113866	Kevin Harris
+1132 113867	Antonio S. Cheng
+1136 113868	Sujoe Bose
+1137 113869	Vamsi Chaluvadi
+1142 113870	Yair Liberzon
+1143 113871	Kfir Ankori
+1144 113872	Yonatan Schler
+1148 113873	Yaron Kanza
+1149 113874	Benny Kimelfeld
+1153 113875	Wisam Dakka
+1155 113877	Kevyn Collins-Thompson
+1156 113878	Jamie Callan
+1159 113882	Charles Schweizer
+1164 113883	Ying Feng
+1167 113884	Alexandru Coman
+1168 113885	Mario A. Nascimento
+1170 113886	Jack G. Conrad
+1171 113887	Daniel P. Dabney
+1173 113888	Xi S. Guo
+1174 113889	Cindy P. Schriber
+1180 113903	Francisco M. Couto
+1181 113904	M¨¢rio J. Silva
+1182 113905	Pedro Coutinho
+1185 113909	Stephen Cronen-Townsend
+1186 113910	Yun Zhou
+1190 113912	Ronan Cummins
+1192 113913	Bruno M. Fonseca
+1193 113914	Paulo Braz Golgher
+1194 113915	Bruno P?ssas
+1197 113916	Fernando A. Das Neves
+1208 113917	Stefan Edlund
+1209 113918	Jared Jackson
+1210 113919	Martin Gerlach
+6052 113921	Dmitriy Fradkin
+1213 113923	Allison L. Powell
+1214 113924	Fredric C. Gey
+1215 113925	Natalia Perelman
+1217 113927	Moshe Fresko
+1220 113937	Like Gao
+1221 113938	Zhengrong Yao
+1224 113943	Bugra Gedik
+1227 113944	Nadia Ghamrawi
+1231 113946	Rayid Ghani
+1234 113948	Yapin Zhong
+1239 113951	Eric J. Glover
+1244 113962	Torsten Grabs
+1248 113964	Luis Gravano
+1249 113965	Richard Lichtenstein
+1253 113973	Jinfeng Ni
+1262 113984	Mark Hansen
+1263 113985	Elizabeth Shriver
+1269 113988	Yuuji Hotta
+1270 113989	Kazumi Kubota
+3887 114001	Tzung-Pei Hong
+1286 114003	Bijit Hore
+1288 114008	Ming-Jyh Hsieh
+1290 114009	Jia-Lien Hsu
+1291 114010	Ning-Han Liu
+1293 114012	Chih-Hao Hsu
+1294 114013	Guanling Lee
+1813 114015	Dik Lun Lee
+1300 114016	Yanqing Zhang
+1307 114017	Jiun-Long Huang
+3671 114030	David D. Lewis
+1313 114039	Angelo J. Pilotto
+1315 114040	Jiwoon Jeon
+1316 114041	Joon Ho Lee
+1337 114046	Luo Si
+8581 114049	Theodore Johnson
+2051 114051	Hideo Joho
+1340 114052	William P. Jones
+1342 114054	Seikyung Jung
+1343 114055	Janet Webster
+3395 114059	Albrecht Schmidt 0002
+1351 114060	B?rkur Sigurbj?rnsson
+1354 114061	Hoang Oanh Nguyen Thi
+1359 114065	Tae Sik Han
+2455 114067	Myoung-Ah Kang
+1363 114068	Shian-Hua Lin
+2834 114070	Reynold Cheng
+1367 114080	Xiao-Jun Yuan
+1368 114081	Vanessa Murdock
+1376 114087	Byung Suk Lee
+1377 114088	Ji-Woong Chang
+1381 114096	Vidya Prabakarmurthi
+1384 114097	Georgia Koloniari
+1385 114098	Yannis Petrakis
+1386 114099	Thodoris Tsotsos
+1388 114100	Henry Kon
+1389 114101	Michael Hoey
+2082 114103	Kalervo J?rvelin
+2619 114104	Nick Koudas
+1391 114109	Reiner Kraft
+1392 114110	Farzin Maghoul
+1393 114111	Chi-Chao Chang
+1408 114115	A. Kumaran
+1411 114116	Giridhar Kumaran
+2058 114118	Jane Reid
+3154 114121	Bin Lan
+1414 114125	Roberto Zanoli
+7913 114126	Dawn Lawrie
+1765 114127	Paul Ogilvie
+3217 114129	Seung Jin Lim
+1428 114132	Wesley W. Chu
+1419 114134	Boon Chin Chua
+1560 114137	Ratko Orlandic
+1423 114142	Chang-Hung Lee
+1424 114143	Cheng-Ru Lin
+1429 114146	Murali Mani
+1430 114147	Frank Chiu
+1432 114148	Matthew B. Koll
+1435 114150	Songting Chen
+1446 114153	Chih-Chin Liu
+1442 114164	Xia Yang
+1447 114166	Po-Jun Tsai
+1449 114167	Erwin Leonardi
+7920 114170	Anton Leuski
+1455 114171	Nan Liu
+1456 114172	Christopher C. Yang
+1459 114174	Yanjun Li
+1469 114175	Yunhua Hu
+1470 114176	Shenjie Li
+1471 114177	Dmitriy Meyerzon
+1476 114179	Wenwu Lou
+1482 114180	Changqing Li
+1479 114181	Adrian Santoso
+1483 114182	Tian Yu
+1500 114185	Tong-Heng Phang
+9681 114187	Kenneth A. Ross
+9595 114189	Chung-Sheng Li
+1507 114192	Zheng Xuan Loh
+1508 114193	Sin Yeung Lee
+1510 114194	Shenghuo Zhu
+1514 114195	Martin Lorenz
+1515 114196	Jan D. Gehrke
+1516 114197	Hagen Langer
+1519 114198	Jie Lian
+1520 114199	Lei Chen 0002
+1521 114200	Kshirasagar Naik
+1522 114201	Gordon B. Agnew
+1525 114205	Ken Q. Pu
+2105 114208	Henrik Nottelmann
+1536 114209	Misun Chung
+1538 114213	Yiming Ma
+1539 114214	Qi Zhong
+1540 114215	Dawit Yimam Seid
+1547 114223	Jamie Ng
+1548 114224	Hong Pan
+1549 114225	Qiu-Xiang Li
+1552 114226	Riccardo Martoglia
+1553 114227	Enrico Ronchetti
+1555 114228	Paolo Tiberio
+6616 114229	Christoph Mangold
+1561 114230	Ying Lai
+1562 114231	Wai Gen Yee
+1567 114236	Sreelakshmi Vaddi
+5530 114241	Fatma Ozcan
+1571 114244	Jean Martinet
+1572 114245	Yves Chiaramella
+1574 114248	Terrence Mason
+1575 114249	Ramon Lawrence
+1577 114251	Jia-Yu Pan
+8884 114254	Vasilis Vassalos
+1581 114255	Paul McNamee
+1582 114256	Claudia Pearce
+1585 114257	Subhasish Mazumdar
+1586 114258	Mateusz Pietrzyk
+7595 114259	M. Catherine McCabe
+1591 114262	Guo Li
+1596 114265	Anand Meka
+2537 114271	Peter Scheuermann
+1603 114275	Sabine Rabas¨¦da
+1610 114277	Yingbo Miao
+1615 114279	Vojkan Mihajlovic
+1618 114284	Ron Hoory
+1619 114285	Alexey Roytman
+1627 114289	Yuqing Wu
+2956 114293	Mohamed F. Mokbel
+1630 114295	Yves Petinot
+1631 114296	Vivek Bhatnagar
+1632 114297	Pradeep B. Teregowda
+1633 114298	Hui Han
+1634 114299	Isaac G. Councill
+1639 114303	Helen Pinto
+1653 114305	Benjamin Piwowarski
+1655 114306	Ramesh Nallapati
+1660 114310	Amit Anil Nanavati
+1661 114311	Sachindra Joshi
+1680 114319	Naizhen Qi
+1688 114324	Zhiping Zheng
+1690 114325	Daniel Tam
+1693 114327	Ganesh Ramakrishnan
+1694 114328	Deepa Paranjpe
+1698 114329	Arun Iyengar
+1705 114331	Yves Rasolofo
+1706 114332	Faiza Abbaci
+1709 114333	Devanand Ravindran
+1713 114334	Richard Relue
+1720 114335	M. Elena Renda
+1723 114337	Stephen E. Robertson
+1724 114338	Hugo Zaragoza
+1727 114343	Jonathan Schler
+1731 114347	Kesheng Wu
+1733 114348	Dmitri Roussinov
+1736 114349	Shree Raman
+3374 114351	Yasushi Sakurai
+1739 114353	Jason Sankey
+1749 114360	Urvi Shah
+1752 114361	Norbert Roma
+1760 114362	Xuehua Shen
+1761 114363	Bin Tan
+1772 114372	Sudhir Verma
+1773 114373	Amit J. Shah
+1774 114374	Swaroop K. Chalasani
+4187 114375	Lisa Singh
+2800 114376	Bin Chen
+1777 114377	Tao Hu
+1778 114378	Vikas Chowdhry
+1780 114384	Yang Song
+3476 114386	Min-Jae Lee
+1782 114389	W. Scott Spangler
+1783 114390	Jeffrey T. Kreulen
+1786 114396	Munirathnam Srikanth
+1788 114397	Vladimir Zbarsky
+1791 114398	Renato O. Stehling
+1793 114399	Hong Su
+1794 114400	Jinhui Jian
+9286 114404	Val Tannen
+1797 114406	Aixin Sun
+1799 114409	Timothy M. Sutherland
+1800 114410	Mariana Jbantova
+1804 114412	Toru Takaki
+1814 114413	Qingzhao Tan
+1821 114417	Yufei Tao
+1826 114419	Egidio Terra
+1830 114423	Junji Tomita
+1831 114424	Hidekazu Nakawatase
+1832 114425	Megumi Ishii
+1834 114426	Ricardo da Silva Torres
+1835 114427	Baoping Zhang
+1837 114428	Celmar G. Silva
+1838 114429	Claudia Bauzer Medeiros
+1839 114430	Heloisa Vieira da Rocha
+2009 114431	Kris Popat
+1843 114432	Roberto F. Santos Filho
+1845 114434	Theodora Tsikrika
+9238 114439	Vagelis Hristidis
+1847 114442	Michail Vlachos
+1848 114443	Zografoula Vagena
+1849 114444	Vassilis Athitsos
+7526 114446	Ellen M. Voorhees
+1862 114448	Anton Schwaighofer
+1864 114451	Hwanjo Yu
+1872 114452	Xiaohui Yu
+1874 114453	Junmei Wang
+1880 114454	Frederick H. Lochovsky
+7231 114455	Amir M. Zarkesh
+7232 114456	Reza Sadri
+1882 114459	Sarah Zelikovitz
+1891 114460	Xiaofeng He
+1892 114461	Horst D. Simon
+1897 114466	Yuxin Chen
+1904 114469	Zhenjie Zhang
+1905 114470	Xinyu Guo
+1906 114471	Hua Lu
+1908 114476	Jahna Otterbacher
+1911 114477	Michael Mlivoncic
+1918 114479	Ryen White
+1919 114480	Ian Ruthven
+1925 114481	Navendu Garg
+1929 114485	Dwi H. Widyantoro
+3571 114488	Yun Chi
+1931 114489	Kaidi Zhao
+1932 114490	Thomas M. Tirpak
+1933 114491	Weimin Xiao
+1939 114498	Yinghua Zhou
+1942 114499	Yongluan Zhou
+1943 114500	Ying Yan
+1950 114505	Yangbo Zhu
+1953 114506	Ekow J. Otoo
+6339 114521	Michael Steinbach
+2578 114523	Jianliang Xu
+8208 114526	Azadeh Shakery
+1972 114527	Sridhar Rajagopalan
+1973 114528	Kevin S. Beyer
+8262 114529	Xiang Ji
+2111 114530	Craig Macdonald
+8293 114531	Bryan Kisiel
+7320 114534	Ming Jiang
+9800 114535	Jiying Wang
+8103 114544	Chirag Shah
+7371 114548	Song Lin
+8199 114560	Ho Chung Wu
+7758 114566	Paul Thomas
+3657 114584	Jen-Wei Huang
+4346 114585	Jieping Ye
+8861 114595	Xiaoyu Wang
+2342 114603	Zhaohui Zheng
+2362 114617	Donghui Zhang
+2609 114618	Yu Xu
+7321 114622	Sameep Mehta
+2689 114631	Juliana Freire
+2908 114633	Vassilios S. Verykios
+9874 114637	Aris Anagnostopoulos
+7481 114640	Claudine Santos Badue
+10011 114642	Jong Wook Kim
+8801 114646	Hetal Thakkar
+3228 114647	Chang Luo
+3419 114649	Ioana Stanoi
+9629 114650	Themis Palpanas
+3139 114651	Christian A. Lang
+2030 114654	Ois¨ªn Boydell
+9235 114662	Sarvjeet Singh
+2837 114663	Rahul Shah
+2838 114664	Yuni Xia
+7432 114665	Debapriyo Majumdar
+6332 114677	Xiaodan Song
+10024 114678	Koji Hino
+8907 114704	Matthew O. Ward
+3702 114740	Stephan Bloehdorn
+8487 114751	Loretta Auvil
+3946 114774	Akihiro Inokuchi
+7546 114782	Yael Petruschka
+7031 114792	Nam Hun Park
+4391 114821	Bj?rn Bringmann
+5813 114824	Jouni K. Sepp?nen
+6871 114826	Toon Calders
+5892 114832	Daniel Kifer
+5893 114833	Cristian Bucila
+3199 114837	Xiaoxin Yin
+3976 114839	Paolo Palmerini
+2356 114844	Albrecht Zimmermann
+6036 114887	Bin Fang
+6706 115131	Weicai Zhong
+8272 115161	Jinwen Ma
+7077 115300	Qunxia Li
+6080 115350	Jing Dai
+6610 115392	Bo Xie
+7825 115770	Robert Weibel
+6811 116119	Surong Wang
+6542 116120	Liang-Tien Chia
+7676 116643	Yuli Gao
+7890 116656	Wessel Kraaij
+8148 116669	Alexander C. Loui
+6333 116670	Ming-Ting Sun
+7479 116673	Cornelis Joost van Rijsbergen
+6255 116689	Pinar Duygulu
+2004 116692	Mohammed Belkhatir
+2027 116707	Daniel Heesch
+7790 116714	Keiichiro Hoashi
+6742 116729	Jung-Hwan Oh
+2209 116763	Ira Cohen
+2282 116768	ShyamSundar Rajaram
+7554 116857	Nuno Vasconcelos
+2283 116870	Xiang Sean Zhou
+4518 116878	Sheng Gao
+6424 116891	Atulya Velivelli
+8068 117002	Andreas Rauber
+4593 117024	Yushi Jing
+2660 117074	Marcelo Arenas
+9883 117080	Geert Jan Bex
+7126 117081	Frank Neven
+7009 117127	Sergei A. Obiedkov
+3450 117235	Tara M. Madhyastha
+2690 117239	Philip Bohannon
+7727 117246	Tim Gollins
+7850 117255	Eija Airio
+2083 117256	Heikki Keskustalo
+7851 117257	Turid Hedlund
+8045 117258	Ari Pirkola
+7768 117259	Jianqiang Wang
+7745 117280	Preben Hansen
+7755 117282	Donna Harman
+7769 117287	Michael Nossal
+2107 117307	Giorgio Maria Di Nunzio
+2095 117308	Christof Monz
+6694 117313	Been-Chian Chien
+3072 117319	Hideo Itoh
+3073 117320	Hiroko Mano
+3074 117321	Yasushi Ogawa
+2043 117344	Vassilis Plachouras
+7991 117356	Miguel E. Ruiz
+7457 117388	Bogdan Vrusias
+7452 117396	Javier Artiles
+2123 117398	Laura Perret
+2052 117403	Micheline Beaulieu
+7634 117418	Philipp Daumke
+8007 117420	Dagobert Soergel
+8008 117421	Xiaoli Huang
+7474 117445	Leif Azzopardi
+7712 117452	Ray R. Larson
+8190 117470	Dolf Trieschnigg
+8143 117480	Mitchell Bowden
+8135 117643	Eero Sormunen
+5026 117659	Thomas Bolander
+3677 117812	Monika Rauch Henzinger
+3248 118326	Xiangmin Jiao
+9485 119261	Samuel Kounev
+8851 119644	Patrick E. O'Neil
+4469 120750	Huma Lodhi
+9849 120832	Qiang Ye
+4399 121225	Ran El-Yaniv
+7157 121241	Erik Vee
+7177 121330	Martin Grohe
+5819 121434	Dharmendra S. Modha
+3909 122095	Stephen J. Wright
+2505 122150	Willem Jonker
+6357 122263	Fionn Murtagh
+8081 123336	Yumi Ichimura
+8082 123337	Yoshimi Saito
+7884 123392	Kimmo Koskenniemi
+4073 123535	Hsi-Jian Lee
+6224 123615	Takayuki Nakata
+5544 123675	Guy De Pauw
+7713 123999	Michael K. Buckland
+3644 124000	Richard Butterworth
+7879 124019	Peter Ingwersen
+7880 124025	Birger Larsen
+7507 124044	Colleen Cool
+4449 124096	Aharon Bar-Hillel
+4640 124099	Peter L. Bartlett
+2993 124106	Sudipto Guha
+5838 124120	Reba Schuller
+7273 124128	Dimitris Bertsimas
+4483 124167	Ofer Dekel
+4802 124168	Shai Shalev-Shwartz
+4781 124190	Shai Fine
+5987 124204	Olvi L. Mangasarian
+2228 124207	Thomas G?rtner
+4535 124211	Ran Gilad-Bachrach
+4536 124212	Amir Navot
+4651 124219	Ralf Herbrich
+4574 124220	Amir Jafari
+4414 124231	Michael I. Jordan
+5166 124235	Sham M. Kakade
+4846 124262	Daniel J. Lizotte
+5750 124263	Joseph Sill
+8236 124268	Vijay Raghavan
+4409 124277	Kristin P. Bennett
+4032 124281	Andrew B. Nobel
+4768 124308	Nathan Srebro
+3313 124333	Nimrod Megiddo
+4134 124335	Saharon Rosset
+2624 124337	Neeraj Agrawal
+2625 124339	Sumit Negi
+8988 124345	Donovan A. Schneider
+2819 124348	Venkatesh Ganti
+2745 124400	Sunita Sarawagi
+2881 124761	Samuel DeFazio
+5384 125002	Blake Hannaford
+8595 125199	Srinivasan Seshan
+3196 125474	Inderpal Narang
+6419 125729	Michael Garland
+3405 125747	Ke Yi
+9590 125752	Yan Ke
+5258 125813	Craig Silverstein
+9517 125850	Cemal Yilmaz
+9173 125853	Carola Wenk
+6864 125855	Steven van Dijk
+8629 125983	Naga K. Govindaraju
+9986 126018	Igor Pechtchanski
+6572 126418	Bavani Arunasalam
+4146 126419	Robert Munro
+3121 126543	Chris Clifton
+5403 126630	Tuan-Fang Fan
+6582 126805	Chi-Yuen Ng
+9183 126907	Sangdon Lee
+3267 127075	Haiyan Wang
+4065 127311	Chang-Tien Lu
+7583 127409	Jenq-Haur Wang
+8794 127449	Yaxin Yu
+4306 127456	Ching-Huang Yun
+8346 127840	David Botzer
+6651 128119	Jung-Im Won
+6652 128120	Jeehee Yoon
+8431 128273	P. P. S. Narayan
+8736 128582	Oliver Spatscheck
+5507 128855	Joost N. Kok
+6795 128983	Kazuko Takahashi
+6007 129374	Michael Griebel
+5849 129446	Jonathan D. Becher
+6518 129545	Markus Hegland
+4241 129922	Sriharsha Veeramachaneni
+3960 129979	Alexander Tuzhilin
+9250 130064	Mariano Cilia
+2457 130253	Andreas Koeller
+9479 130255	David Konopnicki
+3171 130273	Peter Bert¨®k
+6358 130338	Feng Tao
+2538 130344	Goce Trajcevski
+8973 130398	Ling-Ling Yan
+3417 130403	Janne Skyt
+9753 130411	Michael Stillger
+9961 130484	Mihail F. Ionescu
+7781 130676	Sandra Poulain
+5760 131114	Fr¨¦d¨¦ric Boussemart
+5761 131115	Fred Hemery
+5102 131169	Andrei A. Krokhin
+5186 131177	J¨¦r?me Fortin
+5711 131209	Michel Vasquez
+5525 131226	Barry O'Callaghan
+5272 131232	Tudor Hulubei
+5395 131275	Jim McFadden
+5447 131436	Armagan Tarim
+3771 131685	Johannes Fischer
+3772 131686	Volker Heun
+9400 131712	Rajasekar Krishnamurthy
+4874 131734	Roded Sharan
+7070 131860	Shinichi Morishita
+3378 131927	Sen Zhang
+9725 131955	Albert A. Rizzo
+7555 132409	Gustavo Carneiro
+5018 132535	Jesse Hoey
+4086 133220	Hanchuan Peng
+2791 133343	M. Erdem Kurul
+4066 133349	Dechang Chen
+7003 133406	Mehmet Koyut¨¹rk
+7004 133407	Ananth Grama
+9998 133469	Gene H. Golub
+8761 133475	Ron Weiss
+3899 133491	Jun Huan
+3900 133492	Jan Prins
+4033 133579	Jinze Liu
+3681 133788	Arnab Bhattacharya
+3682 133789	Vebjorn Ljosa
+7401 133921	Yi Xia
+2545 134129	Yi-Cheng Tu
+6027 134381	Natalie S. Glance
+7342 134409	Hye-Chung Kum
+6249 134537	Christopher R. Palmer
+8862 134851	Yingguang Li
+3400 134982	Lidan Shou
+2352 135252	Ke-Jia Chen
+9165 135521	Vanessa P. Braganholo
+7107 136157	Pablo Barcel¨®
+6773 136219	Mirco Nanni
+7179 136228	Nicole Schweikardt
+9338 136321	Andreas Neumann
+7096 136344	Christof L?ding
+5060 136773	Evgeny S. Skvortsov
+4057 136813	Dmitry Pavlov
+9094 138320	Sugata Ghosal
+2411 138322	George Kollios
+5440 138333	Arunava Banerjee
+4823 138397	Vassil Chatalbashev
+4571 138487	Yuri A. Ivanov
+3833 138560	W. Philip Kegelmeyer
+4739 138620	Thomas P. Minka
+3705 138660	Carlotta Domeniconi
+4450 138761	Noam Shental
+5790 138823	Horst W. Haussecker
+4677 138851	Joachim M. Buhmann
+8915 138862	Du Q. Huynh
+2253 139020	Martin H. C. Law
+3937 139025	Rolf Lak?mper
+5464 139147	Graham McNeill
+2267 139148	Sethu Vijayakumar
+3683 139241	Hyung-Jeong Yang
+4607 139327	Koji Tsuda
+4766 139348	Peter Sand
+5652 139379	Kenji Shoji
+5653 139381	Fubito Toyama
+3586 139529	Yizhou Wang
+4645 139564	Zhaoqi Bian
+2575 139634	Manli Zhu
+8811 139656	Jingdan Zhang
+2517 140043	Quan Wang
+4821 140582	Qingping Tao
+6984 140899	Paul Bradley
+4411 143606	Andrew Moore
+4257 143990	J?rg A. Walter
+7826 146084	Monika Sester
+5249 146412	Rachid Alami
+5031 146544	Alexander Nittka
+9915 146572	Jeen Broekstra
+5594 146670	David A. Rosenblueth
+5142 146748	Giuliana Sabbatini
+2850 146855	Jarek Gryz
+3708 146901	David J. Hand
+8206 146962	Reginald L. Lagendijk
+7146 147023	Alin Deutsch
+5471 147178	David Sontag
+5472 147179	Daniel L. Ong
+5473 147180	Andrey Kolobov
+9712 147197	Pinar Senkul
+2533 147263	Mario Paolucci
+8237 147321	Chun Du
+5934 147391	D. R. Mani
+2542 147410	Sam Chamberlain
+9896 147615	Massimo Santini
+6422 147665	Ira Assent
+2766 147883	Stratis Viglas
+3134 147995	Maurice van Keulen
+9100 148368	Nagender Bandi
+9824 148373	John Cieslewicz
+9348 148375	Pradeep Dubey
+2235 148636	Stefan Klink
+2236 148637	Armin Hust
+2237 148638	Markus Junker
+8434 148754	Michael Flaster
+2843 148918	Yi-Hung Wu
+2767 148924	Byron Choi
+9835 148926	Zhihong Chong
+3127 148948	Cui Yu
+8908 148965	Punit R. Doshi
+3427 148983	Shen-Tat Goh
+9389 149004	Eric Lo
+2824 149072	Chee Yong Chan
+6011 149074	Wen Jin
+3458 149075	Yuelong Jiang
+2835 149090	Dmitri V. Kalashnikov
+3477 149133	Jae-Gil Lee
+9153 149141	Oliver Po
+8498 149142	Wang-Pin Hsiung
+3501 149169	Congjun Yang
+9186 149170	Runping Qi
+2476 149182	Guimei Liu
+7765 149184	Haifeng Liu
+6735 149211	Shuai Ma
+9284 149239	C¨¦sar A. Galindo-Legaria
+2612 149267	Kristian Torp
+9607 149273	Rie Sawai
+6713 149367	K. K. Loo
+3239 149375	Shihui Zheng
+3057 149382	Haibo Hu
+9775 149386	Xiang Lian
+3009 149389	Victor Teixeira de Almeida
+9246 152007	Seok-Lyong Lee
+3611 152009	Shakil Ahmed
+3600 152010	Frans Coenen
+3601 152011	Paul H. Leng
+8439 152056	Florian Krebs
+2372 152069	Daniele Braga
+2373 152070	Alessandro Campi
+2922 152071	Filippo Furfaro
+6942 152107	Kuo-Zui Lin
+3202 152125	Wenyuan Li
+3977 152127	Raffaele Perego
+9304 152140	Joyce M. W. Lam
+3413 152150	Nick Roussopoulos
+3774 152169	Raymond Chi-Wing Wong
+4208 152174	Choh-Man Teng
+6124 152179	Murat Kantarcioglu
+9019 152196	Wenbin Ma
+3650 152237	Chun-Sheng Chen
+2875 152338	Kenneth Salem
+3212 152379	Jonathan Beaver
+8835 152391	Toshiaki Okawara
+9408 152439	Bongki Moon
+2436 152451	Eshref Januzaj
+3175 152472	Muralidhar Krishnaprasad
+3176 152473	Zhen Hua Liu
+3177 152474	Anand Manikutty
+3178 152475	James W. Warner
+1989 152483	Claudio Gennaro
+2562 152486	Christian Wiesner
+2761 152487	Ahmet Bulut
+3129 152492	Anastasios Kementsietsidis
+8863 152498	Chu Yee Liau
+2594 152499	Uwe Thaden
+2972 152554	Christoph Koch
+8572 152562	Giansalvatore Mecca
+8624 152581	Mary F. Fernandez
+3042 152582	Lucian Popa
+2672 152585	Jos¨¦ A. Blakeley
+2878 152593	Carmem S. Hara
+7162 152594	Wang Chiew Tan
+2418 152598	Stefania Marrara
+8762 152606	Tirthankar Lahiri
+8560 152608	Gail Mitchell
+9884 152613	Wim Martens
+7198 152614	Dirk Leinders
+9987 152623	Michael G. Burke
+2513 152625	Mukund Raghavachari
+9988 152631	Rajesh Bordawekar
+8460 152637	Christopher R¨¦
+8610 152640	Nicola Onose
+2962 152916	Shu-Yuen Didi Yao
+7903 153022	Stuart A. Sutton
+1994 153056	Joaqu¨ªn Adiego
+9889 153135	Greg J. Badros
+7762 153259	W. J. Teahan
+9351 153317	David Gibson
+4724 153630	Martin J. Wainwright
+3902 153652	Gary Promhouse
+9749 153672	Raymie Stata
+3678 153733	Matthias Ruhl
+7557 153994	Antonio Fari?a
+7167 154064	Anna C. Gilbert
+8815 154199	Suman Nath
+9837 154266	Shanzhong Zhu
+8649 154835	Witold Staniszkis
+9531 154894	Lipyeow Lim
+9648 154903	Milenko Petrovic
+7144 154916	S. Sudarshan
+2811 154937	Cindy Xinmin Chen
+9787 154946	Shalom Tsur
+2037 155003	Fidel Cacheda
+2039 155005	Victor Carneiro
+8612 155331	Peter M. Fischer
+2000 155355	Aidan Finn
+2502 155372	Fragkiskos Pentaris
+7696 155379	Hussein Suleman
+2740 156173	Manish Bhide
+7563 156174	Mukul Joshi
+9409 156183	Quanzhong Li
+2510 156207	Rolfe R. Schmidt
+9507 156219	Dadabhai T. Singh
+6911 156239	Riccardo Ortale
+7897 156301	Martin Choquette
+8710 156336	Ionut Emil Iacob
+1990 156358	Vlastislav Dohnal
+2825 156380	Pin-Kwang Eng
+9611 156422	Ramesh Bhashyam
+7725 156429	Kazuo Goda
+6906 156445	Graham Goulbourne
+2851 156448	Dongming Liang
+3816 156449	J. W. Guan
+3137 156542	Dao Dinh Kha
+6154 156563	Richard D. Lawrence
+6653 156629	Woo-Cheol Kim
+4394 156643	Y. Y. Yao
+2115 156656	Juan Manuel P¨¦rez
+2020 156680	Alvaro Barreiro
+9588 156721	Mirella Moura Moro
+8311 156761	Itaru Nishizawa
+2116 156769	Mar¨ªa Jos¨¦ Aramburu
+6417 156806	Navneet Panda
+8892 156823	Chen Qun
+2546 156871	Radu Sion
+8211 157069	Lee Wang
+3658 157123	Bi-Ru Dai
+9376 157136	Sherif Sakr
+2040 157273	¨¢ngel Vi?a
+9876 157285	Vinod Anupam
+9149 157345	Rachel Pottinger
+2047 157386	Luis M. de Campos
+2048 157387	Juan M. Fern¨¢ndez-Luna
+2049 157388	Juan F. Huete
+8680 157409	Alberto Lerner
+6886 157424	Anna Maddalena
+4538 157624	Mark Girolami
+7332 157625	Ata Kab¨¢n
+9608 157689	Yin-Huei Loh
+3910 157724	Zheng Huang
+2866 157910	Feifei Li
+2086 157971	David E. Losada
+8650 158027	Bartosz Nowicki
+7239 158065	Dimitris Papadopoulos
+2363 158066	Vassilis J. Tsotras
+8037 158072	Nikolaos Nanas
+6840 158370	Weinan Wang
+3655 158461	Paolo Garza
+9258 158661	Jonathan Mamou
+2392 158676	Periklis Andritsos
+3043 158677	Yannis Velegrakis
+2021 158688	Roi Blanco
+7050 159739	Fabien Feschet
+5234 159793	Masatoshi Hamanaka
+4116 159803	Norberto F. Ezquerra
+2650 160090	Abdelmounaam Rezgui
+5939 160111	Giri Kumar Tayi
+2887 160141	Mathew Weaver
+7343 160161	Dean Duncan
+6304 160212	Alan F. Karr
+6305 160217	Ashish P. Sanil
+6306 160220	Xiaodong Lin
+6307 160221	Jerome P. Reiter
+6247 160262	Steven Orla Kimbrough
+4323 160263	Balaji Padmanabhan
+4324 160264	Yinghui Yang
+9450 160417	Reagan Moore
+4090 160447	Daoying Ma
+6065 160486	Shlomo Hershkop
+2629 160668	Ning An
+4911 161012	Chen Avin
+9591 161039	Brad Karp
+4037 161321	Marimuthu Palaniswami
+7992 161889	Padmini Srinivasan
+9981 161999	Peter Mork
+2527 162027	Etzard Stolte
+6070 162188	Trong Dung Nguyen
+6071 162205	Si Quang Le
+3620 162219	Tatsuya Asai
+6593 162220	Takashi Matsuda
+3652 162275	Xiaoshu Hang
+3594 162317	Amanda Clare
+4143 162334	Fabrice Muhlenbach
+6771 162351	Mineichi Kudo
+6340 162431	Christopher Potter
+6341 162433	Steven A. Klooster
+2332 162446	Shijun Wang
+5734 162452	Fuminori Adachi
+2310 162480	Shiliang Sun
+7482 163016	Ramurti A. Barbosa
+8585 163075	David DeHaan
+4916 163091	Fran?ois Goasdou¨¦
+7043 163124	V¨¦ronique Ventos
+5145 163146	Roman Schindlauer
+4669 163155	Shengping Liu
+2393 163171	Ren¨¦e J. Miller
+3361 163430	Nikos Karayannidis
+9281 163433	Yingwei Cui
+9362 163437	Cristian-Augustin Saita
+4130 163442	Oded Maimon
+9451 163462	Arun Jagatheesan
+8847 163539	Zohreh Nazeri
+9569 163558	Nicolas Werro
+4113 163572	David J. Haglin
+4114 163573	Anna M. Manning
+2977 163702	Xiaohong Wang
+6617 163704	Jochen Hipp
+2571 163705	Chris Jermaine
+4199 163706	Yuchang Lu
+4225 163707	Chunyi Shi
+6972 163708	Samiran Ghosh
+3326 163711	Wagner Truppel
+4151 163714	Cesar A. Santana
+4152 163715	Levien de Braal
+7993 163716	Gautam Pant
+7222 163718	Ganesh Ramesh
+2367 163719	Ramakrishnan Srikant
+8591 164015	Pavan Deolasee
+8592 164016	Amol Katkar
+8593 164017	Ankur Panchbudhe
+2752 164044	Lola Olsen
+2753 164100	Kishan Nagendra
+2754 164101	Srinivasan Sikkupparbathyam
+2755 164102	Marcelo Areal
+2756 164103	David Kendig
+2757 164105	Rosy Cordova
+2758 164106	Gene Major
+9864 164205	Daniel Gruhl
+5997 164235	Iraklis Varlamis
+4153 164355	Ernest V. Garcia
+8923 164373	Antonios Deligiannakis
+6440 164391	Nan Zhang 0004
+9391 164392	Igor Timko
+8728 164399	Dimitris Sacharidis
+9673 164402	Maddalena Garzetti
+10161 164500	Joel L. Wolf
+8562 164822	George Colliat
+4652 165448	Yaoyong Li
+2641 165606	Abhinandan Das
+7547 165633	Eitan Farchi
+8219 165645	Ni Lao
+2630 165670	Zhen-Yu Yang
+8758 166593	Andreas M¨¹ller
+3553 167915	Raymond Chan
+4917 167939	Philippe Adjiman
+2176 167953	Isabelle Alvarez
+2002 168007	Evelyn Balfe
+6899 168038	Christos Berberidis
+6880 168114	Gemma Casas-Garriga
+5181 168300	Jeremy Forth
+5239 168373	Ir¨¨ne Grosclaude
+5405 168523	Amy Loutfi
+5467 168550	Richard C. Meathrel
+5508 168590	Siegfried Nijssen
+2323 168704	Ansaf Salleb
+4249 168821	Murali-Krishna Achari
+5549 168849	Paul Weng
+6642 169115	DaeEun Kim
+3857 169299	Jon Timmis
+7308 170117	Yiping Zhan
+9559 170210	Natalia Ivanova
+9560 170213	Ernest Szeto
+9561 170215	Nikos Kyrpides
+4869 170348	Matthew D. Mullin
+5385 170805	Jonathan Lester
+6053 171091	David Madigan
+1997 171176	Yun-Fang Juan
+7688 171183	Paul Ferguson
+2011 171189	David J. Bell
+2015 171190	Anis Benammar
+7508 171199	Gheorghe Muresan
+2024 171201	Jiamin Ye
+7796 171204	Eduard Hoenkamp
+2041 171206	Carmen Guerrero
+2059 171215	Gabriella Kazai
+2061 171217	Sherezad Masood
+2068 171228	Karen Church
+7827 171229	Ross Purves
+7588 171234	Christian Kohlsch¨¹tter
+2084 171238	Raija Lehtokangas
+7941 171239	Shao Fen Liang
+2089 171245	Irmina Masowska
+2091 171248	Craig J. A. McEwan
+2102 171252	Pio Nardiello
+2120 171262	Stefan Quicker
+2125 171263	Catherine Paterson
+2126 171264	Wai Tung Lo
+2128 171279	Thomas S?dring
+7812 171280	Guomao Xin
+2135 171292	Pertti Vakkari
+2137 171293	Olga Vechtomova
+2139 171294	Jes¨²s Vegas
+2143 171297	Vishwa Vinay
+2153 171302	Forbes Gibb
+2157 171303	Jizhi Wang
+7836 171322	Oren Kurland
+8150 171336	Trevor Strohman
+2773 171347	Gaurav Pandey
+7513 171371	Paul N. Bennett
+6674 171559	Koen Vanhoof
+9839 172025	George Philip
+8374 172389	Olga Papaemmanouil
+6979 173219	Uwe Dick
+2168 173220	Ulf Brefeld
+2169 173221	Christoph B¨¹scher
+6032 173240	Soumen Chakrabarti
+2183 173241	Chien Chin Chen
+2184 173242	Yao-Tsung Chen
+2191 173254	Steffen Bickel
+2192 173255	Peter Haider
+2205 173288	J?rg Fischer
+2207 173289	George Forman
+2211 173302	Grzegorz G¨®ra
+2212 173303	Arkadiusz Wojna
+2220 173318	Aloak Kapoor
+2232 173329	Robin Jaulmes
+4160 173339	Tomi Silander
+6075 173341	Gholamreza Nakhaeizadeh
+5822 173344	Suvrit Sra
+2242 173349	Thomas Melluish
+2246 173350	Stewart M. Yang
+2249 173358	Ingo Mierswa
+4667 173371	Mohak Shah
+4478 173376	Dominic Mazzoni
+2268 173403	Stefan Schaal
+2278 173407	Stefan Raeymaekers
+2285 173410	Carsten Riggelsen
+2299 173434	Hendrik Skubch
+2306 173439	Yuk Lai Suen
+2311 173440	Naijiang Lu
+2313 173445	Lappoon R. Tang
+6554 173449	Boon Toh Low
+5389 173451	Kari Torkkola
+2324 173453	Ronan Trepos
+2325 173454	V¨¦ronique Masson
+2326 173455	Chantal Gascuel
+2328 173456	Petroula Tsampouka
+2330 173457	Ivor W. Tsang
+2337 173471	Yuji Niwa
+2339 173474	Nils Weidmann
+2348 173499	Yungang Zhang
+4706 173506	Dan Pelleg
+6008 173509	Jochen Garcke
+4839 173510	Volkan Vural
+6896 173560	Ronnie Bathoorn
+10044 174570	Joshua R. Tyler
+8466 174896	Alessandro Raffio
+7350 175379	Parul A. Mittal
+6111 175436	Yanzan Zhou
+2747 175463	Kyuseok Shim
+2364 175466	Shu-Yao Chien
+2720 175473	Matthias Brantner
+2368 175476	Jerry Kiernan
+2369 175477	Yirong Xu
+3001 175484	Jayavel Shanmugasundaram
+2383 175495	Arijit Mukherjee
+2384 175496	Desmond J. Fitzgerald
+2387 175499	Christos Amanatidis
+2388 175500	Maria Halkidi
+2390 175501	SungRan Cho
+9132 175502	Jochen Van den Bercken
+9707 175503	Martin Schneider
+2394 175508	Panayiotis Tsaparas
+2402 175515	Gianni Costa
+2403 175516	Sandra D'Aguanno
+2582 175517	Paolo Cappellari
+2699 175518	Nicolas Bruno
+2406 175519	Stijn Vansummeren
+9117 175524	Serge Rielau
+8388 175525	Thomas Baby
+2412 175538	Marios Hadjieleftheriou
+8151 175549	Howard R. Turtle
+2419 175552	Nico Lavarini
+2420 175553	Daniele Pasini
+2421 175554	Giuseppe Viviani
+9178 175562	Prasad Deshpande
+2430 175563	Nishant Mehta
+2434 175565	Alin Dobra
+2440 175573	Mohamed G. Elfeky
+2447 175586	Karin Kailing
+3098 175597	Takeshi Fukuda
+8508 175599	Kaushik Chakrabarti
+2822 175601	Arnd Christian K?nig
+9556 175605	Marcel Kutsch
+9557 175606	Tam Minh Tran
+2470 175609	Iosif Lazaridis
+2471 175610	Kriengkrai Porkaew
+2482 175617	Man Lung Yiu
+8543 175628	Sourashis Roy
+9618 175643	Dragan Tomic
+9619 175644	Brandon Berg
+2493 175648	Dinos Arkoumanis
+2497 175649	Betty Salzberg
+2498 175650	Linan Jiang
+2499 175651	Jing Shan
+2500 175652	Evangelos Kanoulas
+8098 175658	Bethina Schmitt
+2518 175666	Leonard D. Shapiro
+3367 175670	David E. Simmen
+2524 175672	Christos Giannoukos
+9101 175676	Chengyu Sun
+2534 175678	Stefano De Francisci
+2539 175681	Nimesh Nedungadi
+2550 175683	Umesh Maheshwari
+2559 175686	Senqiang Zhou
+2563 175689	Peter Winklhofer
+2576 175696	Kyriakos Mouratidis
+2939 175701	Benjamin C. M. Fung
+7292 175703	Chetan Gupta
+3150 175707	Dai Kobayashi
+3669 175709	Claudia Plant
+7792 175718	Erik Zeitler
+9682 175720	Julia Stoyanovich
+3916 175725	Krishna Kummamuru
+9464 175732	Panagiotis Karras
+2916 175733	Ahmed Metwally
+2846 175738	Junghoo Cho
+8573 175740	Valter Crescenzi
+9441 175741	Milena Ivanova
+9674 175758	Mehedi Masud
+3490 175770	Ning Zhang 0002
+8188 175807	Yannis Drougas
+8887 175813	Stelios Paparizos
+8888 175814	Andrew Nierman
+3020 175838	Xiaopeng Xiong
+10071 176202	Changtao Qu
+8215 177026	Jidong Wang
+7521 177139	Krista Lagus
+8175 177145	Stefanie Tellex
+9523 177151	Joshua Hui
+8795 177154	Jianhua Lv
+3512 177159	Benjamin Bin Yao
+8425 177160	John Keenleyside
+8630 177382	Brandon Lloyd
+8651 177951	Edyta Kalka
+8083 178553	Makoto Koyama
+5520 178569	Jon Curtis
+5308 178621	Ray Rowe
+3053 179314	Jun Sakuma
+5189 180041	Frederico Luiz Gon?alves de Freitas
+6455 180175	Yiling Yang
+9118 180364	Andreas Behm
+2697 180366	Thomas Behr
+3287 180379	Anil Nori
+8992 180541	Katica Dimitrova
+8993 180542	Maged El-Sayed
+2984 180595	Keith T. Mason
+6659 180697	Jeng-Kuen Chiu
+3024 180862	Oguzhan Topsakal
+9675 180871	Patricia Rodr¨ªguez-Gianolli
+6727 180886	Tatiana Semenova
+6479 181039	Adam Yeh
+6480 181040	Youxuan Jin
+7644 181143	J. Stephen Downie
+7530 181312	Ming Luo
+7663 181352	Richard J. Edens
+7886 181405	Patricia Frontiera
+7904 181425	Sarah Harwell
+7905 181426	Ozgur Yilmazel
+6251 181450	Elias Pampalk
+9756 181754	Miguel Ferreira
+5922 182388	Anirban Dasgupta
+8446 182393	Kaustubh Deshmukh
+2601 182406	Michael T. Hallett
+5488 182444	Nysret Musliu
+7024 182595	Kazuya Okamoto
+6963 182982	Kees Jong
+6901 183047	Aleksandar Lazarevic
+4051 183281	Ping Sun
+3709 183786	Richard J. Bolton
+6675 184085	Kenneth S?rensen
+8636 184440	Anno Langen
+9989 184462	Matthew Harren
+6415 184563	Zhiqiang Yang
+2685 184898	Robert Baumgartner
+7575 184902	Sam Chapman
+10072 184915	Matthias Palm¨¦r
+6831 185936	Man-Lin Huang
+2626 187728	Rema Ananthanarayanan
+4217 187793	Alexandre Termier
+9526 188030	Kunihiro Taniguchi
+6028 189710	Takashi Tomokiyo
+4601 189798	Sepandar D. Kamvar
+4184 190773	A. J. Feelders
+5386 191490	Nicky Kern
+4922 192247	Rosina Weber
+4049 192307	John M. Rosenberg
+7055 192341	Maria Salam¨®
+3715 192651	Magdalini Eirinaki
+6987 192652	George Tsatsaronis
+3645 193280	Gregory Piatetsky-Shapiro
+5713 193301	Alexandre Vautier
+6824 193316	Jihem Rezgui
+5097 193457	Charles Pecheur
+9702 193669	Jiri Schindler
+9947 193716	John A. Tomlin
+8099 193856	J¨¹rgen Schneider
+4023 194516	Gongyi Wu
+8964 194881	Huanmei Wu
+3280 195088	Akira Matsumoto
+8715 195152	Eileen Tien Lin
+7437 195262	Jim Gemmell
+5807 195999	Jason Flannick
+5808 196000	Tomi Yiu
+6970 196002	Attila Gyenesei
+3564 196442	Manu Aery
+4557 196453	Douglas Hardin
+4924 196465	Artur M. Arsenio
+3809 196735	ZhenQiu Liu
+5267 196739	Max M. Louwerse
+3911 196760	David R. Musicant
+4748 196808	Antonin Rozsypal
+5268 196851	Phanni Penumatsa
+5850 196891	Dee Jay Randall
+3852 196955	Edwin O. Heierman III
+7423 196968	Shi Zhong
+5521 197009	Bj?rn Aldag
+4762 197116	Balaraman Ravindran
+8788 197332	Mark R. Tuttle
+3933 197503	Zarrin Langari
+9859 197649	Meng Lou
+9167 197743	Richard L. Cole
+3044 197838	Ching-Tien Ho
+2867 197885	John W. Byers
+9953 198034	David P. Williamson
+3291 198102	Liadan O'Callaghan
+4131 198463	Lior Rokach
+3961 199352	Tianyi Jiang
+6555 200004	Kai-Pui Lam
+7310 200931	Qinghua Hu
+9247 201156	Seok-Ju Chun
+6697 201294	Jian-Wei Liu
+6698 201295	Shou-Jian Yu
+6699 201296	Jia-Jin Le
+3956 202050	Ning Jiang
+6219 202086	Satoshi Morinaga
+5199 202601	Sylvie Galichet
+6151 202832	Menahem Friedman
+5444 204041	Neil Madden
+6648 204297	Jong Park
+5804 205579	Robert Nichol
+4188 205841	Louis Licamele
+9410 205917	Philip J. Harding
+6878 206281	Deborah R. Carvalho
+8488 206679	Michael Welge
+8489 206681	David Clutter
+4301 207288	Shing Yan Lee
+4370 208005	Jin Soung Yoo
+7438 208338	Gordon Bell
+6076 209228	Edgar Hotz
+7999 210085	Ralph Sommerer
+9475 210108	Bernhard Stegmaier
+8086 211105	Robert Pasley
+3385 211114	G¨ªsli R. Hjaltason
+9115 211149	Eliyahu Safra
+3283 211184	Silvia Nittel
+9444 211194	Glenn S. Iwerks
+9023 211251	Mohammad R. Kolahdouzan
+9726 211252	Mehdi Sharifzadeh
+8707 211253	Hongga Li
+9392 211270	Laurynas Speicys
+4067 211316	Yufeng Kou
+4338 211397	Minghua Zhang
+9255 213233	Venkat Krishnamurthy
+6738 213383	Sang Hyun Oh
+3433 214251	Jian Zhai
+10091 214553	Rachel Jones
+5373 214823	Guoli Ding
+2905 215544	Subarna Sadhukhan
+5318 218434	Takayuki Kanda
+9500 218555	Wilson Chan
+9314 218980	Nicole Schneider
+3689 220582	Yuqiang Guan
+9948 220787	Anant Jhingran
+6370 220830	Gediminas Adomavicius
+8046 220924	Jarmo Toivonen
+5845 220989	Edoardo Airoldi
+9890 222209	Will Portnoy
+7372 222595	Donald E. Brown
+6728 222739	Ole M?ller Nielsen
+7916 223493	Yong-Bae Lee
+9585 223879	Seiichi Koizumi
+4928 224254	David Allen
+8969 224591	Michael J. Wynblatt
+6470 225258	Henry Haining Zhang
+8232 225381	Yuelin Li
+6351 226160	YongSeog Kim
+7421 226326	Amar Gupta
+3792 226723	Matthew Eric Otey
+3824 226772	Haimonti Dutta
+4246 227036	Alejandro Bassi
+8255 227360	Manuel Zahariev
+6348 227942	Chris Stolte
+9013 228084	Qingbo Zhu
+5905 228715	Jameel Syed
+7355 228810	Giovanna Gazzaniga
+5906 228980	Patrick Wendel
+4438 230358	Rajashekar Reddy
+8304 230899	Adam Darlow
+10020 231117	Quoc Vu
+10092 231328	Gavin Smyth
+10045 231343	Caesar Sengupta
+3812 231957	Richard G. Larson
+9708 233714	Tobias Sch?fer
+7906 234248	Necati Ercan Ozgencil
+7365 234735	Anna Maclachlan
+3963 235001	Quamrul I. Khan
+6686 235031	Zhi-Li Wu
+8228 235880	Peter Willett
+9992 236183	Taher H. Haveliwala
+3860 236811	Ella Bingham
+8544 237204	Robert Adams
+4466 237245	Yu-Han Chang
+5503 237251	Alice X. Zheng
+6461 237273	Haoqiang Zheng
+4084 237278	Genady Grabarnik
+2651 237283	Ihab F. Ilyas
+9435 237284	Paul G. Brown
+3184 237294	Roberta Cochrane
+8413 237295	Latha S. Colby
+8194 237413	Yejun Wu
+7867 237504	Pik-Shan Cheung
+7950 237522	Innes Martin
+8031 237745	Makoto Nakashima
+8032 237746	Tetsuro Ito
+7613 238810	Joanne S. Claussen
+4575 239427	Gunes Ercal
+10073 240512	Mikael Nilsson
+4877 241683	Michael Mozer
+7064 242340	Emanuele Olivetti
+9639 242730	Anthony Brockwell
+4539 242774	Simon Rogers
+6451 243379	Cheng Yang
+2652 246911	Ann Christine Catlin
+4389 248787	Dong Zhuang
+3734 249093	Varun Chandola
+7707 249157	Weijun Chen
+6471 250603	Ian Tian Yi Li
+3521 251309	Guohong Cao
+9187 252359	David Li
+9612 252488	William O'Connell
+6809 254176	Takuya Wada
+6853 256544	Kebin Cui
+7841 257780	Takahiko Kawatani
+8179 257894	Mukund Narasimhan
+2677 258729	Charles Barton
+8394 258852	Larry Brown
+3744 259054	Yi-an Huang
+9311 259130	Rivka Ladin
+3527 259337	Kristal T. Pollack
+10084 259465	Anoop George Ninan
+3522 259529	Liangzhong Yin
+3185 259561	Markos Zaharioudakis
+3827 259626	Souptik Datta
+6456 260043	Xudong Guan
+9098 260184	Andrey Balmin
+2602 260190	Ari Kahn
+9459 260202	Rushi Desai
+9460 260204	Hrishikesh Karambelkar
+2613 260209	Mikkel Agesen
+2614 260210	Lasse Poulsen
+2635 260216	Scott Logan
+2642 260219	Vivek R. Narasayya
+2653 260226	J. Guo
+2654 260227	Mirette S. Marzouk
+2655 260228	S. Teoh
+8731 260241	Subramanian Arumugam
+3299 260249	Ravi Murthy
+2661 260252	Denilson Barbosa
+2668 260259	Pedro Cruz
+2673 260264	Nigel Ellis
+2674 260265	Balaji Rathakrishnan
+2678 260267	Philippe Charles
+2686 260271	Viktor Zigo
+2691 260272	Maya Ramanath
+9401 260277	Alan Halverson
+2702 260301	Adam Bosworth
+2725 260315	Maximilian Viermetz
+2728 260316	Wen Qiang Wang
+2731 260321	Alexander Bilke
+2737 260331	Birger H?nsel
+2741 260332	Sandeep Pandey
+2759 260338	Janine Savage
+2768 260339	Robert Hutchison
+2769 260340	Robert Mann
+3912 260360	Lei Chen 0003
+2808 260366	Flip Korn
+5910 260371	Nilesh N. Dalvi
+3107 260372	Raghav Kaushik
+3317 260373	Jeff Bernhardt
+2831 260390	Sashikanth Chandrasekaran
+2832 260391	Roger Bamford
+8331 260404	Eduardo F. Galvez
+2844 260409	Ding-Ying Chiu
+9233 260413	George Eadon
+9168 260426	William J. McKenna
+9169 260428	David Wilhite
+2868 260431	Jeffrey Considine
+9291 260440	Dinesh Das
+2876 260444	Khuzaima Daudjee
+2879 260445	Jing Qin
+2882 260447	Saydean Zeldin
+2888 260457	Longxing Deng
+2889 260458	Paul Gorman
+2890 260459	Joan Ash
+2891 260460	Mary Lavelle
+2892 260461	Jason Lyman
+8587 260462	Matthew Denny
+2906 260481	Shinjiro Sueda
+2910 260489	Hua Soon Sim
+2914 260492	Anton Faradjian
+2928 260507	Lingzhi Zhang
+8582 260527	Vladislav Shkapenyuk
+2949 260528	Andreas G?rtner
+2953 260531	Lucy Chernobrod
+2957 260538	Thanaa M. Ghanem
+2959 260539	Eric Gignere
+2964 260542	Xueqing Gong
+2967 260543	Shaymsunder Gopale
+2968 260544	Shridhar Shukla
+2969 260545	R. Kul
+2978 260550	Ming Hao Xie
+2988 260554	Robert E. Gruber
+2991 260559	Jian Zheng
+3002 260560	Lin Guo
+3010 260565	Thomas H?se
+3011 260566	Markus Spiekermann
+3012 260567	Ulrich Telle
+3021 260569	R. Gwadera
+3494 260574	Xifeng Yan
+3031 260576	Mike Hanlon
+3032 260577	Robbert C. Van der Linden
+3038 260590	Junyi Xie
+3045 260594	Mauricio A. Hern¨¢ndez
+3049 260596	Markus Wawryniuk
+3061 260614	Edward Hung
+3058 260615	Wing Sing Wong
+3075 260623	Tetsuya Ikeda
+3076 260624	Hiroshi Takegawa
+3077 260625	Takuya Hiraoka
+3078 260626	Shiroh Horibe
+9983 260628	Hidehiko Ino
+3083 260631	Eric Ng Ka Ka
+3086 260635	Navin Kabra
+3087 260636	Vuk Ercegovac
+8836 260637	Ken'ichi Ishikawa
+9448 260658	Quang Hieu Vu
+9815 260659	Yang Du
+3095 260661	W. Xu
+3099 260668	Hisashi Kashima
+3100 260669	Tadashi Tsumura
+3101 260670	Tsuyoshi Id¨¦
+3102 260671	Takahide Nogayama
+3103 260672	Ryo Hirade
+3498 260673	Rui Zhang 0003
+3122 260686	Zahir Balaporia
+3123 260687	Brett Banich
+8444 260691	Vinayak R. Borkar
+3135 260698	Wouter Alink
+8732 260704	Shantanu Joshi
+3141 260705	Sabine Massmann
+9381 260708	Chulyun Kim
+3146 260717	Akihiro Kuwabara
+3151 260721	Kazuhito Kobayashi
+3152 260722	Akitsugu Watanabe
+9825 260727	Jingren Zhou
+8369 260734	Kristen LeFevre
+3179 260749	Vikas Arora
+3200 260766	Dong Xin
+3205 260770	Shiyan Deng
+3206 260771	Vineel Kumar Gattu
+3207 260772	Aravindan Kasthurirangan
+8420 260773	Mahadevan Subramanian
+3213 260774	Vince Penkrot
+3214 260775	Siddhartha Roychowdhury
+6869 260784	Zheng Shao
+8781 260787	Rui Wang 0002
+3242 260795	Curt Ellmann
+3243 260796	Michael Watzke
+3249 260798	John Norris
+3250 260799	Robert Fiedler
+3257 260809	Wang Lian
+3268 260828	Mingzhe Gu
+3284 260845	Kelvin T. Leung
+3285 260846	Amy Braverman
+3294 260859	Amarjeet Singh
+3300 260867	Seema Sundara
+3301 260868	Timothy Chorma
+3302 260869	Nipun Agarwal
+8837 260873	Jun'ichi Tanaka
+3309 260894	Joseph Desmarais
+3310 260895	Peter Bates
+3314 260896	Xuqing Tian
+3318 260904	Amir Netz
+3327 260914	Themistoklis Palpanas
+3333 260915	Qiongmao Shen
+3338 260916	Spiros Papadimitriou
+9727 260920	Farid Parvini
+3344 260925	Behzad Mortazavi-Asl
+3349 260928	Feng Peng
+8681 260937	Ivan Popivanov
+9498 260951	Praveen Rao
+8870 260959	George Lapis
+3386 260976	Moshe Shadmon
+3387 260977	Levy Cohe
+9693 260982	Alok Kirpal
+8671 260984	Lei Sheng
+3408 261011	Aliekber G¨¹rel
+3436 261079	Peter A. Tucker
+4237 261090	Natalia Vanetik
+3444 261091	P. Venkatachalam
+3445 261092	B. K. Mohan
+3447 261096	Stefan Brandl
+8726 261103	Nuwee Wiwatwattana
+3451 261106	Mengzhi Wang
+3452 261107	Ngai Hang Chan
+3473 261122	Jack Man Shun Yeung
+8658 261129	Wolfgang Wonner
+3478 261132	Min-Soo Kim 0002
+8985 261135	Tolga Urhan
+3483 261136	Stella Luk
+3487 261137	Markus Peters
+3491 261146	Shishir Agrawal
+3496 261149	Varun Kacholia
+3517 261164	Gangqiang Xia
+3518 261165	Yuguo Chen
+3528 261172	Lawrence You
+8946 261174	Chendong Zou
+9379 261191	Amit Marathe
+8677 261193	Howard Ho
+8739 261203	Irina Rozenbaum
+8238 261212	Hai He
+10157 261213	Hongkun Zhao
+9620 261214	Adrian Baras
+9574 261226	Flavio Rizzolo
+9214 261235	Shaofeng Bu
+8716 261239	Dengfeng Gao
+8567 261248	Adrian M. Teisanu
+8682 261249	Mokhtar Kandil
+4371 261266	Mete Celik
+8769 261278	Robin Dhamankar
+9699 261293	Mayssam Sayyadian
+7015 261339	Yan-Nei Law
+6894 261342	Irene Ntoutsi
+9328 261403	Till Westmann
+9757 261406	Xuedong Chen
+8852 261407	Elizabeth J. O'Neil
+4020 261410	Panagiotis Papapetrou
+8702 261443	Zhengli Huang
+9632 261451	Richard Sidle
+9714 261466	Shetal Shah
+3864 261536	Johan Himberg
+3533 261537	Serena Chan
+3535 261538	Andrew Foss
+3537 261539	Lin Deng
+3560 261540	R. Chen
+3566 261546	Yu Guo Wang
+3569 261547	Mei-Jung Lo
+5992 261548	Deepak K. Agarwal
+3578 261549	Robert Rounthwaite
+3590 261551	Reuven Kashi
+3598 261553	Denis Clot
+3605 261554	Suhail Ansari
+3606 261555	Llew Mason
+3621 261558	Kenji Abe
+3622 261559	Shinji Kawasoe
+3627 261560	Robert Gwadera
+3638 261561	Lewis Frey
+3659 261564	Mi-Yen Yeh
+3663 261566	Kiseok Choi
+3666 261567	Huiping Cao
+3684 261570	Mark R. Verardo
+5840 261571	Ayhan Demiriz
+3690 261573	Inderjit S. Dhillon
+3695 261574	J. Kogan
+3698 261577	Yongdai Kim
+3711 261578	Alessio Mazzanti
+3720 261579	Paul Nalos
+3729 261582	Joseph Elble
+3730 261583	Cinda Heeren
+3742 261588	Jason R. Chen
+3750 261591	Shaw-hwa Lo
+3755 261592	Heloise Lynn
+3756 261593	Yves Simon
+3764 261594	Antonio Gulli
+3768 261596	Todd Olsen
+3784 261599	Thomas George
+3785 261600	Srujana Merugu
+3800 261604	David Gondek
+3802 261608	Karam Gouda
+3821 261617	Dae-Ki Kang
+3834 261620	Robert E. Banfield
+3835 261621	Divya Bhadoria
+3839 261622	Khaled M. Hammouda
+3847 261623	Petre Tzvetkov
+3858 261625	Thomas Knight
+3861 261626	Heli Hiisil?
+3865 261629	Kalle Korpiaho
+3866 261630	Johanna Tikanm?ki
+3868 261631	Jeremy Z. Kolter
+3869 261632	Marcus A. Maloof
+3872 261634	Paul Komarek
+3888 261639	Yeong-Chyi Lee
+3913 261643	Deborah S. Gross
+3914 261644	James J. Schauer
+3920 261646	Jingjing Lu
+3926 261649	Chih Lai
+3927 261650	Nga T. Nguyen
+3940 261651	Ming-Chuan Hung
+3942 261652	Rajagopal Venugopal
+3943 261653	Marc Sobel
+3944 261654	Steve Horvat
+3948 261659	Y. Dora Cai
+3950 261660	Daesu Lee
+3951 261661	Wonsuk Lee
+3964 261663	Tariqul Hoque
+3969 261666	Wenmin Li
+3984 261670	Thomas Takeo Osugi
+3997 261671	Xu Liang
+3998 261672	Yao Liang
+4000 261673	Masakazu Seno
+4011 261677	Tielin Chen
+4014 261678	Risto A. V?is?nen
+4028 261679	Cheong Hee Park
+4034 261681	Susan Paulsen
+4039 261682	Karl Strohmaier
+4044 261683	Leefeng Chien
+4055 261685	Pranav Patel
+4075 261691	Xiaoling Zhang
+4076 261692	Moonjung Cho
+4078 261693	Karlton Sequeira
+4088 261694	Xi Ma
+4093 261695	Teresa Mah
+4100 261696	Eren Manavoglu
+4107 261697	Sandeep Mane
+4103 261700	Huseyin Polat
+4108 261701	Jamshid Vayghan
+4128 261704	Da Meng
+4135 261705	Einat Neumann
+4137 261706	Boriana L. Milenova
+4138 261707	Marcos M. Campos
+4140 261708	Claudia Perlich
+4154 261713	Jos¨¦ A. Taboada
+4155 261714	C. David Cooke
+4156 261715	Elizabeth Krawczynska
+4161 261716	Pekka Uronen
+4166 261720	Brian Gallagher
+4168 261721	Eric Ka Ka Ng
+4173 261727	Huiwen Wu
+4175 261728	Zhi-Yong Shen
+4176 261729	Shi-Ming Zhang
+4180 261732	Wing-Ho Shum
+4185 261733	Muhammad Subianto
+4190 261743	Sam Steingold
+4191 261744	Richard Wherry
+4204 261747	Raz Tamir
+4212 261748	Horia-Nicolai L. Teodorescu
+4213 261749	Lucian Iulian Fira
+4228 261755	Fan-Chen Tseng
+4229 261756	Henry Chen
+4252 261758	Lemuel R. Waitman
+4253 261759	Paul H. King
+4258 261760	Daniel Wessling
+4265 261761	Ching-Yao Wang
+4274 261762	Xiaochen Wu
+4286 261763	Yuki Mitsunaga
+4290 261764	Agenor Mafra-Neto
+6342 261766	Pang-Ning Tan
+4314 261767	Oksana Yakhnenko
+4316 261768	Xuan-Hui Wang
+4328 261769	Lowell Rosen
+4329 261770	Daniel Venese
+4343 261772	Sandeep Yaramakala
+4352 261773	Samuel Burer
+4354 261774	Michael M. Yin
+4357 261776	Andreas Schaller
+4363 261777	Mariko Yohda
+4364 261778	Makiko Saito-Arita
+4365 261779	Ryota Suzuki
+4373 261780	Zhiqiang Zheng
+4377 261781	Cui Zhu
+4385 261782	Mingxin Huang
+4387 261783	Duane Searsmith
+7814 261795	Yan Rui Huang
+7815 261796	Miao Wen
+4611 261825	Shirish Krishnaj Shevade
+9772 261826	Wang Kay Ngai
+4870 261842	Jianxin Wu
+6822 261855	Adam Woznica
+5255 261930	Shen-Shyang Ho
+5984 261988	Kazuo Machida
+4396 262004	Arindam Banerjee
+5881 262019	Richard C. Wang
+4428 262031	David M. Blei
+6098 262079	Matthew J. Rattigan
+6000 262111	Tina Eliassi-Rad
+7540 265856	Markus Koppenberger
+7541 265860	Nicolas Wack
+4853 266657	Shaomin Wang
+7367 268464	Huan Li
+6846 268476	Hongye Su
+6847 268477	Jian Chu
+6390 268812	Naiyao Zhang
+5427 269902	Lijuan Qin
+6589 269995	Kazuyoshi Furukawa
+4641 272281	Laurent El Ghaoui
+9329 274947	Arvind Sundararajan
+8259 275057	Xi Shao
+5872 275249	Zhiqiang Bi
+8771 277248	Sae Hwang
+6252 278896	Werner Goebl
+7375 279416	Chih-Hsiang Lin
+6391 279994	Lie Lu
+8260 280003	Namunu Chinthaka Maddage
+8596 280343	Suman Kumar Nath
+6392 280445	Muyuan Wang
+4519 280942	Wen Wu
+6743 281039	JeongKyu Lee
+7439 281146	Roger Lueder
+5884 282513	Xiaojian Zhao
+4412 282729	Brigham Anderson
+4415 282732	Francis R. Bach
+4416 282733	Gert R. G. Lanckriet
+4426 282735	Simon Rawles
+4793 282741	David J. Stracuzzi
+4439 282742	Mugizi Robert Rwebangira
+4442 282745	Joseph Bockhorst
+6452 282753	Paul S. Bradley
+4454 282754	Michael Chisholm
+5898 282800	Chad M. Cumby
+4471 282801	Aaron D'Souza
+4484 282806	Joseph Keshet
+4490 282814	Adam Drake
+4493 282820	Austin I. Eliazar
+4507 282826	Thomas Finley
+4545 282844	Anna Goldenberg
+4553 282851	Ajit Paul Singh
+4561 282855	Wanli Min
+4567 282869	Andrew Isaac
+4588 282876	Michael Hay
+9970 282877	Kostas Tsioutsiouliklis
+4605 282881	Yuta Tsuboi
+4612 282885	Aun Neow Poo
+4617 282886	Martijn Van Otterlo
+4619 282889	Jinseog Kim
+4621 282890	Nir Krause
+4630 282902	Brian Kulis
+7646 282910	David K. Tcheng
+4656 282921	Ya Xue
+4659 282929	Robert J. Yan
+4679 282936	Qing Lu
+4691 282950	Jeff Michels
+4694 282963	Cheng Soon Ong
+4709 282977	Ting Su
+4715 282978	Eric Altendorf
+4732 282990	Khashayar Rohanimanesh
+4754 282997	Jason D. Rennie
+4755 282998	Lawrence Shih
+4769 283017	Jason D. M. Rennie
+4776 283018	Hauke Tschach
+4782 283025	Noam Slonim
+4783 283026	Gill Bejerano
+6807 283035	Ramasamy Uthurusamy
+4795 283039	Yevgeny Seldin
+4797 283041	Sandeep Seri
+4807 283042	Mark Bernhardt
+4808 283043	Nicholas Everett
+4813 283046	Sajid M. Siddiqi
+4818 283053	Charles A. Sutton
+4826 283060	Ming Fai Wong
+4833 283070	Kimo T. Lai
+4859 283077	Michal Rosen-Zvi
+4878 283085	Lian Yan
+4879 283086	Robert H. Dodier
+4880 283087	Richard H. Wolniewicz
+5456 283196	Andr¨¦s Corrada-Emmanuel
+6018 283259	Junshui Ma
+6485 283685	Katsuyuki Yamazaki
+8356 285180	Honggang Zhang
+7753 285215	Xinyang Zhang
+6245 286581	G. Li
+7807 288490	Sindhura Bandhakavi
+6012 288696	Rong Ge
+6559 290038	Chih-Lung Lin
+5499 290177	Ken-ichi Hidai
+5398 290469	Huizhong Long
+6446 291166	Sandeep Khanzode
+5250 292689	Emmanuel Guere
+8233 294269	Alistair McLean
+7777 294742	Daniel J. Pack
+5693 297291	Brad Lisien
+7286 297461	Dongwei Cao
+9808 299986	Allison Waingold
+9744 300622	Halvard Skogsrud
+6793 300850	Jau-Hwang Wang
+5558 301330	Annapaola Marconi
+7385 302161	Congnan Luo
+5826 302576	Philip S. Barry
+7147 303258	Liying Sui
+6406 303479	Douglas A. Newlands
+5995 304464	Daryl Pregibon
+6375 304565	Antti Ukkonen
+7475 304635	Malcolm Crowe
+8273 304859	Qi-Cai He
+7907 306778	Nancy J. McCracken
+9217 312214	Egbert-Jan Sol
+6671 315534	Marcin Gajek
+6669 315535	Katarzyna Cichon
+8033 315669	Keizo Sato
+4939 315957	Stephan Bernard
+4966 315966	Gal Bahar
+4982 315992	Magda Valls
+4995 316014	Ana?s Fabre
+5019 316042	Jennifer Boger
+5020 316043	Geoff Fernie
+5021 316044	Alex Mihailidis
+5053 316075	Natalia Odintsova
+5080 316112	Yannet Interian
+5092 316122	Francis C. Chu
+5179 316238	Alexander Ferrein
+5305 316414	Frank Wittig
+5337 316485	Scott Bell
+5339 316486	Raymond Kosala
+5374 316517	Robert F. Lax
+5390 316533	Amit Mandvikar
+5391 316534	Patricia G. Foschi
+5428 316557	Shaojun Zhao
+5438 316566	Bill MacCartney
+5441 316568	Aynur A. Dayanik
+5451 316577	David Latham
+5453 316580	Yves Martins
+5774 316612	Zhang Mingyi
+5477 316618	Christine Clark
+5501 316647	Brenda Ng
+5522 316668	Tom O'Hara
+5523 316669	Stefano Bertolo
+5540 316688	Marta Eso
+5575 316730	Hema Raghavan
+5620 316771	Steve R. Schaffer
+5659 316818	Marios Skounakis
+5663 316820	Jackie Chappell
+5680 316849	Daniel Vladusic
+5684 316865	Eran Segal
+5694 316880	Brennan Sellner
+5707 316884	Teresa Escobet
+5730 316920	Tianhan Wang
+5767 316968	Lan Yi
+5777 316988	Adriana Zapico
+5791 317001	James Reich
+5792 317002	Patrick Cheung
+7921 317022	Rahul Bhagat
+6309 317043	Radu Stefan Niculescu
+5899 317087	Marko Krema
+6220 317137	Kenji Tateishi
+6781 317770	Wojciech Stach
+6265 318931	David Thoenen
+8294 321747	Shinjae Yoo
+7551 321768	Matan Mandelbrod
+8089 322292	Rodrigo C. Fonseca
+8021 322887	Seung-Taek Park
+6349 324102	Diane Tang
+7973 324153	David K. Elson
+6318 326275	Christopher D. Carothers
+6729 326334	Timothy Hancock
+6373 326849	Secil Ugurel
+6298 327157	Deept Kumar
+7084 327768	Camilo Rostoker
+5927 328308	Tamraparni Dasu
+9809 328404	Aman Naimat
+8678 328406	Mary Roth
+6435 330391	David Verbel
+6436 330395	Olivier Saidi
+6857 341738	Ye Fan
+10047 343222	Uichin Lee
+6137 345286	Kfir Zigdon
+6925 345312	Moti Schneider
+6345 345347	Mark Steyvers
+8217 345549	Robert H. Warren
+9784 346817	Evan W. Steeg
+9562 347025	Krishna Palaniappan
+9563 347026	Frank Korzeniewski
+7647 347987	Andreas F. Ehmann
+7684 348007	Yazhong Feng
+7509 348075	Ja-Young Kim
+5940 348384	Ashwin Satyanarayana
+7035 351240	Stratos Paulakis
+8519 351273	Rahul Kapoor
+7669 353370	Kazuko Kuriyama
+6949 357808	Cristian Gozzi
+9665 357948	James Elding
+5874 358096	Sterling Stuart Stein
+7975 359430	Matthew R. McLaughlin
+10038 359520	Simon Lok
+7614 359602	Changwen Yang
+6145 361866	Mahesh Kumar
+7899 362797	Dawn J. Lawrie
+8009 363814	Samuel Gustman
+8010 363816	Bhuvana Ramabhadran
+7908 363890	Eileen Allen
+7718 363968	Arvind Rangaswamy
+7719 363969	Nirmal Pal
+7672 364286	Tamer Elsayed
+6621 364503	Kouhei Tsumoto
+6468 364770	Yu Zhu
+8105 365260	Shlomo Dubnov
+6622 365766	Tomohiro Okuzaki
+7087 365789	Koutarou Nakanishi
+5805 366178	Andrew Connolly
+5809 366185	Jay Ayres
+5816 366194	Naval K. Verma
+5817 366195	Robert Schroko
+5824 366196	Chase Krumpelman
+5827 366197	Mary McDonald
+5830 366200	Krupakar V. Pasupuleti
+5832 366202	Zhijun Zhan
+5851 366203	Pavel Berkhin
+5835 366205	Florian Beil
+9188 366209	John C. Shafer
+5853 366214	Wijnand van Stam
+5859 366216	Fatemah A. Alqallaf
+5860 366217	Kjell P. Konis
+5861 366218	R. Douglas Martin
+5862 366219	Ruben H. Zamar
+5865 366223	Goutham Kurra
+5866 366224	Wen Niu
+5870 366225	Patrick Glenisson
+5875 366228	Marin Saric
+5878 366239	Jacob Richman
+9994 366240	Sergey Brin
+5889 366245	Shengnan Cong
+5895 366249	Andreas Buja
+5896 366250	Yung-Seop Lee
+5947 366252	Scott Gaffney
+5911 366255	Sumit K. Sanghai
+5915 366258	Kaustav Das
+5935 366266	James Drew
+5936 366267	Andrew Betz
+5937 366268	Jeffery Howard
+5941 366269	Ashish Grover
+5948 366271	Darya Chudova
+5957 366275	James Chilson
+5971 366276	Subramanyam Mallela
+5981 366285	Ruey-Hsia Li
+5985 366286	Ryohei Fujimaki
+5990 366291	Sathyakama Sandilya
+5993 366292	William DuMouchel
+6277 366300	Greg Ridgeway
+6016 366309	Hank Hoek
+6021 366311	Teija Kujala
+6029 366313	Matthew Siegler
+6030 366314	Robert Stockton
+7153 366323	Jasmine Novak
+6050 366328	Stephane Chiocchetti
+6055 366332	David M. Fram
+6056 366333	June S. Almenoff
+6077 366344	W. Heuser
+6078 366345	M. Wieczorek
+6094 366362	Glen Jeh
+6099 366363	Hannah Blau
+6107 366367	Dmitrii Polshakov
+6115 366373	Michael Patek
+6117 366374	Alex N. Kalos
+6118 366375	Tim Rey
+6122 366376	Annaka Kalton
+6125 366377	Jiashun Jin
+6989 366388	Arno J. Knobbe
+6990 366389	Eric K. Y. Ho
+6134 366390	Xiaomei Sun
+6140 366391	Christoph Helma
+6143 366392	Robert Jedicke
+6146 366393	Nitin R. Patel
+6147 366394	Jonathan Woo
+6299 366395	Malcolm Potts
+6155 366399	Jacques Cherrier
+6170 366402	Ross Sparks
+6177 366410	Yulan Liang
+6178 366411	Arpad Kelemen
+6181 366414	Jeffrey P. Lankford
+6182 366415	Donna M. Nystrom
+6188 366418	Bertis B. Little
+6189 366419	Walter L. Johnston
+6190 366420	Ashley C. Lovell
+6191 366421	Roderick M. Rejesus
+6192 366422	Steve A. Steed
+6199 366423	Yun-Ling Lu
+6275 366429	Tom Khabaza
+6214 366440	Uwe F. Mayer
+6215 366441	Armand Sarkissian
+6226 366451	Daniel B. Neill
+6231 366452	Lisa Friedland
+6234 366453	John Komoroske
+6235 366454	Kelly Palmer
+6238 366455	Caleb C. Noble
+6744 366459	Sanjaykumar Kote
+6240 366460	Anna Olecka
+6259 366469	Ramnath Balasubramanyan
+6260 366470	Jignashu Parikh
+6267 366474	William Peter
+6268 366475	John Chiochetti
+6269 366476	Clare Giardina
+6272 366481	Leejay Wu
+6281 366487	Yizhak Idan
+6282 366489	Uri Eick
+6283 366490	Nurit Vatnik
+6286 366493	Paat Rusmevichientong
+6287 366494	David Selinger
+6302 366497	Kaushal Sanghai
+6310 366501	Colin Germond
+6311 366502	Harsha Rao
+6323 366510	Mark Shavlik
+6327 366511	Jennifer L. Gardy
+6328 366512	Fiona S. L. Brinkman
+6359 366535	Mohsen Farid
+6366 366538	Young Truong
+6367 366539	Chris Beecher
+6376 366541	Mikael Fortelius
+6383 366545	David S. Vogel
+6395 366546	Ming-Yen Thomas Su
+6408 366551	Andreas S. Weigend
+6412 366553	S?ren Damgaard
+6420 366559	Andrew Y. Wu
+6426 366565	Yutao Shou
+6431 366566	Patrick Baldasare
+6432 366567	Michael Fassino
+9004 366569	Lizhuang Zhao
+6466 366570	Robert A. Stine
+6486 366574	Teruaki Homma
+6487 366575	Akihiro Nakashima
+6488 366576	Hiromitsu Fujikawa
+8965 366659	Steve B. Jiang
+7061 367431	Alexandr A. Savinov
+9223 367878	Yiming Zeng
+7691 370188	Dennis Fetterly
+7692 370189	Mark Manasse
+8338 375378	Lubor Koll¨¢r
+8129 378515	Doron Cohen
+9967 378759	Jiandan Zheng
+9968 378810	Amol Nayate
+8011 379488	Stephanie Strassel
+9095 379750	T. V. Ashwin
+8970 381153	Julio C. Navas
+6786 382904	Satu Elisa Schaeffer
+9830 383702	Wenyun Ji
+8247 384589	Xiaojun Yuan
+8095 384616	Andrew I. Schein
+8176 384631	Gregory Marton
+7969 385186	Ting-Sheng Lai
+7284 386646	Alexander G. Gray
+9231 390309	Arek Kasprzyk
+8799 390363	Mark Little
+6506 391081	Zhaogong Zhang
+6514 391082	Weiping Ge
+6550 391088	Ramanathan Balachandran
+6537 391095	Renaud Bass¨¦e
+6551 391100	Ramji Beera
+6560 391103	Shih-Chien Kuo
+6561 391104	Tsung-Hsin Ho
+6563 391105	Shao-Chen Lui
+6564 391106	Yen-Chin Wu
+6568 391107	Alan T. Murray
+6570 391108	Shi-Hsan Yang
+6574 391114	Yi Chen 0002
+6583 391116	Felix Cheung
+6590 391117	Kazuya Yamada
+6630 391131	Daniel Catchpoole
+6635 391134	Maleq Khan
+6637 391137	Chih-Ming Hsu
+6639 391138	William W. Hsu
+6644 391139	I-Ane Huang
+6649 391141	Hyongguen Kim
+6657 391144	Qiming Huang
+6660 391148	Ying-Han Liu
+6676 391156	Arthur Lim¨¨re
+6683 391169	Jiye Li
+6690 391170	Zhiheng Li
+6695 391172	Jung-Yi Lin
+6711 391179	Minrui Zheng
+6714 391181	Ivy Tong
+6716 391182	Lei-Lei Choi
+6717 391183	Man-Yee Chin
+6718 391184	Sin-Ling Lay
+6722 391185	D. T. Huynh
+6732 391187	Lior Lukov
+6736 391188	Jinqiang Han
+6748 391189	Shinichi Murata
+6752 391192	Shotaro Matsumoto
+6757 391193	Masafumi Hamamoto
+6777 391200	Phu Chien Nguyen
+6782 391209	Rafal Rak
+6804 391229	Ching-Pin Kao
+6817 391241	Liu Tang
+6848 391253	Tao Jia
+6858 391257	Hailei Qian
+6860 391258	Dan Wei
+7071 391330	Jun Sese
+8828 395389	Frederic Dang Ngoc
+9092 397062	Richard Tibbetts
+6887 398094	Maurizio Mazza
+8402 398100	Shashank Pandit
+6916 398122	Tomaz Curk
+6920 398126	Wim de Jonge
+6955 398146	Abhay Harpale
+6965 398148	Stefanie Wanka
+6967 398149	Elton Rexhepaj
+6976 398154	Jaana Heino
+6992 398159	Marc de Haas
+6995 398160	Roberto R. F. Mendes
+6996 398161	Fabricio de B. Voznika
+6998 398162	Bart Marseille
+7271 398173	Juho Muhonen
+7013 398175	Vasilis Megalooikonomou
+7036 398189	Charalampos Lampos
+7059 398206	Maximilien Sauban
+9330 398426	Fabio Riccardi
+8672 398648	Andrew Witkowski
+7129 398745	Jon McAlister
+8600 398756	Dayou Zhou
+7184 398766	Ashish Kumar Gupta
+7204 398783	Bassem Sayrafi
+7235 398792	Alexander Markowetz
+7322 399979	John Wilkins
+9826 404594	Mihir Shah
+8395 406848	Honguk Woo
+8042 408479	Meirav Taieb-Maimon
+7356 408613	Sergio M. Savaresi
+7377 413369	David Littau
+7244 413374	Mehmet Dundar
+7267 413385	Amir Bar-Or
+7274 413386	Adam J. Mersereau
+7278 413387	Emre Erdogan
+7313 413399	H. Khargupta
+7323 413401	Tat-Sang Choy
+7324 413402	Steve Barr
+7325 413403	Kaden Hazzard
+7326 413404	David Richie
+7327 413405	Boyd Gatlin
+7333 413408	T. Hirsim?ki
+7346 413416	Varun Pandey
+7404 413431	Ramin Afshar
+7412 413433	Jianjua Tao
+7415 413436	Ching-Jiu Hsiao
+8687 415007	Jeff Pollock
+10074 415030	Boris Wolf
+8632 416558	Nikunj Raghuvanshi
+9427 417460	Nick Lanham
+7441 421025	Jeffery Antoniuk
+7443 421026	Avi Arampatzis
+7444 421027	Andr¨¦ van Hameren
+7454 421036	Meredith Frost
+7458 421037	Paulo C. F. de Oliveira
+7465 421040	Joshua Lewis
+7468 421041	Vikas Khandelwal
+7470 421046	Courtney Wade
+7472 421047	Azreen Azman
+7477 421050	Keith van Risjbergen
+7486 421055	Nadav Har'El
+7492 421059	Wilma Bainbridge
+7504 421065	Yoad Winter
+7510 421066	Hyuk-Jin Lee
+7511 421067	Muh-Chyun (Morris) Tang
+7522 421077	Jukka Kuusisto
+7543 421096	Vijay Boyapati
+7561 421100	Kian Ming Adam Chai
+7564 421101	Vivek Tawde
+7566 421102	Jeetendra Mirchandani
+7567 421103	Arnab Nandi
+7571 421104	Harr Chen
+7584 421111	Ruei-Cheng Chen
+7590 421119	Prashant Choudhari
+7591 421120	Abhishek Joglekar
+7592 421121	Akshay More
+7593 421122	Supriya Patil
+7606 421129	M. Laszlo
+7621 421134	Eric Crestan
+7622 421135	Claude de Loupy
+7629 421144	Renxu Sun
+7630 421145	Keya Li
+7640 421153	Arvind Seth
+7664 421161	Helen L. Gaylard
+7670 421164	Emi Ishida
+7708 421184	Hongzhao He
+7715 421187	Kim Carl
+7736 421198	Abduelbaset Goweder
+7740 421200	Edel Greevy
+7763 421213	D. S. Hunnisett
+7778 421223	Peter V. Henstock
+7783 421231	Yuzo Marukawa
+7797 421242	Gijs van Dinther
+7817 421251	Daniel C. Fain
+7821 421252	Steven M. Gabb
+7828 421253	Anne Ruas
+7847 421271	Vijay Deepak Dollu
+7863 421286	Kinshuman
+9189 421287	Steve Kirsch
+7870 421296	Li-Ying Lee
+7871 421297	Tung-Ho Wu
+7877 421298	Fangfang Feng
+7909 421306	Susan Corieri
+7910 421307	Joanne Silverstein
+7923 421313	Stephen Levin
+7927 421315	Duk whan Oh
+7948 421320	Melanie J. Martin
+7960 421327	Paul Oh
+7980 421338	Joel C. Miller
+7981 421339	Gregory Rae
+7982 421340	Fred Schaefer
+7988 421343	Ramesh Sankaranarayanan
+8002 421352	Janez Brank
+8012 421357	Liliya Kharevych
+8015 421358	Jesse Montgomery
+8028 421366	Jukka Perki?
+8034 421370	Yanhua Qu
+8043 421373	Yael Nemeth
+8047 421376	Kari Visala
+8062 421399	Rabia Nuray
+8072 421410	Ralf L¨¹beck
+8079 421413	Tomoharu Kokubu
+8090 421415	Patricia Correia Saraiva
+8101 421418	Aditya Kumar Sehgal
+8108 421420	Smitha Sriram
+8114 421422	David Sherfesee
+8115 421423	Niall O'Driscoll
+8126 421430	Patrick Cahan
+8136 421432	Sakari Hokkanen
+8137 421433	Petteri Kangaslampi
+8138 421434	Petri Pyy
+8139 421435	Bemmu Sepponen
+8144 421439	Joshua Varner
+8162 421451	Goldee Udani
+8163 421452	Shachi Dave
+8164 421453	Anthony Davis
+8165 421454	Tim Sibley
+8169 421456	Yoshiyuki Takeda
+8177 421461	Aaron Fernandes
+8192 421470	Chih-Fong Tsai
+8200 421472	W. J. Li
+8212 421473	Josh Forman
+8239 421482	Komanduru Sai C
+8249 421483	Jesper Lind
+8270 421485	Chao-Jun Lu
+8282 421491	Shuguang Wang
+8283 421492	Chun-Keat Koh
+8300 421495	Budi Rahardjo
+8664 422045	Hongfei Guo
+8312 422125	Keith Ito
+8332 422129	Christian Convey
+8333 422130	C. Erwin
+8334 422131	M. Hatoun
+8335 422132	A. Singer
+8336 422133	R. Yan
+8339 422134	Arunprasad P. Marathe
+8340 422135	Manoj Syamala
+8347 422136	Tali Yatzkar-Haham
+8357 422143	Alazel Acheson
+8358 422144	Mason Bendixen
+8359 422145	Peter Carlin
+8360 422146	Ebru Ersan
+8361 422147	Christian Kleinerman
+8362 422148	Gideon Schaller
+8363 422149	Beysim Sezgin
+8364 422150	Ramachandran Venkatesh
+8370 422151	Ameet Kini
+8371 422152	Diana Zhou
+8375 422153	Bradley Berg
+8376 422154	Mark Humphrey
+8377 422155	Anjali Jhingran
+8378 422156	Wenjuan Xing
+8381 422157	Jeff Pavel
+8382 422158	Viktoriya Sokolova
+8383 422159	Aleksandr Voskoboynik
+8389 422161	Jihwang Yeo
+8397 422164	Per Bendsen
+8405 422167	David Aumueller
+8414 422186	Fatma ?zcan
+8416 422187	Sundar Saiprasad
+8417 422188	Bert Van der Linden
+8421 422192	Suparna Bhattacharya
+8436 422214	Peter McIlroy
+8432 422220	Chengkai Li
+9190 422228	Ivan Oprencak
+8456 422234	Cosmin Cremarenco
+8457 422235	Nicolas Dieu
+8461 422237	Bhushan Mandhani
+8462 422238	Shobhit Mathur
+8471 422239	Marco Dario
+8889 422257	Adriane Chapman
+8490 422260	Greg Pape
+8493 422261	Yuhan Cai
+8494 422262	Jing Michelle Liu
+9119 422269	Richard Swagerman
+8520 422281	Kris Ganjam
+8521 422282	Theo Vassilakis
+8556 422297	Sam Mardanbeigi
+8603 422345	Marcus Dill
+8604 422346	Stefan Sigg
+8637 422391	Bill Gallagher
+8653 422409	Junjie Guo
+8654 422410	Linqi Liu
+8673 422419	Sankar Subramanian
+8674 422420	Srikanth Bellamkonda
+8675 422421	Nathan Folkert
+8692 422429	Yaqin Liao
+8723 422466	Mehrdad Jahangiri
+8745 422490	Daniel Abugov
+8750 422497	Keunjoo Kwon
+8842 422508	Viswanathan Krishnamurthy
+8763 422517	Amit Ganesh
+8764 422518	Ashok Joshi
+8807 422551	Thomas Maguire
+8825 422573	Reed M. Meseck
+8830 422575	Hoshi Mistry
+8839 422580	Nicholas J. Multari
+8843 422583	Sivasankaran Chandrasekar
+8844 422584	Eric Sedlar
+8845 422585	Susan Kotsovolos
+8848 422592	Paul Ostwald
+8853 422600	Istvan Cseri
+8854 422601	Nigel Westbury
+8864 422606	Chin Hong Goh
+8871 422612	Robert Lyle
+8872 422613	Norman Seemann
+8873 422614	Tuong C. Truong
+8874 422615	Brian Vickery
+8876 422617	Arpit Jain
+8879 422618	Greg Fu
+8885 422622	Michalis Petropoulos
+8893 422626	Kian Win Ong
+9402 422627	Josef Burger
+8901 422649	Denis Rinfret
+9696 422666	Gayatri Sathe
+8917 422686	Jason Chionh
+8918 422687	Yixin Ruan
+8934 422713	Nitin Thaper
+8960 422744	Gregory Dorman
+8994 422759	Bradford Pielech
+8995 422760	Mukesh Mulchandani
+9000 422761	Steffen Christ
+9335 422789	Shrikanth Shankar
+9789 422800	Anat Eyal
+9812 425865	Jin Hu
+9621 429917	Eugene Kogan
+9212 430095	Sangyong Hwang
+9174 430503	Randall Salas
+9042 438122	J?rg Schuler
+9047 438126	J¨¦r?me Baumgarten
+9055 438129	Amit Somani
+9066 438136	Lourens Veen
+9089 438162	Rohit Ananthakrishna
+9501 438176	N. MacNaughton
+9104 438178	Attila Barta
+9790 438185	Simon Kamenkovich
+9122 438187	Christoph B?hm
+9123 438188	Karsten Draba
+9292 438194	Mohamed Ziauddin
+9139 438209	Ari Mozes
+9150 438211	Elaine Qing Chang
+9151 438212	Terence Ho
+9157 438218	Lilan Wu
+9170 438221	Craig J. Bunker
+9171 438222	Gopal Mulagund
+9181 438226	Rune Humborstad
+9184 438227	Greg Seidman
+9191 438228	Nicolas Adiba
+9192 438229	Michael Blow
+9193 438230	Rajendra Panwar
+9194 438231	David Rieber
+9195 438232	Brian Sterling
+9196 438233	Dan Wineman
+9197 438234	Kuan Yee
+9206 438239	John Catozzi
+9207 438240	Sorana Rabinovici
+9926 438251	Mallela Subramanyam
+9228 438262	Alan Kwan
+9251 438269	P. Hasselmayer
+9265 438275	Monem Meziou
+9296 438301	Stephen Dill
+9306 438308	Ema Nemes
+9309 438317	Fang Du
+9323 438326	Gargi Sur
+9331 438332	Chris Hillery
+9332 438333	Paul Lucas
+9333 438334	Geetika Agrawal
+9355 438338	Leo Yung Hang Lau
+9358 438341	Ryan Shipley
+9384 438356	Jungchul Woo
+9393 438362	Christian Hage
+9396 438365	Christoffer Hall
+9403 438366	Ajith Nagaraja Rao
+9405 438367	Mathias M?rschel
+9415 438378	Anandi Herlekar
+9416 438379	Atul Deopujari
+9424 438386	Pranab Kumar Mohanty
+9425 438387	Keng Lik Teo
+9445 438397	Kenneth P. Smith
+9502 438446	Vinay Srihari
+9504 438447	Christine Xing Wang
+9758 438454	Edmond Lau
+9508 438455	George Rajesh
+9518 438463	Wei-Kuang Waine Huang
+9519 438464	Yusuf Akca
+9539 438472	Bradley Momberger
+9545 438482	Roger MacNicol
+9546 438483	Blaine French
+9565 438488	Sabine Mayer
+9570 438497	Martin Albrecht
+9571 438498	Miltiadis Sarakinos
+9577 438501	Joseph Yarmus
+9586 438510	Satoshi Takano
+9602 438526	Thomas Hernandez
+9654 438532	Raghunath Othayoth
+9651 438533	Meikel Poess
+9622 438537	Oliver Seeliger
+9623 438538	Denis Churin
+9626 438539	Vasili Vasili Zolotov
+9630 438540	Marc Cardle
+9652 438547	John M. Stephens
+9663 438565	Holger Meinecke
+9666 438566	Slobodan Rasetic
+9668 438567	Naveen Reddy
+9694 438571	Chandra Mouli
+9715 438588	Shyamshankar Dharmarajan
+9719 438590	Catalina Fan
+9720 438591	John E. Funderburk
+9728 438592	Bahareh Navai
+9734 438601	Amedea Ambrosetti
+9735 438602	Cristina Bedeschi
+9736 438603	Orietta Gargano
+9737 438604	Rossella Molinaro
+9738 438605	Paola Patteri
+9739 438606	Pina Ticca
+9745 438610	Manh Q. Dinh
+9750 438619	Patrick Hunt
+9751 438620	Thiruvalluvan M. G.
+9759 438624	Adam Batkin
+9760 438625	Amerson Lin
+9761 438626	Nga Tran
+9767 438633	Yoshiki Fukui
+9785 438648	Mike Tyers
+9804 438665	Patrick Neukomm
+9831 438679	Yuqi Liang
+9833 438680	Dhruv Mangla
+9843 438681	Scott Fadden
+10064 440744	Michael Narayan
+9891 453194	Jojada J. Tirtowidjojo
+9899 453200	P. Festa
+9903 453204	Kristie Chevrier
+9904 453205	Avi Finkel
+9905 453206	Tom Pierce
+9906 453207	Chip Whitmer
+9922 453219	Sarah Farrant
+9939 453236	Sotirios Tourtounis
+9978 453296	David Neistadt
+9979 453297	Peter Grimm
+10008 453329	Calvin Powers
+10030 453362	Junsheng Cheng
+10034 453364	Karan Singal
+10039 453372	William M. Chiong
+10040 453373	Yoav J. Hirsch
+10055 453384	Stephen E. Levy
+10082 453392	Yuanzhi Zhang
+10095 453415	C¨¦lia Francisca dos Santos
+10096 453416	Daniel R. Fernandes
+10116 453471	Amardeep Grewal
+10126 453483	L. K. Shih
+10159 453549	Zhuogang Li
